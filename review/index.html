@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assessor Review | Reconciliation Review</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand"><div class="brand-mark">RC</div><div><strong>Reconciliation</strong><span>Assessor view</span></div></div>
+      <div class="case-pill"><span class="eyebrow">CASE REVIEW</span><strong>Divorce Party International Ltd.</strong><span>31 August 2026 · EUR</span></div>
+      <nav id="nav" aria-label="Primary navigation">
+        <div class="nav-section">Assessor view</div>
+        <button class="nav-item active" data-page="overview"><span>⌂</span>Review overview</button>
+        <button class="nav-item" data-page="decisions"><span>▤</span>Decision Register <em>100</em></button>
+        <button class="nav-item" data-page="judgments"><span>◆</span>Material Judgments <em>25</em></button>
+        <button class="nav-item" data-page="statements"><span>▥</span>Financial Statements</button>
+        <button class="nav-item" data-page="evidence"><span>⌕</span>Evidence & Reliability</button>
+        <button class="nav-item" data-page="trail"><span>↺</span>AI Review Trail</button>
+        <button class="nav-item" data-page="uncertainties"><span>!</span>Uncertainties & Board Rec.</button>
+      </nav>
+      <div class="sidebar-footer"><div class="security-dot"></div><span>Student-controlled<br/>AI does not certify</span></div>
+    </aside>
+    <main class="main-content">
+      <header class="topbar"><div><span class="breadcrumb">CASE / ASSESSOR REVIEW</span><h1 id="page-title">Review overview</h1></div><div class="top-actions"><span id="source-status" class="save-state">● Submission data</span></div></header>
+      <div id="app" class="page-content"></div>
+    </main>
+  </div>
+  <div id="toast" class="toast" role="status"></div>
+  <input id="json-file" type="file" accept="application/json,.json" hidden />
+  <script>window.REVIEW_MODE=true;</script>
+  <script src="../app.js"></script>
+</body>
+</html>

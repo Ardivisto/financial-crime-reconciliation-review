@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reconciliation Review | Student workspace</title>
+  <meta name="description" content="Student-controlled financial crime scene reconciliation review workspace." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand"><div class="brand-mark">RC</div><div><strong>Reconciliation</strong><span>Student review workspace</span></div></div>
+      <div class="case-pill"><span class="eyebrow">ACTIVE CASE</span><strong>Divorce Party International Ltd.</strong><span>31 August 2026 · EUR</span></div>
+      <nav id="nav" aria-label="Primary navigation">
+        <div class="nav-section">Review</div>
+        <button class="nav-item active" data-page="overview"><span>⌂</span>Overview</button>
+        <button class="nav-item" data-page="decisions"><span>▤</span>Decision Register <em>100</em></button>
+        <button class="nav-item" data-page="judgments"><span>◆</span>Material Judgments <em>25</em></button>
+        <button class="nav-item" data-page="statements"><span>▥</span>Financial Statements</button>
+        <button class="nav-item" data-page="schedules"><span>⊞</span>Supporting Schedules</button>
+        <button class="nav-item" data-page="assumptions"><span>≈</span>Key Assumptions</button>
+        <div class="nav-section">Evidence</div>
+        <button class="nav-item" data-page="evidence"><span>⌕</span>Evidence & Reliability</button>
+        <button class="nav-item" data-page="trail"><span>↺</span>AI Review Trail</button>
+        <button class="nav-item" data-page="uncertainties"><span>!</span>Uncertainties & Board Rec.</button>
+        <div class="nav-section">Control</div>
+        <button class="nav-item" data-page="certification"><span>✓</span>Student Certification</button>
+      </nav>
+      <div class="sidebar-footer"><div class="security-dot"></div><span>Student-controlled<br/>AI does not certify</span></div>
+    </aside>
+    <main class="main-content">
+      <header class="topbar"><div><span class="breadcrumb">CASE / REVIEW</span><h1 id="page-title">Overview</h1></div><div class="top-actions"><span id="source-status" class="save-state">● Workbook preview only</span><button class="button ghost" data-page="import">Import JSON</button></div></header>
+      <div id="app" class="page-content"></div>
+    </main>
+  </div>
+  <div id="toast" class="toast" role="status"></div>
+  <input id="json-file" type="file" accept="application/json,.json" hidden />
+  <script src="app.js"></script>
+</body>
+</html>
