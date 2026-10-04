@@ -915,7 +915,7 @@
         "liabilities": 0,
         "equity": null
       },
-      "changedFromAI": false,
+      "changedFromAI": true,
       "workbookDecisionIds": [
         "M-007",
         "M-008"
@@ -1765,7 +1765,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "finalAnswer": "Selected count basis: materials consumed €396,000 (= €80,000 + €459,000 − €143,000). Workbook €405,000 is an alternative with €9,000 lower stock and profit.",
-      "financialStatementImpact": "Selected material cost €396,000; consumption basis alternative €405,000 changes PBT and inventory by €9,000."
+      "financialStatementImpact": "Selected material cost €396,000; consumption basis alternative €405,000 changes PBT and inventory by €9,000.",
+      "changedFromAI": true
     },
     {
       "id": "D087",
@@ -1820,7 +1821,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "finalAnswer": "Selected count-basis PBT €72,000 including the €2,000 disposal estimate; €74,000 if it is not a present obligation. Consumption-basis PBT is €63,000 (€65,000 without disposal).",
-      "financialStatementImpact": "The inventory basis changes PBT by €9,000; disposal treatment changes it by €2,000."
+      "financialStatementImpact": "The inventory basis changes PBT by €9,000; disposal treatment changes it by €2,000.",
+      "changedFromAI": true
     },
     {
       "id": "D090",
@@ -1957,7 +1959,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "finalAnswer": "Damaged stock should be disposed of. Include the €2,000 quoted cost only if the damage creates a present legal or constructive disposal obligation at 31 August; otherwise disclose the expected future cost and exclude the provision.",
-      "reviewExplanation": "The €2,000 quote measures the expected removal cost but does not itself establish a liability. The selected provision assumes the water-damaged stock must be removed under an existing obligation; verify the rule, commitment or order before finalising."
+      "reviewExplanation": "The €2,000 quote measures the expected removal cost but does not itself establish a liability. The selected provision assumes the water-damaged stock must be removed under an existing obligation; verify the rule, commitment or order before finalising.",
+      "changedFromAI": true
     },
     {
       "id": "D097",
@@ -2035,7 +2038,7 @@
         "liabilities": null,
         "equity": null
       },
-      "changedFromAI": false,
+      "changedFromAI": true,
       "workbookDecisionIds": [
         "O-072"
       ],

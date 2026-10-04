@@ -1385,7 +1385,7 @@
         "liabilities": 0,
         "equity": null
       },
-      "changedFromAI": false,
+      "changedFromAI": true,
       "workbookDecisionIds": [
         "M-007",
         "M-008"
@@ -2619,7 +2619,8 @@
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "changedFromAI": true
     },
     {
       "id": "D087",
@@ -2702,7 +2703,8 @@
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "changedFromAI": true
     },
     {
       "id": "D090",
@@ -2908,7 +2910,8 @@
         "status": "unapproved",
         "approved": false
       },
-      "reviewExplanation": "The €2,000 quote measures the expected removal cost but does not itself establish a liability. The selected provision assumes the water-damaged stock must be removed under an existing obligation; verify the rule, commitment or order before finalising."
+      "reviewExplanation": "The €2,000 quote measures the expected removal cost but does not itself establish a liability. The selected provision assumes the water-damaged stock must be removed under an existing obligation; verify the rule, commitment or order before finalising.",
+      "changedFromAI": true
     },
     {
       "id": "D097",
@@ -3016,7 +3019,7 @@
         "liabilities": null,
         "equity": null
       },
-      "changedFromAI": false,
+      "changedFromAI": true,
       "workbookDecisionIds": [
         "O-072"
       ],

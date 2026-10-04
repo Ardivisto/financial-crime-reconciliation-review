@@ -18,4 +18,4 @@ The 25 material-judgment explanations were rewritten individually. All 100 IDs a
 
 Source-level support remains unavailable here for monthly payroll rows D014–D021 and insurance rows D034, D060 and D078. The CRM inclusion of R-17, the payroll closing ledger, useful-life schedule, owner-payment legal form, inventory movements, disposal obligation and opening equity also need primary evidence. This is an assistant consistency review of the supplied files, not a personal student attestation or an audit of the absent source documents.
 
-The provided Vercel `/review` page is read-only, and its published version still shows the old figures. No workbook or editable column I destination is present in this workspace. Column I has therefore not been submitted.
+The Vercel project was connected to the GitHub repository and production now serves the corrected count-basis presentation. The `/review` page remains a read-only assessor view. No workbook or editable column I destination is present in this workspace, so column I has not been submitted.
