@@ -2,8 +2,8 @@
   "schemaVersion": "1.0",
   "caseId": "DPI-HT-01",
   "student": {
-    "id": "rv25056",
-    "name": "Ričards Vismansi"
+    "id": "REQUIRED",
+    "name": "REQUIRED"
   },
   "draftStatus": "REVIEWED RECONCILIATION — STUDENT ATTESTATION PENDING",
   "mappingNotice": "D001–D100 IDs are retained. Eleven rows lack source-level monthly payroll or insurance data; their aggregate treatment is stated without invented line amounts.",
@@ -36,17 +36,7 @@
         "O-012"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Resolve the source and treatment of NorthStar receipt.",
-      "agent1Position": "Match N STAR receipt",
-      "agent2Position": "Match",
-      "evidenceReliability": "high",
-      "finalAnswer": "NorthStar receipt: include EUR 180,000 revenue; customer receipt matched to NorthStar/N STAR.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D002",
@@ -64,17 +54,7 @@
         "O-013"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Resolve the source and treatment of Freedom receipt 1.",
-      "agent1Position": "Match Freedom receipt",
-      "agent2Position": "Match",
-      "evidenceReliability": "high",
-      "finalAnswer": "Freedom receipt 1: include EUR 142,000 collected against EUR 200,000 contract; EUR 58,000 remains receivable.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D003",
@@ -92,17 +72,7 @@
         "O-014"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Resolve the source and treatment of Phoenix receipt.",
-      "agent1Position": "Match Phoenix receipt",
-      "agent2Position": "Match",
-      "evidenceReliability": "high",
-      "finalAnswer": "Phoenix receipt: include EUR 70,000 collected against EUR 100,000 completed event; EUR 30,000 remains receivable.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D004",
@@ -120,17 +90,7 @@
         "O-015"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Resolve the source and treatment of Liberty receipt.",
-      "agent1Position": "Match Liberty receipt",
-      "agent2Position": "Match",
-      "evidenceReliability": "high",
-      "finalAnswer": "Liberty receipt: include EUR 95,000 collected against EUR 120,000 delivered order; EUR 25,000 remains receivable.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D005",
@@ -147,17 +107,7 @@
         "O-011"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Resolve the source and treatment of Opening receivable receipt.",
-      "agent1Position": "Match old customer receipt",
-      "agent2Position": "Match",
-      "evidenceReliability": "high",
-      "finalAnswer": "Opening receivable receipt: include EUR 35,000 old-customer receipt as settlement of opening receivable.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D006",
@@ -175,17 +125,7 @@
         "O-016"
       ],
       "mappingStatus": "partial",
-      "mappingNote": "Workbook contains only the aggregate or adjacent decision; source evidence supplies the item detail.",
-      "title": "Resolve the source and treatment of Finally Single web receipts.",
-      "agent1Position": "Include web FSB",
-      "agent2Position": "Include",
-      "evidenceReliability": "high",
-      "finalAnswer": "Finally Single web receipts: include EUR 250,000 matched receipts; revenue line is EUR 270,000.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Workbook contains only the aggregate or adjacent decision; source evidence supplies the item detail."
     },
     {
       "id": "D007",
@@ -203,17 +143,7 @@
         "O-016"
       ],
       "mappingStatus": "partial",
-      "mappingNote": "Workbook contains only the aggregate or adjacent decision; source evidence supplies the item detail.",
-      "title": "Resolve the source and treatment of Never Call Back web receipts.",
-      "agent1Position": "Include web NCB",
-      "agent2Position": "Include",
-      "evidenceReliability": "high",
-      "finalAnswer": "Never Call Back web receipts: include EUR 37,000 matched receipts; revenue line is EUR 90,000, subject to R-17 tie-out.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Workbook contains only the aggregate or adjacent decision; source evidence supplies the item detail."
     },
     {
       "id": "D008",
@@ -231,17 +161,7 @@
         "O-009"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Resolve the source and treatment of New Beginnings deposit.",
-      "agent1Position": "Recognize NB-SEP deposit liability",
-      "agent2Position": "Recognize",
-      "evidenceReliability": "high",
-      "finalAnswer": "New Beginnings deposit: exclude EUR 60,000 from revenue and record contract liability.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D009",
@@ -259,17 +179,7 @@
         "O-010"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Resolve the source and treatment of Fresh Freedom deposit.",
-      "agent1Position": "Recognize FF-SEP deposit liability",
-      "agent2Position": "Recognize",
-      "evidenceReliability": "high",
-      "finalAnswer": "Fresh Freedom deposit: exclude EUR 30,000 from revenue and record contract liability.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D010",
@@ -287,17 +197,7 @@
         "O-026"
       ],
       "mappingStatus": "partial",
-      "mappingNote": "Workbook contains only the aggregate or adjacent decision; source evidence supplies the item detail.",
-      "title": "Resolve the source and treatment of Box supplier payment.",
-      "agent1Position": "Purchases EUR 459,000",
-      "agent2Position": "No separate position",
-      "evidenceReliability": "high",
-      "finalAnswer": "Box supplier payment/purchase: EUR 130,000 received; EUR 25,000 unpaid.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Workbook contains only the aggregate or adjacent decision; source evidence supplies the item detail."
     },
     {
       "id": "D011",
@@ -315,17 +215,7 @@
         "O-026"
       ],
       "mappingStatus": "partial",
-      "mappingNote": "Workbook contains only the aggregate or adjacent decision; source evidence supplies the item detail.",
-      "title": "Resolve the source and treatment of Glass supplier payment.",
-      "agent1Position": "Purchases EUR 459,000",
-      "agent2Position": "No separate position",
-      "evidenceReliability": "high",
-      "finalAnswer": "Glass supplier payment/purchase: EUR 120,000 received; EUR 28,000 unpaid.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Workbook contains only the aggregate or adjacent decision; source evidence supplies the item detail."
     },
     {
       "id": "D012",
@@ -343,17 +233,7 @@
         "O-026"
       ],
       "mappingStatus": "partial",
-      "mappingNote": "Workbook contains only the aggregate or adjacent decision; source evidence supplies the item detail.",
-      "title": "Resolve the source and treatment of Print supplier payment.",
-      "agent1Position": "Purchases EUR 459,000",
-      "agent2Position": "No separate position",
-      "evidenceReliability": "high",
-      "finalAnswer": "Print supplier payment/purchase: EUR 95,000 received; EUR 14,000 unpaid.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Workbook contains only the aggregate or adjacent decision; source evidence supplies the item detail."
     },
     {
       "id": "D013",
@@ -371,17 +251,7 @@
         "O-026"
       ],
       "mappingStatus": "partial",
-      "mappingNote": "Workbook contains only the aggregate or adjacent decision; source evidence supplies the item detail.",
-      "title": "Resolve the source and treatment of Event supplier payment.",
-      "agent1Position": "Purchases EUR 459,000",
-      "agent2Position": "No separate position",
-      "evidenceReliability": "high",
-      "finalAnswer": "Event supplier payment/purchase: EUR 114,000 received; EUR 59,000 unpaid.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Workbook contains only the aggregate or adjacent decision; source evidence supplies the item detail."
     },
     {
       "id": "D014",
@@ -395,17 +265,7 @@
       "confidence": "low",
       "workbookDecisionIds": [],
       "mappingStatus": "unresolved",
-      "mappingNote": "No supported item-level figure is stated; left unresolved to avoid invention.",
-      "title": "Resolve the source and treatment of January payroll.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
-      "evidenceReliability": "low",
-      "finalAnswer": "January payroll: monthly split is not stated in the reconciled workbook or supplied payroll export; use only the aggregate normal payroll EUR 248,000 and do not invent a month amount.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "No supported item-level figure is stated; left unresolved to avoid invention."
     },
     {
       "id": "D015",
@@ -419,17 +279,7 @@
       "confidence": "low",
       "workbookDecisionIds": [],
       "mappingStatus": "unresolved",
-      "mappingNote": "No supported item-level figure is stated; left unresolved to avoid invention.",
-      "title": "Resolve the source and treatment of February payroll.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
-      "evidenceReliability": "low",
-      "finalAnswer": "February payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "No supported item-level figure is stated; left unresolved to avoid invention."
     },
     {
       "id": "D016",
@@ -443,17 +293,7 @@
       "confidence": "low",
       "workbookDecisionIds": [],
       "mappingStatus": "unresolved",
-      "mappingNote": "No supported item-level figure is stated; left unresolved to avoid invention.",
-      "title": "Resolve the source and treatment of March payroll.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
-      "evidenceReliability": "low",
-      "finalAnswer": "March payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "No supported item-level figure is stated; left unresolved to avoid invention."
     },
     {
       "id": "D017",
@@ -467,17 +307,7 @@
       "confidence": "low",
       "workbookDecisionIds": [],
       "mappingStatus": "unresolved",
-      "mappingNote": "No supported item-level figure is stated; left unresolved to avoid invention.",
-      "title": "Resolve the source and treatment of April payroll.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
-      "evidenceReliability": "low",
-      "finalAnswer": "April payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "No supported item-level figure is stated; left unresolved to avoid invention."
     },
     {
       "id": "D018",
@@ -491,17 +321,7 @@
       "confidence": "low",
       "workbookDecisionIds": [],
       "mappingStatus": "unresolved",
-      "mappingNote": "No supported item-level figure is stated; left unresolved to avoid invention.",
-      "title": "Resolve the source and treatment of May payroll.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
-      "evidenceReliability": "low",
-      "finalAnswer": "May payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "No supported item-level figure is stated; left unresolved to avoid invention."
     },
     {
       "id": "D019",
@@ -515,17 +335,7 @@
       "confidence": "low",
       "workbookDecisionIds": [],
       "mappingStatus": "unresolved",
-      "mappingNote": "No supported item-level figure is stated; left unresolved to avoid invention.",
-      "title": "Resolve the source and treatment of June payroll.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
-      "evidenceReliability": "low",
-      "finalAnswer": "June payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "No supported item-level figure is stated; left unresolved to avoid invention."
     },
     {
       "id": "D020",
@@ -539,17 +349,7 @@
       "confidence": "low",
       "workbookDecisionIds": [],
       "mappingStatus": "unresolved",
-      "mappingNote": "No supported item-level figure is stated; left unresolved to avoid invention.",
-      "title": "Resolve the source and treatment of July payroll.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
-      "evidenceReliability": "low",
-      "finalAnswer": "July payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "No supported item-level figure is stated; left unresolved to avoid invention."
     },
     {
       "id": "D021",
@@ -563,17 +363,7 @@
       "confidence": "low",
       "workbookDecisionIds": [],
       "mappingStatus": "unresolved",
-      "mappingNote": "No supported item-level figure is stated; left unresolved to avoid invention.",
-      "title": "Resolve the source and treatment of August payroll.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
-      "evidenceReliability": "low",
-      "finalAnswer": "August payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "No supported item-level figure is stated; left unresolved to avoid invention."
     },
     {
       "id": "D022",
@@ -590,17 +380,7 @@
         "O-038"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Resolve the source and treatment of Rent payments.",
-      "agent1Position": "Rent EUR 48,000",
-      "agent2Position": "Included in overhead",
-      "evidenceReliability": "high",
-      "finalAnswer": "Rent payments: operating expense EUR 48,000.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D023",
@@ -617,17 +397,7 @@
         "O-039"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Resolve the source and treatment of Meta and influencer payments.",
-      "agent1Position": "Marketing EUR 55,000",
-      "agent2Position": "Included in overhead",
-      "evidenceReliability": "high",
-      "finalAnswer": "Meta/influencer payments: operating expense EUR 55,000 marketing.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D024",
@@ -644,17 +414,7 @@
         "O-040"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Resolve the source and treatment of Software payments.",
-      "agent1Position": "Software EUR 16,000",
-      "agent2Position": "Included in overhead",
-      "evidenceReliability": "high",
-      "finalAnswer": "Software payments: operating expense EUR 16,000.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D025",
@@ -671,17 +431,7 @@
         "O-041"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Resolve the source and treatment of Utilities payments.",
-      "agent1Position": "Utilities EUR 12,000",
-      "agent2Position": "Included in overhead",
-      "evidenceReliability": "high",
-      "finalAnswer": "Utilities payments: operating expense EUR 12,000.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D026",
@@ -698,17 +448,7 @@
         "O-042"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Resolve the source and treatment of Repair transfer.",
-      "agent1Position": "Repairs EUR 10,000 inside EUR 141,000",
-      "agent2Position": "Repairs separate",
-      "evidenceReliability": "high",
-      "finalAnswer": "Repair transfer: expense EUR 10,000; do not capitalize.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D027",
@@ -725,17 +465,7 @@
         "O-043"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Resolve the source and treatment of Packaging machine payment.",
-      "agent1Position": "Pack-O-Matic cost EUR 60,000 PPE",
-      "agent2Position": "Narrative says includes PPE",
-      "evidenceReliability": "high",
-      "finalAnswer": "Packaging machine payment: capitalize EUR 60,000 PPE.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D028",
@@ -752,17 +482,7 @@
         "O-044"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Resolve the source and treatment of Photo booth payment.",
-      "agent1Position": "Photo booth cost EUR 20,000 marketing",
-      "agent2Position": "Agent 2 balance sheet effectively capitalizes",
-      "evidenceReliability": "high",
-      "finalAnswer": "Photo booth payment: capitalize EUR 20,000 PPE.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D029",
@@ -779,17 +499,7 @@
         "O-050"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Resolve the source and treatment of Loan receipt.",
-      "agent1Position": "Loan advance EUR 50,000 debt",
-      "agent2Position": "Same",
-      "evidenceReliability": "high",
-      "finalAnswer": "Loan receipt: EUR 50,000 borrowing, not income.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D030",
@@ -806,17 +516,7 @@
         "O-051"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Resolve the source and treatment of Loan repayments.",
-      "agent1Position": "Principal repaid EUR 19,000",
-      "agent2Position": "Same",
-      "evidenceReliability": "high",
-      "finalAnswer": "Loan repayments: reduce principal by EUR 19,000.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D031",
@@ -835,17 +535,7 @@
         "O-055"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Resolve the source and treatment of Interest payments.",
-      "agent1Position": "Interest expense EUR 12,000",
-      "agent2Position": "Same",
-      "evidenceReliability": "high",
-      "finalAnswer": "Interest payments: EUR 10,000 paid; EUR 12,000 expense and EUR 2,000 accrued.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D032",
@@ -862,17 +552,7 @@
         "O-036"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Resolve the source and treatment of Villa deposit.",
-      "agent1Position": "Villa EUR 70,000 personal",
-      "agent2Position": "Same",
-      "evidenceReliability": "high",
-      "finalAnswer": "Villa deposit: EUR 70,000 owner-related payment, not operating expense.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D033",
@@ -889,17 +569,7 @@
         "O-037"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Resolve the source and treatment of Owner card spending.",
-      "agent1Position": "Other owner card EUR 40,000 personal",
-      "agent2Position": "Same",
-      "evidenceReliability": "high",
-      "finalAnswer": "Owner card spending: EUR 40,000 owner-related payment, not operating expense.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D034",
@@ -914,17 +584,7 @@
       "confidence": "low",
       "workbookDecisionIds": [],
       "mappingStatus": "unresolved",
-      "mappingNote": "No supported item-level figure is stated; left unresolved to avoid invention.",
-      "title": "Resolve the source and treatment of Insurance movement.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
-      "evidenceReliability": "low",
-      "finalAnswer": "Insurance movement: no separate supported insurance amount is identified; do not invent or add one to the P&L.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "No supported item-level figure is stated; left unresolved to avoid invention."
     },
     {
       "id": "D035",
@@ -941,17 +601,7 @@
         "O-023"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Resolve the source and treatment of Water-damaged stock.",
-      "agent1Position": "Write down damaged stock EUR 22,000",
-      "agent2Position": "Same",
-      "evidenceReliability": "high",
-      "finalAnswer": "Water-damaged stock: EUR 22,000 write-down; physically present but unsaleable.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D036",
@@ -969,17 +619,7 @@
         "O-018"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Resolve the source and treatment of Customer insolvency.",
-      "agent1Position": "R-17 impairment EUR 18,000 after correction",
-      "agent2Position": "Same after correction",
-      "evidenceReliability": "high",
-      "finalAnswer": "Customer insolvency: R-17 EUR 18,000 impairment, assuming included in CRM receivables.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D037",
@@ -996,17 +636,7 @@
         "O-056"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Resolve the source and treatment of Former employee claim.",
-      "agent1Position": "Employee claim provision EUR 25,000",
-      "agent2Position": "Same",
-      "evidenceReliability": "high",
-      "finalAnswer": "Former employee claim: recognize EUR 25,000 provision.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D038",
@@ -1023,17 +653,7 @@
         "O-026"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Resolve the source and treatment of Purchase total.",
-      "agent1Position": "Purchases EUR 459,000",
-      "agent2Position": "No separate position",
-      "evidenceReliability": "high",
-      "finalAnswer": "Purchase total: EUR 459,000 materials purchased and received; EUR 126,000 unpaid supplier balances.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D039",
@@ -1050,17 +670,7 @@
         "O-059"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Resolve the source and treatment of Cash collections total.",
-      "agent1Position": "Customer receipts EUR 899,000",
-      "agent2Position": "Same",
-      "evidenceReliability": "high",
-      "finalAnswer": "Cash collections total: customer receipts EUR 899,000 excluding loan advance.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D040",
@@ -1077,17 +687,7 @@
         "O-067"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Resolve the source and treatment of Closing bank balance.",
-      "agent1Position": "Closing cash EUR 60,000",
-      "agent2Position": "Same",
-      "evidenceReliability": "high",
-      "finalAnswer": "Closing bank balance: EUR 60,000.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D041",
@@ -1117,16 +717,6 @@
       ],
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Classify September customer deposits.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
-      "evidenceReliability": "high",
-      "finalAnswer": "Exclude EUR 90,000 September deposits from revenue; record contract liabilities.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      },
       "reviewExplanation": "The €60,000 New Beginnings and €30,000 Fresh Freedom receipts relate to September performance. Cash received before 31 August creates a €90,000 contract liability until the events are delivered."
     },
     {
@@ -1156,16 +746,6 @@
       ],
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Classify New bank borrowing.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
-      "evidenceReliability": "high",
-      "finalAnswer": "Treat EUR 50,000 new bank borrowing as debt, not income.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      },
       "reviewExplanation": "The €50,000 bank transfer creates a repayment obligation. It increases cash and loan principal, and cannot be earned revenue."
     },
     {
@@ -1195,16 +775,6 @@
       ],
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Classify Packaging machine.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
-      "evidenceReliability": "high",
-      "finalAnswer": "Capitalize packaging machine EUR 60,000 as PPE.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      },
       "reviewExplanation": "The €60,000 packaging machine is a separately identifiable asset expected to support later production. Add it to PPE; charge depreciation over its supported useful life."
     },
     {
@@ -1234,16 +804,6 @@
       ],
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Classify Photo booth.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
-      "evidenceReliability": "medium",
-      "finalAnswer": "Capitalize photo booth EUR 20,000 as PPE.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      },
       "reviewExplanation": "The €20,000 photo booth is equipment used beyond this period. Capitalisation follows the invoice and asset schedule; its useful life still needs confirmation."
     },
     {
@@ -1273,16 +833,6 @@
       ],
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Classify Machine belt and calibration.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
-      "evidenceReliability": "high",
-      "finalAnswer": "Expense EUR 10,000 belt/calibration repair; it restores normal output and does not improve the asset.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      },
       "reviewExplanation": "The €10,000 belt and calibration restored normal operation without added capacity or life. It is a current repair expense."
     },
     {
@@ -1312,16 +862,6 @@
       ],
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Classify Owner villa deposit.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
-      "evidenceReliability": "high",
-      "finalAnswer": "Treat EUR 70,000 villa payment as provisional owner withdrawal/distribution or related-party balance, not marketing.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      },
       "reviewExplanation": "The €70,000 villa deposit has no evidenced business purpose. Exclude it from marketing and hold it as a provisional owner distribution or recoverable related-party amount pending legal classification."
     },
     {
@@ -1352,16 +892,6 @@
       ],
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Classify Owner card spending.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
-      "evidenceReliability": "medium",
-      "finalAnswer": "Treat EUR 110,000 owner-card payments as provisional owner withdrawal/distribution or related-party balance, not payroll.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      },
       "reviewExplanation": "The owner-related cash outflow is €110,000 in total, comprising the €70,000 villa payment and €40,000 card spending. It is not normal payroll or an additional €110,000 on top of the villa payment."
     },
     {
@@ -1392,17 +922,9 @@
       ],
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Classify Physical product materials consumed.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
-      "evidenceReliability": "medium",
+      "reviewExplanation": "Opening stock €80,000 plus received purchases €459,000 gives €539,000 available. The counted gross closing stock is €143,000, so the selected count-basis consumption is €396,000. The workbook’s €405,000 figure implies gross stock €134,000; the €9,000 difference is shown separately.",
       "finalAnswer": "Selected count basis: materials consumed €396,000 (= €80,000 + €459,000 − €143,000). Workbook €405,000 is an alternative with €9,000 lower stock and profit.",
-      "financialStatementImpact": "Selected material cost €396,000; consumption basis alternative €405,000 changes PBT and inventory by €9,000.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      },
-      "reviewExplanation": "Opening stock €80,000 plus received purchases €459,000 gives €539,000 available. The counted gross closing stock is €143,000, so the selected count-basis consumption is €396,000. The workbook’s €405,000 figure implies gross stock €134,000; the €9,000 difference is shown separately."
+      "financialStatementImpact": "Selected material cost €396,000; consumption basis alternative €405,000 changes PBT and inventory by €9,000."
     },
     {
       "id": "D049",
@@ -1430,16 +952,6 @@
       ],
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Classify Event staff payroll.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
-      "evidenceReliability": "high",
-      "finalAnswer": "Classify event-delivery payroll EUR 80,000 as direct cost.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      },
       "reviewExplanation": "Event staff worked on delivery of the contracts, so the €80,000 payroll is a direct service cost. It is part of the €248,000 payroll total, not an extra charge."
     },
     {
@@ -1456,17 +968,7 @@
         "O-030"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Classify Sales team payroll.",
-      "agent1Position": "Sales payroll included in direct EUR 152,000",
-      "agent2Position": "Sales EUR 72,000 operating",
-      "evidenceReliability": "medium",
-      "finalAnswer": "Classify sales/partnerships payroll EUR 72,000 as operating expense.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D051",
@@ -1482,17 +984,7 @@
         "O-031"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Classify Office payroll.",
-      "agent1Position": "Office/finance payroll EUR 96,000 operating",
-      "agent2Position": "Same",
-      "evidenceReliability": "medium",
-      "finalAnswer": "Classify office/finance payroll EUR 96,000 as operating expense.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D052",
@@ -1508,17 +1000,7 @@
         "O-038"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Classify Rent.",
-      "agent1Position": "Rent EUR 48,000",
-      "agent2Position": "Included in overhead",
-      "evidenceReliability": "high",
-      "finalAnswer": "Classify rent EUR 48,000 as operating expense.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D053",
@@ -1534,17 +1016,7 @@
         "O-039"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Classify Marketing.",
-      "agent1Position": "Marketing EUR 55,000",
-      "agent2Position": "Included in overhead",
-      "evidenceReliability": "high",
-      "finalAnswer": "Classify marketing EUR 55,000 as operating expense.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D054",
@@ -1560,17 +1032,7 @@
         "O-040"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Classify Software.",
-      "agent1Position": "Software EUR 16,000",
-      "agent2Position": "Included in overhead",
-      "evidenceReliability": "high",
-      "finalAnswer": "Classify software EUR 16,000 as operating expense.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D055",
@@ -1586,17 +1048,7 @@
         "O-041"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Classify Utilities.",
-      "agent1Position": "Utilities EUR 12,000",
-      "agent2Position": "Included in overhead",
-      "evidenceReliability": "high",
-      "finalAnswer": "Classify utilities EUR 12,000 as operating expense.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D056",
@@ -1625,16 +1077,6 @@
       ],
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Classify Depreciation.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
-      "evidenceReliability": "medium",
-      "finalAnswer": "Use depreciation estimate EUR 24,000; request useful-life support.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      },
       "reviewExplanation": "The PPE roll-forward uses €45,000 opening accumulated depreciation plus €24,000 current depreciation to reach €69,000. The amount is provisional until asset lives and acquisition dates are evidenced."
     },
     {
@@ -1665,16 +1107,6 @@
       ],
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Classify Bad receivable.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
-      "evidenceReliability": "medium",
-      "finalAnswer": "Recognize EUR 18,000 R-17 impairment, pending tie-out that R-17 is included in CRM balance.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      },
       "reviewExplanation": "R-17 is identified as impaired for €18,000. Deduct it from €186,000 gross receivables only if the CRM balance contains R-17; otherwise the proposed net balance would double count the loss."
     },
     {
@@ -1704,17 +1136,8 @@
       ],
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Classify Damaged stock.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
-      "evidenceReliability": "high",
-      "finalAnswer": "Write down damaged stock EUR 22,000; present saleable inventory EUR 121,000.",
-      "financialStatementImpact": "Selected inventory €121,000 = €143,000 count less €22,000 write-down; alternative consumption basis inventory €112,000.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      },
-      "reviewExplanation": "The count values gross stock at €143,000 and the independent assessment identifies €22,000 as unsaleable. Selected net stock is therefore €121,000. This write-down is separate from the €9,000 consumption reconciliation."
+      "reviewExplanation": "The count values gross stock at €143,000 and the independent assessment identifies €22,000 as unsaleable. Selected net stock is therefore €121,000. This write-down is separate from the €9,000 consumption reconciliation.",
+      "financialStatementImpact": "Selected inventory €121,000 = €143,000 count less €22,000 write-down; alternative consumption basis inventory €112,000."
     },
     {
       "id": "D059",
@@ -1743,16 +1166,6 @@
       ],
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Classify Probable legal claim.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
-      "evidenceReliability": "high",
-      "finalAnswer": "Recognize probable employee claim provision EUR 25,000; disclose EUR 20,000–30,000 range.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      },
       "reviewExplanation": "External counsel considers the employee claim probable, with an estimated €20,000–€30,000 range. €25,000 is the midpoint estimate; reassess when settlement evidence improves."
     },
     {
@@ -1768,17 +1181,7 @@
       "confidence": "low",
       "workbookDecisionIds": [],
       "mappingStatus": "unresolved",
-      "mappingNote": "No supported item-level figure is stated; left unresolved to avoid invention.",
-      "title": "Classify Insurance consumed.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
-      "evidenceReliability": "low",
-      "finalAnswer": "No separately supported insurance expense amount is available; do not invent one.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "No supported item-level figure is stated; left unresolved to avoid invention."
     },
     {
       "id": "D061",
@@ -1795,17 +1198,7 @@
         "O-055"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Classify Unpaid interest.",
-      "agent1Position": "Interest payable EUR 2,000",
-      "agent2Position": "Same",
-      "evidenceReliability": "high",
-      "finalAnswer": "Accrue unpaid interest EUR 2,000 from EUR 12,000 expense less EUR 10,000 paid.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D062",
@@ -1822,17 +1215,7 @@
         "O-034"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Classify Unpaid payroll.",
-      "agent1Position": "Closing payroll payable EUR 15,000",
-      "agent2Position": "EUR 15,000",
-      "evidenceReliability": "medium",
-      "finalAnswer": "Use calculated closing payroll payable EUR 32,000 = 15,000 opening + 248,000 expense - 231,000 cash paid.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D063",
@@ -1848,17 +1231,7 @@
         "O-026"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Classify Unpaid suppliers.",
-      "agent1Position": "Supplier payable EUR 126,000",
-      "agent2Position": "No separate position",
-      "evidenceReliability": "high",
-      "finalAnswer": "Use supplier payables EUR 126,000.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D064",
@@ -1888,16 +1261,6 @@
       ],
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Classify Delivered NorthStar contract.",
-      "agent1Position": "Include INV-26012",
-      "agent2Position": "Include",
-      "evidenceReliability": "high",
-      "finalAnswer": "Recognize NorthStar delivered revenue EUR 180,000.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      },
       "reviewExplanation": "NorthStar’s €180,000 contract was delivered by 31 August. Recognise the earned amount, while matching the N STAR receipt to the same customer to prevent duplicate revenue."
     },
     {
@@ -1928,16 +1291,6 @@
       ],
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Classify Delivered Freedom contract.",
-      "agent1Position": "Include INV-26031",
-      "agent2Position": "Include",
-      "evidenceReliability": "high",
-      "finalAnswer": "Recognize Freedom delivered revenue EUR 200,000.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      },
       "reviewExplanation": "Freedom’s €200,000 contract was delivered. The €142,000 receipt settles part of that sale, leaving €58,000 due; the receipt does not set the revenue amount."
     },
     {
@@ -1968,16 +1321,6 @@
       ],
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Classify Completed Phoenix event.",
-      "agent1Position": "Include INV-26047",
-      "agent2Position": "Include",
-      "evidenceReliability": "high",
-      "finalAnswer": "Recognize Phoenix completed-event revenue EUR 100,000.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      },
       "reviewExplanation": "Phoenix’s event was completed by the reporting date. Recognise €100,000 revenue; €70,000 cash received leaves €30,000 receivable."
     },
     {
@@ -2008,16 +1351,6 @@
       ],
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Classify Delivered Liberty order.",
-      "agent1Position": "Include INV-26063",
-      "agent2Position": "Include",
-      "evidenceReliability": "high",
-      "finalAnswer": "Recognize Liberty delivered revenue EUR 120,000.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      },
       "reviewExplanation": "Liberty’s €120,000 order was delivered. Recognise the full sale and carry €25,000 receivable after the €95,000 receipt."
     },
     {
@@ -2049,16 +1382,6 @@
       ],
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Classify Undelivered September events.",
-      "agent1Position": "Exclude NB-SEP",
-      "agent2Position": "Exclude",
-      "evidenceReliability": "high",
-      "finalAnswer": "Exclude undelivered September events EUR 90,000 from revenue and record liability.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      },
       "reviewExplanation": "The two September events total €90,000 and remained undelivered at 31 August. Record their advance cash as contract liabilities, consistent with D041."
     },
     {
@@ -2076,17 +1399,7 @@
         "O-051"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Classify Loan principal payment.",
-      "agent1Position": "Principal repaid EUR 19,000",
-      "agent2Position": "Same",
-      "evidenceReliability": "high",
-      "finalAnswer": "Classify EUR 19,000 principal payment as financing, reducing loan principal.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D070",
@@ -2103,17 +1416,7 @@
         "O-064"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Classify Equipment purchase.",
-      "agent1Position": "Capital expenditure cash EUR 80,000",
-      "agent2Position": "Same",
-      "evidenceReliability": "high",
-      "finalAnswer": "Classify EUR 80,000 equipment purchase as investing cash outflow and PPE additions.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D071",
@@ -2144,16 +1447,6 @@
       ],
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Estimate Closing bad-debt allowance/write-off and document the basis.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
-      "evidenceReliability": "medium",
-      "finalAnswer": "Use EUR 18,000 bad-debt impairment/write-off, subject to R-17 inclusion tie-out.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      },
       "reviewExplanation": "The €18,000 R-17 impairment is supported by the customer insolvency evidence. Its balance-sheet effect depends on proving that this account is included in the €186,000 gross CRM receivables."
     },
     {
@@ -2184,16 +1477,6 @@
       ],
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Estimate Damaged inventory write-off and document the basis.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
-      "evidenceReliability": "high",
-      "finalAnswer": "Use EUR 22,000 damaged-inventory write-down based on independent assessment that stock is unsaleable.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      },
       "reviewExplanation": "The independent stock assessment supports a €22,000 loss on physically present but unsaleable goods. Deduct this once from the €143,000 count; do not also include it in the €396,000 consumed amount."
     },
     {
@@ -2223,16 +1506,6 @@
       ],
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Estimate Legal provision and document the basis.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
-      "evidenceReliability": "high",
-      "finalAnswer": "Use EUR 25,000 legal provision based on external counsel’s probable claim assessment.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      },
       "reviewExplanation": "The former employee claim is probable according to external counsel. The €25,000 midpoint of the €20,000–€30,000 estimate is a reasonable provision subject to updated legal advice."
     },
     {
@@ -2262,16 +1535,6 @@
       ],
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Estimate Period depreciation and document the basis.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
-      "evidenceReliability": "medium",
-      "finalAnswer": "Use EUR 24,000 period depreciation estimate; useful-life schedule remains missing.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      },
       "reviewExplanation": "Current depreciation of €24,000 makes accumulated depreciation €69,000 and net PPE €191,000 from €260,000 gross cost. This is an estimate because a dated useful-life register is missing."
     },
     {
@@ -2302,17 +1565,8 @@
       ],
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Estimate Closing inventory and document the basis.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
-      "evidenceReliability": "medium",
-      "finalAnswer": "Present closing saleable inventory EUR 121,000 = count EUR 143,000 less EUR 22,000 write-down; disclose EUR 9,000 gap.",
-      "financialStatementImpact": "Selected inventory €121,000 = €143,000 count less €22,000 write-down; alternative consumption basis inventory €112,000.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      },
-      "reviewExplanation": "Use the observed count: €143,000 gross less €22,000 damaged-stock write-down equals €121,000 net. The selected €396,000 material consumption closes the same roll-forward without changing opening equity."
+      "reviewExplanation": "Use the observed count: €143,000 gross less €22,000 damaged-stock write-down equals €121,000 net. The selected €396,000 material consumption closes the same roll-forward without changing opening equity.",
+      "financialStatementImpact": "Selected inventory €121,000 = €143,000 count less €22,000 write-down; alternative consumption basis inventory €112,000."
     },
     {
       "id": "D076",
@@ -2332,17 +1586,7 @@
         "M-023"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Estimate Closing receivables and document the basis.",
-      "agent1Position": "Gross receivables EUR 186,000",
-      "agent2Position": "EUR 186,000",
-      "evidenceReliability": "high",
-      "finalAnswer": "Use gross receivables EUR 186,000 and net EUR 168,000 after R-17 impairment, assuming R-17 is included in CRM.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D077",
@@ -2360,17 +1604,7 @@
         "M-011"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Estimate Repair versus improvement amount and document the basis.",
-      "agent1Position": "Repairs EUR 10,000 inside EUR 141,000",
-      "agent2Position": "Repairs separate",
-      "evidenceReliability": "high",
-      "finalAnswer": "Use EUR 10,000 repair expense, not improvement/capitalization.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D078",
@@ -2385,17 +1619,7 @@
       "confidence": "low",
       "workbookDecisionIds": [],
       "mappingStatus": "unresolved",
-      "mappingNote": "No supported item-level figure is stated; left unresolved to avoid invention.",
-      "title": "Estimate Insurance expense and document the basis.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
-      "evidenceReliability": "low",
-      "finalAnswer": "No separately supported insurance estimate is stated; leave unresolved and do not invent.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "No supported item-level figure is stated; left unresolved to avoid invention."
     },
     {
       "id": "D079",
@@ -2413,17 +1637,7 @@
         "M-021"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Estimate Interest payable and document the basis.",
-      "agent1Position": "Interest payable EUR 2,000",
-      "agent2Position": "Same",
-      "evidenceReliability": "high",
-      "finalAnswer": "Use accrued interest EUR 2,000.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D080",
@@ -2441,17 +1655,7 @@
         "M-019"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Estimate Accrued payroll and document the basis.",
-      "agent1Position": "Closing payroll payable EUR 15,000",
-      "agent2Position": "EUR 15,000",
-      "evidenceReliability": "medium",
-      "finalAnswer": "Use calculated accrued payroll EUR 32,000; closing ledger not independently stated.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D081",
@@ -2470,17 +1674,7 @@
         "M-002"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Estimate Customer deposit liability and document the basis.",
-      "agent1Position": "Recognize NB-SEP deposit liability",
-      "agent2Position": "Recognize",
-      "evidenceReliability": "high",
-      "finalAnswer": "Use customer deposit liability EUR 90,000.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D082",
@@ -2497,17 +1691,7 @@
         "O-048"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Estimate PPE closing cost and document the basis.",
-      "agent1Position": "Closing PPE net EUR 191,000",
-      "agent2Position": "Same",
-      "evidenceReliability": "high",
-      "finalAnswer": "Use closing PPE gross EUR 260,000 and net PPE EUR 191,000.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D083",
@@ -2525,17 +1709,7 @@
         "O-046"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Estimate Accumulated depreciation and document the basis.",
-      "agent1Position": "Opening accumulated depreciation EUR 45,000",
-      "agent2Position": "Same",
-      "evidenceReliability": "medium",
-      "finalAnswer": "Use accumulated depreciation EUR 69,000 = opening EUR 45,000 + current EUR 24,000.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D084",
@@ -2552,17 +1726,7 @@
         "M-020"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Estimate Supplier payable and document the basis.",
-      "agent1Position": "Supplier payable EUR 126,000",
-      "agent2Position": "No separate position",
-      "evidenceReliability": "high",
-      "finalAnswer": "Use supplier payable EUR 126,000.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D085",
@@ -2580,17 +1744,7 @@
         "M-021"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Estimate Closing loan and document the basis.",
-      "agent1Position": "Closing principal EUR 131,000",
-      "agent2Position": "Same",
-      "evidenceReliability": "high",
-      "finalAnswer": "Use closing loan principal EUR 131,000 = 100,000 + 50,000 - 19,000.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D086",
@@ -2610,16 +1764,8 @@
       ],
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Estimate Physical COGS and document the basis.",
-      "agent1Position": "Materials consumed EUR 405,000",
-      "agent2Position": "EUR 405,000",
-      "evidenceReliability": "medium",
       "finalAnswer": "Selected count basis: materials consumed €396,000 (= €80,000 + €459,000 − €143,000). Workbook €405,000 is an alternative with €9,000 lower stock and profit.",
-      "financialStatementImpact": "Selected material cost €396,000; consumption basis alternative €405,000 changes PBT and inventory by €9,000.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "financialStatementImpact": "Selected material cost €396,000; consumption basis alternative €405,000 changes PBT and inventory by €9,000."
     },
     {
       "id": "D087",
@@ -2636,17 +1782,7 @@
         "M-009"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Estimate Service direct payroll and document the basis.",
-      "agent1Position": "Event delivery payroll EUR 80,000 direct",
-      "agent2Position": "EUR 80,000 direct",
-      "evidenceReliability": "medium",
-      "finalAnswer": "Use direct event-delivery payroll EUR 80,000.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D088",
@@ -2664,17 +1800,7 @@
         "M-016"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Estimate Owner distributions and document the basis.",
-      "agent1Position": "Owner cash withdrawal EUR 110,000",
-      "agent2Position": "Same",
-      "evidenceReliability": "high",
-      "finalAnswer": "Use owner-related payments EUR 110,000 as provisional distribution/personal withdrawal or related-party balance.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D089",
@@ -2693,16 +1819,8 @@
       ],
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Estimate Net profit and document the basis.",
-      "agent1Position": "Management profit EUR 312,000 rejected",
-      "agent2Position": "Same",
-      "evidenceReliability": "low",
       "finalAnswer": "Selected count-basis PBT €72,000 including the €2,000 disposal estimate; €74,000 if it is not a present obligation. Consumption-basis PBT is €63,000 (€65,000 without disposal).",
-      "financialStatementImpact": "The inventory basis changes PBT by €9,000; disposal treatment changes it by €2,000.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "financialStatementImpact": "The inventory basis changes PBT by €9,000; disposal treatment changes it by €2,000."
     },
     {
       "id": "D090",
@@ -2720,17 +1838,7 @@
         "M-025"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Estimate Closing cash and document the basis.",
-      "agent1Position": "Closing cash EUR 60,000",
-      "agent2Position": "Same",
-      "evidenceReliability": "high",
-      "finalAnswer": "Use closing cash EUR 60,000.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D091",
@@ -2758,16 +1866,6 @@
       ],
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Approve corrected accounts before valuation",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
-      "evidenceReliability": "medium",
-      "finalAnswer": "Student must approve/certify corrected accounts before valuation; draft recommendation is to approve only with stated caveats.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      },
       "reviewExplanation": "The statements reconcile on the selected count basis, but inventory movements, payroll, R-17 and owner classification retain evidence caveats. Approval should disclose these explicitly before valuation."
     },
     {
@@ -2786,17 +1884,7 @@
         "O-037"
       ],
       "mappingStatus": "derived",
-      "mappingNote": "Derived board/control recommendation; no exact counterpart exists in the workbook.",
-      "title": "Freeze owner-card access",
-      "agent1Position": "Villa EUR 70,000 personal",
-      "agent2Position": "Same",
-      "evidenceReliability": "high",
-      "finalAnswer": "Freeze owner-card access as a control recommendation; no direct workbook decision ID.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Derived board/control recommendation; no exact counterpart exists in the workbook."
     },
     {
       "id": "D093",
@@ -2815,17 +1903,7 @@
         "M-002"
       ],
       "mappingStatus": "direct",
-      "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Move September deposits to contract liabilities",
-      "agent1Position": "Recognize NB-SEP deposit liability",
-      "agent2Position": "Recognize",
-      "evidenceReliability": "high",
-      "finalAnswer": "Move EUR 90,000 September deposits to contract liabilities.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Mapped to the reconciled workbook decision register."
     },
     {
       "id": "D094",
@@ -2842,17 +1920,7 @@
         "O-067"
       ],
       "mappingStatus": "derived",
-      "mappingNote": "Derived board/control recommendation; no exact counterpart exists in the workbook.",
-      "title": "Begin weekly 13-week cash forecast",
-      "agent1Position": "Closing cash EUR 60,000",
-      "agent2Position": "Same",
-      "evidenceReliability": "high",
-      "finalAnswer": "Begin weekly 13-week cash forecast as a board recommendation; no direct workbook decision ID.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Derived board/control recommendation; no exact counterpart exists in the workbook."
     },
     {
       "id": "D095",
@@ -2869,17 +1937,7 @@
         "O-018"
       ],
       "mappingStatus": "derived",
-      "mappingNote": "Derived board/control recommendation; no exact counterpart exists in the workbook.",
-      "title": "Stop credit sales to insolvent/high-risk customers",
-      "agent1Position": "R-17 impairment EUR 18,000 after correction",
-      "agent2Position": "Same after correction",
-      "evidenceReliability": "high",
-      "finalAnswer": "Stop credit sales to insolvent/high-risk customers as a control recommendation; R-17 supports risk response.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Derived board/control recommendation; no exact counterpart exists in the workbook."
     },
     {
       "id": "D096",
@@ -2898,16 +1956,7 @@
       ],
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "title": "Dispose of damaged stock",
-      "agent1Position": "Disposal estimate EUR 2,000",
-      "agent2Position": "Same",
-      "evidenceReliability": "high",
       "finalAnswer": "Damaged stock should be disposed of. Include the €2,000 quoted cost only if the damage creates a present legal or constructive disposal obligation at 31 August; otherwise disclose the expected future cost and exclude the provision.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      },
       "reviewExplanation": "The €2,000 quote measures the expected removal cost but does not itself establish a liability. The selected provision assumes the water-damaged stock must be removed under an existing obligation; verify the rule, commitment or order before finalising."
     },
     {
@@ -2927,17 +1976,7 @@
         "O-073"
       ],
       "mappingStatus": "derived",
-      "mappingNote": "Derived board/control recommendation; no exact counterpart exists in the workbook.",
-      "title": "Investigate management override and duplicate sources",
-      "agent1Position": "Management revenue EUR 1,050,000 rejected",
-      "agent2Position": "Same",
-      "evidenceReliability": "high",
-      "finalAnswer": "Investigate management override/duplicate sources; reject unsupported management profit and cash figures.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Derived board/control recommendation; no exact counterpart exists in the workbook."
     },
     {
       "id": "D098",
@@ -2954,17 +1993,7 @@
         "O-026"
       ],
       "mappingStatus": "derived",
-      "mappingNote": "Derived board/control recommendation; no exact counterpart exists in the workbook.",
-      "title": "Renegotiate supplier terms",
-      "agent1Position": "Supplier payable EUR 126,000",
-      "agent2Position": "No separate position",
-      "evidenceReliability": "high",
-      "finalAnswer": "Renegotiate supplier terms as a board recommendation in light of EUR 126,000 unpaid balances.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Derived board/control recommendation; no exact counterpart exists in the workbook."
     },
     {
       "id": "D099",
@@ -2983,17 +2012,7 @@
         "O-005"
       ],
       "mappingStatus": "derived",
-      "mappingNote": "Derived board/control recommendation; no exact counterpart exists in the workbook.",
-      "title": "Continue core Finally Single and event operations",
-      "agent1Position": "Include INV-26012",
-      "agent2Position": "Include",
-      "evidenceReliability": "high",
-      "finalAnswer": "Continue core Finally Single and event operations based on delivered sales evidence; subject to student/board approval.",
-      "financialStatementImpact": "Not separately stated; review required.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      }
+      "mappingNote": "Derived board/control recommendation; no exact counterpart exists in the workbook."
     },
     {
       "id": "D100",
@@ -3022,17 +2041,9 @@
       ],
       "mappingStatus": "schema-mismatch",
       "mappingNote": "Template makes this a material judgment, while the workbook records the rejection as operational O-072.",
-      "title": "Use claimed management profit for earn-out",
-      "agent1Position": "Management profit EUR 312,000 rejected",
-      "agent2Position": "Same",
-      "evidenceReliability": "low",
+      "reviewExplanation": "The management €312,000 profit lacks support from the reconstructed revenue, cost and provision schedules. Selected PBT is €72,000 with the disposal estimate, or €74,000 if that estimate is not a present obligation; neither is an audited earn-out measure.",
       "finalAnswer": "Selected count-basis PBT €72,000 including the €2,000 disposal estimate; €74,000 if it is not a present obligation. Consumption-basis PBT is €63,000 (€65,000 without disposal).",
-      "financialStatementImpact": "The inventory basis changes PBT by €9,000; disposal treatment changes it by €2,000.",
-      "studentApproval": {
-        "status": "unapproved",
-        "approved": false
-      },
-      "reviewExplanation": "The management €312,000 profit lacks support from the reconstructed revenue, cost and provision schedules. Selected PBT is €72,000 with the disposal estimate, or €74,000 if that estimate is not a present obligation; neither is an audited earn-out measure."
+      "financialStatementImpact": "The inventory basis changes PBT by €9,000; disposal treatment changes it by €2,000."
     }
   ],
   "schedules": {
@@ -3297,10 +2308,6 @@
       "Request payroll ledger, depreciation support and CRM/R-17 tie-out.",
       "Use weekly 13-week cash forecast."
     ]
-  },
-  "studentCertification": {
-    "status": "awaiting_personal_student_attestation",
-    "approved": false
   },
   "reviewCertification": {
     "status": "assistant_review_completed",
