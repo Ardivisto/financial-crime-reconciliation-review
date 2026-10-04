@@ -2,15 +2,15 @@
 
 ## Selected presentation: count basis
 
-Opening inventory €80,000 plus received purchases €459,000 gives €539,000 available. The €143,000 gross physical count therefore implies €396,000 materials consumed. The €22,000 damaged-stock write-down leaves €121,000 net inventory. With a provisional €2,000 disposal provision, profit before tax (PBT) is €72,000, assets are €540,000, liabilities are €408,000 and closing equity is €132,000.
+Opening inventory €80,000 plus received purchases €459,000 gives €539,000 available. The €143,000 gross physical count therefore implies €396,000 materials consumed. The €22,000 damaged-stock write-down leaves €121,000 net inventory. Without an unsupported disposal provision, profit before tax (PBT) is €74,000, assets are €540,000, liabilities are €406,000 and closing equity is €134,000.
 
 ## Alternative: consumption basis
 
-The workbook's €405,000 consumption figure implies €134,000 gross closing inventory and €112,000 net inventory. PBT is €63,000, assets €531,000, liabilities €408,000 and closing equity €123,000. The €9,000 difference changes consumption, inventory, profit and closing equity. Both scenarios use the same inferred opening equity control balance of €170,000; it is not verified legal capital.
+The workbook's €405,000 consumption figure implies €134,000 gross closing inventory and €112,000 net inventory. PBT is €65,000, assets €531,000, liabilities €406,000 and closing equity €125,000. The €9,000 difference changes consumption, inventory, profit and closing equity. Both scenarios use the same inferred opening equity control balance of €170,000; it is not verified legal capital.
 
 ## Disposal cost
 
-The €2,000 quote provides an estimate of removal cost. Recognition as a provision also requires a present legal or constructive obligation existing at 31 August. The selected presentation includes it provisionally. If that obligation cannot be evidenced, remove the provision and expense: selected-basis PBT becomes €74,000; consumption-basis PBT becomes €65,000. Confirm the disposal order, regulatory requirement or established commitment before final sign-off.
+The €2,000 quote provides an estimate of removal cost, but no disposal order, legal requirement or constructive commitment is supplied. The selected presentation does **not** accrue it. Under [IAS 37](https://www.ifrs.org/issued-standards/list-of-standards/ias-37-provisions-contingent-liabilities-and-contingent-assets/), a provision requires a present obligation from a past event, probable outflow and reliable estimate. If the obligation is evidenced, selected-basis PBT becomes €72,000 and the consumption-basis alternative becomes €63,000. Confirm the obligation before final sign-off.
 
 ## Review and outstanding evidence
 

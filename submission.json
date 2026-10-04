@@ -2682,7 +2682,7 @@
       "category": "estimation",
       "reviewTier": "operational",
       "question": "Estimate Net profit and document the basis.",
-      "answer": "Selected count-basis PBT €72,000 including the €2,000 disposal estimate; €74,000 if it is not a present obligation. Consumption-basis PBT is €63,000 (€65,000 without disposal).",
+      "answer": "Selected count-basis PBT €74,000 excludes the unsupported €2,000 disposal provision. If a present obligation is evidenced, PBT is €72,000. Consumption-basis PBT is €65,000 without that provision (€63,000 with it).",
       "evidence": [
         "Workbook: Schedules",
         "Workbook: Checks and Uncertainties"
@@ -2698,8 +2698,8 @@
       "agent1Position": "Management profit EUR 312,000 rejected",
       "agent2Position": "Same",
       "evidenceReliability": "low",
-      "finalAnswer": "Selected count-basis PBT €72,000 including the €2,000 disposal estimate; €74,000 if it is not a present obligation. Consumption-basis PBT is €63,000 (€65,000 without disposal).",
-      "financialStatementImpact": "The inventory basis changes PBT by €9,000; disposal treatment changes it by €2,000.",
+      "finalAnswer": "Selected count-basis PBT €74,000 excludes the unsupported €2,000 disposal provision. If a present obligation is evidenced, PBT is €72,000. Consumption-basis PBT is €65,000 without that provision (€63,000 with it).",
+      "financialStatementImpact": "Inventory basis changes PBT and net inventory by €9,000; disposal recognition changes PBT and liabilities by €2,000.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
@@ -2888,7 +2888,7 @@
       "category": "board_decision",
       "reviewTier": "operational",
       "question": "Dispose of damaged stock",
-      "answer": "Damaged stock should be disposed of. Include the €2,000 quoted cost only if the damage creates a present legal or constructive disposal obligation at 31 August; otherwise disclose the expected future cost and exclude the provision.",
+      "answer": "Arrange disposal of damaged stock. Do not recognise the quoted €2,000 cost at 31 August unless an existing legal or constructive obligation is evidenced; recognise the cost when incurred otherwise.",
       "evidence": [
         "05 Warehouse Count Marta Notes.pdf",
         "11 Evidence Received After Takeover.pdf"
@@ -2904,13 +2904,13 @@
       "agent1Position": "Disposal estimate EUR 2,000",
       "agent2Position": "Same",
       "evidenceReliability": "high",
-      "finalAnswer": "Damaged stock should be disposed of. Include the €2,000 quoted cost only if the damage creates a present legal or constructive disposal obligation at 31 August; otherwise disclose the expected future cost and exclude the provision.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "finalAnswer": "Arrange disposal of damaged stock. Do not recognise the quoted €2,000 cost at 31 August unless an existing legal or constructive obligation is evidenced; recognise the cost when incurred otherwise.",
+      "financialStatementImpact": "Selected provision €0; if a present obligation is proven, liability and expense rise €2,000 and PBT/equity fall €2,000.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
       },
-      "reviewExplanation": "The €2,000 quote measures the expected removal cost but does not itself establish a liability. The selected provision assumes the water-damaged stock must be removed under an existing obligation; verify the rule, commitment or order before finalising.",
+      "reviewExplanation": "The quote gives a reliable cost estimate, but the supplied record does not show a disposal law, order or commitment creating a present obligation at 31 August. The selected accounts therefore omit a provision and disclose a €2,000 sensitivity.",
       "changedFromAI": true
     },
     {
@@ -3003,7 +3003,7 @@
       "category": "board_decision",
       "reviewTier": "material_judgment",
       "question": "Use claimed management profit for earn-out",
-      "answer": "Selected count-basis PBT €72,000 including the €2,000 disposal estimate; €74,000 if it is not a present obligation. Consumption-basis PBT is €63,000 (€65,000 without disposal).",
+      "answer": "Selected count-basis PBT €74,000 excludes the unsupported €2,000 disposal provision. If a present obligation is evidenced, PBT is €72,000. Consumption-basis PBT is €65,000 without that provision (€63,000 with it).",
       "evidence": [
         "Workbook: Checks and Uncertainties",
         "03 CRM Export Cleaned FINAL.xlsx"
@@ -3011,7 +3011,7 @@
       "confidence": "high",
       "aiProposal": "Workbook Agent 1 position(s): O-072. Final working proposal: Do not use claimed management profit EUR 312,000 for earn-out; use reconciled PBT EUR 63,000, subject to student approval.",
       "independentChallenge": "Workbook Agent 2 was recorded as agreeing with the reconciled treatment for the mapped judgment(s). No separate challenge text is present in the workbook; the student should confirm this before certification.",
-      "studentReasoning": "The management €312,000 profit lacks support from the reconstructed revenue, cost and provision schedules. Selected PBT is €72,000 with the disposal estimate, or €74,000 if that estimate is not a present obligation; neither is an audited earn-out measure.",
+      "studentReasoning": "Management’s €312,000 profit lacks support from the reconstructed revenue and cost schedules. The selected count basis yields €74,000 PBT. The €2,000 disposal quote is disclosed but not accrued because a present obligation has not been evidenced; neither amount is an audited earn-out measure.",
       "statementEffect": {
         "profit": null,
         "cash": null,
@@ -3029,13 +3029,13 @@
       "agent1Position": "Management profit EUR 312,000 rejected",
       "agent2Position": "Same",
       "evidenceReliability": "low",
-      "finalAnswer": "Selected count-basis PBT €72,000 including the €2,000 disposal estimate; €74,000 if it is not a present obligation. Consumption-basis PBT is €63,000 (€65,000 without disposal).",
-      "financialStatementImpact": "The inventory basis changes PBT by €9,000; disposal treatment changes it by €2,000.",
+      "finalAnswer": "Selected count-basis PBT €74,000 excludes the unsupported €2,000 disposal provision. If a present obligation is evidenced, PBT is €72,000. Consumption-basis PBT is €65,000 without that provision (€63,000 with it).",
+      "financialStatementImpact": "Inventory basis changes PBT and net inventory by €9,000; disposal recognition changes PBT and liabilities by €2,000.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
       },
-      "reviewExplanation": "The management €312,000 profit lacks support from the reconstructed revenue, cost and provision schedules. Selected PBT is €72,000 with the disposal estimate, or €74,000 if that estimate is not a present obligation; neither is an audited earn-out measure."
+      "reviewExplanation": "Management’s €312,000 profit lacks support from the reconstructed revenue and cost schedules. The selected count basis yields €74,000 PBT. The €2,000 disposal quote is disclosed but not accrued because a present obligation has not been evidenced; neither amount is an audited earn-out measure."
     }
   ],
   "schedules": {
@@ -3139,19 +3139,21 @@
     },
     "equity": {
       "openingEquityControl": 170000,
-      "selectedPBT": 72000,
+      "selectedPBT": 74000,
       "ownerPayments": 110000,
-      "selectedClosingEquity": 132000,
-      "alternativePBT": 63000,
-      "alternativeClosingEquity": 123000,
-      "note": "The common €170,000 opening control balance is an inference, not verified legal capital; the €9,000 basis difference flows through profit and closing equity."
+      "selectedClosingEquity": 134000,
+      "alternativePBT": 65000,
+      "alternativeClosingEquity": 125000,
+      "note": "The common €170,000 opening control balance is an inference, not verified legal capital. The €9,000 inventory basis difference flows through profit and closing equity; the unrecognised €2,000 disposal quote is a separate sensitivity."
     },
     "disposalProvision": {
       "estimatedCost": 2000,
-      "recognitionBasis": "Conditional: an existing legal or constructive obligation from the damaged stock must be evidenced. A quote measures cost but does not prove obligation.",
-      "selectedTreatment": "Included provisionally; reverse if no present obligation.",
+      "recognitionBasis": "IAS 37 requires a present legal or constructive obligation arising from a past event, probable outflow and reliable estimate. The quote supports only the estimate; no disposal order, law or commitment is supplied.",
+      "selectedTreatment": "Not recognised pending proof of a present obligation.",
       "selectedPBTWithoutProvision": 74000,
-      "alternativePBTWithoutProvision": 65000
+      "alternativePBTWithoutProvision": 65000,
+      "selectedPBTWithProvision": 72000,
+      "alternativePBTWithProvision": 63000
     }
   },
   "statements": {
@@ -3165,14 +3167,15 @@
       "repairs": -10000,
       "depreciation": -24000,
       "damagedInventoryWriteDown": -22000,
-      "disposalProvision": -2000,
+      "disposalProvision": 0,
       "R17Impairment": -18000,
       "employeeClaimProvision": -25000,
-      "operatingProfit": 84000,
+      "operatingProfit": 86000,
       "interestExpense": -12000,
-      "profitBeforeTax": 72000,
+      "profitBeforeTax": 74000,
       "alternativeProfitBeforeTaxWithoutDisposalProvision": 74000,
-      "alternativeConsumptionBasisPBT": 63000
+      "alternativeConsumptionBasisPBT": 65000,
+      "alternativeProfitBeforeTaxWithDisposalProvision": 72000
     },
     "cashFlow": {
       "openingCash": 80000,
@@ -3197,17 +3200,17 @@
       "accruedInterest": 2000,
       "contractLiabilities": 90000,
       "employeeClaimProvision": 25000,
-      "disposalProvision": 2000,
-      "totalLiabilities": 408000,
-      "residualEquity": 132000
+      "disposalProvision": 0,
+      "totalLiabilities": 406000,
+      "residualEquity": 134000
     },
     "alternativeConsumptionBasis": {
       "materialsConsumed": -405000,
       "netInventory": 112000,
       "totalAssets": 531000,
-      "totalLiabilities": 408000,
-      "closingEquity": 123000,
-      "profitBeforeTax": 63000,
+      "totalLiabilities": 406000,
+      "closingEquity": 125000,
+      "profitBeforeTax": 65000,
       "openingEquityControl": 170000
     }
   },
@@ -3215,7 +3218,7 @@
     {
       "check": "Balance sheet balances",
       "result": "PASS",
-      "detail": "EUR 540,000 assets = EUR 408,000 liabilities + EUR 132,000 equity."
+      "detail": "€540,000 assets = €406,000 liabilities + €134,000 equity on the selected count basis without an unsupported disposal provision."
     },
     {
       "check": "Closing cash agrees",
@@ -3266,7 +3269,7 @@
     },
     {
       "item": "Disposal provision",
-      "treatment": "€2,000 quote measures cost only. Verify an existing legal or constructive obligation from the damage; otherwise reverse it. Selected PBT is €72,000 with it, €74,000 without.",
+      "treatment": "The €2,000 quote is not accrued because a present disposal obligation is not evidenced. Obtain the legal requirement, order or constructive commitment; recognition would reduce selected PBT from €74,000 to €72,000.",
       "confidence": "medium"
     },
     {
@@ -3281,7 +3284,7 @@
     },
     {
       "item": "Opening equity",
-      "treatment": "Common €170,000 opening control balance is inferred and requires prior-year records; do not adjust it by €9,000 between scenarios.",
+      "treatment": "Common €170,000 opening control balance is inferred and requires prior-year records; do not adjust it by €9,000 between inventory scenarios.",
       "confidence": "medium"
     },
     {
@@ -3292,7 +3295,7 @@
   ],
   "boardRecommendation": {
     "status": "DRAFT FOR STUDENT REVIEW",
-    "recommendation": "Use the selected count-basis PBT €72,000 only as a provisional reconciliation, with €9,000 inventory source conflict and conditional €2,000 disposal provision disclosed. Do not use management €312,000 profit for valuation or earn-out until source evidence and personal reviewer sign-off are complete.",
+    "recommendation": "Use count-basis PBT €74,000 as a provisional reconciliation, disclose the €9,000 inventory source conflict and the unrecognised €2,000 disposal quote, and do not use management €312,000 profit for valuation or earn-out until primary evidence and personal reviewer sign-off are complete.",
     "actions": [
       "Keep owner-card access frozen pending legal/accounting classification.",
       "Move September deposits to contract liabilities.",
