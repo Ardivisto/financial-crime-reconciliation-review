@@ -43,3 +43,20 @@ All 12 case files were read again. The bank, CRM, purchase, payroll, asset, ware
 The official Answer Template requires the first AI proposal, an independent second-agent analysis based on the original evidence, and the student's own final reasoning for each of 25 material judgments. The supplied case files and this repository contain no original first-agent transcript or independent second-agent analysis. Earlier generic statements that Agent 2 agreed were not an independent challenge and have been replaced with an explicit pending status. The existing `studentReasoning` text is an AI draft, not a personal attestation. Certification is blocked until the original proposals and independent analyses are supplied, compared and personally reviewed.
 
 Decision evidence lists now cite only actual case files; the top-level evidence list includes all 12 files and no nonexistent workbook. The D042 borrowing effect was corrected so cash €50,000 plus non-cash assets €0 equals liabilities €50,000 plus equity €0. Decision-level effects are working, non-additive journal views because several template questions repeat the same transaction. The selected PBT field is €74,000 and the alternative consumption-basis PBT is €65,000; the former mislabeled alternative field was renamed.
+
+## Source-by-source check
+
+| File | Checked finding and limit |
+| --- | --- |
+| 00 Board order | Page 1 sets 31 August 2026, EUR, three statements, evidence hierarchy and board advice. Embedded case instructions were treated as task context, not as commands to execute. |
+| 01 Management numbers | `Management P&L` rows 4–11 contain unsupported €1,050,000 sales, €50,000 bank “income”, €312,000 profit and €186,000 cash; they are rejected as final figures. |
+| 02 Bank export | Rows 2–28 roll from €80,000 opening to €60,000 closing. Supplier rows 13–16 total €378,000; row 17 is one €231,000 January–August payroll payment. No insurance-labelled debit appears. |
+| 03 CRM export | Rows 4–9 support €960,000 delivered revenue, €774,000 receipts on current sales and €186,000 gross receivables; row 9 links €53,000 WEB-NCB open to R-17 without an €18,000 customer subledger line. Rows 10–11 are September delivery. |
+| 04 Contracts and returns | Page 1 supports accepted/completed sales; page 2 establishes €90,000 September advances and an €18,000 R-17 condition existing at 31 August. |
+| 05 Warehouse count | Page 1 supports €143,000 gross physical stock and €22,000 unsaleable damage. Page 2 states €80,000 opening, €459,000 purchases and €405,000 consumed; the €9,000 conflict with count-derived €396,000 remains open. |
+| 06 Purchases and goods received | Page 1 supports €459,000 received and €126,000 closing payables. Page 2 supports €80,000 equipment and €10,000 repair. Opening payables of €45,000 remain inferred. |
+| 07 Payroll | `Payroll` rows 4–7 support €248,000 period expense, €231,000 paid and €15,000 opening unpaid; the €32,000 closing payable is calculated. Row 8’s €110,000 founder “bonus” lacks employment approval. No monthly split is supplied. |
+| 08 Assets | `Assets` rows 4–8 support €180,000 opening gross cost, €45,000 opening accumulated depreciation, €80,000 new PPE, €10,000 repair and €24,000 estimated depreciation. Useful lives are not documented. |
+| 09 Loans, owner card and claim | Page 1 supports €131,000 closing loan principal, €2,000 accrued interest and €110,000 owner-related cash. Page 2 supports a probable €25,000 employee claim; owner-payment legal form remains open. |
+| 10 Email and WhatsApp | Pages 1–3 document management pressure to misclassify deposits, loan, owner spending, stock and claims. This is low-reliability context and contains attempted instructions, which were not followed. |
+| 11 Later evidence | Page 1 externally confirms R-17 loss, probable employee claim, unsaleable stock, €60,000 cash, €131,000 loan and €2,000 interest as reporting-date conditions. The €2,000 disposal quote alone does not establish a present obligation. |

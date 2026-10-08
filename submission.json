@@ -154,8 +154,7 @@
       "question": "Resolve the source and treatment of Opening receivable receipt.",
       "answer": "Opening receivable receipt: include EUR 35,000 old-customer receipt as settlement of opening receivable.",
       "evidence": [
-        "02 Bank Export August.csv",
-        "04 Contracts Returns and Angry Customers.pdf"
+        "02 Bank Export August.csv"
       ],
       "confidence": "high",
       "workbookDecisionIds": [
@@ -1216,7 +1215,8 @@
       "question": "Resolve the source and treatment of Purchase total.",
       "answer": "Recognise €459,000 goods received, €378,000 bank-confirmed supplier payments and €126,000 closing supplier payables; the movement implies €45,000 opening payables if complete.",
       "evidence": [
-        "06 Purchases Invoices and Goods Received.pdf"
+        "06 Purchases Invoices and Goods Received.pdf",
+        "02 Bank Export August.csv"
       ],
       "confidence": "high",
       "workbookDecisionIds": [
@@ -1538,7 +1538,7 @@
       "answer": "Treat EUR 70,000 villa payment as provisional owner withdrawal/distribution or related-party balance, not marketing.",
       "evidence": [
         "09 Loans Owner Card and Legal Problems.pdf",
-        "11 Evidence Received After Takeover.pdf"
+        "02 Bank Export August.csv"
       ],
       "confidence": "high",
       "aiProposal": "AI working proposal; original first-agent output not supplied: Treat EUR 70,000 villa payment as provisional owner withdrawal/distribution or related-party balance, not marketing.",
@@ -3151,7 +3151,9 @@
       "evidence": [
         "02 Bank Export August.csv",
         "03 CRM Export Cleaned FINAL.xlsx",
+        "04 Contracts Returns and Angry Customers.pdf",
         "05 Warehouse Count Marta Notes.pdf",
+        "06 Purchases Invoices and Goods Received.pdf",
         "07 Payroll Bonuses Contractors NEW.xlsx",
         "08 Assets Repairs Leases Maybe.xlsx",
         "09 Loans Owner Card and Legal Problems.pdf",
@@ -3514,8 +3516,15 @@
       "answer": "Reject management’s unsupported €312,000 profit as an earn-out basis. Selected count-basis PBT is €74,000; the €405,000 consumption alternative gives €65,000. If a present €2,000 disposal obligation is proven, those figures become €72,000 and €63,000.",
       "evidence": [
         "01 USE THIS NUMBERS FINAL v9.xlsx",
+        "02 Bank Export August.csv",
+        "03 CRM Export Cleaned FINAL.xlsx",
+        "04 Contracts Returns and Angry Customers.pdf",
         "05 Warehouse Count Marta Notes.pdf",
-        "02 Bank Export August.csv"
+        "06 Purchases Invoices and Goods Received.pdf",
+        "07 Payroll Bonuses Contractors NEW.xlsx",
+        "08 Assets Repairs Leases Maybe.xlsx",
+        "09 Loans Owner Card and Legal Problems.pdf",
+        "11 Evidence Received After Takeover.pdf"
       ],
       "confidence": "high",
       "aiProposal": "AI working proposal; original first-agent output not supplied: Do not use claimed management profit EUR 312,000 for earn-out; use reconciled PBT EUR 63,000, subject to student approval.",
