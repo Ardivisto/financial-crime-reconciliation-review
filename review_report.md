@@ -29,3 +29,9 @@ All 100 decision IDs, questions, categories and review tiers match the supplied 
 The student confirmed the spelling **Ričards Vismanis** on 8 October 2026 and permitted publication. The app and JSON use this name. Certification still requires imported decisions and personal approval. The student has not personally approved or certified the homework. Two CSV files contain 100 proposed answers in D001–D100 order and an ID-indexed audit view. The supplied official answer template is JSON; no external submission has occurred.
 
 A proposed first-person declaration is supplied for personal review in the site and JSON. It is not copied from another student or marked as signed. The student must review the decisions, schedules, reconciliations and caveats, then explicitly certify the result.
+
+## Payroll and insurance source detail
+
+The bank export has one combined January–August payroll transaction of €231,000 at row 17. Payroll rows 4–7 show €248,000 expense and €231,000 paid by department, without a monthly split. D014–D021 therefore cannot carry separate monthly figures. A month-level payroll ledger or payslips and matching payment detail would be needed.
+
+The supplied bank, management P&L and purchase records contain no identifiable insurance premium or policy, and the other case files contain no insurance coverage or prepaid-insurance schedule. D034, D060 and D078 state that an amount is not determinable and do not add an invented expense. Missing insurance evidence does not prove the actual amount was zero. A policy, invoice, payment and opening/closing prepaid ledger would be needed to quantify it.

@@ -430,12 +430,13 @@
       "question": "Resolve the source and treatment of January payroll.",
       "answer": "January payroll: the project JSON supports €248,000 normal payroll for the period, but no January amount. Retain the aggregate and leave the monthly allocation unverified.",
       "evidence": [
-        "07 Payroll Bonuses Contractors NEW.xlsx"
+        "07 Payroll Bonuses Contractors NEW.xlsx",
+        "02 Bank Export August.csv"
       ],
       "confidence": "low",
       "workbookDecisionIds": [],
       "mappingStatus": "resolved_with_evidence_gap",
-      "mappingNote": "The D-ID and decision answer are resolved against the official template. A separate month-level payroll or insurance amount is not evidenced; do not invent an amount or add it to the period totals.",
+      "mappingNote": "The template decision is answered: no separate monthly amount can be determined. Payroll sheet rows 4–7 show period totals by department (€248,000 expense; €231,000 paid); bank CSV row 17 is one combined January–August payroll payment of €231,000. Do not divide or repeat the aggregate as a monthly figure.",
       "title": "Resolve the source and treatment of January payroll.",
       "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
       "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
@@ -449,7 +450,15 @@
       "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense.",
       "templateDecisionId": "D014",
       "answerStatus": "resolved_with_evidence_gap",
-      "sourceDetailAvailable": false
+      "sourceDetailAvailable": false,
+      "sourceGap": {
+        "type": "monthly_payroll_split",
+        "display": "Bank row 17 combines Jan–Aug; payroll rows 4–7 are departmental period totals. No monthly amount is supported.",
+        "requiredDocuments": [
+          "Monthly payroll ledger or payslips for January–August",
+          "Payment-level bank detail linked to each month"
+        ]
+      }
     },
     {
       "id": "D015",
@@ -458,12 +467,13 @@
       "question": "Resolve the source and treatment of February payroll.",
       "answer": "February payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",
       "evidence": [
-        "07 Payroll Bonuses Contractors NEW.xlsx"
+        "07 Payroll Bonuses Contractors NEW.xlsx",
+        "02 Bank Export August.csv"
       ],
       "confidence": "low",
       "workbookDecisionIds": [],
       "mappingStatus": "resolved_with_evidence_gap",
-      "mappingNote": "The D-ID and decision answer are resolved against the official template. A separate month-level payroll or insurance amount is not evidenced; do not invent an amount or add it to the period totals.",
+      "mappingNote": "The template decision is answered: no separate monthly amount can be determined. Payroll sheet rows 4–7 show period totals by department (€248,000 expense; €231,000 paid); bank CSV row 17 is one combined January–August payroll payment of €231,000. Do not divide or repeat the aggregate as a monthly figure.",
       "title": "Resolve the source and treatment of February payroll.",
       "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
       "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
@@ -477,7 +487,15 @@
       "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense.",
       "templateDecisionId": "D015",
       "answerStatus": "resolved_with_evidence_gap",
-      "sourceDetailAvailable": false
+      "sourceDetailAvailable": false,
+      "sourceGap": {
+        "type": "monthly_payroll_split",
+        "display": "Bank row 17 combines Jan–Aug; payroll rows 4–7 are departmental period totals. No monthly amount is supported.",
+        "requiredDocuments": [
+          "Monthly payroll ledger or payslips for January–August",
+          "Payment-level bank detail linked to each month"
+        ]
+      }
     },
     {
       "id": "D016",
@@ -486,12 +504,13 @@
       "question": "Resolve the source and treatment of March payroll.",
       "answer": "March payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",
       "evidence": [
-        "07 Payroll Bonuses Contractors NEW.xlsx"
+        "07 Payroll Bonuses Contractors NEW.xlsx",
+        "02 Bank Export August.csv"
       ],
       "confidence": "low",
       "workbookDecisionIds": [],
       "mappingStatus": "resolved_with_evidence_gap",
-      "mappingNote": "The D-ID and decision answer are resolved against the official template. A separate month-level payroll or insurance amount is not evidenced; do not invent an amount or add it to the period totals.",
+      "mappingNote": "The template decision is answered: no separate monthly amount can be determined. Payroll sheet rows 4–7 show period totals by department (€248,000 expense; €231,000 paid); bank CSV row 17 is one combined January–August payroll payment of €231,000. Do not divide or repeat the aggregate as a monthly figure.",
       "title": "Resolve the source and treatment of March payroll.",
       "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
       "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
@@ -505,7 +524,15 @@
       "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense.",
       "templateDecisionId": "D016",
       "answerStatus": "resolved_with_evidence_gap",
-      "sourceDetailAvailable": false
+      "sourceDetailAvailable": false,
+      "sourceGap": {
+        "type": "monthly_payroll_split",
+        "display": "Bank row 17 combines Jan–Aug; payroll rows 4–7 are departmental period totals. No monthly amount is supported.",
+        "requiredDocuments": [
+          "Monthly payroll ledger or payslips for January–August",
+          "Payment-level bank detail linked to each month"
+        ]
+      }
     },
     {
       "id": "D017",
@@ -514,12 +541,13 @@
       "question": "Resolve the source and treatment of April payroll.",
       "answer": "April payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",
       "evidence": [
-        "07 Payroll Bonuses Contractors NEW.xlsx"
+        "07 Payroll Bonuses Contractors NEW.xlsx",
+        "02 Bank Export August.csv"
       ],
       "confidence": "low",
       "workbookDecisionIds": [],
       "mappingStatus": "resolved_with_evidence_gap",
-      "mappingNote": "The D-ID and decision answer are resolved against the official template. A separate month-level payroll or insurance amount is not evidenced; do not invent an amount or add it to the period totals.",
+      "mappingNote": "The template decision is answered: no separate monthly amount can be determined. Payroll sheet rows 4–7 show period totals by department (€248,000 expense; €231,000 paid); bank CSV row 17 is one combined January–August payroll payment of €231,000. Do not divide or repeat the aggregate as a monthly figure.",
       "title": "Resolve the source and treatment of April payroll.",
       "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
       "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
@@ -533,7 +561,15 @@
       "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense.",
       "templateDecisionId": "D017",
       "answerStatus": "resolved_with_evidence_gap",
-      "sourceDetailAvailable": false
+      "sourceDetailAvailable": false,
+      "sourceGap": {
+        "type": "monthly_payroll_split",
+        "display": "Bank row 17 combines Jan–Aug; payroll rows 4–7 are departmental period totals. No monthly amount is supported.",
+        "requiredDocuments": [
+          "Monthly payroll ledger or payslips for January–August",
+          "Payment-level bank detail linked to each month"
+        ]
+      }
     },
     {
       "id": "D018",
@@ -542,12 +578,13 @@
       "question": "Resolve the source and treatment of May payroll.",
       "answer": "May payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",
       "evidence": [
-        "07 Payroll Bonuses Contractors NEW.xlsx"
+        "07 Payroll Bonuses Contractors NEW.xlsx",
+        "02 Bank Export August.csv"
       ],
       "confidence": "low",
       "workbookDecisionIds": [],
       "mappingStatus": "resolved_with_evidence_gap",
-      "mappingNote": "The D-ID and decision answer are resolved against the official template. A separate month-level payroll or insurance amount is not evidenced; do not invent an amount or add it to the period totals.",
+      "mappingNote": "The template decision is answered: no separate monthly amount can be determined. Payroll sheet rows 4–7 show period totals by department (€248,000 expense; €231,000 paid); bank CSV row 17 is one combined January–August payroll payment of €231,000. Do not divide or repeat the aggregate as a monthly figure.",
       "title": "Resolve the source and treatment of May payroll.",
       "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
       "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
@@ -561,7 +598,15 @@
       "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense.",
       "templateDecisionId": "D018",
       "answerStatus": "resolved_with_evidence_gap",
-      "sourceDetailAvailable": false
+      "sourceDetailAvailable": false,
+      "sourceGap": {
+        "type": "monthly_payroll_split",
+        "display": "Bank row 17 combines Jan–Aug; payroll rows 4–7 are departmental period totals. No monthly amount is supported.",
+        "requiredDocuments": [
+          "Monthly payroll ledger or payslips for January–August",
+          "Payment-level bank detail linked to each month"
+        ]
+      }
     },
     {
       "id": "D019",
@@ -570,12 +615,13 @@
       "question": "Resolve the source and treatment of June payroll.",
       "answer": "June payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",
       "evidence": [
-        "07 Payroll Bonuses Contractors NEW.xlsx"
+        "07 Payroll Bonuses Contractors NEW.xlsx",
+        "02 Bank Export August.csv"
       ],
       "confidence": "low",
       "workbookDecisionIds": [],
       "mappingStatus": "resolved_with_evidence_gap",
-      "mappingNote": "The D-ID and decision answer are resolved against the official template. A separate month-level payroll or insurance amount is not evidenced; do not invent an amount or add it to the period totals.",
+      "mappingNote": "The template decision is answered: no separate monthly amount can be determined. Payroll sheet rows 4–7 show period totals by department (€248,000 expense; €231,000 paid); bank CSV row 17 is one combined January–August payroll payment of €231,000. Do not divide or repeat the aggregate as a monthly figure.",
       "title": "Resolve the source and treatment of June payroll.",
       "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
       "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
@@ -589,7 +635,15 @@
       "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense.",
       "templateDecisionId": "D019",
       "answerStatus": "resolved_with_evidence_gap",
-      "sourceDetailAvailable": false
+      "sourceDetailAvailable": false,
+      "sourceGap": {
+        "type": "monthly_payroll_split",
+        "display": "Bank row 17 combines Jan–Aug; payroll rows 4–7 are departmental period totals. No monthly amount is supported.",
+        "requiredDocuments": [
+          "Monthly payroll ledger or payslips for January–August",
+          "Payment-level bank detail linked to each month"
+        ]
+      }
     },
     {
       "id": "D020",
@@ -598,12 +652,13 @@
       "question": "Resolve the source and treatment of July payroll.",
       "answer": "July payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",
       "evidence": [
-        "07 Payroll Bonuses Contractors NEW.xlsx"
+        "07 Payroll Bonuses Contractors NEW.xlsx",
+        "02 Bank Export August.csv"
       ],
       "confidence": "low",
       "workbookDecisionIds": [],
       "mappingStatus": "resolved_with_evidence_gap",
-      "mappingNote": "The D-ID and decision answer are resolved against the official template. A separate month-level payroll or insurance amount is not evidenced; do not invent an amount or add it to the period totals.",
+      "mappingNote": "The template decision is answered: no separate monthly amount can be determined. Payroll sheet rows 4–7 show period totals by department (€248,000 expense; €231,000 paid); bank CSV row 17 is one combined January–August payroll payment of €231,000. Do not divide or repeat the aggregate as a monthly figure.",
       "title": "Resolve the source and treatment of July payroll.",
       "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
       "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
@@ -617,7 +672,15 @@
       "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense.",
       "templateDecisionId": "D020",
       "answerStatus": "resolved_with_evidence_gap",
-      "sourceDetailAvailable": false
+      "sourceDetailAvailable": false,
+      "sourceGap": {
+        "type": "monthly_payroll_split",
+        "display": "Bank row 17 combines Jan–Aug; payroll rows 4–7 are departmental period totals. No monthly amount is supported.",
+        "requiredDocuments": [
+          "Monthly payroll ledger or payslips for January–August",
+          "Payment-level bank detail linked to each month"
+        ]
+      }
     },
     {
       "id": "D021",
@@ -626,12 +689,13 @@
       "question": "Resolve the source and treatment of August payroll.",
       "answer": "August payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",
       "evidence": [
-        "07 Payroll Bonuses Contractors NEW.xlsx"
+        "07 Payroll Bonuses Contractors NEW.xlsx",
+        "02 Bank Export August.csv"
       ],
       "confidence": "low",
       "workbookDecisionIds": [],
       "mappingStatus": "resolved_with_evidence_gap",
-      "mappingNote": "The D-ID and decision answer are resolved against the official template. A separate month-level payroll or insurance amount is not evidenced; do not invent an amount or add it to the period totals.",
+      "mappingNote": "The template decision is answered: no separate monthly amount can be determined. Payroll sheet rows 4–7 show period totals by department (€248,000 expense; €231,000 paid); bank CSV row 17 is one combined January–August payroll payment of €231,000. Do not divide or repeat the aggregate as a monthly figure.",
       "title": "Resolve the source and treatment of August payroll.",
       "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
       "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
@@ -645,7 +709,15 @@
       "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense.",
       "templateDecisionId": "D021",
       "answerStatus": "resolved_with_evidence_gap",
-      "sourceDetailAvailable": false
+      "sourceDetailAvailable": false,
+      "sourceGap": {
+        "type": "monthly_payroll_split",
+        "display": "Bank row 17 combines Jan–Aug; payroll rows 4–7 are departmental period totals. No monthly amount is supported.",
+        "requiredDocuments": [
+          "Monthly payroll ledger or payslips for January–August",
+          "Payment-level bank detail linked to each month"
+        ]
+      }
     },
     {
       "id": "D022",
@@ -1017,12 +1089,13 @@
       "answer": "Insurance movement: no separate supported insurance amount is identified; do not invent or add one to the P&L.",
       "evidence": [
         "02 Bank Export August.csv",
-        "Workbook: Schedules"
+        "01 USE THIS NUMBERS FINAL v9.xlsx",
+        "06 Purchases Invoices and Goods Received.pdf"
       ],
       "confidence": "low",
       "workbookDecisionIds": [],
       "mappingStatus": "resolved_with_evidence_gap",
-      "mappingNote": "The D-ID and decision answer are resolved against the official template. A separate month-level payroll or insurance amount is not evidenced; do not invent an amount or add it to the period totals.",
+      "mappingNote": "The template decision is answered: an insurance movement or expense cannot be quantified from the supplied records. No insurance-labelled payment, policy, premium invoice, opening prepayment or coverage period was found. Do not add an invented expense; absence of evidence does not establish actual zero expense.",
       "title": "Resolve the source and treatment of Insurance movement.",
       "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
       "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
@@ -1036,7 +1109,16 @@
       "reviewExplanation": "No policy amount, payment or coverage period is present in the project files; an extra insurance expense cannot be measured reliably.",
       "templateDecisionId": "D034",
       "answerStatus": "resolved_with_evidence_gap",
-      "sourceDetailAvailable": false
+      "sourceDetailAvailable": false,
+      "sourceGap": {
+        "type": "insurance_amount",
+        "display": "No policy, premium invoice, payment or prepayment schedule is supplied. Amount is not determinable; actual zero is not established.",
+        "requiredDocuments": [
+          "Insurance policy and coverage dates",
+          "Premium invoice and payment evidence",
+          "Opening and closing prepaid-insurance ledger"
+        ]
+      }
     },
     {
       "id": "D035",
@@ -1937,12 +2019,13 @@
       "answer": "No separately supported insurance expense amount is available; do not invent one.",
       "evidence": [
         "02 Bank Export August.csv",
-        "Workbook: Schedules"
+        "01 USE THIS NUMBERS FINAL v9.xlsx",
+        "06 Purchases Invoices and Goods Received.pdf"
       ],
       "confidence": "low",
       "workbookDecisionIds": [],
       "mappingStatus": "resolved_with_evidence_gap",
-      "mappingNote": "The D-ID and decision answer are resolved against the official template. A separate month-level payroll or insurance amount is not evidenced; do not invent an amount or add it to the period totals.",
+      "mappingNote": "The template decision is answered: an insurance movement or expense cannot be quantified from the supplied records. No insurance-labelled payment, policy, premium invoice, opening prepayment or coverage period was found. Do not add an invented expense; absence of evidence does not establish actual zero expense.",
       "title": "Classify Insurance consumed.",
       "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
       "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
@@ -1956,7 +2039,16 @@
       "reviewExplanation": "No policy amount, payment or coverage period is present in the project files; an extra insurance expense cannot be measured reliably.",
       "templateDecisionId": "D060",
       "answerStatus": "resolved_with_evidence_gap",
-      "sourceDetailAvailable": false
+      "sourceDetailAvailable": false,
+      "sourceGap": {
+        "type": "insurance_amount",
+        "display": "No policy, premium invoice, payment or prepayment schedule is supplied. Amount is not determinable; actual zero is not established.",
+        "requiredDocuments": [
+          "Insurance policy and coverage dates",
+          "Premium invoice and payment evidence",
+          "Opening and closing prepaid-insurance ledger"
+        ]
+      }
     },
     {
       "id": "D061",
@@ -2599,12 +2691,13 @@
       "answer": "No separately supported insurance estimate is supplied in the project data. Do not add an invented expense; obtain the policy, payment and period-of-cover evidence.",
       "evidence": [
         "02 Bank Export August.csv",
-        "Workbook: Schedules"
+        "01 USE THIS NUMBERS FINAL v9.xlsx",
+        "06 Purchases Invoices and Goods Received.pdf"
       ],
       "confidence": "low",
       "workbookDecisionIds": [],
       "mappingStatus": "resolved_with_evidence_gap",
-      "mappingNote": "The D-ID and decision answer are resolved against the official template. A separate month-level payroll or insurance amount is not evidenced; do not invent an amount or add it to the period totals.",
+      "mappingNote": "The template decision is answered: an insurance movement or expense cannot be quantified from the supplied records. No insurance-labelled payment, policy, premium invoice, opening prepayment or coverage period was found. Do not add an invented expense; absence of evidence does not establish actual zero expense.",
       "title": "Estimate Insurance expense and document the basis.",
       "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
       "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
@@ -2618,7 +2711,16 @@
       "reviewExplanation": "No policy amount, payment or coverage period is present in the project files; an extra insurance expense cannot be measured reliably.",
       "templateDecisionId": "D078",
       "answerStatus": "resolved_with_evidence_gap",
-      "sourceDetailAvailable": false
+      "sourceDetailAvailable": false,
+      "sourceGap": {
+        "type": "insurance_amount",
+        "display": "No policy, premium invoice, payment or prepayment schedule is supplied. Amount is not determinable; actual zero is not established.",
+        "requiredDocuments": [
+          "Insurance policy and coverage dates",
+          "Premium invoice and payment evidence",
+          "Opening and closing prepaid-insurance ledger"
+        ]
+      }
     },
     {
       "id": "D079",
