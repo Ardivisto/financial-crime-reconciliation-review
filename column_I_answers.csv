@@ -1,4 +1,4 @@
-﻿Decision ID,Column I — final answer,Mapping status,Evidence caveat
+Decision ID,Column I — final answer,Mapping status,Evidence caveat
 D001,"NorthStar receipt: include EUR 180,000 revenue; customer receipt matched to NorthStar/N STAR.",direct,
 D002,"Freedom receipt 1: include EUR 142,000 collected against EUR 200,000 contract; EUR 58,000 remains receivable.",direct,
 D003,"Phoenix receipt: include EUR 70,000 collected against EUR 100,000 completed event; EUR 30,000 remains receivable.",direct,
@@ -12,14 +12,14 @@ D010,"Box: €130,000 goods received, €105,000 bank payment and €25,000 clos
 D011,"Glass: €120,000 goods received, €92,000 bank payment and €28,000 closing payable. Implied opening payable €0 if the movement set is complete; verify opening ledger.",partial,Workbook contains only the aggregate or adjacent decision; source evidence supplies the item detail.
 D012,"Print: €95,000 goods received, €81,000 bank payment and €14,000 closing payable. Implied opening payable €0 if the movement set is complete; verify opening ledger.",partial,Workbook contains only the aggregate or adjacent decision; source evidence supplies the item detail.
 D013,"Event: €114,000 goods received, €100,000 bank payment and €59,000 closing payable. Implied opening payable €45,000 if the movement set is complete; verify opening ledger.",partial,Workbook contains only the aggregate or adjacent decision; source evidence supplies the item detail.
-D014,"January payroll: the project JSON supports €248,000 normal payroll for the period, but no January amount. Retain the aggregate and leave the monthly allocation unverified.",unresolved,No supported item-level figure is stated; left unresolved to avoid invention.
-D015,"February payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",unresolved,No supported item-level figure is stated; left unresolved to avoid invention.
-D016,"March payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",unresolved,No supported item-level figure is stated; left unresolved to avoid invention.
-D017,"April payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",unresolved,No supported item-level figure is stated; left unresolved to avoid invention.
-D018,"May payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",unresolved,No supported item-level figure is stated; left unresolved to avoid invention.
-D019,"June payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",unresolved,No supported item-level figure is stated; left unresolved to avoid invention.
-D020,"July payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",unresolved,No supported item-level figure is stated; left unresolved to avoid invention.
-D021,"August payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",unresolved,No supported item-level figure is stated; left unresolved to avoid invention.
+D014,"January payroll: the project JSON supports €248,000 normal payroll for the period, but no January amount. Retain the aggregate and leave the monthly allocation unverified.",resolved_with_evidence_gap,Decision treatment resolved; separate amount not evidenced. Do not invent or add it to period totals.
+D015,"February payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",resolved_with_evidence_gap,Decision treatment resolved; separate amount not evidenced. Do not invent or add it to period totals.
+D016,"March payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",resolved_with_evidence_gap,Decision treatment resolved; separate amount not evidenced. Do not invent or add it to period totals.
+D017,"April payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",resolved_with_evidence_gap,Decision treatment resolved; separate amount not evidenced. Do not invent or add it to period totals.
+D018,"May payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",resolved_with_evidence_gap,Decision treatment resolved; separate amount not evidenced. Do not invent or add it to period totals.
+D019,"June payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",resolved_with_evidence_gap,Decision treatment resolved; separate amount not evidenced. Do not invent or add it to period totals.
+D020,"July payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",resolved_with_evidence_gap,Decision treatment resolved; separate amount not evidenced. Do not invent or add it to period totals.
+D021,"August payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",resolved_with_evidence_gap,Decision treatment resolved; separate amount not evidenced. Do not invent or add it to period totals.
 D022,"Rent payments: operating expense EUR 48,000.",direct,
 D023,"Meta/influencer payments: operating expense EUR 55,000 marketing.",direct,
 D024,"Software payments: operating expense EUR 16,000.",direct,
@@ -32,7 +32,7 @@ D030,"Loan repayments: reduce principal by EUR 19,000.",direct,
 D031,"Interest payments: EUR 10,000 paid; EUR 12,000 expense and EUR 2,000 accrued.",direct,
 D032,"Villa deposit: EUR 70,000 owner-related payment, not operating expense.",direct,
 D033,"Owner card spending: EUR 40,000 owner-related payment, not operating expense.",direct,
-D034,Insurance movement: no separate supported insurance amount is identified; do not invent or add one to the P&L.,unresolved,No supported item-level figure is stated; left unresolved to avoid invention.
+D034,Insurance movement: no separate supported insurance amount is identified; do not invent or add one to the P&L.,resolved_with_evidence_gap,Decision treatment resolved; separate amount not evidenced. Do not invent or add it to period totals.
 D035,"Water-damaged stock: EUR 22,000 write-down; physically present but unsaleable.",direct,
 D036,"Recognise €18,000 R-17 impairment. CRM links R-17 to WEB-NCB’s €53,000 gross open balance; confirm the exact €18,000 subledger component.",direct,
 D037,"Former employee claim: recognize EUR 25,000 provision.",direct,
@@ -58,7 +58,7 @@ D056,"Use depreciation estimate EUR 24,000; request useful-life support.",direct
 D057,"Recognise €18,000 R-17 impairment against the €186,000 gross receivables. WEB-NCB’s €53,000 open balance points to R-17; verify the exact €18,000 subledger match.",direct,
 D058,"Write down damaged stock EUR 22,000; present saleable inventory EUR 121,000.",direct,
 D059,"Recognize probable employee claim provision EUR 25,000; disclose EUR 20,000–30,000 range.",direct,
-D060,No separately supported insurance expense amount is available; do not invent one.,unresolved,No supported item-level figure is stated; left unresolved to avoid invention.
+D060,No separately supported insurance expense amount is available; do not invent one.,resolved_with_evidence_gap,Decision treatment resolved; separate amount not evidenced. Do not invent or add it to period totals.
 D061,"Accrue unpaid interest EUR 2,000 from EUR 12,000 expense less EUR 10,000 paid.",direct,
 D062,"Use calculated closing payroll payable EUR 32,000 = 15,000 opening + 248,000 expense - 231,000 cash paid.",direct,
 D063,"Use supplier payables EUR 126,000.",direct,
@@ -76,7 +76,7 @@ D074,"Use EUR 24,000 period depreciation estimate; useful-life schedule remains 
 D075,"Present closing saleable inventory EUR 121,000 = count EUR 143,000 less EUR 22,000 write-down; disclose EUR 9,000 gap.",direct,
 D076,"Present €186,000 gross and €168,000 net receivables after €18,000 R-17 impairment. CRM links R-17 to WEB-NCB’s €53,000 open balance; confirm the subledger match.",direct,
 D077,"Use EUR 10,000 repair expense, not improvement/capitalization.",direct,
-D078,"No separately supported insurance estimate is supplied in the project data. Do not add an invented expense; obtain the policy, payment and period-of-cover evidence.",unresolved,No supported item-level figure is stated; left unresolved to avoid invention.
+D078,"No separately supported insurance estimate is supplied in the project data. Do not add an invented expense; obtain the policy, payment and period-of-cover evidence.",resolved_with_evidence_gap,Decision treatment resolved; separate amount not evidenced. Do not invent or add it to period totals.
 D079,"Use accrued interest EUR 2,000.",direct,
 D080,"Use calculated accrued payroll EUR 32,000; closing ledger not independently stated.",direct,
 D081,"Use customer deposit liability EUR 90,000.",direct,
@@ -98,4 +98,4 @@ D096,"Arrange disposal of damaged stock. Do not recognise the quoted €2,000 co
 D097,Investigate management override/duplicate sources; reject unsupported management profit and cash figures.,derived,
 D098,"Renegotiate supplier terms as a board recommendation in light of EUR 126,000 unpaid balances.",derived,
 D099,Continue core Finally Single and event operations based on delivered sales evidence; subject to student/board approval.,derived,
-D100,"Reject management’s unsupported €312,000 profit as an earn-out basis. Selected count-basis PBT is €74,000; the €405,000 consumption alternative gives €65,000. If a present €2,000 disposal obligation is proven, those figures become €72,000 and €63,000.",schema-mismatch,"Template makes this a material judgment, while the workbook records the rejection as operational O-072."
+D100,"Reject management’s unsupported €312,000 profit as an earn-out basis. Selected count-basis PBT is €74,000; the €405,000 consumption alternative gives €65,000. If a present €2,000 disposal obligation is proven, those figures become €72,000 and €63,000.",derived,Template material judgment; supporting workbook treatment appears under operational O-072.

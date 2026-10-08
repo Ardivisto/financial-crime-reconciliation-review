@@ -7,7 +7,7 @@
     "nameVerificationStatus": "confirmed_by_user_2026-10-08"
   },
   "draftStatus": "REVIEWED RECONCILIATION — STUDENT ATTESTATION PENDING",
-  "mappingNotice": "D001–D100 IDs are retained. Eleven rows lack source-level monthly payroll or insurance data; their aggregate treatment is stated without invented line amounts.",
+  "mappingNotice": "All D001–D100 answers match the official template. Eleven answers resolve treatment with an explicit source-detail gap: monthly payroll D014–D021 and insurance D034, D060, D078 have no supported separate amount. These figures are not invented or added to period totals.",
   "evidence": [
     "04 Contracts Returns and Angry Customers.pdf",
     "05 Warehouse Count Marta Notes.pdf",
@@ -39,7 +39,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Revenue €180,000; matching customer cash receipt.",
-      "reviewExplanation": "Recognise delivered or completed work as revenue; distinguish the cash collected from the unpaid receivable."
+      "reviewExplanation": "Recognise delivered or completed work as revenue; distinguish the cash collected from the unpaid receivable.",
+      "templateDecisionId": "D001",
+      "answerStatus": "resolved"
     },
     {
       "id": "D002",
@@ -59,7 +61,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Revenue €200,000; €142,000 cash and €58,000 trade receivable.",
-      "reviewExplanation": "Recognise delivered or completed work as revenue; distinguish the cash collected from the unpaid receivable."
+      "reviewExplanation": "Recognise delivered or completed work as revenue; distinguish the cash collected from the unpaid receivable.",
+      "templateDecisionId": "D002",
+      "answerStatus": "resolved"
     },
     {
       "id": "D003",
@@ -79,7 +83,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Revenue €100,000; €70,000 cash and €30,000 trade receivable.",
-      "reviewExplanation": "Recognise delivered or completed work as revenue; distinguish the cash collected from the unpaid receivable."
+      "reviewExplanation": "Recognise delivered or completed work as revenue; distinguish the cash collected from the unpaid receivable.",
+      "templateDecisionId": "D003",
+      "answerStatus": "resolved"
     },
     {
       "id": "D004",
@@ -99,7 +105,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Revenue €120,000; €95,000 cash and €25,000 trade receivable.",
-      "reviewExplanation": "Recognise delivered or completed work as revenue; distinguish the cash collected from the unpaid receivable."
+      "reviewExplanation": "Recognise delivered or completed work as revenue; distinguish the cash collected from the unpaid receivable.",
+      "templateDecisionId": "D004",
+      "answerStatus": "resolved"
     },
     {
       "id": "D005",
@@ -118,7 +126,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Cash +€35,000 and opening receivables -€35,000; no current-period revenue.",
-      "reviewExplanation": "A receipt on an opening receivable settles an existing asset rather than creating new revenue."
+      "reviewExplanation": "A receipt on an opening receivable settles an existing asset rather than creating new revenue.",
+      "templateDecisionId": "D005",
+      "answerStatus": "resolved"
     },
     {
       "id": "D006",
@@ -138,7 +148,9 @@
       "mappingStatus": "partial",
       "mappingNote": "Workbook contains only the aggregate or adjacent decision; source evidence supplies the item detail.",
       "financialStatementImpact": "Revenue €270,000; €250,000 cash and €20,000 receivable.",
-      "reviewExplanation": "Recognise delivered or completed work as revenue; distinguish the cash collected from the unpaid receivable."
+      "reviewExplanation": "Recognise delivered or completed work as revenue; distinguish the cash collected from the unpaid receivable.",
+      "templateDecisionId": "D006",
+      "answerStatus": "resolved"
     },
     {
       "id": "D007",
@@ -158,7 +170,9 @@
       "mappingStatus": "partial",
       "mappingNote": "Workbook contains only the aggregate or adjacent decision; source evidence supplies the item detail.",
       "financialStatementImpact": "Revenue €90,000; €37,000 cash and €53,000 receivable before R-17 impairment.",
-      "reviewExplanation": "The CRM comment on the €53,000 WEB-NCB open balance refers to R-17. That is positive linkage evidence, while the individual €18,000 account must still be matched to the gross balance."
+      "reviewExplanation": "The CRM comment on the €53,000 WEB-NCB open balance refers to R-17. That is positive linkage evidence, while the individual €18,000 account must still be matched to the gross balance.",
+      "templateDecisionId": "D007",
+      "answerStatus": "resolved"
     },
     {
       "id": "D008",
@@ -178,7 +192,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Cash and contract liabilities +€60,000; no August revenue.",
-      "reviewExplanation": "Delivery falls after the reporting date, so the receipt remains a contract liability at 31 August."
+      "reviewExplanation": "Delivery falls after the reporting date, so the receipt remains a contract liability at 31 August.",
+      "templateDecisionId": "D008",
+      "answerStatus": "resolved"
     },
     {
       "id": "D009",
@@ -198,7 +214,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Cash and contract liabilities +€30,000; no August revenue.",
-      "reviewExplanation": "Delivery falls after the reporting date, so the receipt remains a contract liability at 31 August."
+      "reviewExplanation": "Delivery falls after the reporting date, so the receipt remains a contract liability at 31 August.",
+      "templateDecisionId": "D009",
+      "answerStatus": "resolved"
     },
     {
       "id": "D010",
@@ -218,7 +236,9 @@
       "mappingStatus": "partial",
       "mappingNote": "Workbook contains only the aggregate or adjacent decision; source evidence supplies the item detail.",
       "financialStatementImpact": "Purchases €130,000; supplier cash outflow €105,000; closing payable €25,000; inferred opening payable €0.",
-      "reviewExplanation": "Bank supplier payment and goods-received invoice are separate evidence. Opening payable = closing €25,000 - purchases €130,000 + cash paid €105,000 = €0; the opening ledger is still needed."
+      "reviewExplanation": "Bank supplier payment and goods-received invoice are separate evidence. Opening payable = closing €25,000 - purchases €130,000 + cash paid €105,000 = €0; the opening ledger is still needed.",
+      "templateDecisionId": "D010",
+      "answerStatus": "resolved"
     },
     {
       "id": "D011",
@@ -238,7 +258,9 @@
       "mappingStatus": "partial",
       "mappingNote": "Workbook contains only the aggregate or adjacent decision; source evidence supplies the item detail.",
       "financialStatementImpact": "Purchases €120,000; supplier cash outflow €92,000; closing payable €28,000; inferred opening payable €0.",
-      "reviewExplanation": "Bank supplier payment and goods-received invoice are separate evidence. Opening payable = closing €28,000 - purchases €120,000 + cash paid €92,000 = €0; the opening ledger is still needed."
+      "reviewExplanation": "Bank supplier payment and goods-received invoice are separate evidence. Opening payable = closing €28,000 - purchases €120,000 + cash paid €92,000 = €0; the opening ledger is still needed.",
+      "templateDecisionId": "D011",
+      "answerStatus": "resolved"
     },
     {
       "id": "D012",
@@ -258,7 +280,9 @@
       "mappingStatus": "partial",
       "mappingNote": "Workbook contains only the aggregate or adjacent decision; source evidence supplies the item detail.",
       "financialStatementImpact": "Purchases €95,000; supplier cash outflow €81,000; closing payable €14,000; inferred opening payable €0.",
-      "reviewExplanation": "Bank supplier payment and goods-received invoice are separate evidence. Opening payable = closing €14,000 - purchases €95,000 + cash paid €81,000 = €0; the opening ledger is still needed."
+      "reviewExplanation": "Bank supplier payment and goods-received invoice are separate evidence. Opening payable = closing €14,000 - purchases €95,000 + cash paid €81,000 = €0; the opening ledger is still needed.",
+      "templateDecisionId": "D012",
+      "answerStatus": "resolved"
     },
     {
       "id": "D013",
@@ -278,7 +302,9 @@
       "mappingStatus": "partial",
       "mappingNote": "Workbook contains only the aggregate or adjacent decision; source evidence supplies the item detail.",
       "financialStatementImpact": "Purchases €114,000; supplier cash outflow €100,000; closing payable €59,000; inferred opening payable €45,000.",
-      "reviewExplanation": "Bank supplier payment and goods-received invoice are separate evidence. Opening payable = closing €59,000 - purchases €114,000 + cash paid €100,000 = €45,000; the opening ledger is still needed."
+      "reviewExplanation": "Bank supplier payment and goods-received invoice are separate evidence. Opening payable = closing €59,000 - purchases €114,000 + cash paid €100,000 = €45,000; the opening ledger is still needed.",
+      "templateDecisionId": "D013",
+      "answerStatus": "resolved"
     },
     {
       "id": "D014",
@@ -291,10 +317,13 @@
       ],
       "confidence": "low",
       "workbookDecisionIds": [],
-      "mappingStatus": "unresolved",
-      "mappingNote": "No supported item-level figure is stated; left unresolved to avoid invention.",
+      "mappingStatus": "resolved_with_evidence_gap",
+      "mappingNote": "The D-ID and decision answer are resolved against the official template. A separate month-level payroll or insurance amount is not evidenced; do not invent an amount or add it to the period totals.",
       "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense.",
-      "financialStatementImpact": "Included once in the €248,000 period payroll expense; no supported separate monthly P&L amount."
+      "financialStatementImpact": "Included once in the €248,000 period payroll expense; no supported separate monthly P&L amount.",
+      "templateDecisionId": "D014",
+      "answerStatus": "resolved_with_evidence_gap",
+      "sourceDetailAvailable": false
     },
     {
       "id": "D015",
@@ -307,10 +336,13 @@
       ],
       "confidence": "low",
       "workbookDecisionIds": [],
-      "mappingStatus": "unresolved",
-      "mappingNote": "No supported item-level figure is stated; left unresolved to avoid invention.",
+      "mappingStatus": "resolved_with_evidence_gap",
+      "mappingNote": "The D-ID and decision answer are resolved against the official template. A separate month-level payroll or insurance amount is not evidenced; do not invent an amount or add it to the period totals.",
       "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense.",
-      "financialStatementImpact": "Included once in the €248,000 period payroll expense; no supported separate monthly P&L amount."
+      "financialStatementImpact": "Included once in the €248,000 period payroll expense; no supported separate monthly P&L amount.",
+      "templateDecisionId": "D015",
+      "answerStatus": "resolved_with_evidence_gap",
+      "sourceDetailAvailable": false
     },
     {
       "id": "D016",
@@ -323,10 +355,13 @@
       ],
       "confidence": "low",
       "workbookDecisionIds": [],
-      "mappingStatus": "unresolved",
-      "mappingNote": "No supported item-level figure is stated; left unresolved to avoid invention.",
+      "mappingStatus": "resolved_with_evidence_gap",
+      "mappingNote": "The D-ID and decision answer are resolved against the official template. A separate month-level payroll or insurance amount is not evidenced; do not invent an amount or add it to the period totals.",
       "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense.",
-      "financialStatementImpact": "Included once in the €248,000 period payroll expense; no supported separate monthly P&L amount."
+      "financialStatementImpact": "Included once in the €248,000 period payroll expense; no supported separate monthly P&L amount.",
+      "templateDecisionId": "D016",
+      "answerStatus": "resolved_with_evidence_gap",
+      "sourceDetailAvailable": false
     },
     {
       "id": "D017",
@@ -339,10 +374,13 @@
       ],
       "confidence": "low",
       "workbookDecisionIds": [],
-      "mappingStatus": "unresolved",
-      "mappingNote": "No supported item-level figure is stated; left unresolved to avoid invention.",
+      "mappingStatus": "resolved_with_evidence_gap",
+      "mappingNote": "The D-ID and decision answer are resolved against the official template. A separate month-level payroll or insurance amount is not evidenced; do not invent an amount or add it to the period totals.",
       "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense.",
-      "financialStatementImpact": "Included once in the €248,000 period payroll expense; no supported separate monthly P&L amount."
+      "financialStatementImpact": "Included once in the €248,000 period payroll expense; no supported separate monthly P&L amount.",
+      "templateDecisionId": "D017",
+      "answerStatus": "resolved_with_evidence_gap",
+      "sourceDetailAvailable": false
     },
     {
       "id": "D018",
@@ -355,10 +393,13 @@
       ],
       "confidence": "low",
       "workbookDecisionIds": [],
-      "mappingStatus": "unresolved",
-      "mappingNote": "No supported item-level figure is stated; left unresolved to avoid invention.",
+      "mappingStatus": "resolved_with_evidence_gap",
+      "mappingNote": "The D-ID and decision answer are resolved against the official template. A separate month-level payroll or insurance amount is not evidenced; do not invent an amount or add it to the period totals.",
       "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense.",
-      "financialStatementImpact": "Included once in the €248,000 period payroll expense; no supported separate monthly P&L amount."
+      "financialStatementImpact": "Included once in the €248,000 period payroll expense; no supported separate monthly P&L amount.",
+      "templateDecisionId": "D018",
+      "answerStatus": "resolved_with_evidence_gap",
+      "sourceDetailAvailable": false
     },
     {
       "id": "D019",
@@ -371,10 +412,13 @@
       ],
       "confidence": "low",
       "workbookDecisionIds": [],
-      "mappingStatus": "unresolved",
-      "mappingNote": "No supported item-level figure is stated; left unresolved to avoid invention.",
+      "mappingStatus": "resolved_with_evidence_gap",
+      "mappingNote": "The D-ID and decision answer are resolved against the official template. A separate month-level payroll or insurance amount is not evidenced; do not invent an amount or add it to the period totals.",
       "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense.",
-      "financialStatementImpact": "Included once in the €248,000 period payroll expense; no supported separate monthly P&L amount."
+      "financialStatementImpact": "Included once in the €248,000 period payroll expense; no supported separate monthly P&L amount.",
+      "templateDecisionId": "D019",
+      "answerStatus": "resolved_with_evidence_gap",
+      "sourceDetailAvailable": false
     },
     {
       "id": "D020",
@@ -387,10 +431,13 @@
       ],
       "confidence": "low",
       "workbookDecisionIds": [],
-      "mappingStatus": "unresolved",
-      "mappingNote": "No supported item-level figure is stated; left unresolved to avoid invention.",
+      "mappingStatus": "resolved_with_evidence_gap",
+      "mappingNote": "The D-ID and decision answer are resolved against the official template. A separate month-level payroll or insurance amount is not evidenced; do not invent an amount or add it to the period totals.",
       "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense.",
-      "financialStatementImpact": "Included once in the €248,000 period payroll expense; no supported separate monthly P&L amount."
+      "financialStatementImpact": "Included once in the €248,000 period payroll expense; no supported separate monthly P&L amount.",
+      "templateDecisionId": "D020",
+      "answerStatus": "resolved_with_evidence_gap",
+      "sourceDetailAvailable": false
     },
     {
       "id": "D021",
@@ -403,10 +450,13 @@
       ],
       "confidence": "low",
       "workbookDecisionIds": [],
-      "mappingStatus": "unresolved",
-      "mappingNote": "No supported item-level figure is stated; left unresolved to avoid invention.",
+      "mappingStatus": "resolved_with_evidence_gap",
+      "mappingNote": "The D-ID and decision answer are resolved against the official template. A separate month-level payroll or insurance amount is not evidenced; do not invent an amount or add it to the period totals.",
       "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense.",
-      "financialStatementImpact": "Included once in the €248,000 period payroll expense; no supported separate monthly P&L amount."
+      "financialStatementImpact": "Included once in the €248,000 period payroll expense; no supported separate monthly P&L amount.",
+      "templateDecisionId": "D021",
+      "answerStatus": "resolved_with_evidence_gap",
+      "sourceDetailAvailable": false
     },
     {
       "id": "D022",
@@ -425,7 +475,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Rent operating expense €48,000.",
-      "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset."
+      "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset.",
+      "templateDecisionId": "D022",
+      "answerStatus": "resolved"
     },
     {
       "id": "D023",
@@ -444,7 +496,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Marketing operating expense €55,000.",
-      "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset."
+      "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset.",
+      "templateDecisionId": "D023",
+      "answerStatus": "resolved"
     },
     {
       "id": "D024",
@@ -463,7 +517,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Software operating expense €16,000.",
-      "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset."
+      "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset.",
+      "templateDecisionId": "D024",
+      "answerStatus": "resolved"
     },
     {
       "id": "D025",
@@ -482,7 +538,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Utilities operating expense €12,000.",
-      "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset."
+      "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset.",
+      "templateDecisionId": "D025",
+      "answerStatus": "resolved"
     },
     {
       "id": "D026",
@@ -501,7 +559,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Repair operating expense €10,000; no PPE addition.",
-      "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset."
+      "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset.",
+      "templateDecisionId": "D026",
+      "answerStatus": "resolved"
     },
     {
       "id": "D027",
@@ -520,7 +580,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "PPE gross cost +€60,000; investing cash outflow.",
-      "reviewExplanation": "The purchase creates equipment used beyond the current period, so it increases PPE and is an investing cash flow."
+      "reviewExplanation": "The purchase creates equipment used beyond the current period, so it increases PPE and is an investing cash flow.",
+      "templateDecisionId": "D027",
+      "answerStatus": "resolved"
     },
     {
       "id": "D028",
@@ -539,7 +601,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "PPE gross cost +€20,000; investing cash outflow.",
-      "reviewExplanation": "The purchase creates equipment used beyond the current period, so it increases PPE and is an investing cash flow."
+      "reviewExplanation": "The purchase creates equipment used beyond the current period, so it increases PPE and is an investing cash flow.",
+      "templateDecisionId": "D028",
+      "answerStatus": "resolved"
     },
     {
       "id": "D029",
@@ -558,7 +622,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Loan principal and financing cash inflow +€50,000; no revenue.",
-      "reviewExplanation": "Borrowed principal changes debt and financing cash, not earned revenue or operating expense."
+      "reviewExplanation": "Borrowed principal changes debt and financing cash, not earned revenue or operating expense.",
+      "templateDecisionId": "D029",
+      "answerStatus": "resolved"
     },
     {
       "id": "D030",
@@ -577,7 +643,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Loan principal and financing cash outflow -€19,000; no expense.",
-      "reviewExplanation": "Borrowed principal changes debt and financing cash, not earned revenue or operating expense."
+      "reviewExplanation": "Borrowed principal changes debt and financing cash, not earned revenue or operating expense.",
+      "templateDecisionId": "D030",
+      "answerStatus": "resolved"
     },
     {
       "id": "D031",
@@ -598,7 +666,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Interest expense €12,000, interest cash €10,000 and closing accrual €2,000.",
-      "reviewExplanation": "Borrowed principal changes debt and financing cash, not earned revenue or operating expense."
+      "reviewExplanation": "Borrowed principal changes debt and financing cash, not earned revenue or operating expense.",
+      "templateDecisionId": "D031",
+      "answerStatus": "resolved"
     },
     {
       "id": "D032",
@@ -617,7 +687,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Owner-related cash outflow €70,000; excluded from operating expense.",
-      "reviewExplanation": "The payment benefits the owner rather than ordinary operations; it is excluded from operating profit pending legal classification."
+      "reviewExplanation": "The payment benefits the owner rather than ordinary operations; it is excluded from operating profit pending legal classification.",
+      "templateDecisionId": "D032",
+      "answerStatus": "resolved"
     },
     {
       "id": "D033",
@@ -636,7 +708,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Owner-related cash outflow €40,000; excluded from operating expense.",
-      "reviewExplanation": "The payment benefits the owner rather than ordinary operations; it is excluded from operating profit pending legal classification."
+      "reviewExplanation": "The payment benefits the owner rather than ordinary operations; it is excluded from operating profit pending legal classification.",
+      "templateDecisionId": "D033",
+      "answerStatus": "resolved"
     },
     {
       "id": "D034",
@@ -650,10 +724,13 @@
       ],
       "confidence": "low",
       "workbookDecisionIds": [],
-      "mappingStatus": "unresolved",
-      "mappingNote": "No supported item-level figure is stated; left unresolved to avoid invention.",
+      "mappingStatus": "resolved_with_evidence_gap",
+      "mappingNote": "The D-ID and decision answer are resolved against the official template. A separate month-level payroll or insurance amount is not evidenced; do not invent an amount or add it to the period totals.",
       "reviewExplanation": "No policy amount, payment or coverage period is present in the project files; an extra insurance expense cannot be measured reliably.",
-      "financialStatementImpact": "No incremental insurance line is recognised without an evidenced amount and coverage period."
+      "financialStatementImpact": "No incremental insurance line is recognised without an evidenced amount and coverage period.",
+      "templateDecisionId": "D034",
+      "answerStatus": "resolved_with_evidence_gap",
+      "sourceDetailAvailable": false
     },
     {
       "id": "D035",
@@ -672,7 +749,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Damaged inventory write-down and expense €22,000.",
-      "reviewExplanation": "The stock is physically present but cannot be sold; its €22,000 carrying value must be written down separately from the material-consumption basis difference."
+      "reviewExplanation": "The stock is physically present but cannot be sold; its €22,000 carrying value must be written down separately from the material-consumption basis difference.",
+      "templateDecisionId": "D035",
+      "answerStatus": "resolved"
     },
     {
       "id": "D036",
@@ -692,7 +771,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "R-17 impairment expense €18,000; net receivables lower by €18,000, subject to CRM tie-out.",
-      "reviewExplanation": "The liquidation notice confirms the loss at 31 August and the CRM WEB-NCB comment points to R-17. The customer-level tie-out within the €53,000 gross open balance remains open."
+      "reviewExplanation": "The liquidation notice confirms the loss at 31 August and the CRM WEB-NCB comment points to R-17. The customer-level tie-out within the €53,000 gross open balance remains open.",
+      "templateDecisionId": "D036",
+      "answerStatus": "resolved"
     },
     {
       "id": "D037",
@@ -711,7 +792,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Employee claim expense and provision €25,000.",
-      "reviewExplanation": "External counsel assessed the former employee claim as probable, supporting a €25,000 provision within the stated range."
+      "reviewExplanation": "External counsel assessed the former employee claim as probable, supporting a €25,000 provision within the stated range.",
+      "templateDecisionId": "D037",
+      "answerStatus": "resolved"
     },
     {
       "id": "D038",
@@ -730,7 +813,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Purchases €459,000; supplier cash outflow €378,000; closing payable €126,000; inferred opening payable €45,000.",
-      "reviewExplanation": "The four supplier bank debits total €378,000. Closing payables €126,000 minus purchases €459,000 plus payments €378,000 implies €45,000 opening payables; confirm against the opening ledger."
+      "reviewExplanation": "The four supplier bank debits total €378,000. Closing payables €126,000 minus purchases €459,000 plus payments €378,000 implies €45,000 opening payables; confirm against the opening ledger.",
+      "templateDecisionId": "D038",
+      "answerStatus": "resolved"
     },
     {
       "id": "D039",
@@ -749,7 +834,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Customer cash receipts €899,000, including €90,000 deferred September deposits.",
-      "reviewExplanation": "Recognise delivered or completed work as revenue; distinguish the cash collected from the unpaid receivable."
+      "reviewExplanation": "Recognise delivered or completed work as revenue; distinguish the cash collected from the unpaid receivable.",
+      "templateDecisionId": "D039",
+      "answerStatus": "resolved"
     },
     {
       "id": "D040",
@@ -768,7 +855,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Closing cash €60,000.",
-      "reviewExplanation": "Recognise delivered or completed work as revenue; distinguish the cash collected from the unpaid receivable."
+      "reviewExplanation": "Recognise delivered or completed work as revenue; distinguish the cash collected from the unpaid receivable.",
+      "templateDecisionId": "D040",
+      "answerStatus": "resolved"
     },
     {
       "id": "D041",
@@ -799,7 +888,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "reviewExplanation": "The €60,000 New Beginnings and €30,000 Fresh Freedom receipts relate to September performance. Cash received before 31 August creates a €90,000 contract liability until the events are delivered.",
-      "financialStatementImpact": "September customer advances €90,000 are contract liabilities, not August revenue."
+      "financialStatementImpact": "September customer advances €90,000 are contract liabilities, not August revenue.",
+      "templateDecisionId": "D041",
+      "answerStatus": "resolved"
     },
     {
       "id": "D042",
@@ -829,7 +920,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "reviewExplanation": "The €50,000 bank transfer creates a repayment obligation. It increases cash and loan principal, and cannot be earned revenue.",
-      "financialStatementImpact": "Bank loan and financing cash +€50,000; no revenue."
+      "financialStatementImpact": "Bank loan and financing cash +€50,000; no revenue.",
+      "templateDecisionId": "D042",
+      "answerStatus": "resolved"
     },
     {
       "id": "D043",
@@ -859,7 +952,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "reviewExplanation": "The €60,000 packaging machine is a separately identifiable asset expected to support later production. Add it to PPE; charge depreciation over its supported useful life.",
-      "financialStatementImpact": "Packaging machine adds €60,000 to PPE gross cost and investing cash outflow."
+      "financialStatementImpact": "Packaging machine adds €60,000 to PPE gross cost and investing cash outflow.",
+      "templateDecisionId": "D043",
+      "answerStatus": "resolved"
     },
     {
       "id": "D044",
@@ -889,7 +984,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "reviewExplanation": "The €20,000 photo booth is equipment used beyond this period. Capitalisation follows the invoice and asset schedule; its useful life still needs confirmation.",
-      "financialStatementImpact": "Photo booth adds €20,000 to PPE gross cost and investing cash outflow."
+      "financialStatementImpact": "Photo booth adds €20,000 to PPE gross cost and investing cash outflow.",
+      "templateDecisionId": "D044",
+      "answerStatus": "resolved"
     },
     {
       "id": "D045",
@@ -919,7 +1016,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "reviewExplanation": "The €10,000 belt and calibration restored normal operation without added capacity or life. It is a current repair expense.",
-      "financialStatementImpact": "Repair expense €10,000; no PPE capitalization."
+      "financialStatementImpact": "Repair expense €10,000; no PPE capitalization.",
+      "templateDecisionId": "D045",
+      "answerStatus": "resolved"
     },
     {
       "id": "D046",
@@ -949,7 +1048,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "reviewExplanation": "The €70,000 villa deposit has no evidenced business purpose. Exclude it from marketing and hold it as a provisional owner distribution or recoverable related-party amount pending legal classification.",
-      "financialStatementImpact": "Villa payment €70,000 is owner-related cash outflow, excluded from operating expense."
+      "financialStatementImpact": "Villa payment €70,000 is owner-related cash outflow, excluded from operating expense.",
+      "templateDecisionId": "D046",
+      "answerStatus": "resolved"
     },
     {
       "id": "D047",
@@ -980,7 +1081,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "reviewExplanation": "The villa payment is €70,000 and owner-card spending is €40,000. Together they explain the €110,000 owner-related cash outflow. Neither is normal payroll or an operating expense; the legal form of the balance still needs confirmation.",
-      "financialStatementImpact": "€70,000 villa payment plus €40,000 owner-card payment equals €110,000 owner-related cash outflow; excluded from payroll and operating profit."
+      "financialStatementImpact": "€70,000 villa payment plus €40,000 owner-card payment equals €110,000 owner-related cash outflow; excluded from payroll and operating profit.",
+      "templateDecisionId": "D047",
+      "answerStatus": "resolved"
     },
     {
       "id": "D048",
@@ -1012,7 +1115,9 @@
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "reviewExplanation": "Opening stock €80,000 plus received purchases €459,000 gives €539,000 available. The counted gross closing stock is €143,000, so the selected count-basis consumption is €396,000. The workbook’s €405,000 figure implies gross stock €134,000; the €9,000 difference is shown separately.",
       "finalAnswer": "Selected count basis: materials consumed €396,000 (= €80,000 + €459,000 − €143,000). Workbook €405,000 is an alternative with €9,000 lower stock and profit.",
-      "financialStatementImpact": "Selected material cost €396,000; consumption basis alternative €405,000 changes PBT and inventory by €9,000."
+      "financialStatementImpact": "Selected material cost €396,000; consumption basis alternative €405,000 changes PBT and inventory by €9,000.",
+      "templateDecisionId": "D048",
+      "answerStatus": "resolved"
     },
     {
       "id": "D049",
@@ -1041,7 +1146,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "reviewExplanation": "Event staff worked on delivery of the contracts, so the €80,000 payroll is a direct service cost. It is part of the €248,000 payroll total, not an extra charge.",
-      "financialStatementImpact": "Event-delivery payroll €80,000 is direct cost and reduces gross profit."
+      "financialStatementImpact": "Event-delivery payroll €80,000 is direct cost and reduces gross profit.",
+      "templateDecisionId": "D049",
+      "answerStatus": "resolved"
     },
     {
       "id": "D050",
@@ -1059,7 +1166,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Sales and partnerships payroll operating expense €72,000.",
-      "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense."
+      "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense.",
+      "templateDecisionId": "D050",
+      "answerStatus": "resolved"
     },
     {
       "id": "D051",
@@ -1077,7 +1186,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Office and finance payroll operating expense €96,000.",
-      "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense."
+      "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense.",
+      "templateDecisionId": "D051",
+      "answerStatus": "resolved"
     },
     {
       "id": "D052",
@@ -1095,7 +1206,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Rent operating expense €48,000.",
-      "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset."
+      "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset.",
+      "templateDecisionId": "D052",
+      "answerStatus": "resolved"
     },
     {
       "id": "D053",
@@ -1113,7 +1226,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Marketing operating expense €55,000.",
-      "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset."
+      "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset.",
+      "templateDecisionId": "D053",
+      "answerStatus": "resolved"
     },
     {
       "id": "D054",
@@ -1131,7 +1246,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Software operating expense €16,000.",
-      "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset."
+      "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset.",
+      "templateDecisionId": "D054",
+      "answerStatus": "resolved"
     },
     {
       "id": "D055",
@@ -1149,7 +1266,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Utilities operating expense €12,000.",
-      "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset."
+      "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset.",
+      "templateDecisionId": "D055",
+      "answerStatus": "resolved"
     },
     {
       "id": "D056",
@@ -1179,7 +1298,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "reviewExplanation": "The PPE roll-forward uses €45,000 opening accumulated depreciation plus €24,000 current depreciation to reach €69,000. The amount is provisional until asset lives and acquisition dates are evidenced.",
-      "financialStatementImpact": "Depreciation expense €24,000 increases accumulated depreciation."
+      "financialStatementImpact": "Depreciation expense €24,000 increases accumulated depreciation.",
+      "templateDecisionId": "D056",
+      "answerStatus": "resolved"
     },
     {
       "id": "D057",
@@ -1210,7 +1331,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "reviewExplanation": "External liquidation evidence supports the €18,000 loss. CRM explicitly flags R-17 on WEB-NCB’s €53,000 gross open balance, supporting inclusion in the €186,000 total; the individual balance match still requires the subledger.",
-      "financialStatementImpact": "R-17 impairment expense €18,000 reduces net receivables to €168,000 if included in CRM."
+      "financialStatementImpact": "R-17 impairment expense €18,000 reduces net receivables to €168,000 if included in CRM.",
+      "templateDecisionId": "D057",
+      "answerStatus": "resolved"
     },
     {
       "id": "D058",
@@ -1240,7 +1363,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "reviewExplanation": "The count values gross stock at €143,000 and the independent assessment identifies €22,000 as unsaleable. Selected net stock is therefore €121,000. This write-down is separate from the €9,000 consumption reconciliation.",
-      "financialStatementImpact": "Selected inventory €121,000 = €143,000 count less €22,000 write-down; alternative consumption basis inventory €112,000."
+      "financialStatementImpact": "Selected inventory €121,000 = €143,000 count less €22,000 write-down; alternative consumption basis inventory €112,000.",
+      "templateDecisionId": "D058",
+      "answerStatus": "resolved"
     },
     {
       "id": "D059",
@@ -1270,7 +1395,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "reviewExplanation": "External counsel considers the employee claim probable, with an estimated €20,000–€30,000 range. €25,000 is the midpoint estimate; reassess when settlement evidence improves.",
-      "financialStatementImpact": "Employee claim expense and provision €25,000; disclosed estimate range €20,000–€30,000."
+      "financialStatementImpact": "Employee claim expense and provision €25,000; disclosed estimate range €20,000–€30,000.",
+      "templateDecisionId": "D059",
+      "answerStatus": "resolved"
     },
     {
       "id": "D060",
@@ -1284,10 +1411,13 @@
       ],
       "confidence": "low",
       "workbookDecisionIds": [],
-      "mappingStatus": "unresolved",
-      "mappingNote": "No supported item-level figure is stated; left unresolved to avoid invention.",
+      "mappingStatus": "resolved_with_evidence_gap",
+      "mappingNote": "The D-ID and decision answer are resolved against the official template. A separate month-level payroll or insurance amount is not evidenced; do not invent an amount or add it to the period totals.",
       "reviewExplanation": "No policy amount, payment or coverage period is present in the project files; an extra insurance expense cannot be measured reliably.",
-      "financialStatementImpact": "No incremental insurance line is recognised without an evidenced amount and coverage period."
+      "financialStatementImpact": "No incremental insurance line is recognised without an evidenced amount and coverage period.",
+      "templateDecisionId": "D060",
+      "answerStatus": "resolved_with_evidence_gap",
+      "sourceDetailAvailable": false
     },
     {
       "id": "D061",
@@ -1306,7 +1436,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Closing interest payable €2,000.",
-      "reviewExplanation": "Borrowed principal changes debt and financing cash, not earned revenue or operating expense."
+      "reviewExplanation": "Borrowed principal changes debt and financing cash, not earned revenue or operating expense.",
+      "templateDecisionId": "D061",
+      "answerStatus": "resolved"
     },
     {
       "id": "D062",
@@ -1325,7 +1457,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Closing payroll payable €32,000.",
-      "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense."
+      "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense.",
+      "templateDecisionId": "D062",
+      "answerStatus": "resolved"
     },
     {
       "id": "D063",
@@ -1343,7 +1477,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Closing supplier payables €126,000.",
-      "reviewExplanation": "Recognise goods received in purchases and carry the unpaid invoice balance as a supplier payable."
+      "reviewExplanation": "Recognise goods received in purchases and carry the unpaid invoice balance as a supplier payable.",
+      "templateDecisionId": "D063",
+      "answerStatus": "resolved"
     },
     {
       "id": "D064",
@@ -1374,7 +1510,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "reviewExplanation": "NorthStar’s €180,000 contract was delivered by 31 August. Recognise the earned amount, while matching the N STAR receipt to the same customer to prevent duplicate revenue.",
-      "financialStatementImpact": "NorthStar delivered revenue €180,000."
+      "financialStatementImpact": "NorthStar delivered revenue €180,000.",
+      "templateDecisionId": "D064",
+      "answerStatus": "resolved"
     },
     {
       "id": "D065",
@@ -1405,7 +1543,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "reviewExplanation": "Freedom’s €200,000 contract was delivered. The €142,000 receipt settles part of that sale, leaving €58,000 due; the receipt does not set the revenue amount.",
-      "financialStatementImpact": "Freedom delivered revenue €200,000."
+      "financialStatementImpact": "Freedom delivered revenue €200,000.",
+      "templateDecisionId": "D065",
+      "answerStatus": "resolved"
     },
     {
       "id": "D066",
@@ -1436,7 +1576,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "reviewExplanation": "Phoenix’s event was completed by the reporting date. Recognise €100,000 revenue; €70,000 cash received leaves €30,000 receivable.",
-      "financialStatementImpact": "Phoenix completed-event revenue €100,000."
+      "financialStatementImpact": "Phoenix completed-event revenue €100,000.",
+      "templateDecisionId": "D066",
+      "answerStatus": "resolved"
     },
     {
       "id": "D067",
@@ -1467,7 +1609,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "reviewExplanation": "Liberty’s €120,000 order was delivered. Recognise the full sale and carry €25,000 receivable after the €95,000 receipt.",
-      "financialStatementImpact": "Liberty delivered revenue €120,000."
+      "financialStatementImpact": "Liberty delivered revenue €120,000.",
+      "templateDecisionId": "D067",
+      "answerStatus": "resolved"
     },
     {
       "id": "D068",
@@ -1499,7 +1643,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "reviewExplanation": "The two September events total €90,000 and remained undelivered at 31 August. Record their advance cash as contract liabilities, consistent with D041.",
-      "financialStatementImpact": "Undelivered September deposits €90,000 remain contract liabilities."
+      "financialStatementImpact": "Undelivered September deposits €90,000 remain contract liabilities.",
+      "templateDecisionId": "D068",
+      "answerStatus": "resolved"
     },
     {
       "id": "D069",
@@ -1518,7 +1664,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Financing cash outflow €19,000 and loan principal reduction €19,000.",
-      "reviewExplanation": "Borrowed principal changes debt and financing cash, not earned revenue or operating expense."
+      "reviewExplanation": "Borrowed principal changes debt and financing cash, not earned revenue or operating expense.",
+      "templateDecisionId": "D069",
+      "answerStatus": "resolved"
     },
     {
       "id": "D070",
@@ -1537,7 +1685,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Investing cash outflow and PPE gross additions €80,000.",
-      "reviewExplanation": "The purchase creates equipment used beyond the current period, so it increases PPE and is an investing cash flow."
+      "reviewExplanation": "The purchase creates equipment used beyond the current period, so it increases PPE and is an investing cash flow.",
+      "templateDecisionId": "D070",
+      "answerStatus": "resolved"
     },
     {
       "id": "D071",
@@ -1569,7 +1719,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "reviewExplanation": "External liquidation evidence supports the €18,000 loss. CRM explicitly flags R-17 on WEB-NCB’s €53,000 gross open balance, supporting inclusion in the €186,000 total; the individual balance match still requires the subledger.",
-      "financialStatementImpact": "R-17 impairment expense €18,000 and corresponding receivable reduction, subject to CRM tie-out."
+      "financialStatementImpact": "R-17 impairment expense €18,000 and corresponding receivable reduction, subject to CRM tie-out.",
+      "templateDecisionId": "D071",
+      "answerStatus": "resolved"
     },
     {
       "id": "D072",
@@ -1600,7 +1752,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "reviewExplanation": "The independent stock assessment supports a €22,000 loss on physically present but unsaleable goods. Deduct this once from the €143,000 count; do not also include it in the €396,000 consumed amount.",
-      "financialStatementImpact": "Damaged-stock expense and inventory write-down €22,000."
+      "financialStatementImpact": "Damaged-stock expense and inventory write-down €22,000.",
+      "templateDecisionId": "D072",
+      "answerStatus": "resolved"
     },
     {
       "id": "D073",
@@ -1630,7 +1784,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "reviewExplanation": "The former employee claim is probable according to external counsel. The €25,000 midpoint of the €20,000–€30,000 estimate is a reasonable provision subject to updated legal advice.",
-      "financialStatementImpact": "Employee claim expense and provision €25,000."
+      "financialStatementImpact": "Employee claim expense and provision €25,000.",
+      "templateDecisionId": "D073",
+      "answerStatus": "resolved"
     },
     {
       "id": "D074",
@@ -1660,7 +1816,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "reviewExplanation": "Current depreciation of €24,000 makes accumulated depreciation €69,000 and net PPE €191,000 from €260,000 gross cost. This is an estimate because a dated useful-life register is missing.",
-      "financialStatementImpact": "Period depreciation expense €24,000 and accumulated depreciation increase €24,000."
+      "financialStatementImpact": "Period depreciation expense €24,000 and accumulated depreciation increase €24,000.",
+      "templateDecisionId": "D074",
+      "answerStatus": "resolved"
     },
     {
       "id": "D075",
@@ -1691,7 +1849,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "reviewExplanation": "Use the observed count: €143,000 gross less €22,000 damaged-stock write-down equals €121,000 net. The selected €396,000 material consumption closes the same roll-forward without changing opening equity.",
-      "financialStatementImpact": "Selected inventory €121,000 = €143,000 count less €22,000 write-down; alternative consumption basis inventory €112,000."
+      "financialStatementImpact": "Selected inventory €121,000 = €143,000 count less €22,000 write-down; alternative consumption basis inventory €112,000.",
+      "templateDecisionId": "D075",
+      "answerStatus": "resolved"
     },
     {
       "id": "D076",
@@ -1713,7 +1873,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Gross receivables €186,000 less R-17 impairment €18,000 = €168,000 net.",
-      "reviewExplanation": "Delivered revenue €960,000 less €774,000 receipts on current sales leaves €186,000 gross. CRM points to R-17 within WEB-NCB open receivables; deduct €18,000 once, subject to customer-level tie-out."
+      "reviewExplanation": "Delivered revenue €960,000 less €774,000 receipts on current sales leaves €186,000 gross. CRM points to R-17 within WEB-NCB open receivables; deduct €18,000 once, subject to customer-level tie-out.",
+      "templateDecisionId": "D076",
+      "answerStatus": "resolved"
     },
     {
       "id": "D077",
@@ -1733,7 +1895,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Repair expense €10,000; no PPE addition.",
-      "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset."
+      "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset.",
+      "templateDecisionId": "D077",
+      "answerStatus": "resolved"
     },
     {
       "id": "D078",
@@ -1747,10 +1911,13 @@
       ],
       "confidence": "low",
       "workbookDecisionIds": [],
-      "mappingStatus": "unresolved",
-      "mappingNote": "No supported item-level figure is stated; left unresolved to avoid invention.",
+      "mappingStatus": "resolved_with_evidence_gap",
+      "mappingNote": "The D-ID and decision answer are resolved against the official template. A separate month-level payroll or insurance amount is not evidenced; do not invent an amount or add it to the period totals.",
       "reviewExplanation": "No policy amount, payment or coverage period is present in the project files; an extra insurance expense cannot be measured reliably.",
-      "financialStatementImpact": "No incremental insurance line is recognised without an evidenced amount and coverage period."
+      "financialStatementImpact": "No incremental insurance line is recognised without an evidenced amount and coverage period.",
+      "templateDecisionId": "D078",
+      "answerStatus": "resolved_with_evidence_gap",
+      "sourceDetailAvailable": false
     },
     {
       "id": "D079",
@@ -1770,7 +1937,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Interest expense €12,000 less paid €10,000 = €2,000 payable.",
-      "reviewExplanation": "Borrowed principal changes debt and financing cash, not earned revenue or operating expense."
+      "reviewExplanation": "Borrowed principal changes debt and financing cash, not earned revenue or operating expense.",
+      "templateDecisionId": "D079",
+      "answerStatus": "resolved"
     },
     {
       "id": "D080",
@@ -1790,7 +1959,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Opening payroll payable €15,000 + €248,000 expense - €231,000 paid = €32,000 closing payable.",
-      "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense."
+      "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense.",
+      "templateDecisionId": "D080",
+      "answerStatus": "resolved"
     },
     {
       "id": "D081",
@@ -1811,7 +1982,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Contract liabilities €90,000; no August revenue.",
-      "reviewExplanation": "Delivery falls after the reporting date, so the receipt remains a contract liability at 31 August."
+      "reviewExplanation": "Delivery falls after the reporting date, so the receipt remains a contract liability at 31 August.",
+      "templateDecisionId": "D081",
+      "answerStatus": "resolved"
     },
     {
       "id": "D082",
@@ -1830,7 +2003,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Gross PPE €260,000 less accumulated depreciation €69,000 = €191,000 net PPE.",
-      "reviewExplanation": "The purchase creates equipment used beyond the current period, so it increases PPE and is an investing cash flow."
+      "reviewExplanation": "The purchase creates equipment used beyond the current period, so it increases PPE and is an investing cash flow.",
+      "templateDecisionId": "D082",
+      "answerStatus": "resolved"
     },
     {
       "id": "D083",
@@ -1850,7 +2025,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Accumulated depreciation €69,000 = €45,000 opening + €24,000 period charge.",
-      "reviewExplanation": "The purchase creates equipment used beyond the current period, so it increases PPE and is an investing cash flow."
+      "reviewExplanation": "The purchase creates equipment used beyond the current period, so it increases PPE and is an investing cash flow.",
+      "templateDecisionId": "D083",
+      "answerStatus": "resolved"
     },
     {
       "id": "D084",
@@ -1869,7 +2046,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Supplier payables €126,000 across Box, Glass, Print and Event.",
-      "reviewExplanation": "Recognise goods received in purchases and carry the unpaid invoice balance as a supplier payable."
+      "reviewExplanation": "Recognise goods received in purchases and carry the unpaid invoice balance as a supplier payable.",
+      "templateDecisionId": "D084",
+      "answerStatus": "resolved"
     },
     {
       "id": "D085",
@@ -1889,7 +2068,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Closing loan principal €131,000 = €100,000 opening + €50,000 advance - €19,000 repayment.",
-      "reviewExplanation": "Borrowed principal changes debt and financing cash, not earned revenue or operating expense."
+      "reviewExplanation": "Borrowed principal changes debt and financing cash, not earned revenue or operating expense.",
+      "templateDecisionId": "D085",
+      "answerStatus": "resolved"
     },
     {
       "id": "D086",
@@ -1912,7 +2093,9 @@
       "finalAnswer": "Selected count basis: materials consumed €396,000 (= €80,000 + €459,000 − €143,000). Workbook €405,000 is an alternative with €9,000 lower stock and profit.",
       "financialStatementImpact": "Selected material cost €396,000; consumption basis alternative €405,000 changes PBT and inventory by €9,000.",
       "changedFromAI": true,
-      "reviewExplanation": "The gross count of €143,000 closes opening €80,000 plus purchases €459,000 at €396,000 consumption; €405,000 consumption is a distinct €9,000 sensitivity."
+      "reviewExplanation": "The gross count of €143,000 closes opening €80,000 plus purchases €459,000 at €396,000 consumption; €405,000 consumption is a distinct €9,000 sensitivity.",
+      "templateDecisionId": "D086",
+      "answerStatus": "resolved"
     },
     {
       "id": "D087",
@@ -1931,7 +2114,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Direct event-delivery payroll €80,000 reduces gross profit.",
-      "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense."
+      "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense.",
+      "templateDecisionId": "D087",
+      "answerStatus": "resolved"
     },
     {
       "id": "D088",
@@ -1951,7 +2136,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Owner-related financing cash outflow €110,000; provisional equity or related-party classification.",
-      "reviewExplanation": "The payment benefits the owner rather than ordinary operations; it is excluded from operating profit pending legal classification."
+      "reviewExplanation": "The payment benefits the owner rather than ordinary operations; it is excluded from operating profit pending legal classification.",
+      "templateDecisionId": "D088",
+      "answerStatus": "resolved"
     },
     {
       "id": "D089",
@@ -1973,7 +2160,9 @@
       "finalAnswer": "Selected count-basis PBT €74,000 excludes the unsupported €2,000 disposal provision. If a present obligation is evidenced, PBT is €72,000. Consumption-basis PBT is €65,000 without that provision (€63,000 with it).",
       "financialStatementImpact": "Inventory basis changes PBT and net inventory by €9,000; disposal recognition changes PBT and liabilities by €2,000.",
       "changedFromAI": true,
-      "reviewExplanation": "The selected P&L totals €74,000 before tax; using €405,000 consumption lowers it to €65,000, and a proven disposal obligation would reduce either case by €2,000."
+      "reviewExplanation": "The selected P&L totals €74,000 before tax; using €405,000 consumption lowers it to €65,000, and a proven disposal obligation would reduce either case by €2,000.",
+      "templateDecisionId": "D089",
+      "answerStatus": "resolved"
     },
     {
       "id": "D090",
@@ -1993,7 +2182,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Closing cash €60,000 = €80,000 opening - €20,000 net movement.",
-      "reviewExplanation": "Recognise delivered or completed work as revenue; distinguish the cash collected from the unpaid receivable."
+      "reviewExplanation": "Recognise delivered or completed work as revenue; distinguish the cash collected from the unpaid receivable.",
+      "templateDecisionId": "D090",
+      "answerStatus": "resolved"
     },
     {
       "id": "D091",
@@ -2022,7 +2213,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "reviewExplanation": "The statements reconcile on the selected count basis, but inventory movements, payroll, R-17 and owner classification retain evidence caveats. Approval should disclose these explicitly before valuation.",
-      "financialStatementImpact": "Governance recommendation; no new accounting entry until student sign-off."
+      "financialStatementImpact": "Governance recommendation; no new accounting entry until student sign-off.",
+      "templateDecisionId": "D091",
+      "answerStatus": "resolved"
     },
     {
       "id": "D092",
@@ -2042,7 +2235,9 @@
       "mappingStatus": "derived",
       "mappingNote": "Derived board/control recommendation; no exact counterpart exists in the workbook.",
       "financialStatementImpact": "Access-control recommendation; no current-period accounting entry.",
-      "reviewExplanation": "This is a governance action; it changes the recommended control response, not the current accounting balances."
+      "reviewExplanation": "This is a governance action; it changes the recommended control response, not the current accounting balances.",
+      "templateDecisionId": "D092",
+      "answerStatus": "resolved"
     },
     {
       "id": "D093",
@@ -2063,7 +2258,9 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "financialStatementImpact": "Contract liabilities +€90,000 and current-period revenue excludes these deposits.",
-      "reviewExplanation": "Delivery falls after the reporting date, so the receipt remains a contract liability at 31 August."
+      "reviewExplanation": "Delivery falls after the reporting date, so the receipt remains a contract liability at 31 August.",
+      "templateDecisionId": "D093",
+      "answerStatus": "resolved"
     },
     {
       "id": "D094",
@@ -2082,7 +2279,9 @@
       "mappingStatus": "derived",
       "mappingNote": "Derived board/control recommendation; no exact counterpart exists in the workbook.",
       "financialStatementImpact": "Forecast-control recommendation; no current-period accounting entry.",
-      "reviewExplanation": "This is a governance action; it changes the recommended control response, not the current accounting balances."
+      "reviewExplanation": "This is a governance action; it changes the recommended control response, not the current accounting balances.",
+      "templateDecisionId": "D094",
+      "answerStatus": "resolved"
     },
     {
       "id": "D095",
@@ -2101,7 +2300,9 @@
       "mappingStatus": "derived",
       "mappingNote": "Derived board/control recommendation; no exact counterpart exists in the workbook.",
       "financialStatementImpact": "Credit-control recommendation; no new impairment beyond supported R-17 amount.",
-      "reviewExplanation": "This is a governance action; it changes the recommended control response, not the current accounting balances."
+      "reviewExplanation": "This is a governance action; it changes the recommended control response, not the current accounting balances.",
+      "templateDecisionId": "D095",
+      "answerStatus": "resolved"
     },
     {
       "id": "D096",
@@ -2123,7 +2324,9 @@
       "finalAnswer": "Arrange disposal of damaged stock. Do not recognise the quoted €2,000 cost at 31 August unless an existing legal or constructive obligation is evidenced; recognise the cost when incurred otherwise.",
       "reviewExplanation": "The quote gives a reliable cost estimate, but the supplied record does not show a disposal law, order or commitment creating a present obligation at 31 August. The selected accounts therefore omit a provision and disclose a €2,000 sensitivity.",
       "changedFromAI": true,
-      "financialStatementImpact": "Selected provision €0; if a present obligation is proven, liability and expense rise €2,000 and PBT/equity fall €2,000."
+      "financialStatementImpact": "Selected provision €0; if a present obligation is proven, liability and expense rise €2,000 and PBT/equity fall €2,000.",
+      "templateDecisionId": "D096",
+      "answerStatus": "resolved"
     },
     {
       "id": "D097",
@@ -2144,7 +2347,9 @@
       "mappingStatus": "derived",
       "mappingNote": "Derived board/control recommendation; no exact counterpart exists in the workbook.",
       "financialStatementImpact": "Investigation recommendation; reject unsupported €312,000 management profit.",
-      "reviewExplanation": "This is a governance action; it changes the recommended control response, not the current accounting balances."
+      "reviewExplanation": "This is a governance action; it changes the recommended control response, not the current accounting balances.",
+      "templateDecisionId": "D097",
+      "answerStatus": "resolved"
     },
     {
       "id": "D098",
@@ -2163,7 +2368,9 @@
       "mappingStatus": "derived",
       "mappingNote": "Derived board/control recommendation; no exact counterpart exists in the workbook.",
       "financialStatementImpact": "Supplier-management recommendation concerning €126,000 closing payables; no new adjustment.",
-      "reviewExplanation": "This is a governance action; it changes the recommended control response, not the current accounting balances."
+      "reviewExplanation": "This is a governance action; it changes the recommended control response, not the current accounting balances.",
+      "templateDecisionId": "D098",
+      "answerStatus": "resolved"
     },
     {
       "id": "D099",
@@ -2184,7 +2391,9 @@
       "mappingStatus": "derived",
       "mappingNote": "Derived board/control recommendation; no exact counterpart exists in the workbook.",
       "financialStatementImpact": "Operating recommendation grounded in delivered sales; no new accounting entry.",
-      "reviewExplanation": "This is a governance action; it changes the recommended control response, not the current accounting balances."
+      "reviewExplanation": "This is a governance action; it changes the recommended control response, not the current accounting balances.",
+      "templateDecisionId": "D099",
+      "answerStatus": "resolved"
     },
     {
       "id": "D100",
@@ -2211,11 +2420,13 @@
       "workbookDecisionIds": [
         "O-072"
       ],
-      "mappingStatus": "schema-mismatch",
-      "mappingNote": "Template makes this a material judgment, while the workbook records the rejection as operational O-072.",
+      "mappingStatus": "derived",
+      "mappingNote": "The official template classifies D100 as material judgment. The supporting workbook rejection appears as operational O-072; retain that crosswalk and the template tier.",
       "reviewExplanation": "Management’s €312,000 profit is unsupported by the reconstructed schedules. The selected count basis produces €74,000 PBT; the source consumption basis lowers it by €9,000. The €2,000 disposal quote is a separate conditional adjustment because no present obligation is evidenced.",
       "finalAnswer": "Reject management’s unsupported €312,000 profit as an earn-out basis. Selected count-basis PBT is €74,000; the €405,000 consumption alternative gives €65,000. If a present €2,000 disposal obligation is proven, those figures become €72,000 and €63,000.",
-      "financialStatementImpact": "Reject €312,000 management profit for earn-out; count and consumption bases differ by €9,000, with a separate €2,000 disposal sensitivity."
+      "financialStatementImpact": "Reject €312,000 management profit for earn-out; count and consumption bases differ by €9,000, with a separate €2,000 disposal sensitivity.",
+      "templateDecisionId": "D100",
+      "answerStatus": "resolved"
     }
   ],
   "schedules": {
