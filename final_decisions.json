@@ -178,7 +178,7 @@
       "category": "evidence_matching",
       "reviewTier": "operational",
       "question": "Resolve the source and treatment of Never Call Back web receipts.",
-      "answer": "Never Call Back web receipts: include EUR 37,000 matched receipts; revenue line is EUR 90,000, subject to R-17 tie-out.",
+      "answer": "WEB-NCB: recognise €90,000 delivered revenue, €37,000 matched cash and €53,000 gross receivable. CRM points to R-17; verify the €18,000 subledger component before treating the impairment as included.",
       "evidence": [
         "03 CRM Export Cleaned FINAL.xlsx",
         "02 Bank Export August.csv"
@@ -194,13 +194,13 @@
       "agent1Position": "Include web NCB",
       "agent2Position": "Include",
       "evidenceReliability": "high",
-      "finalAnswer": "Never Call Back web receipts: include EUR 37,000 matched receipts; revenue line is EUR 90,000, subject to R-17 tie-out.",
+      "finalAnswer": "WEB-NCB: recognise €90,000 delivered revenue, €37,000 matched cash and €53,000 gross receivable. CRM points to R-17; verify the €18,000 subledger component before treating the impairment as included.",
       "financialStatementImpact": "Revenue €90,000; €37,000 cash and €53,000 receivable before R-17 impairment.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
       },
-      "reviewExplanation": "Recognise delivered or completed work as revenue; distinguish the cash collected from the unpaid receivable."
+      "reviewExplanation": "The CRM comment on the €53,000 WEB-NCB open balance refers to R-17. That is positive linkage evidence, while the individual €18,000 account must still be matched to the gross balance."
     },
     {
       "id": "D008",
@@ -265,7 +265,7 @@
       "category": "evidence_matching",
       "reviewTier": "operational",
       "question": "Resolve the source and treatment of Box supplier payment.",
-      "answer": "Box supplier payment/purchase: EUR 130,000 received; EUR 25,000 unpaid.",
+      "answer": "Box: €130,000 goods received, €105,000 bank payment and €25,000 closing payable. Implied opening payable €0 if the movement set is complete; verify opening ledger.",
       "evidence": [
         "06 Purchases Invoices and Goods Received.pdf",
         "02 Bank Export August.csv"
@@ -281,20 +281,20 @@
       "agent1Position": "Purchases EUR 459,000",
       "agent2Position": "No separate position",
       "evidenceReliability": "high",
-      "finalAnswer": "Box supplier payment/purchase: EUR 130,000 received; EUR 25,000 unpaid.",
-      "financialStatementImpact": "Received purchases €130,000; closing Box payable €25,000.",
+      "finalAnswer": "Box: €130,000 goods received, €105,000 bank payment and €25,000 closing payable. Implied opening payable €0 if the movement set is complete; verify opening ledger.",
+      "financialStatementImpact": "Purchases €130,000; supplier cash outflow €105,000; closing payable €25,000; inferred opening payable €0.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
       },
-      "reviewExplanation": "Recognise goods received in purchases and carry the unpaid invoice balance as a supplier payable."
+      "reviewExplanation": "Bank supplier payment and goods-received invoice are separate evidence. Opening payable = closing €25,000 - purchases €130,000 + cash paid €105,000 = €0; the opening ledger is still needed."
     },
     {
       "id": "D011",
       "category": "evidence_matching",
       "reviewTier": "operational",
       "question": "Resolve the source and treatment of Glass supplier payment.",
-      "answer": "Glass supplier payment/purchase: EUR 120,000 received; EUR 28,000 unpaid.",
+      "answer": "Glass: €120,000 goods received, €92,000 bank payment and €28,000 closing payable. Implied opening payable €0 if the movement set is complete; verify opening ledger.",
       "evidence": [
         "06 Purchases Invoices and Goods Received.pdf",
         "02 Bank Export August.csv"
@@ -310,20 +310,20 @@
       "agent1Position": "Purchases EUR 459,000",
       "agent2Position": "No separate position",
       "evidenceReliability": "high",
-      "finalAnswer": "Glass supplier payment/purchase: EUR 120,000 received; EUR 28,000 unpaid.",
-      "financialStatementImpact": "Received purchases €120,000; closing Glass payable €28,000.",
+      "finalAnswer": "Glass: €120,000 goods received, €92,000 bank payment and €28,000 closing payable. Implied opening payable €0 if the movement set is complete; verify opening ledger.",
+      "financialStatementImpact": "Purchases €120,000; supplier cash outflow €92,000; closing payable €28,000; inferred opening payable €0.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
       },
-      "reviewExplanation": "Recognise goods received in purchases and carry the unpaid invoice balance as a supplier payable."
+      "reviewExplanation": "Bank supplier payment and goods-received invoice are separate evidence. Opening payable = closing €28,000 - purchases €120,000 + cash paid €92,000 = €0; the opening ledger is still needed."
     },
     {
       "id": "D012",
       "category": "evidence_matching",
       "reviewTier": "operational",
       "question": "Resolve the source and treatment of Print supplier payment.",
-      "answer": "Print supplier payment/purchase: EUR 95,000 received; EUR 14,000 unpaid.",
+      "answer": "Print: €95,000 goods received, €81,000 bank payment and €14,000 closing payable. Implied opening payable €0 if the movement set is complete; verify opening ledger.",
       "evidence": [
         "06 Purchases Invoices and Goods Received.pdf",
         "02 Bank Export August.csv"
@@ -339,20 +339,20 @@
       "agent1Position": "Purchases EUR 459,000",
       "agent2Position": "No separate position",
       "evidenceReliability": "high",
-      "finalAnswer": "Print supplier payment/purchase: EUR 95,000 received; EUR 14,000 unpaid.",
-      "financialStatementImpact": "Received purchases €95,000; closing Print payable €14,000.",
+      "finalAnswer": "Print: €95,000 goods received, €81,000 bank payment and €14,000 closing payable. Implied opening payable €0 if the movement set is complete; verify opening ledger.",
+      "financialStatementImpact": "Purchases €95,000; supplier cash outflow €81,000; closing payable €14,000; inferred opening payable €0.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
       },
-      "reviewExplanation": "Recognise goods received in purchases and carry the unpaid invoice balance as a supplier payable."
+      "reviewExplanation": "Bank supplier payment and goods-received invoice are separate evidence. Opening payable = closing €14,000 - purchases €95,000 + cash paid €81,000 = €0; the opening ledger is still needed."
     },
     {
       "id": "D013",
       "category": "evidence_matching",
       "reviewTier": "operational",
       "question": "Resolve the source and treatment of Event supplier payment.",
-      "answer": "Event supplier payment/purchase: EUR 114,000 received; EUR 59,000 unpaid.",
+      "answer": "Event: €114,000 goods received, €100,000 bank payment and €59,000 closing payable. Implied opening payable €45,000 if the movement set is complete; verify opening ledger.",
       "evidence": [
         "06 Purchases Invoices and Goods Received.pdf",
         "02 Bank Export August.csv"
@@ -368,13 +368,13 @@
       "agent1Position": "Purchases EUR 459,000",
       "agent2Position": "No separate position",
       "evidenceReliability": "high",
-      "finalAnswer": "Event supplier payment/purchase: EUR 114,000 received; EUR 59,000 unpaid.",
-      "financialStatementImpact": "Received purchases €114,000; closing Event payable €59,000.",
+      "finalAnswer": "Event: €114,000 goods received, €100,000 bank payment and €59,000 closing payable. Implied opening payable €45,000 if the movement set is complete; verify opening ledger.",
+      "financialStatementImpact": "Purchases €114,000; supplier cash outflow €100,000; closing payable €59,000; inferred opening payable €45,000.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
       },
-      "reviewExplanation": "Recognise goods received in purchases and carry the unpaid invoice balance as a supplier payable."
+      "reviewExplanation": "Bank supplier payment and goods-received invoice are separate evidence. Opening payable = closing €59,000 - purchases €114,000 + cash paid €100,000 = €45,000; the opening ledger is still needed."
     },
     {
       "id": "D014",
@@ -973,7 +973,7 @@
       "category": "evidence_matching",
       "reviewTier": "operational",
       "question": "Resolve the source and treatment of Customer insolvency.",
-      "answer": "Customer insolvency: R-17 EUR 18,000 impairment, assuming included in CRM receivables.",
+      "answer": "Recognise €18,000 R-17 impairment. CRM links R-17 to WEB-NCB’s €53,000 gross open balance; confirm the exact €18,000 subledger component.",
       "evidence": [
         "04 Contracts Returns and Angry Customers.pdf",
         "11 Evidence Received After Takeover.pdf",
@@ -989,13 +989,13 @@
       "agent1Position": "R-17 impairment EUR 18,000 after correction",
       "agent2Position": "Same after correction",
       "evidenceReliability": "high",
-      "finalAnswer": "Customer insolvency: R-17 EUR 18,000 impairment, assuming included in CRM receivables.",
+      "finalAnswer": "Recognise €18,000 R-17 impairment. CRM links R-17 to WEB-NCB’s €53,000 gross open balance; confirm the exact €18,000 subledger component.",
       "financialStatementImpact": "R-17 impairment expense €18,000; net receivables lower by €18,000, subject to CRM tie-out.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
       },
-      "reviewExplanation": "The reported insolvency supports an €18,000 impairment if R-17 is included in the gross CRM receivable; the inclusion tie-out remains open."
+      "reviewExplanation": "The liquidation notice confirms the loss at 31 August and the CRM WEB-NCB comment points to R-17. The customer-level tie-out within the €53,000 gross open balance remains open."
     },
     {
       "id": "D037",
@@ -1030,7 +1030,7 @@
       "category": "evidence_matching",
       "reviewTier": "operational",
       "question": "Resolve the source and treatment of Purchase total.",
-      "answer": "Purchase total: EUR 459,000 materials purchased and received; EUR 126,000 unpaid supplier balances.",
+      "answer": "Recognise €459,000 goods received, €378,000 bank-confirmed supplier payments and €126,000 closing supplier payables; the movement implies €45,000 opening payables if complete.",
       "evidence": [
         "06 Purchases Invoices and Goods Received.pdf"
       ],
@@ -1045,13 +1045,13 @@
       "agent1Position": "Purchases EUR 459,000",
       "agent2Position": "No separate position",
       "evidenceReliability": "high",
-      "finalAnswer": "Purchase total: EUR 459,000 materials purchased and received; EUR 126,000 unpaid supplier balances.",
-      "financialStatementImpact": "Received purchases €459,000; supplier payables €126,000.",
+      "finalAnswer": "Recognise €459,000 goods received, €378,000 bank-confirmed supplier payments and €126,000 closing supplier payables; the movement implies €45,000 opening payables if complete.",
+      "financialStatementImpact": "Purchases €459,000; supplier cash outflow €378,000; closing payable €126,000; inferred opening payable €45,000.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
       },
-      "reviewExplanation": "Recognise goods received in purchases and carry the unpaid invoice balance as a supplier payable."
+      "reviewExplanation": "The four supplier bank debits total €378,000. Closing payables €126,000 minus purchases €459,000 plus payments €378,000 implies €45,000 opening payables; confirm against the opening ledger."
     },
     {
       "id": "D039",
@@ -1668,7 +1668,7 @@
       "category": "classification",
       "reviewTier": "material_judgment",
       "question": "Classify Bad receivable.",
-      "answer": "Recognize EUR 18,000 R-17 impairment, pending tie-out that R-17 is included in CRM balance.",
+      "answer": "Recognise €18,000 R-17 impairment against the €186,000 gross receivables. WEB-NCB’s €53,000 open balance points to R-17; verify the exact €18,000 subledger match.",
       "evidence": [
         "04 Contracts Returns and Angry Customers.pdf",
         "03 CRM Export Cleaned FINAL.xlsx",
@@ -1677,7 +1677,7 @@
       "confidence": "medium",
       "aiProposal": "Workbook Agent 1 position(s): M-004. Final working proposal: Recognize EUR 18,000 R-17 impairment, pending tie-out that R-17 is included in CRM balance.",
       "independentChallenge": "Workbook Agent 2 was recorded as agreeing with the reconciled treatment for the mapped judgment(s). No separate challenge text is present in the workbook; the student should confirm this before certification.",
-      "studentReasoning": "R-17 is identified as impaired for €18,000. Deduct it from €186,000 gross receivables only if the CRM balance contains R-17; otherwise the proposed net balance would double count the loss.",
+      "studentReasoning": "External liquidation evidence supports the €18,000 loss. CRM explicitly flags R-17 on WEB-NCB’s €53,000 gross open balance, supporting inclusion in the €186,000 total; the individual balance match still requires the subledger.",
       "statementEffect": {
         "profit": -18000,
         "cash": 0,
@@ -1695,13 +1695,13 @@
       "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
       "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
       "evidenceReliability": "medium",
-      "finalAnswer": "Recognize EUR 18,000 R-17 impairment, pending tie-out that R-17 is included in CRM balance.",
+      "finalAnswer": "Recognise €18,000 R-17 impairment against the €186,000 gross receivables. WEB-NCB’s €53,000 open balance points to R-17; verify the exact €18,000 subledger match.",
       "financialStatementImpact": "R-17 impairment expense €18,000 reduces net receivables to €168,000 if included in CRM.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
       },
-      "reviewExplanation": "R-17 is identified as impaired for €18,000. Deduct it from €186,000 gross receivables only if the CRM balance contains R-17; otherwise the proposed net balance would double count the loss."
+      "reviewExplanation": "External liquidation evidence supports the €18,000 loss. CRM explicitly flags R-17 on WEB-NCB’s €53,000 gross open balance, supporting inclusion in the €186,000 total; the individual balance match still requires the subledger."
     },
     {
       "id": "D058",
@@ -2152,7 +2152,7 @@
       "category": "estimation",
       "reviewTier": "material_judgment",
       "question": "Estimate Closing bad-debt allowance/write-off and document the basis.",
-      "answer": "Use EUR 18,000 bad-debt impairment/write-off, subject to R-17 inclusion tie-out.",
+      "answer": "Recognise €18,000 R-17 impairment against the €186,000 gross receivables. WEB-NCB’s €53,000 open balance points to R-17; verify the exact €18,000 subledger match.",
       "evidence": [
         "04 Contracts Returns and Angry Customers.pdf",
         "03 CRM Export Cleaned FINAL.xlsx",
@@ -2161,7 +2161,7 @@
       "confidence": "medium",
       "aiProposal": "Workbook Agent 1 position(s): M-004, M-023. Final working proposal: Use EUR 18,000 bad-debt impairment/write-off, subject to R-17 inclusion tie-out.",
       "independentChallenge": "Workbook Agent 2 was recorded as agreeing with the reconciled treatment for the mapped judgment(s). No separate challenge text is present in the workbook; the student should confirm this before certification.",
-      "studentReasoning": "The €18,000 R-17 impairment is supported by the customer insolvency evidence. Its balance-sheet effect depends on proving that this account is included in the €186,000 gross CRM receivables.",
+      "studentReasoning": "External liquidation evidence supports the €18,000 loss. CRM explicitly flags R-17 on WEB-NCB’s €53,000 gross open balance, supporting inclusion in the €186,000 total; the individual balance match still requires the subledger.",
       "statementEffect": {
         "profit": -18000,
         "cash": 0,
@@ -2180,13 +2180,13 @@
       "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
       "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
       "evidenceReliability": "medium",
-      "finalAnswer": "Use EUR 18,000 bad-debt impairment/write-off, subject to R-17 inclusion tie-out.",
+      "finalAnswer": "Recognise €18,000 R-17 impairment against the €186,000 gross receivables. WEB-NCB’s €53,000 open balance points to R-17; verify the exact €18,000 subledger match.",
       "financialStatementImpact": "R-17 impairment expense €18,000 and corresponding receivable reduction, subject to CRM tie-out.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
       },
-      "reviewExplanation": "The €18,000 R-17 impairment is supported by the customer insolvency evidence. Its balance-sheet effect depends on proving that this account is included in the €186,000 gross CRM receivables."
+      "reviewExplanation": "External liquidation evidence supports the €18,000 loss. CRM explicitly flags R-17 on WEB-NCB’s €53,000 gross open balance, supporting inclusion in the €186,000 total; the individual balance match still requires the subledger."
     },
     {
       "id": "D072",
@@ -2351,7 +2351,7 @@
       "category": "estimation",
       "reviewTier": "operational",
       "question": "Estimate Closing receivables and document the basis.",
-      "answer": "Use gross receivables EUR 186,000 and net EUR 168,000 after R-17 impairment, assuming R-17 is included in CRM.",
+      "answer": "Present €186,000 gross and €168,000 net receivables after €18,000 R-17 impairment. CRM links R-17 to WEB-NCB’s €53,000 open balance; confirm the subledger match.",
       "evidence": [
         "03 CRM Export Cleaned FINAL.xlsx",
         "04 Contracts Returns and Angry Customers.pdf",
@@ -2369,13 +2369,13 @@
       "agent1Position": "Gross receivables EUR 186,000",
       "agent2Position": "EUR 186,000",
       "evidenceReliability": "high",
-      "finalAnswer": "Use gross receivables EUR 186,000 and net EUR 168,000 after R-17 impairment, assuming R-17 is included in CRM.",
+      "finalAnswer": "Present €186,000 gross and €168,000 net receivables after €18,000 R-17 impairment. CRM links R-17 to WEB-NCB’s €53,000 open balance; confirm the subledger match.",
       "financialStatementImpact": "Gross receivables €186,000 less R-17 impairment €18,000 = €168,000 net.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
       },
-      "reviewExplanation": "Recognise delivered or completed work as revenue; distinguish the cash collected from the unpaid receivable."
+      "reviewExplanation": "Delivered revenue €960,000 less €774,000 receipts on current sales leaves €186,000 gross. CRM points to R-17 within WEB-NCB open receivables; deduct €18,000 once, subject to customer-level tie-out."
     },
     {
       "id": "D077",

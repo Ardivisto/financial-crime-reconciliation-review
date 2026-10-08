@@ -1,25 +1,29 @@
 # Reconciliation review — 8 October 2026
 
-## Selected presentation: count basis
+Twelve locally held case files were checked against the public app and JSON. The source documents and correspondence remain outside the public repository. This report records an assistant review, not a student attestation or an audit.
 
-Opening inventory €80,000 plus received purchases €459,000 gives €539,000 available. The €143,000 gross physical count therefore implies €396,000 materials consumed. The €22,000 damaged-stock write-down leaves €121,000 net inventory. Without an unsupported disposal provision, profit before tax (PBT) is €74,000, assets are €540,000, liabilities are €406,000 and closing equity is €134,000.
+## Selected count basis and inventory conflict
 
-## Alternative: consumption basis
+Opening inventory €80,000 plus received purchases €459,000 gives €539,000 available. The €143,000 gross physical count implies €396,000 consumption. A separate €22,000 write-down leaves €121,000 net stock. Selected profit before tax (PBT) is €74,000, assets €540,000, liabilities €406,000 and closing equity €134,000.
 
-The workbook's €405,000 consumption figure implies €134,000 gross closing inventory and €112,000 net inventory. PBT is €65,000, assets €531,000, liabilities €406,000 and closing equity €125,000. The €9,000 difference changes consumption, inventory, profit and closing equity. Both scenarios use the same inferred opening equity control balance of €170,000; it is not verified legal capital.
+The source's €405,000 consumption figure instead implies €134,000 gross and €112,000 net closing stock. PBT is €65,000, assets €531,000, liabilities €406,000 and equity €125,000. The €9,000 source conflict remains open. Both presentations use the same inferred €170,000 opening equity control; this is not verified legal capital.
 
 ## Disposal cost
 
-The €2,000 quote provides an estimate of removal cost, but no disposal order, legal requirement or constructive commitment is supplied. The selected presentation does **not** accrue it. Under [IAS 37](https://www.ifrs.org/issued-standards/list-of-standards/ias-37-provisions-contingent-liabilities-and-contingent-assets/), a provision requires a present obligation from a past event, probable outflow and reliable estimate. If the obligation is evidenced, selected-basis PBT becomes €72,000, liabilities €408,000 and equity €132,000; the consumption-basis alternative becomes €63,000 PBT, €408,000 liabilities and €123,000 equity. Assets remain €540,000 or €531,000 respectively. Confirm the obligation before final sign-off.
+The €2,000 independent quote estimates removal cost but does not establish a present legal or constructive obligation at 31 August. The selected statements do not accrue it. Under [IAS 37](https://www.ifrs.org/issued-standards/list-of-standards/ias-37-provisions-contingent-liabilities-and-contingent-assets/), a provision requires a present obligation from a past event, probable outflow and reliable estimate. If an obligation is documented, count-basis PBT becomes €72,000, liabilities €408,000 and equity €132,000; consumption-basis PBT becomes €63,000, liabilities €408,000 and equity €123,000. Assets stay €540,000 and €531,000 respectively.
 
-## Cash-payment allocation
+## Revenue, receivables and R-17
 
-Customer receipts of €899,000 comprise €774,000 collected on period sales, €35,000 collected from opening receivables and €90,000 September customer advances. The €760,000 operating cash outflow includes €231,000 payroll cash, €141,000 overhead and repair payments and €10,000 interest cash. The remaining €378,000 is an arithmetic residual for supplier and other operating payments, not a verified supplier total. Purchases of €459,000 less €126,000 closing payables suggest €333,000 current-purchase settlement only if opening payables and other adjustments are nil; the conditional €45,000 difference requires a bank and payable tie-out. This is an open cash-flow source gap, although the €60,000 closing cash roll-forward is arithmetically consistent.
+Delivered/completed revenue is €960,000. Receipts on current-period sales are €774,000, leaving €186,000 gross receivables. The CRM marks WEB-NCB's €53,000 gross open balance with a reference to R-17. The €18,000 insolvency loss is independently supported and is deducted once, producing €168,000 net receivables. The exact €18,000 customer-level match within the €53,000 still requires the subledger. September advances of €90,000 remain contract liabilities.
 
-## Review and outstanding evidence
+## Supplier and cash bridges
 
-All 100 decisions now have a specific review explanation and financial-statement impact; the 25 material-judgment explanations were rewritten individually. D047 now identifies €70,000 for the villa plus €40,000 on the owner card as the €110,000 owner-related total; D100 expressly rejects the unsupported €312,000 management profit as an earn-out basis. All 100 IDs are present and unique. The selected and alternative statements balance, and the shared opening equity control reconciles algebraically.
+Bank supplier debits are Box €105,000, Glass €92,000, Print €81,000 and Event €100,000: **€378,000 confirmed supplier cash payments**. With €231,000 payroll, €141,000 overhead and repairs, and €10,000 interest, they allocate all €760,000 operating cash payments. Customer receipts of €899,000 comprise €774,000 on period sales, €35,000 on opening receivables and €90,000 September advances. The cash roll-forward closes at the bank-confirmed €60,000.
 
-Source-level support remains unavailable here for monthly payroll rows D014–D021 and insurance rows D034, D060 and D078. The CRM inclusion of R-17, the payroll closing ledger, useful-life schedule, owner-payment legal form, inventory movements, disposal obligation and opening equity also need primary evidence. This is an assistant consistency review of the supplied files, not a personal student attestation or an audit of the absent source documents.
+Received purchases total €459,000 and confirmed closing supplier payables total €126,000. Assuming the movements are complete, opening payables are inferred at €45,000: €45,000 + €459,000 − €378,000 = €126,000. The inference is concentrated in Event (€45,000 + €114,000 − €100,000 = €59,000 closing); the other three suppliers imply zero opening balance. Verify this against the opening payable ledger.
 
-The Vercel project was connected to the GitHub repository and production now serves the corrected count-basis presentation. The `/review` page remains a read-only assessor view. A 100-row, single-column CSV is prepared for column I, alongside an ID-indexed audit CSV. No workbook or editable column I destination is present in this workspace, so neither CSV has been entered into a workbook or submitted externally.
+## Review status and submission
+
+All 100 decision IDs and explanations are present, and the two inventory bases and disposal sensitivities balance. The source bundle still has no monthly payroll allocation for D014–D021 or separate insurance amount for D034, D060 and D078; these 11 mappings remain unresolved. The inventory €9,000 conflict, opening payable ledger, R-17 subledger match, owner-payment legal form, depreciation support, disposal obligation and opening equity need further confirmation.
+
+Project artifacts disagree on the student's surname (Vismansi versus Vismanis). The public app and JSON now say **Pending confirmation** and block certification until an imported answer set supplies a confirmed name. The student has not personally approved or certified the homework. Two CSV files contain 100 column I answers in D001–D100 order and an ID-indexed audit view, but no editable destination workbook is present in this repository; no external column I submission has occurred.

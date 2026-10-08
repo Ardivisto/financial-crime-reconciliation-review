@@ -1,7 +1,9 @@
 # Financial Crime Reconciliation Review
 
-Preliminary reconciliation for case DPI-HT-01. The published site reads `submission.json`; `/review` is the read-only assessor view.
+Preliminary assistant reconciliation for case DPI-HT-01. The published site reads `submission.json`; `/review` is the read-only assessor view. Twelve source files were checked locally and are not published in this repository.
 
-Selected count basis: €396,000 materials consumed, €121,000 net inventory, €74,000 profit before tax. Source consumption alternative: €405,000, €112,000 and €65,000. The €9,000 difference is explicit and both use the same inferred €170,000 opening equity control. The €2,000 disposal quote is a sensitivity, not an accrued provision without evidence of a present obligation.
+Selected count basis: €396,000 materials consumed, €121,000 net inventory, €74,000 profit before tax. Source consumption alternative: €405,000, €112,000 and €65,000. The €9,000 source difference remains open; both use the same inferred €170,000 opening equity control. The €2,000 disposal quote is a sensitivity, not an accrued provision without evidence of a present obligation.
 
-`column_I_values.csv` contains the 100 final answers in D001–D100 order for pasting into column I. `column_I_answers.csv` adds IDs, mapping status and caveats for audit. The original workbook and primary source files are absent from this repository; do not present the CSV as externally submitted or the student as personally certified. See `review_report.md` for remaining evidence gaps and cash-payment allocation.
+Bank-confirmed supplier payments are €378,000. Together with €231,000 payroll, €141,000 overhead/repairs and €10,000 interest, they explain €760,000 operating payments. Opening supplier payables of €45,000 are inferred from purchases and confirmed closing balances and require an opening ledger check. The CRM links R-17 to WEB-NCB's €53,000 gross open balance, but the exact €18,000 subledger component remains to be matched.
+
+`column_I_values.csv` contains 100 final answers in D001–D100 order. `column_I_answers.csv` adds IDs and mapping caveats. The editable workbook is not in this repository; the CSVs are not an external submission. The student's surname varies across artifacts, so the app and JSON mark it pending confirmation. Student certification remains unapproved. See `review_report.md` for supporting schedules and open items.
