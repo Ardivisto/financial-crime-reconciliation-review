@@ -6,19 +6,21 @@
     "name": "Ričards Vismanis",
     "nameVerificationStatus": "confirmed_by_user_2026-10-08"
   },
-  "draftStatus": "REVIEWED RECONCILIATION — STUDENT ATTESTATION PENDING",
+  "draftStatus": "SOURCE-RECONCILED AI DRAFT — INDEPENDENT CHALLENGE AND STUDENT ATTESTATION PENDING",
   "mappingNotice": "All D001–D100 answers match the official template. Eleven answers resolve treatment with an explicit source-detail gap: monthly payroll D014–D021 and insurance D034, D060, D078 have no supported separate amount. These figures are not invented or added to period totals.",
   "evidence": [
+    "00 BOARD ORDER READ FIRST.pdf",
+    "01 USE THIS NUMBERS FINAL v9.xlsx",
+    "02 Bank Export August.csv",
+    "03 CRM Export Cleaned FINAL.xlsx",
     "04 Contracts Returns and Angry Customers.pdf",
     "05 Warehouse Count Marta Notes.pdf",
     "06 Purchases Invoices and Goods Received.pdf",
     "07 Payroll Bonuses Contractors NEW.xlsx",
     "08 Assets Repairs Leases Maybe.xlsx",
     "09 Loans Owner Card and Legal Problems.pdf",
-    "03 CRM Export Cleaned FINAL.xlsx",
-    "02 Bank Export August.csv",
-    "11 Evidence Received After Takeover.pdf",
-    "Workbook: Overview, Decision Register, P&L, Cash Flow, Balance Sheet, Schedules, Checks and Uncertainties, Key Assumptions"
+    "10 Email and WhatsApp Dump DO NOT FORWARD.pdf",
+    "11 Evidence Received After Takeover.pdf"
   ],
   "decisions": [
     {
@@ -438,8 +440,8 @@
       "mappingStatus": "resolved_with_evidence_gap",
       "mappingNote": "The template decision is answered: no separate monthly amount can be determined. Payroll sheet rows 4–7 show period totals by department (€248,000 expense; €231,000 paid); bank CSV row 17 is one combined January–August payroll payment of €231,000. Do not divide or repeat the aggregate as a monthly figure.",
       "title": "Resolve the source and treatment of January payroll.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
+      "agent1Position": "Original agent position not supplied in the case files.",
+      "agent2Position": "Original agent position not supplied in the case files.",
       "evidenceReliability": "low",
       "finalAnswer": "January payroll: the project JSON supports €248,000 normal payroll for the period, but no January amount. Retain the aggregate and leave the monthly allocation unverified.",
       "financialStatementImpact": "Included once in the €248,000 period payroll expense; no supported separate monthly P&L amount.",
@@ -475,8 +477,8 @@
       "mappingStatus": "resolved_with_evidence_gap",
       "mappingNote": "The template decision is answered: no separate monthly amount can be determined. Payroll sheet rows 4–7 show period totals by department (€248,000 expense; €231,000 paid); bank CSV row 17 is one combined January–August payroll payment of €231,000. Do not divide or repeat the aggregate as a monthly figure.",
       "title": "Resolve the source and treatment of February payroll.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
+      "agent1Position": "Original agent position not supplied in the case files.",
+      "agent2Position": "Original agent position not supplied in the case files.",
       "evidenceReliability": "low",
       "finalAnswer": "February payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",
       "financialStatementImpact": "Included once in the €248,000 period payroll expense; no supported separate monthly P&L amount.",
@@ -512,8 +514,8 @@
       "mappingStatus": "resolved_with_evidence_gap",
       "mappingNote": "The template decision is answered: no separate monthly amount can be determined. Payroll sheet rows 4–7 show period totals by department (€248,000 expense; €231,000 paid); bank CSV row 17 is one combined January–August payroll payment of €231,000. Do not divide or repeat the aggregate as a monthly figure.",
       "title": "Resolve the source and treatment of March payroll.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
+      "agent1Position": "Original agent position not supplied in the case files.",
+      "agent2Position": "Original agent position not supplied in the case files.",
       "evidenceReliability": "low",
       "finalAnswer": "March payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",
       "financialStatementImpact": "Included once in the €248,000 period payroll expense; no supported separate monthly P&L amount.",
@@ -549,8 +551,8 @@
       "mappingStatus": "resolved_with_evidence_gap",
       "mappingNote": "The template decision is answered: no separate monthly amount can be determined. Payroll sheet rows 4–7 show period totals by department (€248,000 expense; €231,000 paid); bank CSV row 17 is one combined January–August payroll payment of €231,000. Do not divide or repeat the aggregate as a monthly figure.",
       "title": "Resolve the source and treatment of April payroll.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
+      "agent1Position": "Original agent position not supplied in the case files.",
+      "agent2Position": "Original agent position not supplied in the case files.",
       "evidenceReliability": "low",
       "finalAnswer": "April payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",
       "financialStatementImpact": "Included once in the €248,000 period payroll expense; no supported separate monthly P&L amount.",
@@ -586,8 +588,8 @@
       "mappingStatus": "resolved_with_evidence_gap",
       "mappingNote": "The template decision is answered: no separate monthly amount can be determined. Payroll sheet rows 4–7 show period totals by department (€248,000 expense; €231,000 paid); bank CSV row 17 is one combined January–August payroll payment of €231,000. Do not divide or repeat the aggregate as a monthly figure.",
       "title": "Resolve the source and treatment of May payroll.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
+      "agent1Position": "Original agent position not supplied in the case files.",
+      "agent2Position": "Original agent position not supplied in the case files.",
       "evidenceReliability": "low",
       "finalAnswer": "May payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",
       "financialStatementImpact": "Included once in the €248,000 period payroll expense; no supported separate monthly P&L amount.",
@@ -623,8 +625,8 @@
       "mappingStatus": "resolved_with_evidence_gap",
       "mappingNote": "The template decision is answered: no separate monthly amount can be determined. Payroll sheet rows 4–7 show period totals by department (€248,000 expense; €231,000 paid); bank CSV row 17 is one combined January–August payroll payment of €231,000. Do not divide or repeat the aggregate as a monthly figure.",
       "title": "Resolve the source and treatment of June payroll.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
+      "agent1Position": "Original agent position not supplied in the case files.",
+      "agent2Position": "Original agent position not supplied in the case files.",
       "evidenceReliability": "low",
       "finalAnswer": "June payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",
       "financialStatementImpact": "Included once in the €248,000 period payroll expense; no supported separate monthly P&L amount.",
@@ -660,8 +662,8 @@
       "mappingStatus": "resolved_with_evidence_gap",
       "mappingNote": "The template decision is answered: no separate monthly amount can be determined. Payroll sheet rows 4–7 show period totals by department (€248,000 expense; €231,000 paid); bank CSV row 17 is one combined January–August payroll payment of €231,000. Do not divide or repeat the aggregate as a monthly figure.",
       "title": "Resolve the source and treatment of July payroll.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
+      "agent1Position": "Original agent position not supplied in the case files.",
+      "agent2Position": "Original agent position not supplied in the case files.",
       "evidenceReliability": "low",
       "finalAnswer": "July payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",
       "financialStatementImpact": "Included once in the €248,000 period payroll expense; no supported separate monthly P&L amount.",
@@ -697,8 +699,8 @@
       "mappingStatus": "resolved_with_evidence_gap",
       "mappingNote": "The template decision is answered: no separate monthly amount can be determined. Payroll sheet rows 4–7 show period totals by department (€248,000 expense; €231,000 paid); bank CSV row 17 is one combined January–August payroll payment of €231,000. Do not divide or repeat the aggregate as a monthly figure.",
       "title": "Resolve the source and treatment of August payroll.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
+      "agent1Position": "Original agent position not supplied in the case files.",
+      "agent2Position": "Original agent position not supplied in the case files.",
       "evidenceReliability": "low",
       "finalAnswer": "August payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",
       "financialStatementImpact": "Included once in the €248,000 period payroll expense; no supported separate monthly P&L amount.",
@@ -726,8 +728,7 @@
       "question": "Resolve the source and treatment of Rent payments.",
       "answer": "Rent payments: operating expense EUR 48,000.",
       "evidence": [
-        "02 Bank Export August.csv",
-        "Workbook: Schedules"
+        "02 Bank Export August.csv"
       ],
       "confidence": "high",
       "workbookDecisionIds": [
@@ -756,8 +757,7 @@
       "question": "Resolve the source and treatment of Meta and influencer payments.",
       "answer": "Meta/influencer payments: operating expense EUR 55,000 marketing.",
       "evidence": [
-        "02 Bank Export August.csv",
-        "Workbook: Schedules"
+        "02 Bank Export August.csv"
       ],
       "confidence": "high",
       "workbookDecisionIds": [
@@ -786,8 +786,7 @@
       "question": "Resolve the source and treatment of Software payments.",
       "answer": "Software payments: operating expense EUR 16,000.",
       "evidence": [
-        "02 Bank Export August.csv",
-        "Workbook: Schedules"
+        "02 Bank Export August.csv"
       ],
       "confidence": "high",
       "workbookDecisionIds": [
@@ -816,8 +815,7 @@
       "question": "Resolve the source and treatment of Utilities payments.",
       "answer": "Utilities payments: operating expense EUR 12,000.",
       "evidence": [
-        "02 Bank Export August.csv",
-        "Workbook: Schedules"
+        "02 Bank Export August.csv"
       ],
       "confidence": "high",
       "workbookDecisionIds": [
@@ -1097,8 +1095,8 @@
       "mappingStatus": "resolved_with_evidence_gap",
       "mappingNote": "The template decision is answered: an insurance movement or expense cannot be quantified from the supplied records. No insurance-labelled payment, policy, premium invoice, opening prepayment or coverage period was found. Do not add an invented expense; absence of evidence does not establish actual zero expense.",
       "title": "Resolve the source and treatment of Insurance movement.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
+      "agent1Position": "Original agent position not supplied in the case files.",
+      "agent2Position": "Original agent position not supplied in the case files.",
       "evidenceReliability": "low",
       "finalAnswer": "Insurance movement: no separate supported insurance amount is identified; do not invent or add one to the P&L.",
       "financialStatementImpact": "No incremental insurance line is recognised without an evidenced amount and coverage period.",
@@ -1249,7 +1247,7 @@
       "answer": "Cash collections total: customer receipts EUR 899,000 excluding loan advance.",
       "evidence": [
         "02 Bank Export August.csv",
-        "Workbook: Schedules"
+        "03 CRM Export Cleaned FINAL.xlsx"
       ],
       "confidence": "high",
       "workbookDecisionIds": [
@@ -1313,8 +1311,8 @@
         "02 Bank Export August.csv"
       ],
       "confidence": "high",
-      "aiProposal": "Workbook Agent 1 position(s): M-002. Final working proposal: Exclude EUR 90,000 September deposits from revenue; record contract liabilities.",
-      "independentChallenge": "Workbook Agent 2 was recorded as agreeing with the reconciled treatment for the mapped judgment(s). No separate challenge text is present in the workbook; the student should confirm this before certification.",
+      "aiProposal": "AI working proposal; original first-agent output not supplied: Exclude EUR 90,000 September deposits from revenue; record contract liabilities.",
+      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
       "studentReasoning": "The €60,000 New Beginnings and €30,000 Fresh Freedom receipts relate to September performance. Cash received before 31 August creates a €90,000 contract liability until the events are delivered.",
       "statementEffect": {
         "profit": -90000,
@@ -1330,8 +1328,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Classify September customer deposits.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
+      "agent1Position": "Original agent position not supplied in the case files.",
+      "agent2Position": "Original agent position not supplied in the case files.",
       "evidenceReliability": "high",
       "finalAnswer": "Exclude EUR 90,000 September deposits from revenue; record contract liabilities.",
       "financialStatementImpact": "September customer advances €90,000 are contract liabilities, not August revenue.",
@@ -1341,7 +1339,12 @@
       },
       "reviewExplanation": "The €60,000 New Beginnings and €30,000 Fresh Freedom receipts relate to September performance. Cash received before 31 August creates a €90,000 contract liability until the events are delivered.",
       "templateDecisionId": "D041",
-      "answerStatus": "resolved"
+      "answerStatus": "resolved",
+      "firstProposalStatus": "original_not_available",
+      "independentChallengeStatus": "missing",
+      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
     },
     {
       "id": "D042",
@@ -1354,13 +1357,13 @@
         "02 Bank Export August.csv"
       ],
       "confidence": "high",
-      "aiProposal": "Workbook Agent 1 position(s): M-003. Final working proposal: Treat EUR 50,000 new bank borrowing as debt, not income.",
-      "independentChallenge": "Workbook Agent 2 was recorded as agreeing with the reconciled treatment for the mapped judgment(s). No separate challenge text is present in the workbook; the student should confirm this before certification.",
+      "aiProposal": "AI working proposal; original first-agent output not supplied: Treat EUR 50,000 new bank borrowing as debt, not income.",
+      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
       "studentReasoning": "The €50,000 bank transfer creates a repayment obligation. It increases cash and loan principal, and cannot be earned revenue.",
       "statementEffect": {
         "profit": 0,
         "cash": 50000,
-        "assets": 50000,
+        "assets": 0,
         "liabilities": 50000,
         "equity": 0
       },
@@ -1371,8 +1374,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Classify New bank borrowing.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
+      "agent1Position": "Original agent position not supplied in the case files.",
+      "agent2Position": "Original agent position not supplied in the case files.",
       "evidenceReliability": "high",
       "finalAnswer": "Treat EUR 50,000 new bank borrowing as debt, not income.",
       "financialStatementImpact": "Bank loan and financing cash +€50,000; no revenue.",
@@ -1382,7 +1385,12 @@
       },
       "reviewExplanation": "The €50,000 bank transfer creates a repayment obligation. It increases cash and loan principal, and cannot be earned revenue.",
       "templateDecisionId": "D042",
-      "answerStatus": "resolved"
+      "answerStatus": "resolved",
+      "firstProposalStatus": "original_not_available",
+      "independentChallengeStatus": "missing",
+      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
     },
     {
       "id": "D043",
@@ -1395,8 +1403,8 @@
         "06 Purchases Invoices and Goods Received.pdf"
       ],
       "confidence": "high",
-      "aiProposal": "Workbook Agent 1 position(s): M-012. Final working proposal: Capitalize packaging machine EUR 60,000 as PPE.",
-      "independentChallenge": "Workbook Agent 2 was recorded as agreeing with the reconciled treatment for the mapped judgment(s). No separate challenge text is present in the workbook; the student should confirm this before certification.",
+      "aiProposal": "AI working proposal; original first-agent output not supplied: Capitalize packaging machine EUR 60,000 as PPE.",
+      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
       "studentReasoning": "The €60,000 packaging machine is a separately identifiable asset expected to support later production. Add it to PPE; charge depreciation over its supported useful life.",
       "statementEffect": {
         "profit": null,
@@ -1412,8 +1420,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Classify Packaging machine.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
+      "agent1Position": "Original agent position not supplied in the case files.",
+      "agent2Position": "Original agent position not supplied in the case files.",
       "evidenceReliability": "high",
       "finalAnswer": "Capitalize packaging machine EUR 60,000 as PPE.",
       "financialStatementImpact": "Packaging machine adds €60,000 to PPE gross cost and investing cash outflow.",
@@ -1423,7 +1431,12 @@
       },
       "reviewExplanation": "The €60,000 packaging machine is a separately identifiable asset expected to support later production. Add it to PPE; charge depreciation over its supported useful life.",
       "templateDecisionId": "D043",
-      "answerStatus": "resolved"
+      "answerStatus": "resolved",
+      "firstProposalStatus": "original_not_available",
+      "independentChallengeStatus": "missing",
+      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
     },
     {
       "id": "D044",
@@ -1436,8 +1449,8 @@
         "06 Purchases Invoices and Goods Received.pdf"
       ],
       "confidence": "medium",
-      "aiProposal": "Workbook Agent 1 position(s): M-013. Final working proposal: Capitalize photo booth EUR 20,000 as PPE.",
-      "independentChallenge": "Workbook Agent 2 was recorded as agreeing with the reconciled treatment for the mapped judgment(s). No separate challenge text is present in the workbook; the student should confirm this before certification.",
+      "aiProposal": "AI working proposal; original first-agent output not supplied: Capitalize photo booth EUR 20,000 as PPE.",
+      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
       "studentReasoning": "The €20,000 photo booth is equipment used beyond this period. Capitalisation follows the invoice and asset schedule; its useful life still needs confirmation.",
       "statementEffect": {
         "profit": null,
@@ -1453,8 +1466,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Classify Photo booth.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
+      "agent1Position": "Original agent position not supplied in the case files.",
+      "agent2Position": "Original agent position not supplied in the case files.",
       "evidenceReliability": "medium",
       "finalAnswer": "Capitalize photo booth EUR 20,000 as PPE.",
       "financialStatementImpact": "Photo booth adds €20,000 to PPE gross cost and investing cash outflow.",
@@ -1464,7 +1477,12 @@
       },
       "reviewExplanation": "The €20,000 photo booth is equipment used beyond this period. Capitalisation follows the invoice and asset schedule; its useful life still needs confirmation.",
       "templateDecisionId": "D044",
-      "answerStatus": "resolved"
+      "answerStatus": "resolved",
+      "firstProposalStatus": "original_not_available",
+      "independentChallengeStatus": "missing",
+      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
     },
     {
       "id": "D045",
@@ -1477,8 +1495,8 @@
         "06 Purchases Invoices and Goods Received.pdf"
       ],
       "confidence": "high",
-      "aiProposal": "Workbook Agent 1 position(s): M-011. Final working proposal: Expense EUR 10,000 belt/calibration repair; it restores normal output and does not improve the asset.",
-      "independentChallenge": "Workbook Agent 2 was recorded as agreeing with the reconciled treatment for the mapped judgment(s). No separate challenge text is present in the workbook; the student should confirm this before certification.",
+      "aiProposal": "AI working proposal; original first-agent output not supplied: Expense EUR 10,000 belt/calibration repair; it restores normal output and does not improve the asset.",
+      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
       "studentReasoning": "The €10,000 belt and calibration restored normal operation without added capacity or life. It is a current repair expense.",
       "statementEffect": {
         "profit": -10000,
@@ -1494,8 +1512,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Classify Machine belt and calibration.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
+      "agent1Position": "Original agent position not supplied in the case files.",
+      "agent2Position": "Original agent position not supplied in the case files.",
       "evidenceReliability": "high",
       "finalAnswer": "Expense EUR 10,000 belt/calibration repair; it restores normal output and does not improve the asset.",
       "financialStatementImpact": "Repair expense €10,000; no PPE capitalization.",
@@ -1505,7 +1523,12 @@
       },
       "reviewExplanation": "The €10,000 belt and calibration restored normal operation without added capacity or life. It is a current repair expense.",
       "templateDecisionId": "D045",
-      "answerStatus": "resolved"
+      "answerStatus": "resolved",
+      "firstProposalStatus": "original_not_available",
+      "independentChallengeStatus": "missing",
+      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
     },
     {
       "id": "D046",
@@ -1518,8 +1541,8 @@
         "11 Evidence Received After Takeover.pdf"
       ],
       "confidence": "high",
-      "aiProposal": "Workbook Agent 1 position(s): M-017. Final working proposal: Treat EUR 70,000 villa payment as provisional owner withdrawal/distribution or related-party balance, not marketing.",
-      "independentChallenge": "Workbook Agent 2 was recorded as agreeing with the reconciled treatment for the mapped judgment(s). No separate challenge text is present in the workbook; the student should confirm this before certification.",
+      "aiProposal": "AI working proposal; original first-agent output not supplied: Treat EUR 70,000 villa payment as provisional owner withdrawal/distribution or related-party balance, not marketing.",
+      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
       "studentReasoning": "The €70,000 villa deposit has no evidenced business purpose. Exclude it from marketing and hold it as a provisional owner distribution or recoverable related-party amount pending legal classification.",
       "statementEffect": {
         "profit": 0,
@@ -1535,8 +1558,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Classify Owner villa deposit.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
+      "agent1Position": "Original agent position not supplied in the case files.",
+      "agent2Position": "Original agent position not supplied in the case files.",
       "evidenceReliability": "high",
       "finalAnswer": "Treat EUR 70,000 villa payment as provisional owner withdrawal/distribution or related-party balance, not marketing.",
       "financialStatementImpact": "Villa payment €70,000 is owner-related cash outflow, excluded from operating expense.",
@@ -1546,7 +1569,12 @@
       },
       "reviewExplanation": "The €70,000 villa deposit has no evidenced business purpose. Exclude it from marketing and hold it as a provisional owner distribution or recoverable related-party amount pending legal classification.",
       "templateDecisionId": "D046",
-      "answerStatus": "resolved"
+      "answerStatus": "resolved",
+      "firstProposalStatus": "original_not_available",
+      "independentChallengeStatus": "missing",
+      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
     },
     {
       "id": "D047",
@@ -1559,8 +1587,8 @@
         "07 Payroll Bonuses Contractors NEW.xlsx"
       ],
       "confidence": "medium",
-      "aiProposal": "Workbook Agent 1 position(s): M-016, M-018. Final working proposal: Treat EUR 110,000 owner-card payments as provisional owner withdrawal/distribution or related-party balance, not payroll.",
-      "independentChallenge": "Workbook Agent 2 was recorded as agreeing with the reconciled treatment for the mapped judgment(s). No separate challenge text is present in the workbook; the student should confirm this before certification.",
+      "aiProposal": "AI working proposal; original first-agent output not supplied: Treat EUR 110,000 owner-card payments as provisional owner withdrawal/distribution or related-party balance, not payroll.",
+      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
       "studentReasoning": "The villa payment is €70,000 and owner-card spending is €40,000. Together they explain the €110,000 owner-related cash outflow. Neither is normal payroll or an operating expense; the legal form of the balance still needs confirmation.",
       "statementEffect": {
         "profit": 0,
@@ -1577,8 +1605,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Classify Owner card spending.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
+      "agent1Position": "Original agent position not supplied in the case files.",
+      "agent2Position": "Original agent position not supplied in the case files.",
       "evidenceReliability": "medium",
       "finalAnswer": "Treat €110,000 total owner-related payments (€70,000 villa deposit plus €40,000 owner-card spending) as provisional withdrawals/distribution or a related-party balance, not payroll.",
       "financialStatementImpact": "€70,000 villa payment plus €40,000 owner-card payment equals €110,000 owner-related cash outflow; excluded from payroll and operating profit.",
@@ -1588,7 +1616,12 @@
       },
       "reviewExplanation": "The villa payment is €70,000 and owner-card spending is €40,000. Together they explain the €110,000 owner-related cash outflow. Neither is normal payroll or an operating expense; the legal form of the balance still needs confirmation.",
       "templateDecisionId": "D047",
-      "answerStatus": "resolved"
+      "answerStatus": "resolved",
+      "firstProposalStatus": "original_not_available",
+      "independentChallengeStatus": "missing",
+      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
     },
     {
       "id": "D048",
@@ -1598,11 +1631,11 @@
       "answer": "Selected count basis: materials consumed €396,000 (= €80,000 + €459,000 − €143,000). Workbook €405,000 is an alternative with €9,000 lower stock and profit.",
       "evidence": [
         "05 Warehouse Count Marta Notes.pdf",
-        "Workbook: Schedules"
+        "06 Purchases Invoices and Goods Received.pdf"
       ],
       "confidence": "medium",
-      "aiProposal": "Workbook Agent 1 position(s): M-007, M-008. Final working proposal: Use physical materials consumed EUR 405,000; disclose unresolved EUR 9,000 roll-forward gap and do not plug it.",
-      "independentChallenge": "Workbook Agent 2 was recorded as agreeing with the reconciled treatment for the mapped judgment(s). No separate challenge text is present in the workbook; the student should confirm this before certification.",
+      "aiProposal": "AI working proposal; original first-agent output not supplied: Use physical materials consumed EUR 405,000; disclose unresolved EUR 9,000 roll-forward gap and do not plug it.",
+      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
       "studentReasoning": "Opening stock €80,000 plus received purchases €459,000 gives €539,000 available. The counted gross closing stock is €143,000, so the selected count-basis consumption is €396,000. The workbook’s €405,000 figure implies gross stock €134,000; the €9,000 difference is shown separately.",
       "statementEffect": {
         "profit": -396000,
@@ -1619,8 +1652,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Classify Physical product materials consumed.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
+      "agent1Position": "Original agent position not supplied in the case files.",
+      "agent2Position": "Original agent position not supplied in the case files.",
       "evidenceReliability": "medium",
       "finalAnswer": "Selected count basis: materials consumed €396,000 (= €80,000 + €459,000 − €143,000). Workbook €405,000 is an alternative with €9,000 lower stock and profit.",
       "financialStatementImpact": "Selected material cost €396,000; consumption basis alternative €405,000 changes PBT and inventory by €9,000.",
@@ -1630,7 +1663,12 @@
       },
       "reviewExplanation": "Opening stock €80,000 plus received purchases €459,000 gives €539,000 available. The counted gross closing stock is €143,000, so the selected count-basis consumption is €396,000. The workbook’s €405,000 figure implies gross stock €134,000; the €9,000 difference is shown separately.",
       "templateDecisionId": "D048",
-      "answerStatus": "resolved"
+      "answerStatus": "resolved",
+      "firstProposalStatus": "original_not_available",
+      "independentChallengeStatus": "missing",
+      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
     },
     {
       "id": "D049",
@@ -1642,8 +1680,8 @@
         "07 Payroll Bonuses Contractors NEW.xlsx"
       ],
       "confidence": "high",
-      "aiProposal": "Workbook Agent 1 position(s): M-009. Final working proposal: Classify event-delivery payroll EUR 80,000 as direct cost.",
-      "independentChallenge": "Workbook Agent 2 was recorded as agreeing with the reconciled treatment for the mapped judgment(s). No separate challenge text is present in the workbook; the student should confirm this before certification.",
+      "aiProposal": "AI working proposal; original first-agent output not supplied: Classify event-delivery payroll EUR 80,000 as direct cost.",
+      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
       "studentReasoning": "Event staff worked on delivery of the contracts, so the €80,000 payroll is a direct service cost. It is part of the €248,000 payroll total, not an extra charge.",
       "statementEffect": {
         "profit": 0,
@@ -1659,8 +1697,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Classify Event staff payroll.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
+      "agent1Position": "Original agent position not supplied in the case files.",
+      "agent2Position": "Original agent position not supplied in the case files.",
       "evidenceReliability": "high",
       "finalAnswer": "Classify event-delivery payroll EUR 80,000 as direct cost.",
       "financialStatementImpact": "Event-delivery payroll €80,000 is direct cost and reduces gross profit.",
@@ -1670,7 +1708,12 @@
       },
       "reviewExplanation": "Event staff worked on delivery of the contracts, so the €80,000 payroll is a direct service cost. It is part of the €248,000 payroll total, not an extra charge.",
       "templateDecisionId": "D049",
-      "answerStatus": "resolved"
+      "answerStatus": "resolved",
+      "firstProposalStatus": "original_not_available",
+      "independentChallengeStatus": "missing",
+      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
     },
     {
       "id": "D050",
@@ -1853,12 +1896,11 @@
       "question": "Classify Depreciation.",
       "answer": "Use depreciation estimate EUR 24,000; request useful-life support.",
       "evidence": [
-        "08 Assets Repairs Leases Maybe.xlsx",
-        "Workbook: Schedules"
+        "08 Assets Repairs Leases Maybe.xlsx"
       ],
       "confidence": "medium",
-      "aiProposal": "Workbook Agent 1 position(s): M-014. Final working proposal: Use depreciation estimate EUR 24,000; request useful-life support.",
-      "independentChallenge": "Workbook Agent 2 was recorded as agreeing with the reconciled treatment for the mapped judgment(s). No separate challenge text is present in the workbook; the student should confirm this before certification.",
+      "aiProposal": "AI working proposal; original first-agent output not supplied: Use depreciation estimate EUR 24,000; request useful-life support.",
+      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
       "studentReasoning": "The PPE roll-forward uses €45,000 opening accumulated depreciation plus €24,000 current depreciation to reach €69,000. The amount is provisional until asset lives and acquisition dates are evidenced.",
       "statementEffect": {
         "profit": -24000,
@@ -1874,8 +1916,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Classify Depreciation.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
+      "agent1Position": "Original agent position not supplied in the case files.",
+      "agent2Position": "Original agent position not supplied in the case files.",
       "evidenceReliability": "medium",
       "finalAnswer": "Use depreciation estimate EUR 24,000; request useful-life support.",
       "financialStatementImpact": "Depreciation expense €24,000 increases accumulated depreciation.",
@@ -1885,7 +1927,12 @@
       },
       "reviewExplanation": "The PPE roll-forward uses €45,000 opening accumulated depreciation plus €24,000 current depreciation to reach €69,000. The amount is provisional until asset lives and acquisition dates are evidenced.",
       "templateDecisionId": "D056",
-      "answerStatus": "resolved"
+      "answerStatus": "resolved",
+      "firstProposalStatus": "original_not_available",
+      "independentChallengeStatus": "missing",
+      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
     },
     {
       "id": "D057",
@@ -1899,8 +1946,8 @@
         "11 Evidence Received After Takeover.pdf"
       ],
       "confidence": "medium",
-      "aiProposal": "Workbook Agent 1 position(s): M-004. Final working proposal: Recognize EUR 18,000 R-17 impairment, pending tie-out that R-17 is included in CRM balance.",
-      "independentChallenge": "Workbook Agent 2 was recorded as agreeing with the reconciled treatment for the mapped judgment(s). No separate challenge text is present in the workbook; the student should confirm this before certification.",
+      "aiProposal": "AI working proposal; original first-agent output not supplied: Recognize EUR 18,000 R-17 impairment, pending tie-out that R-17 is included in CRM balance.",
+      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
       "studentReasoning": "External liquidation evidence supports the €18,000 loss. CRM explicitly flags R-17 on WEB-NCB’s €53,000 gross open balance, supporting inclusion in the €186,000 total; the individual balance match still requires the subledger.",
       "statementEffect": {
         "profit": -18000,
@@ -1916,8 +1963,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Classify Bad receivable.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
+      "agent1Position": "Original agent position not supplied in the case files.",
+      "agent2Position": "Original agent position not supplied in the case files.",
       "evidenceReliability": "medium",
       "finalAnswer": "Recognise €18,000 R-17 impairment against the €186,000 gross receivables. WEB-NCB’s €53,000 open balance points to R-17; verify the exact €18,000 subledger match.",
       "financialStatementImpact": "R-17 impairment expense €18,000 reduces net receivables to €168,000 if included in CRM.",
@@ -1927,7 +1974,12 @@
       },
       "reviewExplanation": "External liquidation evidence supports the €18,000 loss. CRM explicitly flags R-17 on WEB-NCB’s €53,000 gross open balance, supporting inclusion in the €186,000 total; the individual balance match still requires the subledger.",
       "templateDecisionId": "D057",
-      "answerStatus": "resolved"
+      "answerStatus": "resolved",
+      "firstProposalStatus": "original_not_available",
+      "independentChallengeStatus": "missing",
+      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
     },
     {
       "id": "D058",
@@ -1940,8 +1992,8 @@
         "11 Evidence Received After Takeover.pdf"
       ],
       "confidence": "high",
-      "aiProposal": "Workbook Agent 1 position(s): M-005. Final working proposal: Write down damaged stock EUR 22,000; present saleable inventory EUR 121,000.",
-      "independentChallenge": "Workbook Agent 2 was recorded as agreeing with the reconciled treatment for the mapped judgment(s). No separate challenge text is present in the workbook; the student should confirm this before certification.",
+      "aiProposal": "AI working proposal; original first-agent output not supplied: Write down damaged stock EUR 22,000; present saleable inventory EUR 121,000.",
+      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
       "studentReasoning": "The count values gross stock at €143,000 and the independent assessment identifies €22,000 as unsaleable. Selected net stock is therefore €121,000. This write-down is separate from the €9,000 consumption reconciliation.",
       "statementEffect": {
         "profit": -22000,
@@ -1957,8 +2009,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Classify Damaged stock.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
+      "agent1Position": "Original agent position not supplied in the case files.",
+      "agent2Position": "Original agent position not supplied in the case files.",
       "evidenceReliability": "high",
       "finalAnswer": "Write down damaged stock EUR 22,000; present saleable inventory EUR 121,000.",
       "financialStatementImpact": "Selected inventory €121,000 = €143,000 count less €22,000 write-down; alternative consumption basis inventory €112,000.",
@@ -1968,7 +2020,12 @@
       },
       "reviewExplanation": "The count values gross stock at €143,000 and the independent assessment identifies €22,000 as unsaleable. Selected net stock is therefore €121,000. This write-down is separate from the €9,000 consumption reconciliation.",
       "templateDecisionId": "D058",
-      "answerStatus": "resolved"
+      "answerStatus": "resolved",
+      "firstProposalStatus": "original_not_available",
+      "independentChallengeStatus": "missing",
+      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
     },
     {
       "id": "D059",
@@ -1981,8 +2038,8 @@
         "11 Evidence Received After Takeover.pdf"
       ],
       "confidence": "high",
-      "aiProposal": "Workbook Agent 1 position(s): M-015. Final working proposal: Recognize probable employee claim provision EUR 25,000; disclose EUR 20,000–30,000 range.",
-      "independentChallenge": "Workbook Agent 2 was recorded as agreeing with the reconciled treatment for the mapped judgment(s). No separate challenge text is present in the workbook; the student should confirm this before certification.",
+      "aiProposal": "AI working proposal; original first-agent output not supplied: Recognize probable employee claim provision EUR 25,000; disclose EUR 20,000–30,000 range.",
+      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
       "studentReasoning": "External counsel considers the employee claim probable, with an estimated €20,000–€30,000 range. €25,000 is the midpoint estimate; reassess when settlement evidence improves.",
       "statementEffect": {
         "profit": -25000,
@@ -1998,8 +2055,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Classify Probable legal claim.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
+      "agent1Position": "Original agent position not supplied in the case files.",
+      "agent2Position": "Original agent position not supplied in the case files.",
       "evidenceReliability": "high",
       "finalAnswer": "Recognize probable employee claim provision EUR 25,000; disclose EUR 20,000–30,000 range.",
       "financialStatementImpact": "Employee claim expense and provision €25,000; disclosed estimate range €20,000–€30,000.",
@@ -2009,7 +2066,12 @@
       },
       "reviewExplanation": "External counsel considers the employee claim probable, with an estimated €20,000–€30,000 range. €25,000 is the midpoint estimate; reassess when settlement evidence improves.",
       "templateDecisionId": "D059",
-      "answerStatus": "resolved"
+      "answerStatus": "resolved",
+      "firstProposalStatus": "original_not_available",
+      "independentChallengeStatus": "missing",
+      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
     },
     {
       "id": "D060",
@@ -2027,8 +2089,8 @@
       "mappingStatus": "resolved_with_evidence_gap",
       "mappingNote": "The template decision is answered: an insurance movement or expense cannot be quantified from the supplied records. No insurance-labelled payment, policy, premium invoice, opening prepayment or coverage period was found. Do not add an invented expense; absence of evidence does not establish actual zero expense.",
       "title": "Classify Insurance consumed.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
+      "agent1Position": "Original agent position not supplied in the case files.",
+      "agent2Position": "Original agent position not supplied in the case files.",
       "evidenceReliability": "low",
       "finalAnswer": "No separately supported insurance expense amount is available; do not invent one.",
       "financialStatementImpact": "No incremental insurance line is recognised without an evidenced amount and coverage period.",
@@ -2088,7 +2150,7 @@
       "answer": "Use calculated closing payroll payable EUR 32,000 = 15,000 opening + 248,000 expense - 231,000 cash paid.",
       "evidence": [
         "07 Payroll Bonuses Contractors NEW.xlsx",
-        "Workbook: Schedules"
+        "02 Bank Export August.csv"
       ],
       "confidence": "medium",
       "workbookDecisionIds": [
@@ -2150,8 +2212,8 @@
         "03 CRM Export Cleaned FINAL.xlsx"
       ],
       "confidence": "high",
-      "aiProposal": "Workbook Agent 1 position(s): M-001, O-001. Final working proposal: Recognize NorthStar delivered revenue EUR 180,000.",
-      "independentChallenge": "Workbook Agent 2 was recorded as agreeing with the reconciled treatment for the mapped judgment(s). No separate challenge text is present in the workbook; the student should confirm this before certification.",
+      "aiProposal": "AI working proposal; original first-agent output not supplied: Recognize NorthStar delivered revenue EUR 180,000.",
+      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
       "studentReasoning": "NorthStar’s €180,000 contract was delivered by 31 August. Recognise the earned amount, while matching the N STAR receipt to the same customer to prevent duplicate revenue.",
       "statementEffect": {
         "profit": 180000,
@@ -2179,7 +2241,12 @@
       },
       "reviewExplanation": "NorthStar’s €180,000 contract was delivered by 31 August. Recognise the earned amount, while matching the N STAR receipt to the same customer to prevent duplicate revenue.",
       "templateDecisionId": "D064",
-      "answerStatus": "resolved"
+      "answerStatus": "resolved",
+      "firstProposalStatus": "original_not_available",
+      "independentChallengeStatus": "missing",
+      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
     },
     {
       "id": "D065",
@@ -2192,8 +2259,8 @@
         "03 CRM Export Cleaned FINAL.xlsx"
       ],
       "confidence": "high",
-      "aiProposal": "Workbook Agent 1 position(s): M-001, O-002. Final working proposal: Recognize Freedom delivered revenue EUR 200,000.",
-      "independentChallenge": "Workbook Agent 2 was recorded as agreeing with the reconciled treatment for the mapped judgment(s). No separate challenge text is present in the workbook; the student should confirm this before certification.",
+      "aiProposal": "AI working proposal; original first-agent output not supplied: Recognize Freedom delivered revenue EUR 200,000.",
+      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
       "studentReasoning": "Freedom’s €200,000 contract was delivered. The €142,000 receipt settles part of that sale, leaving €58,000 due; the receipt does not set the revenue amount.",
       "statementEffect": {
         "profit": 200000,
@@ -2221,7 +2288,12 @@
       },
       "reviewExplanation": "Freedom’s €200,000 contract was delivered. The €142,000 receipt settles part of that sale, leaving €58,000 due; the receipt does not set the revenue amount.",
       "templateDecisionId": "D065",
-      "answerStatus": "resolved"
+      "answerStatus": "resolved",
+      "firstProposalStatus": "original_not_available",
+      "independentChallengeStatus": "missing",
+      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
     },
     {
       "id": "D066",
@@ -2234,8 +2306,8 @@
         "03 CRM Export Cleaned FINAL.xlsx"
       ],
       "confidence": "high",
-      "aiProposal": "Workbook Agent 1 position(s): M-001, O-003. Final working proposal: Recognize Phoenix completed-event revenue EUR 100,000.",
-      "independentChallenge": "Workbook Agent 2 was recorded as agreeing with the reconciled treatment for the mapped judgment(s). No separate challenge text is present in the workbook; the student should confirm this before certification.",
+      "aiProposal": "AI working proposal; original first-agent output not supplied: Recognize Phoenix completed-event revenue EUR 100,000.",
+      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
       "studentReasoning": "Phoenix’s event was completed by the reporting date. Recognise €100,000 revenue; €70,000 cash received leaves €30,000 receivable.",
       "statementEffect": {
         "profit": 100000,
@@ -2263,7 +2335,12 @@
       },
       "reviewExplanation": "Phoenix’s event was completed by the reporting date. Recognise €100,000 revenue; €70,000 cash received leaves €30,000 receivable.",
       "templateDecisionId": "D066",
-      "answerStatus": "resolved"
+      "answerStatus": "resolved",
+      "firstProposalStatus": "original_not_available",
+      "independentChallengeStatus": "missing",
+      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
     },
     {
       "id": "D067",
@@ -2276,8 +2353,8 @@
         "03 CRM Export Cleaned FINAL.xlsx"
       ],
       "confidence": "high",
-      "aiProposal": "Workbook Agent 1 position(s): M-001, O-004. Final working proposal: Recognize Liberty delivered revenue EUR 120,000.",
-      "independentChallenge": "Workbook Agent 2 was recorded as agreeing with the reconciled treatment for the mapped judgment(s). No separate challenge text is present in the workbook; the student should confirm this before certification.",
+      "aiProposal": "AI working proposal; original first-agent output not supplied: Recognize Liberty delivered revenue EUR 120,000.",
+      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
       "studentReasoning": "Liberty’s €120,000 order was delivered. Recognise the full sale and carry €25,000 receivable after the €95,000 receipt.",
       "statementEffect": {
         "profit": 120000,
@@ -2305,7 +2382,12 @@
       },
       "reviewExplanation": "Liberty’s €120,000 order was delivered. Recognise the full sale and carry €25,000 receivable after the €95,000 receipt.",
       "templateDecisionId": "D067",
-      "answerStatus": "resolved"
+      "answerStatus": "resolved",
+      "firstProposalStatus": "original_not_available",
+      "independentChallengeStatus": "missing",
+      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
     },
     {
       "id": "D068",
@@ -2318,8 +2400,8 @@
         "03 CRM Export Cleaned FINAL.xlsx"
       ],
       "confidence": "high",
-      "aiProposal": "Workbook Agent 1 position(s): M-002, O-007, O-008. Final working proposal: Exclude undelivered September events EUR 90,000 from revenue and record liability.",
-      "independentChallenge": "Workbook Agent 2 was recorded as agreeing with the reconciled treatment for the mapped judgment(s). No separate challenge text is present in the workbook; the student should confirm this before certification.",
+      "aiProposal": "AI working proposal; original first-agent output not supplied: Exclude undelivered September events EUR 90,000 from revenue and record liability.",
+      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
       "studentReasoning": "The two September events total €90,000 and remained undelivered at 31 August. Record their advance cash as contract liabilities, consistent with D041.",
       "statementEffect": {
         "profit": -90000,
@@ -2348,7 +2430,12 @@
       },
       "reviewExplanation": "The two September events total €90,000 and remained undelivered at 31 August. Record their advance cash as contract liabilities, consistent with D041.",
       "templateDecisionId": "D068",
-      "answerStatus": "resolved"
+      "answerStatus": "resolved",
+      "firstProposalStatus": "original_not_available",
+      "independentChallengeStatus": "missing",
+      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
     },
     {
       "id": "D069",
@@ -2422,8 +2509,8 @@
         "11 Evidence Received After Takeover.pdf"
       ],
       "confidence": "medium",
-      "aiProposal": "Workbook Agent 1 position(s): M-004, M-023. Final working proposal: Use EUR 18,000 bad-debt impairment/write-off, subject to R-17 inclusion tie-out.",
-      "independentChallenge": "Workbook Agent 2 was recorded as agreeing with the reconciled treatment for the mapped judgment(s). No separate challenge text is present in the workbook; the student should confirm this before certification.",
+      "aiProposal": "AI working proposal; original first-agent output not supplied: Use EUR 18,000 bad-debt impairment/write-off, subject to R-17 inclusion tie-out.",
+      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
       "studentReasoning": "External liquidation evidence supports the €18,000 loss. CRM explicitly flags R-17 on WEB-NCB’s €53,000 gross open balance, supporting inclusion in the €186,000 total; the individual balance match still requires the subledger.",
       "statementEffect": {
         "profit": -18000,
@@ -2440,8 +2527,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Estimate Closing bad-debt allowance/write-off and document the basis.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
+      "agent1Position": "Original agent position not supplied in the case files.",
+      "agent2Position": "Original agent position not supplied in the case files.",
       "evidenceReliability": "medium",
       "finalAnswer": "Recognise €18,000 R-17 impairment against the €186,000 gross receivables. WEB-NCB’s €53,000 open balance points to R-17; verify the exact €18,000 subledger match.",
       "financialStatementImpact": "R-17 impairment expense €18,000 and corresponding receivable reduction, subject to CRM tie-out.",
@@ -2451,7 +2538,12 @@
       },
       "reviewExplanation": "External liquidation evidence supports the €18,000 loss. CRM explicitly flags R-17 on WEB-NCB’s €53,000 gross open balance, supporting inclusion in the €186,000 total; the individual balance match still requires the subledger.",
       "templateDecisionId": "D071",
-      "answerStatus": "resolved"
+      "answerStatus": "resolved",
+      "firstProposalStatus": "original_not_available",
+      "independentChallengeStatus": "missing",
+      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
     },
     {
       "id": "D072",
@@ -2464,8 +2556,8 @@
         "11 Evidence Received After Takeover.pdf"
       ],
       "confidence": "high",
-      "aiProposal": "Workbook Agent 1 position(s): M-005, M-022. Final working proposal: Use EUR 22,000 damaged-inventory write-down based on independent assessment that stock is unsaleable.",
-      "independentChallenge": "Workbook Agent 2 was recorded as agreeing with the reconciled treatment for the mapped judgment(s). No separate challenge text is present in the workbook; the student should confirm this before certification.",
+      "aiProposal": "AI working proposal; original first-agent output not supplied: Use EUR 22,000 damaged-inventory write-down based on independent assessment that stock is unsaleable.",
+      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
       "studentReasoning": "The independent stock assessment supports a €22,000 loss on physically present but unsaleable goods. Deduct this once from the €143,000 count; do not also include it in the €396,000 consumed amount.",
       "statementEffect": {
         "profit": -22000,
@@ -2482,8 +2574,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Estimate Damaged inventory write-off and document the basis.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
+      "agent1Position": "Original agent position not supplied in the case files.",
+      "agent2Position": "Original agent position not supplied in the case files.",
       "evidenceReliability": "high",
       "finalAnswer": "Use EUR 22,000 damaged-inventory write-down based on independent assessment that stock is unsaleable.",
       "financialStatementImpact": "Damaged-stock expense and inventory write-down €22,000.",
@@ -2493,7 +2585,12 @@
       },
       "reviewExplanation": "The independent stock assessment supports a €22,000 loss on physically present but unsaleable goods. Deduct this once from the €143,000 count; do not also include it in the €396,000 consumed amount.",
       "templateDecisionId": "D072",
-      "answerStatus": "resolved"
+      "answerStatus": "resolved",
+      "firstProposalStatus": "original_not_available",
+      "independentChallengeStatus": "missing",
+      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
     },
     {
       "id": "D073",
@@ -2506,8 +2603,8 @@
         "11 Evidence Received After Takeover.pdf"
       ],
       "confidence": "high",
-      "aiProposal": "Workbook Agent 1 position(s): M-015. Final working proposal: Use EUR 25,000 legal provision based on external counsel’s probable claim assessment.",
-      "independentChallenge": "Workbook Agent 2 was recorded as agreeing with the reconciled treatment for the mapped judgment(s). No separate challenge text is present in the workbook; the student should confirm this before certification.",
+      "aiProposal": "AI working proposal; original first-agent output not supplied: Use EUR 25,000 legal provision based on external counsel’s probable claim assessment.",
+      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
       "studentReasoning": "The former employee claim is probable according to external counsel. The €25,000 midpoint of the €20,000–€30,000 estimate is a reasonable provision subject to updated legal advice.",
       "statementEffect": {
         "profit": -25000,
@@ -2523,8 +2620,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Estimate Legal provision and document the basis.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
+      "agent1Position": "Original agent position not supplied in the case files.",
+      "agent2Position": "Original agent position not supplied in the case files.",
       "evidenceReliability": "high",
       "finalAnswer": "Use EUR 25,000 legal provision based on external counsel’s probable claim assessment.",
       "financialStatementImpact": "Employee claim expense and provision €25,000.",
@@ -2534,7 +2631,12 @@
       },
       "reviewExplanation": "The former employee claim is probable according to external counsel. The €25,000 midpoint of the €20,000–€30,000 estimate is a reasonable provision subject to updated legal advice.",
       "templateDecisionId": "D073",
-      "answerStatus": "resolved"
+      "answerStatus": "resolved",
+      "firstProposalStatus": "original_not_available",
+      "independentChallengeStatus": "missing",
+      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
     },
     {
       "id": "D074",
@@ -2543,12 +2645,11 @@
       "question": "Estimate Period depreciation and document the basis.",
       "answer": "Use EUR 24,000 period depreciation estimate; useful-life schedule remains missing.",
       "evidence": [
-        "08 Assets Repairs Leases Maybe.xlsx",
-        "Workbook: Schedules"
+        "08 Assets Repairs Leases Maybe.xlsx"
       ],
       "confidence": "medium",
-      "aiProposal": "Workbook Agent 1 position(s): M-014. Final working proposal: Use EUR 24,000 period depreciation estimate; useful-life schedule remains missing.",
-      "independentChallenge": "Workbook Agent 2 was recorded as agreeing with the reconciled treatment for the mapped judgment(s). No separate challenge text is present in the workbook; the student should confirm this before certification.",
+      "aiProposal": "AI working proposal; original first-agent output not supplied: Use EUR 24,000 period depreciation estimate; useful-life schedule remains missing.",
+      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
       "studentReasoning": "Current depreciation of €24,000 makes accumulated depreciation €69,000 and net PPE €191,000 from €260,000 gross cost. This is an estimate because a dated useful-life register is missing.",
       "statementEffect": {
         "profit": -24000,
@@ -2564,8 +2665,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Estimate Period depreciation and document the basis.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
+      "agent1Position": "Original agent position not supplied in the case files.",
+      "agent2Position": "Original agent position not supplied in the case files.",
       "evidenceReliability": "medium",
       "finalAnswer": "Use EUR 24,000 period depreciation estimate; useful-life schedule remains missing.",
       "financialStatementImpact": "Period depreciation expense €24,000 and accumulated depreciation increase €24,000.",
@@ -2575,7 +2676,12 @@
       },
       "reviewExplanation": "Current depreciation of €24,000 makes accumulated depreciation €69,000 and net PPE €191,000 from €260,000 gross cost. This is an estimate because a dated useful-life register is missing.",
       "templateDecisionId": "D074",
-      "answerStatus": "resolved"
+      "answerStatus": "resolved",
+      "firstProposalStatus": "original_not_available",
+      "independentChallengeStatus": "missing",
+      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
     },
     {
       "id": "D075",
@@ -2585,11 +2691,11 @@
       "answer": "Present closing saleable inventory EUR 121,000 = count EUR 143,000 less EUR 22,000 write-down; disclose EUR 9,000 gap.",
       "evidence": [
         "05 Warehouse Count Marta Notes.pdf",
-        "Workbook: Schedules"
+        "06 Purchases Invoices and Goods Received.pdf"
       ],
       "confidence": "medium",
-      "aiProposal": "Workbook Agent 1 position(s): M-022, M-008. Final working proposal: Present closing saleable inventory EUR 121,000 = count EUR 143,000 less EUR 22,000 write-down; disclose EUR 9,000 gap.",
-      "independentChallenge": "Workbook Agent 2 was recorded as agreeing with the reconciled treatment for the mapped judgment(s). No separate challenge text is present in the workbook; the student should confirm this before certification.",
+      "aiProposal": "AI working proposal; original first-agent output not supplied: Present closing saleable inventory EUR 121,000 = count EUR 143,000 less EUR 22,000 write-down; disclose EUR 9,000 gap.",
+      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
       "studentReasoning": "Use the observed count: €143,000 gross less €22,000 damaged-stock write-down equals €121,000 net. The selected €396,000 material consumption closes the same roll-forward without changing opening equity.",
       "statementEffect": {
         "profit": -22000,
@@ -2606,8 +2712,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Estimate Closing inventory and document the basis.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
+      "agent1Position": "Original agent position not supplied in the case files.",
+      "agent2Position": "Original agent position not supplied in the case files.",
       "evidenceReliability": "medium",
       "finalAnswer": "Present closing saleable inventory EUR 121,000 = count EUR 143,000 less EUR 22,000 write-down; disclose EUR 9,000 gap.",
       "financialStatementImpact": "Selected inventory €121,000 = €143,000 count less €22,000 write-down; alternative consumption basis inventory €112,000.",
@@ -2617,7 +2723,12 @@
       },
       "reviewExplanation": "Use the observed count: €143,000 gross less €22,000 damaged-stock write-down equals €121,000 net. The selected €396,000 material consumption closes the same roll-forward without changing opening equity.",
       "templateDecisionId": "D075",
-      "answerStatus": "resolved"
+      "answerStatus": "resolved",
+      "firstProposalStatus": "original_not_available",
+      "independentChallengeStatus": "missing",
+      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
     },
     {
       "id": "D076",
@@ -2699,8 +2810,8 @@
       "mappingStatus": "resolved_with_evidence_gap",
       "mappingNote": "The template decision is answered: an insurance movement or expense cannot be quantified from the supplied records. No insurance-labelled payment, policy, premium invoice, opening prepayment or coverage period was found. Do not add an invented expense; absence of evidence does not establish actual zero expense.",
       "title": "Estimate Insurance expense and document the basis.",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
+      "agent1Position": "Original agent position not supplied in the case files.",
+      "agent2Position": "Original agent position not supplied in the case files.",
       "evidenceReliability": "low",
       "finalAnswer": "No separately supported insurance estimate is supplied in the project data. Do not add an invented expense; obtain the policy, payment and period-of-cover evidence.",
       "financialStatementImpact": "No incremental insurance line is recognised without an evidenced amount and coverage period.",
@@ -2761,7 +2872,7 @@
       "answer": "Use calculated accrued payroll EUR 32,000; closing ledger not independently stated.",
       "evidence": [
         "07 Payroll Bonuses Contractors NEW.xlsx",
-        "Workbook: Schedules"
+        "02 Bank Export August.csv"
       ],
       "confidence": "medium",
       "workbookDecisionIds": [
@@ -2824,7 +2935,7 @@
       "answer": "Use closing PPE gross EUR 260,000 and net PPE EUR 191,000.",
       "evidence": [
         "08 Assets Repairs Leases Maybe.xlsx",
-        "Workbook: Schedules"
+        "06 Purchases Invoices and Goods Received.pdf"
       ],
       "confidence": "medium",
       "workbookDecisionIds": [
@@ -2853,8 +2964,7 @@
       "question": "Estimate Accumulated depreciation and document the basis.",
       "answer": "Use accumulated depreciation EUR 69,000 = opening EUR 45,000 + current EUR 24,000.",
       "evidence": [
-        "08 Assets Repairs Leases Maybe.xlsx",
-        "Workbook: Schedules"
+        "08 Assets Repairs Leases Maybe.xlsx"
       ],
       "confidence": "medium",
       "workbookDecisionIds": [
@@ -2946,7 +3056,7 @@
       "answer": "Selected count basis: materials consumed €396,000 (= €80,000 + €459,000 − €143,000). Workbook €405,000 is an alternative with €9,000 lower stock and profit.",
       "evidence": [
         "05 Warehouse Count Marta Notes.pdf",
-        "Workbook: Schedules"
+        "06 Purchases Invoices and Goods Received.pdf"
       ],
       "confidence": "medium",
       "workbookDecisionIds": [
@@ -3039,8 +3149,13 @@
       "question": "Estimate Net profit and document the basis.",
       "answer": "Selected count-basis PBT €74,000 excludes the unsupported €2,000 disposal provision. If a present obligation is evidenced, PBT is €72,000. Consumption-basis PBT is €65,000 without that provision (€63,000 with it).",
       "evidence": [
-        "Workbook: Schedules",
-        "Workbook: Checks and Uncertainties"
+        "02 Bank Export August.csv",
+        "03 CRM Export Cleaned FINAL.xlsx",
+        "05 Warehouse Count Marta Notes.pdf",
+        "07 Payroll Bonuses Contractors NEW.xlsx",
+        "08 Assets Repairs Leases Maybe.xlsx",
+        "09 Loans Owner Card and Legal Problems.pdf",
+        "11 Evidence Received After Takeover.pdf"
       ],
       "confidence": "medium",
       "workbookDecisionIds": [
@@ -3102,11 +3217,12 @@
       "question": "Approve corrected accounts before valuation",
       "answer": "Student must approve/certify corrected accounts before valuation; draft recommendation is to approve only with stated caveats.",
       "evidence": [
-        "Workbook: Checks and Uncertainties"
+        "00 BOARD ORDER READ FIRST.pdf",
+        "11 Evidence Received After Takeover.pdf"
       ],
       "confidence": "medium",
-      "aiProposal": "Workbook Agent 1 position(s): M-024. Final working proposal: Student must approve/certify corrected accounts before valuation; draft recommendation is to approve only with stated caveats.",
-      "independentChallenge": "Workbook Agent 2 was recorded as agreeing with the reconciled treatment for the mapped judgment(s). No separate challenge text is present in the workbook; the student should confirm this before certification.",
+      "aiProposal": "AI working proposal; original first-agent output not supplied: Student must approve/certify corrected accounts before valuation; draft recommendation is to approve only with stated caveats.",
+      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
       "studentReasoning": "The statements reconcile on the selected count basis, but inventory movements, payroll, R-17 and owner classification retain evidence caveats. Approval should disclose these explicitly before valuation.",
       "statementEffect": {
         "profit": null,
@@ -3122,8 +3238,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Approve corrected accounts before valuation",
-      "agent1Position": "Not separately stated for this decision in the reconciled workbook.",
-      "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
+      "agent1Position": "Original agent position not supplied in the case files.",
+      "agent2Position": "Original agent position not supplied in the case files.",
       "evidenceReliability": "medium",
       "finalAnswer": "Student must approve/certify corrected accounts before valuation; draft recommendation is to approve only with stated caveats.",
       "financialStatementImpact": "Governance recommendation; no new accounting entry until student sign-off.",
@@ -3133,7 +3249,12 @@
       },
       "reviewExplanation": "The statements reconcile on the selected count basis, but inventory movements, payroll, R-17 and owner classification retain evidence caveats. Approval should disclose these explicitly before valuation.",
       "templateDecisionId": "D091",
-      "answerStatus": "resolved"
+      "answerStatus": "resolved",
+      "firstProposalStatus": "original_not_available",
+      "independentChallengeStatus": "missing",
+      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
     },
     {
       "id": "D092",
@@ -3143,7 +3264,7 @@
       "answer": "Freeze owner-card access as a control recommendation; no direct workbook decision ID.",
       "evidence": [
         "09 Loans Owner Card and Legal Problems.pdf",
-        "Workbook: Checks and Uncertainties"
+        "10 Email and WhatsApp Dump DO NOT FORWARD.pdf"
       ],
       "confidence": "medium",
       "workbookDecisionIds": [
@@ -3206,7 +3327,7 @@
       "answer": "Begin weekly 13-week cash forecast as a board recommendation; no direct workbook decision ID.",
       "evidence": [
         "02 Bank Export August.csv",
-        "Workbook: Checks and Uncertainties"
+        "00 BOARD ORDER READ FIRST.pdf"
       ],
       "confidence": "medium",
       "workbookDecisionIds": [
@@ -3297,8 +3418,9 @@
       "question": "Investigate management override and duplicate sources",
       "answer": "Investigate management override/duplicate sources; reject unsupported management profit and cash figures.",
       "evidence": [
-        "03 CRM Export Cleaned FINAL.xlsx",
-        "Workbook: Checks and Uncertainties"
+        "01 USE THIS NUMBERS FINAL v9.xlsx",
+        "10 Email and WhatsApp Dump DO NOT FORWARD.pdf",
+        "03 CRM Export Cleaned FINAL.xlsx"
       ],
       "confidence": "high",
       "workbookDecisionIds": [
@@ -3330,7 +3452,7 @@
       "answer": "Renegotiate supplier terms as a board recommendation in light of EUR 126,000 unpaid balances.",
       "evidence": [
         "06 Purchases Invoices and Goods Received.pdf",
-        "Workbook: Checks and Uncertainties"
+        "02 Bank Export August.csv"
       ],
       "confidence": "medium",
       "workbookDecisionIds": [
@@ -3391,12 +3513,13 @@
       "question": "Use claimed management profit for earn-out",
       "answer": "Reject management’s unsupported €312,000 profit as an earn-out basis. Selected count-basis PBT is €74,000; the €405,000 consumption alternative gives €65,000. If a present €2,000 disposal obligation is proven, those figures become €72,000 and €63,000.",
       "evidence": [
-        "Workbook: Checks and Uncertainties",
-        "03 CRM Export Cleaned FINAL.xlsx"
+        "01 USE THIS NUMBERS FINAL v9.xlsx",
+        "05 Warehouse Count Marta Notes.pdf",
+        "02 Bank Export August.csv"
       ],
       "confidence": "high",
-      "aiProposal": "Workbook Agent 1 position(s): O-072. Final working proposal: Do not use claimed management profit EUR 312,000 for earn-out; use reconciled PBT EUR 63,000, subject to student approval.",
-      "independentChallenge": "Workbook Agent 2 was recorded as agreeing with the reconciled treatment for the mapped judgment(s). No separate challenge text is present in the workbook; the student should confirm this before certification.",
+      "aiProposal": "AI working proposal; original first-agent output not supplied: Do not use claimed management profit EUR 312,000 for earn-out; use reconciled PBT EUR 63,000, subject to student approval.",
+      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
       "studentReasoning": "Management’s €312,000 profit is unsupported by the reconstructed schedules. The selected count basis produces €74,000 PBT; the source consumption basis lowers it by €9,000. The €2,000 disposal quote is a separate conditional adjustment because no present obligation is evidenced.",
       "statementEffect": {
         "profit": null,
@@ -3423,7 +3546,12 @@
       },
       "reviewExplanation": "Management’s €312,000 profit is unsupported by the reconstructed schedules. The selected count basis produces €74,000 PBT; the source consumption basis lowers it by €9,000. The €2,000 disposal quote is a separate conditional adjustment because no present obligation is evidenced.",
       "templateDecisionId": "D100",
-      "answerStatus": "resolved"
+      "answerStatus": "resolved",
+      "firstProposalStatus": "original_not_available",
+      "independentChallengeStatus": "missing",
+      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
     }
   ],
   "schedules": {
@@ -3604,9 +3732,9 @@
       "operatingProfit": 86000,
       "interestExpense": -12000,
       "profitBeforeTax": 74000,
-      "alternativeProfitBeforeTaxWithoutDisposalProvision": 74000,
       "alternativeConsumptionBasisPBT": 65000,
-      "alternativeProfitBeforeTaxWithDisposalProvision": 72000
+      "alternativeProfitBeforeTaxWithDisposalProvision": 72000,
+      "selectedProfitBeforeTaxWithoutDisposalProvision": 74000
     },
     "cashFlow": {
       "openingCash": 80000,
@@ -3739,14 +3867,19 @@
       "confidence": "medium"
     },
     {
-      "item": "Template mismatch",
-      "treatment": "Resolve O/M to D mapping and confirm D100 tier before submission.",
+      "item": "Independent material-judgment challenge",
+      "treatment": "No original independent second-agent analysis was supplied for any of the 25 material judgments. Obtain and compare it before student certification.",
       "confidence": "high"
     },
     {
       "item": "Opening supplier payables",
       "treatment": "Bank confirms €378,000 supplier payments and fully allocates €760,000 operating cash. Purchase and payable movement implies €45,000 opening AP (Event); verify opening ledger.",
       "confidence": "medium"
+    },
+    {
+      "item": "Monthly payroll and insurance detail",
+      "treatment": "January–August payroll is one combined bank payment with departmental period totals; insurance has no policy, invoice, payment or prepayment schedule. Separate amounts are not determinable.",
+      "confidence": "high"
     }
   ],
   "boardRecommendation": {
@@ -3758,7 +3891,8 @@
       "Request inventory stock-movement reconciliation for EUR 9,000 gap.",
       "Request payroll ledger, depreciation support and R-17 customer subledger match.",
       "Use weekly 13-week cash forecast.",
-      "Confirm inferred €45,000 opening supplier payable against the opening ledger."
+      "Confirm inferred €45,000 opening supplier payable against the opening ledger.",
+      "Obtain an independent second-agent analysis of the original evidence for all 25 material judgments and record the student’s own comparison before certification."
     ]
   },
   "studentCertification": {
@@ -3769,7 +3903,7 @@
   "reviewCertification": {
     "status": "assistant_review_completed",
     "reviewer": "Codex",
-    "scope": "Assistant review of all 12 locally available source files against the app and JSON. Bank supplier payments and CRM R-17 linkage were checked; inventory €9,000 conflict, opening AP ledger, monthly payroll and insurance remain open; student identity was confirmed by the user. Source files are not included in the public repository.",
+    "scope": "Assistant source and arithmetic review of all 12 case files completed. The original first-agent record and required independent second-agent challenges for 25 material judgments were not supplied; student attestation remains pending. Inventory, R-17, opening payables, payroll detail and insurance limitations remain disclosed.",
     "studentAttestation": false
   }
 }
