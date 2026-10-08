@@ -2319,8 +2319,11 @@
         "combinedOperatingPayments": 760000,
         "payrollCashPaid": 231000,
         "interestCashPaid": 10000,
-        "unallocatedSupplierAndOtherOperatingPayments": 519000,
-        "note": "The €519,000 residual is arithmetic, not a verified supplier-payment figure. The project data do not allocate operating cash payments fully by vendor, opening payable or expense type."
+        "unallocatedSupplierAndOtherOperatingPayments": 378000,
+        "note": "The €378,000 residual follows €231,000 payroll, €141,000 overhead and repairs, and €10,000 interest. It is not a verified supplier-payment figure. Purchases €459,000 less closing supplier payables €126,000 would suggest €333,000 current-purchase settlement only if opening payables and other adjustments were nil; the resulting €45,000 difference needs a bank/AP tie-out.",
+        "knownOverheadAndRepairCashPaid": 141000,
+        "illustrativeCurrentPurchaseSettlementIfNoOpeningPayables": 333000,
+        "differenceFromIllustrativeSettlement": 45000
       },
       "receiptBridge": {
         "currentPeriodSalesReceipts": 774000,
@@ -2345,7 +2348,11 @@
       "selectedPBTWithoutProvision": 74000,
       "alternativePBTWithoutProvision": 65000,
       "selectedPBTWithProvision": 72000,
-      "alternativePBTWithProvision": 63000
+      "alternativePBTWithProvision": 63000,
+      "selectedLiabilitiesWithProvision": 408000,
+      "selectedEquityWithProvision": 132000,
+      "alternativeLiabilitiesWithProvision": 408000,
+      "alternativeEquityWithProvision": 123000
     }
   },
   "statements": {
@@ -2404,6 +2411,21 @@
       "closingEquity": 125000,
       "profitBeforeTax": 65000,
       "openingEquityControl": 170000
+    },
+    "disposalObligationSensitivity": {
+      "selectedCountBasis": {
+        "profitBeforeTax": 72000,
+        "assets": 540000,
+        "liabilities": 408000,
+        "equity": 132000
+      },
+      "alternativeConsumptionBasis": {
+        "profitBeforeTax": 63000,
+        "assets": 531000,
+        "liabilities": 408000,
+        "equity": 123000
+      },
+      "condition": "Only if a present disposal obligation at 31 August is evidenced."
     }
   },
   "reconciliations": [
@@ -2486,7 +2508,7 @@
     },
     {
       "item": "Operating cash-payment allocation",
-      "treatment": "Of €760,000 operating cash payments, €231,000 payroll and €10,000 interest are separately identified in the project data; €519,000 remains supplier/other payments pending bank-line allocation.",
+      "treatment": "Of €760,000 operating payments, €231,000 payroll, €141,000 overhead and repairs, and €10,000 interest are identified; €378,000 remains supplier/other payments pending bank and opening-payable allocation.",
       "confidence": "medium"
     }
   ],
@@ -2504,7 +2526,7 @@
   "reviewCertification": {
     "status": "assistant_review_completed",
     "reviewer": "Codex",
-    "scope": "Arithmetic and internal consistency of the app and supplied JSON, including the explicit €9,000 inventory alternative and €519,000 cash-payment allocation gap; referenced primary PDFs, CSVs and workbooks are absent from this repository.",
+    "scope": "Arithmetic and internal consistency of the app and supplied JSON, including the explicit €9,000 inventory alternative and €378,000 supplier/other cash-payment allocation gap; referenced primary PDFs, CSVs and workbooks are absent from this repository.",
     "studentAttestation": false
   }
 }
