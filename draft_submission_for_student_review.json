@@ -258,7 +258,7 @@
       "category": "evidence_matching",
       "reviewTier": "operational",
       "question": "Resolve the source and treatment of January payroll.",
-      "answer": "January payroll: monthly split is not stated in the reconciled workbook or supplied payroll export; use only the aggregate normal payroll EUR 248,000 and do not invent a month amount.",
+      "answer": "January payroll: the project JSON supports €248,000 normal payroll for the period, but no January amount. Retain the aggregate and leave the monthly allocation unverified.",
       "evidence": [
         "07 Payroll Bonuses Contractors NEW.xlsx"
       ],
@@ -869,7 +869,7 @@
       "category": "classification",
       "reviewTier": "material_judgment",
       "question": "Classify Owner card spending.",
-      "answer": "Treat EUR 110,000 owner-card payments as provisional owner withdrawal/distribution or related-party balance, not payroll.",
+      "answer": "Treat €110,000 total owner-related payments (€70,000 villa deposit plus €40,000 owner-card spending) as provisional withdrawals/distribution or a related-party balance, not payroll.",
       "evidence": [
         "09 Loans Owner Card and Legal Problems.pdf",
         "07 Payroll Bonuses Contractors NEW.xlsx"
@@ -877,7 +877,7 @@
       "confidence": "medium",
       "aiProposal": "Workbook Agent 1 position(s): M-016, M-018. Final working proposal: Treat EUR 110,000 owner-card payments as provisional owner withdrawal/distribution or related-party balance, not payroll.",
       "independentChallenge": "Workbook Agent 2 was recorded as agreeing with the reconciled treatment for the mapped judgment(s). No separate challenge text is present in the workbook; the student should confirm this before certification.",
-      "studentReasoning": "The owner-related cash outflow is €110,000 in total, comprising the €70,000 villa payment and €40,000 card spending. It is not normal payroll or an additional €110,000 on top of the villa payment.",
+      "studentReasoning": "The villa payment is €70,000 and owner-card spending is €40,000. Together they explain the €110,000 owner-related cash outflow. Neither is normal payroll or an operating expense; the legal form of the balance still needs confirmation.",
       "statementEffect": {
         "profit": 0,
         "cash": -110000,
@@ -892,7 +892,7 @@
       ],
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
-      "reviewExplanation": "The owner-related cash outflow is €110,000 in total, comprising the €70,000 villa payment and €40,000 card spending. It is not normal payroll or an additional €110,000 on top of the villa payment."
+      "reviewExplanation": "The villa payment is €70,000 and owner-card spending is €40,000. Together they explain the €110,000 owner-related cash outflow. Neither is normal payroll or an operating expense; the legal form of the balance still needs confirmation."
     },
     {
       "id": "D048",
@@ -1611,7 +1611,7 @@
       "category": "estimation",
       "reviewTier": "operational",
       "question": "Estimate Insurance expense and document the basis.",
-      "answer": "No separately supported insurance estimate is stated; leave unresolved and do not invent.",
+      "answer": "No separately supported insurance estimate is supplied in the project data. Do not add an invented expense; obtain the policy, payment and period-of-cover evidence.",
       "evidence": [
         "02 Bank Export August.csv",
         "Workbook: Schedules"
@@ -2023,7 +2023,7 @@
       "category": "board_decision",
       "reviewTier": "material_judgment",
       "question": "Use claimed management profit for earn-out",
-      "answer": "Selected count-basis PBT €74,000 excludes the unsupported €2,000 disposal provision. If a present obligation is evidenced, PBT is €72,000. Consumption-basis PBT is €65,000 without that provision (€63,000 with it).",
+      "answer": "Reject management’s unsupported €312,000 profit as an earn-out basis. Selected count-basis PBT is €74,000; the €405,000 consumption alternative gives €65,000. If a present €2,000 disposal obligation is proven, those figures become €72,000 and €63,000.",
       "evidence": [
         "Workbook: Checks and Uncertainties",
         "03 CRM Export Cleaned FINAL.xlsx"
@@ -2031,7 +2031,7 @@
       "confidence": "high",
       "aiProposal": "Workbook Agent 1 position(s): O-072. Final working proposal: Do not use claimed management profit EUR 312,000 for earn-out; use reconciled PBT EUR 63,000, subject to student approval.",
       "independentChallenge": "Workbook Agent 2 was recorded as agreeing with the reconciled treatment for the mapped judgment(s). No separate challenge text is present in the workbook; the student should confirm this before certification.",
-      "studentReasoning": "Management’s €312,000 profit lacks support from the reconstructed revenue and cost schedules. The selected count basis yields €74,000 PBT. The €2,000 disposal quote is disclosed but not accrued because a present obligation has not been evidenced; neither amount is an audited earn-out measure.",
+      "studentReasoning": "Management’s €312,000 profit is unsupported by the reconstructed schedules. The selected count basis produces €74,000 PBT; the source consumption basis lowers it by €9,000. The €2,000 disposal quote is a separate conditional adjustment because no present obligation is evidenced.",
       "statementEffect": {
         "profit": null,
         "cash": null,
@@ -2045,9 +2045,9 @@
       ],
       "mappingStatus": "schema-mismatch",
       "mappingNote": "Template makes this a material judgment, while the workbook records the rejection as operational O-072.",
-      "reviewExplanation": "Management’s €312,000 profit lacks support from the reconstructed revenue and cost schedules. The selected count basis yields €74,000 PBT. The €2,000 disposal quote is disclosed but not accrued because a present obligation has not been evidenced; neither amount is an audited earn-out measure.",
-      "finalAnswer": "Selected count-basis PBT €74,000 excludes the unsupported €2,000 disposal provision. If a present obligation is evidenced, PBT is €72,000. Consumption-basis PBT is €65,000 without that provision (€63,000 with it).",
-      "financialStatementImpact": "Inventory basis changes PBT and net inventory by €9,000; disposal recognition changes PBT and liabilities by €2,000."
+      "reviewExplanation": "Management’s €312,000 profit is unsupported by the reconstructed schedules. The selected count basis produces €74,000 PBT; the source consumption basis lowers it by €9,000. The €2,000 disposal quote is a separate conditional adjustment because no present obligation is evidenced.",
+      "finalAnswer": "Reject management’s unsupported €312,000 profit as an earn-out basis. Selected count-basis PBT is €74,000; the €405,000 consumption alternative gives €65,000. If a present €2,000 disposal obligation is proven, those figures become €72,000 and €63,000.",
+      "financialStatementImpact": "Reject €312,000 management profit for earn-out; count and consumption bases differ by €9,000, with a separate €2,000 disposal sensitivity."
     }
   ],
   "schedules": {
@@ -2147,7 +2147,20 @@
       "loanAdvance": 50000,
       "principalRepayment": 19000,
       "ownerPayments": 110000,
-      "closing": 60000
+      "closing": 60000,
+      "paymentBridge": {
+        "combinedOperatingPayments": 760000,
+        "payrollCashPaid": 231000,
+        "interestCashPaid": 10000,
+        "unallocatedSupplierAndOtherOperatingPayments": 519000,
+        "note": "The €519,000 residual is arithmetic, not a verified supplier-payment figure. The project data do not allocate operating cash payments fully by vendor, opening payable or expense type."
+      },
+      "receiptBridge": {
+        "currentPeriodSalesReceipts": 774000,
+        "openingReceivableReceipt": 35000,
+        "septemberCustomerAdvances": 90000,
+        "totalCustomerReceipts": 899000
+      }
     },
     "equity": {
       "openingEquityControl": 170000,
@@ -2303,6 +2316,11 @@
       "item": "Template mismatch",
       "treatment": "Resolve O/M to D mapping and confirm D100 tier before submission.",
       "confidence": "high"
+    },
+    {
+      "item": "Operating cash-payment allocation",
+      "treatment": "Of €760,000 operating cash payments, €231,000 payroll and €10,000 interest are separately identified in the project data; €519,000 remains supplier/other payments pending bank-line allocation.",
+      "confidence": "medium"
     }
   ],
   "boardRecommendation": {
@@ -2319,7 +2337,7 @@
   "reviewCertification": {
     "status": "assistant_review_completed",
     "reviewer": "Codex",
-    "scope": "Arithmetic, internal consistency and explanations in supplied JSON and app; underlying source PDFs/workbooks were not available in this workspace.",
+    "scope": "Arithmetic and internal consistency of the app and supplied JSON, including the explicit €9,000 inventory alternative and €519,000 cash-payment allocation gap; referenced primary PDFs, CSVs and workbooks are absent from this repository.",
     "studentAttestation": false
   }
 }
