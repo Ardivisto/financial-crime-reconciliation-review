@@ -18,7 +18,7 @@ Customer receipts of €899,000 comprise €774,000 collected on period sales, �
 
 ## Review and outstanding evidence
 
-The 25 material-judgment explanations were rewritten individually. D047 now identifies €70,000 for the villa plus €40,000 on the owner card as the €110,000 owner-related total; D100 expressly rejects the unsupported €312,000 management profit as an earn-out basis. All 100 IDs are present and unique. The selected and alternative statements balance, and the shared opening equity control reconciles algebraically.
+All 100 decisions now have a specific review explanation and financial-statement impact; the 25 material-judgment explanations were rewritten individually. D047 now identifies €70,000 for the villa plus €40,000 on the owner card as the €110,000 owner-related total; D100 expressly rejects the unsupported €312,000 management profit as an earn-out basis. All 100 IDs are present and unique. The selected and alternative statements balance, and the shared opening equity control reconciles algebraically.
 
 Source-level support remains unavailable here for monthly payroll rows D014–D021 and insurance rows D034, D060 and D078. The CRM inclusion of R-17, the payroll closing ledger, useful-life schedule, owner-payment legal form, inventory movements, disposal obligation and opening equity also need primary evidence. This is an assistant consistency review of the supplied files, not a personal student attestation or an audit of the absent source documents.
 

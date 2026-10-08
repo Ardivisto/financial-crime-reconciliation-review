@@ -42,11 +42,12 @@
       "agent2Position": "Match",
       "evidenceReliability": "high",
       "finalAnswer": "NorthStar receipt: include EUR 180,000 revenue; customer receipt matched to NorthStar/N STAR.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Revenue €180,000; matching customer cash receipt.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "Recognise delivered or completed work as revenue; distinguish the cash collected from the unpaid receivable."
     },
     {
       "id": "D002",
@@ -70,11 +71,12 @@
       "agent2Position": "Match",
       "evidenceReliability": "high",
       "finalAnswer": "Freedom receipt 1: include EUR 142,000 collected against EUR 200,000 contract; EUR 58,000 remains receivable.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Revenue €200,000; €142,000 cash and €58,000 trade receivable.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "Recognise delivered or completed work as revenue; distinguish the cash collected from the unpaid receivable."
     },
     {
       "id": "D003",
@@ -98,11 +100,12 @@
       "agent2Position": "Match",
       "evidenceReliability": "high",
       "finalAnswer": "Phoenix receipt: include EUR 70,000 collected against EUR 100,000 completed event; EUR 30,000 remains receivable.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Revenue €100,000; €70,000 cash and €30,000 trade receivable.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "Recognise delivered or completed work as revenue; distinguish the cash collected from the unpaid receivable."
     },
     {
       "id": "D004",
@@ -126,11 +129,12 @@
       "agent2Position": "Match",
       "evidenceReliability": "high",
       "finalAnswer": "Liberty receipt: include EUR 95,000 collected against EUR 120,000 delivered order; EUR 25,000 remains receivable.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Revenue €120,000; €95,000 cash and €25,000 trade receivable.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "Recognise delivered or completed work as revenue; distinguish the cash collected from the unpaid receivable."
     },
     {
       "id": "D005",
@@ -153,11 +157,12 @@
       "agent2Position": "Match",
       "evidenceReliability": "high",
       "finalAnswer": "Opening receivable receipt: include EUR 35,000 old-customer receipt as settlement of opening receivable.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Cash +€35,000 and opening receivables -€35,000; no current-period revenue.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "A receipt on an opening receivable settles an existing asset rather than creating new revenue."
     },
     {
       "id": "D006",
@@ -181,11 +186,12 @@
       "agent2Position": "Include",
       "evidenceReliability": "high",
       "finalAnswer": "Finally Single web receipts: include EUR 250,000 matched receipts; revenue line is EUR 270,000.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Revenue €270,000; €250,000 cash and €20,000 receivable.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "Recognise delivered or completed work as revenue; distinguish the cash collected from the unpaid receivable."
     },
     {
       "id": "D007",
@@ -209,11 +215,12 @@
       "agent2Position": "Include",
       "evidenceReliability": "high",
       "finalAnswer": "Never Call Back web receipts: include EUR 37,000 matched receipts; revenue line is EUR 90,000, subject to R-17 tie-out.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Revenue €90,000; €37,000 cash and €53,000 receivable before R-17 impairment.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "Recognise delivered or completed work as revenue; distinguish the cash collected from the unpaid receivable."
     },
     {
       "id": "D008",
@@ -237,11 +244,12 @@
       "agent2Position": "Recognize",
       "evidenceReliability": "high",
       "finalAnswer": "New Beginnings deposit: exclude EUR 60,000 from revenue and record contract liability.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Cash and contract liabilities +€60,000; no August revenue.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "Delivery falls after the reporting date, so the receipt remains a contract liability at 31 August."
     },
     {
       "id": "D009",
@@ -265,11 +273,12 @@
       "agent2Position": "Recognize",
       "evidenceReliability": "high",
       "finalAnswer": "Fresh Freedom deposit: exclude EUR 30,000 from revenue and record contract liability.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Cash and contract liabilities +€30,000; no August revenue.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "Delivery falls after the reporting date, so the receipt remains a contract liability at 31 August."
     },
     {
       "id": "D010",
@@ -293,11 +302,12 @@
       "agent2Position": "No separate position",
       "evidenceReliability": "high",
       "finalAnswer": "Box supplier payment/purchase: EUR 130,000 received; EUR 25,000 unpaid.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Received purchases €130,000; closing Box payable €25,000.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "Recognise goods received in purchases and carry the unpaid invoice balance as a supplier payable."
     },
     {
       "id": "D011",
@@ -321,11 +331,12 @@
       "agent2Position": "No separate position",
       "evidenceReliability": "high",
       "finalAnswer": "Glass supplier payment/purchase: EUR 120,000 received; EUR 28,000 unpaid.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Received purchases €120,000; closing Glass payable €28,000.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "Recognise goods received in purchases and carry the unpaid invoice balance as a supplier payable."
     },
     {
       "id": "D012",
@@ -349,11 +360,12 @@
       "agent2Position": "No separate position",
       "evidenceReliability": "high",
       "finalAnswer": "Print supplier payment/purchase: EUR 95,000 received; EUR 14,000 unpaid.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Received purchases €95,000; closing Print payable €14,000.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "Recognise goods received in purchases and carry the unpaid invoice balance as a supplier payable."
     },
     {
       "id": "D013",
@@ -377,11 +389,12 @@
       "agent2Position": "No separate position",
       "evidenceReliability": "high",
       "finalAnswer": "Event supplier payment/purchase: EUR 114,000 received; EUR 59,000 unpaid.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Received purchases €114,000; closing Event payable €59,000.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "Recognise goods received in purchases and carry the unpaid invoice balance as a supplier payable."
     },
     {
       "id": "D014",
@@ -405,7 +418,8 @@
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense."
     },
     {
       "id": "D015",
@@ -429,7 +443,8 @@
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense."
     },
     {
       "id": "D016",
@@ -453,7 +468,8 @@
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense."
     },
     {
       "id": "D017",
@@ -477,7 +493,8 @@
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense."
     },
     {
       "id": "D018",
@@ -501,7 +518,8 @@
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense."
     },
     {
       "id": "D019",
@@ -525,7 +543,8 @@
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense."
     },
     {
       "id": "D020",
@@ -549,7 +568,8 @@
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense."
     },
     {
       "id": "D021",
@@ -573,7 +593,8 @@
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense."
     },
     {
       "id": "D022",
@@ -596,11 +617,12 @@
       "agent2Position": "Included in overhead",
       "evidenceReliability": "high",
       "finalAnswer": "Rent payments: operating expense EUR 48,000.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Rent operating expense €48,000.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset."
     },
     {
       "id": "D023",
@@ -623,11 +645,12 @@
       "agent2Position": "Included in overhead",
       "evidenceReliability": "high",
       "finalAnswer": "Meta/influencer payments: operating expense EUR 55,000 marketing.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Marketing operating expense €55,000.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset."
     },
     {
       "id": "D024",
@@ -650,11 +673,12 @@
       "agent2Position": "Included in overhead",
       "evidenceReliability": "high",
       "finalAnswer": "Software payments: operating expense EUR 16,000.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Software operating expense €16,000.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset."
     },
     {
       "id": "D025",
@@ -677,11 +701,12 @@
       "agent2Position": "Included in overhead",
       "evidenceReliability": "high",
       "finalAnswer": "Utilities payments: operating expense EUR 12,000.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Utilities operating expense €12,000.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset."
     },
     {
       "id": "D026",
@@ -704,11 +729,12 @@
       "agent2Position": "Repairs separate",
       "evidenceReliability": "high",
       "finalAnswer": "Repair transfer: expense EUR 10,000; do not capitalize.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Repair operating expense €10,000; no PPE addition.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset."
     },
     {
       "id": "D027",
@@ -731,11 +757,12 @@
       "agent2Position": "Narrative says includes PPE",
       "evidenceReliability": "high",
       "finalAnswer": "Packaging machine payment: capitalize EUR 60,000 PPE.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "PPE gross cost +€60,000; investing cash outflow.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "The purchase creates equipment used beyond the current period, so it increases PPE and is an investing cash flow."
     },
     {
       "id": "D028",
@@ -758,11 +785,12 @@
       "agent2Position": "Agent 2 balance sheet effectively capitalizes",
       "evidenceReliability": "high",
       "finalAnswer": "Photo booth payment: capitalize EUR 20,000 PPE.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "PPE gross cost +€20,000; investing cash outflow.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "The purchase creates equipment used beyond the current period, so it increases PPE and is an investing cash flow."
     },
     {
       "id": "D029",
@@ -785,11 +813,12 @@
       "agent2Position": "Same",
       "evidenceReliability": "high",
       "finalAnswer": "Loan receipt: EUR 50,000 borrowing, not income.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Loan principal and financing cash inflow +€50,000; no revenue.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "Borrowed principal changes debt and financing cash, not earned revenue or operating expense."
     },
     {
       "id": "D030",
@@ -812,11 +841,12 @@
       "agent2Position": "Same",
       "evidenceReliability": "high",
       "finalAnswer": "Loan repayments: reduce principal by EUR 19,000.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Loan principal and financing cash outflow -€19,000; no expense.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "Borrowed principal changes debt and financing cash, not earned revenue or operating expense."
     },
     {
       "id": "D031",
@@ -841,11 +871,12 @@
       "agent2Position": "Same",
       "evidenceReliability": "high",
       "finalAnswer": "Interest payments: EUR 10,000 paid; EUR 12,000 expense and EUR 2,000 accrued.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Interest expense €12,000, interest cash €10,000 and closing accrual €2,000.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "Borrowed principal changes debt and financing cash, not earned revenue or operating expense."
     },
     {
       "id": "D032",
@@ -868,11 +899,12 @@
       "agent2Position": "Same",
       "evidenceReliability": "high",
       "finalAnswer": "Villa deposit: EUR 70,000 owner-related payment, not operating expense.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Owner-related cash outflow €70,000; excluded from operating expense.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "The payment benefits the owner rather than ordinary operations; it is excluded from operating profit pending legal classification."
     },
     {
       "id": "D033",
@@ -895,11 +927,12 @@
       "agent2Position": "Same",
       "evidenceReliability": "high",
       "finalAnswer": "Owner card spending: EUR 40,000 owner-related payment, not operating expense.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Owner-related cash outflow €40,000; excluded from operating expense.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "The payment benefits the owner rather than ordinary operations; it is excluded from operating profit pending legal classification."
     },
     {
       "id": "D034",
@@ -924,7 +957,8 @@
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "No policy amount, payment or coverage period is present in the project files; an extra insurance expense cannot be measured reliably."
     },
     {
       "id": "D035",
@@ -947,11 +981,12 @@
       "agent2Position": "Same",
       "evidenceReliability": "high",
       "finalAnswer": "Water-damaged stock: EUR 22,000 write-down; physically present but unsaleable.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Damaged inventory write-down and expense €22,000.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "The stock is physically present but cannot be sold; its €22,000 carrying value must be written down separately from the material-consumption basis difference."
     },
     {
       "id": "D036",
@@ -975,11 +1010,12 @@
       "agent2Position": "Same after correction",
       "evidenceReliability": "high",
       "finalAnswer": "Customer insolvency: R-17 EUR 18,000 impairment, assuming included in CRM receivables.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "R-17 impairment expense €18,000; net receivables lower by €18,000, subject to CRM tie-out.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "The reported insolvency supports an €18,000 impairment if R-17 is included in the gross CRM receivable; the inclusion tie-out remains open."
     },
     {
       "id": "D037",
@@ -1002,11 +1038,12 @@
       "agent2Position": "Same",
       "evidenceReliability": "high",
       "finalAnswer": "Former employee claim: recognize EUR 25,000 provision.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Employee claim expense and provision €25,000.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "External counsel assessed the former employee claim as probable, supporting a €25,000 provision within the stated range."
     },
     {
       "id": "D038",
@@ -1029,11 +1066,12 @@
       "agent2Position": "No separate position",
       "evidenceReliability": "high",
       "finalAnswer": "Purchase total: EUR 459,000 materials purchased and received; EUR 126,000 unpaid supplier balances.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Received purchases €459,000; supplier payables €126,000.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "Recognise goods received in purchases and carry the unpaid invoice balance as a supplier payable."
     },
     {
       "id": "D039",
@@ -1056,11 +1094,12 @@
       "agent2Position": "Same",
       "evidenceReliability": "high",
       "finalAnswer": "Cash collections total: customer receipts EUR 899,000 excluding loan advance.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Customer cash receipts €899,000, including €90,000 deferred September deposits.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "Recognise delivered or completed work as revenue; distinguish the cash collected from the unpaid receivable."
     },
     {
       "id": "D040",
@@ -1083,11 +1122,12 @@
       "agent2Position": "Same",
       "evidenceReliability": "high",
       "finalAnswer": "Closing bank balance: EUR 60,000.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Closing cash €60,000.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "Recognise delivered or completed work as revenue; distinguish the cash collected from the unpaid receivable."
     },
     {
       "id": "D041",
@@ -1122,7 +1162,7 @@
       "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
       "evidenceReliability": "high",
       "finalAnswer": "Exclude EUR 90,000 September deposits from revenue; record contract liabilities.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "September customer advances €90,000 are contract liabilities, not August revenue.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
@@ -1161,7 +1201,7 @@
       "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
       "evidenceReliability": "high",
       "finalAnswer": "Treat EUR 50,000 new bank borrowing as debt, not income.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Bank loan and financing cash +€50,000; no revenue.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
@@ -1200,7 +1240,7 @@
       "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
       "evidenceReliability": "high",
       "finalAnswer": "Capitalize packaging machine EUR 60,000 as PPE.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Packaging machine adds €60,000 to PPE gross cost and investing cash outflow.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
@@ -1239,7 +1279,7 @@
       "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
       "evidenceReliability": "medium",
       "finalAnswer": "Capitalize photo booth EUR 20,000 as PPE.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Photo booth adds €20,000 to PPE gross cost and investing cash outflow.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
@@ -1278,7 +1318,7 @@
       "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
       "evidenceReliability": "high",
       "finalAnswer": "Expense EUR 10,000 belt/calibration repair; it restores normal output and does not improve the asset.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Repair expense €10,000; no PPE capitalization.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
@@ -1317,7 +1357,7 @@
       "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
       "evidenceReliability": "high",
       "finalAnswer": "Treat EUR 70,000 villa payment as provisional owner withdrawal/distribution or related-party balance, not marketing.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Villa payment €70,000 is owner-related cash outflow, excluded from operating expense.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
@@ -1435,7 +1475,7 @@
       "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
       "evidenceReliability": "high",
       "finalAnswer": "Classify event-delivery payroll EUR 80,000 as direct cost.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Event-delivery payroll €80,000 is direct cost and reduces gross profit.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
@@ -1462,11 +1502,12 @@
       "agent2Position": "Sales EUR 72,000 operating",
       "evidenceReliability": "medium",
       "finalAnswer": "Classify sales/partnerships payroll EUR 72,000 as operating expense.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Sales and partnerships payroll operating expense €72,000.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense."
     },
     {
       "id": "D051",
@@ -1488,11 +1529,12 @@
       "agent2Position": "Same",
       "evidenceReliability": "medium",
       "finalAnswer": "Classify office/finance payroll EUR 96,000 as operating expense.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Office and finance payroll operating expense €96,000.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense."
     },
     {
       "id": "D052",
@@ -1514,11 +1556,12 @@
       "agent2Position": "Included in overhead",
       "evidenceReliability": "high",
       "finalAnswer": "Classify rent EUR 48,000 as operating expense.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Rent operating expense €48,000.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset."
     },
     {
       "id": "D053",
@@ -1540,11 +1583,12 @@
       "agent2Position": "Included in overhead",
       "evidenceReliability": "high",
       "finalAnswer": "Classify marketing EUR 55,000 as operating expense.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Marketing operating expense €55,000.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset."
     },
     {
       "id": "D054",
@@ -1566,11 +1610,12 @@
       "agent2Position": "Included in overhead",
       "evidenceReliability": "high",
       "finalAnswer": "Classify software EUR 16,000 as operating expense.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Software operating expense €16,000.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset."
     },
     {
       "id": "D055",
@@ -1592,11 +1637,12 @@
       "agent2Position": "Included in overhead",
       "evidenceReliability": "high",
       "finalAnswer": "Classify utilities EUR 12,000 as operating expense.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Utilities operating expense €12,000.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset."
     },
     {
       "id": "D056",
@@ -1630,7 +1676,7 @@
       "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
       "evidenceReliability": "medium",
       "finalAnswer": "Use depreciation estimate EUR 24,000; request useful-life support.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Depreciation expense €24,000 increases accumulated depreciation.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
@@ -1670,7 +1716,7 @@
       "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
       "evidenceReliability": "medium",
       "finalAnswer": "Recognize EUR 18,000 R-17 impairment, pending tie-out that R-17 is included in CRM balance.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "R-17 impairment expense €18,000 reduces net receivables to €168,000 if included in CRM.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
@@ -1748,7 +1794,7 @@
       "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
       "evidenceReliability": "high",
       "finalAnswer": "Recognize probable employee claim provision EUR 25,000; disclose EUR 20,000–30,000 range.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Employee claim expense and provision €25,000; disclosed estimate range €20,000–€30,000.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
@@ -1778,7 +1824,8 @@
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "No policy amount, payment or coverage period is present in the project files; an extra insurance expense cannot be measured reliably."
     },
     {
       "id": "D061",
@@ -1801,11 +1848,12 @@
       "agent2Position": "Same",
       "evidenceReliability": "high",
       "finalAnswer": "Accrue unpaid interest EUR 2,000 from EUR 12,000 expense less EUR 10,000 paid.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Closing interest payable €2,000.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "Borrowed principal changes debt and financing cash, not earned revenue or operating expense."
     },
     {
       "id": "D062",
@@ -1828,11 +1876,12 @@
       "agent2Position": "EUR 15,000",
       "evidenceReliability": "medium",
       "finalAnswer": "Use calculated closing payroll payable EUR 32,000 = 15,000 opening + 248,000 expense - 231,000 cash paid.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Closing payroll payable €32,000.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense."
     },
     {
       "id": "D063",
@@ -1854,11 +1903,12 @@
       "agent2Position": "No separate position",
       "evidenceReliability": "high",
       "finalAnswer": "Use supplier payables EUR 126,000.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Closing supplier payables €126,000.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "Recognise goods received in purchases and carry the unpaid invoice balance as a supplier payable."
     },
     {
       "id": "D064",
@@ -1893,7 +1943,7 @@
       "agent2Position": "Include",
       "evidenceReliability": "high",
       "finalAnswer": "Recognize NorthStar delivered revenue EUR 180,000.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "NorthStar delivered revenue €180,000.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
@@ -1933,7 +1983,7 @@
       "agent2Position": "Include",
       "evidenceReliability": "high",
       "finalAnswer": "Recognize Freedom delivered revenue EUR 200,000.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Freedom delivered revenue €200,000.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
@@ -1973,7 +2023,7 @@
       "agent2Position": "Include",
       "evidenceReliability": "high",
       "finalAnswer": "Recognize Phoenix completed-event revenue EUR 100,000.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Phoenix completed-event revenue €100,000.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
@@ -2013,7 +2063,7 @@
       "agent2Position": "Include",
       "evidenceReliability": "high",
       "finalAnswer": "Recognize Liberty delivered revenue EUR 120,000.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Liberty delivered revenue €120,000.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
@@ -2054,7 +2104,7 @@
       "agent2Position": "Exclude",
       "evidenceReliability": "high",
       "finalAnswer": "Exclude undelivered September events EUR 90,000 from revenue and record liability.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Undelivered September deposits €90,000 remain contract liabilities.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
@@ -2082,11 +2132,12 @@
       "agent2Position": "Same",
       "evidenceReliability": "high",
       "finalAnswer": "Classify EUR 19,000 principal payment as financing, reducing loan principal.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Financing cash outflow €19,000 and loan principal reduction €19,000.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "Borrowed principal changes debt and financing cash, not earned revenue or operating expense."
     },
     {
       "id": "D070",
@@ -2109,11 +2160,12 @@
       "agent2Position": "Same",
       "evidenceReliability": "high",
       "finalAnswer": "Classify EUR 80,000 equipment purchase as investing cash outflow and PPE additions.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Investing cash outflow and PPE gross additions €80,000.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "The purchase creates equipment used beyond the current period, so it increases PPE and is an investing cash flow."
     },
     {
       "id": "D071",
@@ -2149,7 +2201,7 @@
       "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
       "evidenceReliability": "medium",
       "finalAnswer": "Use EUR 18,000 bad-debt impairment/write-off, subject to R-17 inclusion tie-out.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "R-17 impairment expense €18,000 and corresponding receivable reduction, subject to CRM tie-out.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
@@ -2189,7 +2241,7 @@
       "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
       "evidenceReliability": "high",
       "finalAnswer": "Use EUR 22,000 damaged-inventory write-down based on independent assessment that stock is unsaleable.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Damaged-stock expense and inventory write-down €22,000.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
@@ -2228,7 +2280,7 @@
       "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
       "evidenceReliability": "high",
       "finalAnswer": "Use EUR 25,000 legal provision based on external counsel’s probable claim assessment.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Employee claim expense and provision €25,000.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
@@ -2267,7 +2319,7 @@
       "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
       "evidenceReliability": "medium",
       "finalAnswer": "Use EUR 24,000 period depreciation estimate; useful-life schedule remains missing.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Period depreciation expense €24,000 and accumulated depreciation increase €24,000.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
@@ -2338,11 +2390,12 @@
       "agent2Position": "EUR 186,000",
       "evidenceReliability": "high",
       "finalAnswer": "Use gross receivables EUR 186,000 and net EUR 168,000 after R-17 impairment, assuming R-17 is included in CRM.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Gross receivables €186,000 less R-17 impairment €18,000 = €168,000 net.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "Recognise delivered or completed work as revenue; distinguish the cash collected from the unpaid receivable."
     },
     {
       "id": "D077",
@@ -2366,11 +2419,12 @@
       "agent2Position": "Repairs separate",
       "evidenceReliability": "high",
       "finalAnswer": "Use EUR 10,000 repair expense, not improvement/capitalization.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Repair expense €10,000; no PPE addition.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset."
     },
     {
       "id": "D078",
@@ -2395,7 +2449,8 @@
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "No policy amount, payment or coverage period is present in the project files; an extra insurance expense cannot be measured reliably."
     },
     {
       "id": "D079",
@@ -2419,11 +2474,12 @@
       "agent2Position": "Same",
       "evidenceReliability": "high",
       "finalAnswer": "Use accrued interest EUR 2,000.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Interest expense €12,000 less paid €10,000 = €2,000 payable.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "Borrowed principal changes debt and financing cash, not earned revenue or operating expense."
     },
     {
       "id": "D080",
@@ -2447,11 +2503,12 @@
       "agent2Position": "EUR 15,000",
       "evidenceReliability": "medium",
       "finalAnswer": "Use calculated accrued payroll EUR 32,000; closing ledger not independently stated.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Opening payroll payable €15,000 + €248,000 expense - €231,000 paid = €32,000 closing payable.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense."
     },
     {
       "id": "D081",
@@ -2476,11 +2533,12 @@
       "agent2Position": "Recognize",
       "evidenceReliability": "high",
       "finalAnswer": "Use customer deposit liability EUR 90,000.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Contract liabilities €90,000; no August revenue.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "Delivery falls after the reporting date, so the receipt remains a contract liability at 31 August."
     },
     {
       "id": "D082",
@@ -2503,11 +2561,12 @@
       "agent2Position": "Same",
       "evidenceReliability": "high",
       "finalAnswer": "Use closing PPE gross EUR 260,000 and net PPE EUR 191,000.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Gross PPE €260,000 less accumulated depreciation €69,000 = €191,000 net PPE.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "The purchase creates equipment used beyond the current period, so it increases PPE and is an investing cash flow."
     },
     {
       "id": "D083",
@@ -2531,11 +2590,12 @@
       "agent2Position": "Same",
       "evidenceReliability": "medium",
       "finalAnswer": "Use accumulated depreciation EUR 69,000 = opening EUR 45,000 + current EUR 24,000.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Accumulated depreciation €69,000 = €45,000 opening + €24,000 period charge.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "The purchase creates equipment used beyond the current period, so it increases PPE and is an investing cash flow."
     },
     {
       "id": "D084",
@@ -2558,11 +2618,12 @@
       "agent2Position": "No separate position",
       "evidenceReliability": "high",
       "finalAnswer": "Use supplier payable EUR 126,000.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Supplier payables €126,000 across Box, Glass, Print and Event.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "Recognise goods received in purchases and carry the unpaid invoice balance as a supplier payable."
     },
     {
       "id": "D085",
@@ -2586,11 +2647,12 @@
       "agent2Position": "Same",
       "evidenceReliability": "high",
       "finalAnswer": "Use closing loan principal EUR 131,000 = 100,000 + 50,000 - 19,000.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Closing loan principal €131,000 = €100,000 opening + €50,000 advance - €19,000 repayment.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "Borrowed principal changes debt and financing cash, not earned revenue or operating expense."
     },
     {
       "id": "D086",
@@ -2620,7 +2682,8 @@
         "status": "unapproved",
         "approved": false
       },
-      "changedFromAI": true
+      "changedFromAI": true,
+      "reviewExplanation": "The gross count of €143,000 closes opening €80,000 plus purchases €459,000 at €396,000 consumption; €405,000 consumption is a distinct €9,000 sensitivity."
     },
     {
       "id": "D087",
@@ -2643,11 +2706,12 @@
       "agent2Position": "EUR 80,000 direct",
       "evidenceReliability": "medium",
       "finalAnswer": "Use direct event-delivery payroll EUR 80,000.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Direct event-delivery payroll €80,000 reduces gross profit.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense."
     },
     {
       "id": "D088",
@@ -2671,11 +2735,12 @@
       "agent2Position": "Same",
       "evidenceReliability": "high",
       "finalAnswer": "Use owner-related payments EUR 110,000 as provisional distribution/personal withdrawal or related-party balance.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Owner-related financing cash outflow €110,000; provisional equity or related-party classification.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "The payment benefits the owner rather than ordinary operations; it is excluded from operating profit pending legal classification."
     },
     {
       "id": "D089",
@@ -2704,7 +2769,8 @@
         "status": "unapproved",
         "approved": false
       },
-      "changedFromAI": true
+      "changedFromAI": true,
+      "reviewExplanation": "The selected P&L totals €74,000 before tax; using €405,000 consumption lowers it to €65,000, and a proven disposal obligation would reduce either case by €2,000."
     },
     {
       "id": "D090",
@@ -2728,11 +2794,12 @@
       "agent2Position": "Same",
       "evidenceReliability": "high",
       "finalAnswer": "Use closing cash EUR 60,000.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Closing cash €60,000 = €80,000 opening - €20,000 net movement.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "Recognise delivered or completed work as revenue; distinguish the cash collected from the unpaid receivable."
     },
     {
       "id": "D091",
@@ -2765,7 +2832,7 @@
       "agent2Position": "Not separately stated for this decision in the reconciled workbook.",
       "evidenceReliability": "medium",
       "finalAnswer": "Student must approve/certify corrected accounts before valuation; draft recommendation is to approve only with stated caveats.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Governance recommendation; no new accounting entry until student sign-off.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
@@ -2794,11 +2861,12 @@
       "agent2Position": "Same",
       "evidenceReliability": "high",
       "finalAnswer": "Freeze owner-card access as a control recommendation; no direct workbook decision ID.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Access-control recommendation; no current-period accounting entry.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "This is a governance action; it changes the recommended control response, not the current accounting balances."
     },
     {
       "id": "D093",
@@ -2823,11 +2891,12 @@
       "agent2Position": "Recognize",
       "evidenceReliability": "high",
       "finalAnswer": "Move EUR 90,000 September deposits to contract liabilities.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Contract liabilities +€90,000 and current-period revenue excludes these deposits.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "Delivery falls after the reporting date, so the receipt remains a contract liability at 31 August."
     },
     {
       "id": "D094",
@@ -2850,11 +2919,12 @@
       "agent2Position": "Same",
       "evidenceReliability": "high",
       "finalAnswer": "Begin weekly 13-week cash forecast as a board recommendation; no direct workbook decision ID.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Forecast-control recommendation; no current-period accounting entry.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "This is a governance action; it changes the recommended control response, not the current accounting balances."
     },
     {
       "id": "D095",
@@ -2877,11 +2947,12 @@
       "agent2Position": "Same after correction",
       "evidenceReliability": "high",
       "finalAnswer": "Stop credit sales to insolvent/high-risk customers as a control recommendation; R-17 supports risk response.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Credit-control recommendation; no new impairment beyond supported R-17 amount.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "This is a governance action; it changes the recommended control response, not the current accounting balances."
     },
     {
       "id": "D096",
@@ -2936,11 +3007,12 @@
       "agent2Position": "Same",
       "evidenceReliability": "high",
       "finalAnswer": "Investigate management override/duplicate sources; reject unsupported management profit and cash figures.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Investigation recommendation; reject unsupported €312,000 management profit.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "This is a governance action; it changes the recommended control response, not the current accounting balances."
     },
     {
       "id": "D098",
@@ -2963,11 +3035,12 @@
       "agent2Position": "No separate position",
       "evidenceReliability": "high",
       "finalAnswer": "Renegotiate supplier terms as a board recommendation in light of EUR 126,000 unpaid balances.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Supplier-management recommendation concerning €126,000 closing payables; no new adjustment.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "This is a governance action; it changes the recommended control response, not the current accounting balances."
     },
     {
       "id": "D099",
@@ -2992,11 +3065,12 @@
       "agent2Position": "Include",
       "evidenceReliability": "high",
       "finalAnswer": "Continue core Finally Single and event operations based on delivered sales evidence; subject to student/board approval.",
-      "financialStatementImpact": "Not separately stated; review required.",
+      "financialStatementImpact": "Operating recommendation grounded in delivered sales; no new accounting entry.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
-      }
+      },
+      "reviewExplanation": "This is a governance action; it changes the recommended control response, not the current accounting balances."
     },
     {
       "id": "D100",
