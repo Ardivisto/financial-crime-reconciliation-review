@@ -3661,7 +3661,8 @@
   },
   "studentCertification": {
     "status": "awaiting_personal_student_attestation",
-    "approved": false
+    "approved": false,
+    "declarationForPersonalReview": "I, Ričards Vismanis, confirm that I personally reviewed all 100 decisions, the supporting schedules and reconciliations, and the stated evidence gaps. I understand that this answer set was prepared with AI assistance, that 11 decisions lack separate source detail, and that the €9,000 inventory difference and other uncertainties remain disclosed. I accept responsibility for the final submission."
   },
   "reviewCertification": {
     "status": "assistant_review_completed",
