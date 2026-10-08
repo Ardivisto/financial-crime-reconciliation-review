@@ -3,8 +3,8 @@
   "caseId": "DPI-HT-01",
   "student": {
     "id": "rv25056",
-    "name": "Pending confirmation",
-    "nameVerificationStatus": "unverified_name_variants_in_project"
+    "name": "Ričards Vismanis",
+    "nameVerificationStatus": "confirmed_by_user_2026-10-08"
   },
   "draftStatus": "REVIEWED RECONCILIATION — STUDENT ATTESTATION PENDING",
   "mappingNotice": "D001–D100 IDs are retained. Eleven rows lack source-level monthly payroll or insurance data; their aggregate treatment is stated without invented line amounts.",
@@ -2539,11 +2539,6 @@
       "item": "Opening supplier payables",
       "treatment": "Bank confirms €378,000 supplier payments and fully allocates €760,000 operating cash. Purchase and payable movement implies €45,000 opening AP (Event); verify opening ledger.",
       "confidence": "medium"
-    },
-    {
-      "item": "Student name",
-      "treatment": "Project artifacts disagree between Vismansi and Vismanis; student name must be confirmed before certification.",
-      "confidence": "high"
     }
   ],
   "boardRecommendation": {
@@ -2555,13 +2550,17 @@
       "Request inventory stock-movement reconciliation for EUR 9,000 gap.",
       "Request payroll ledger, depreciation support and R-17 customer subledger match.",
       "Use weekly 13-week cash forecast.",
-      "Confirm inferred €45,000 opening supplier payable against the opening ledger and confirm student name before certification."
+      "Confirm inferred €45,000 opening supplier payable against the opening ledger."
     ]
   },
   "reviewCertification": {
     "status": "assistant_review_completed",
     "reviewer": "Codex",
-    "scope": "Assistant review of all 12 locally available source files against the app and JSON. Bank supplier payments and CRM R-17 linkage were checked; inventory €9,000 conflict, opening AP ledger, monthly payroll, insurance and student identity remain open. Source files are not included in the public repository.",
+    "scope": "Assistant review of all 12 locally available source files against the app and JSON. Bank supplier payments and CRM R-17 linkage were checked; inventory €9,000 conflict, opening AP ledger, monthly payroll and insurance remain open; student identity was confirmed by the user. Source files are not included in the public repository.",
     "studentAttestation": false
+  },
+  "studentCertification": {
+    "status": "awaiting_personal_student_attestation",
+    "approved": false
   }
 }
