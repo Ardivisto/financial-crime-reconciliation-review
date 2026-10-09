@@ -1,0 +1,445 @@
+{
+  "reviewer": "Independent reviewer B",
+  "reviewedAt": "2026-10-09T10:02:15Z",
+  "sourceArchive": "03 CASE FILES - Open and Investigate-20261008T152707Z-1-001.zip",
+  "decisions": [
+    {
+      "id": "D041",
+      "proposal": "€90k September deposits are contract liabilities, not August sales.",
+      "evidence": [
+        "02 Bank Export August.csv DEP-NB/DEP-FF2",
+        "04 Contracts Returns and Angry Customers.pdf p.2"
+      ],
+      "ambiguity": "Future delivery; duplicates D068.",
+      "statementEffect": {
+        "profit": 0,
+        "cash": 90000,
+        "nonCashAssets": 0,
+        "liabilities": 90000,
+        "equity": 0
+      },
+      "reasoning": "No goods or service delivered by cutoff."
+    },
+    {
+      "id": "D042",
+      "proposal": "€50k advance is bank loan principal.",
+      "evidence": [
+        "02 Bank Export August.csv LOAN-ADV",
+        "09 Loans Owner Card and Legal Problems.pdf p.1"
+      ],
+      "ambiguity": "Maturity split absent.",
+      "statementEffect": {
+        "profit": 0,
+        "cash": 50000,
+        "nonCashAssets": 0,
+        "liabilities": 50000,
+        "equity": 0
+      },
+      "reasoning": "Signed facility requires repayment; closing principal €131k."
+    },
+    {
+      "id": "D043",
+      "proposal": "Capitalize €60k packaging machine.",
+      "evidence": [
+        "02 Bank Export August.csv CAPEX-PACK",
+        "06 Purchases Invoices and Goods Received.pdf p.2 A-910",
+        "08 Assets Repairs Leases Maybe.xlsx Assets!A5:E5"
+      ],
+      "ambiguity": "Useful life not supplied; D074 covers depreciation.",
+      "statementEffect": {
+        "profit": 0,
+        "cash": -60000,
+        "nonCashAssets": 60000,
+        "liabilities": 0,
+        "equity": 0
+      },
+      "reasoning": "Installed productive equipment is PPE."
+    },
+    {
+      "id": "D044",
+      "proposal": "Capitalize €20k photo booth.",
+      "evidence": [
+        "02 Bank Export August.csv CAPEX-PHOTO",
+        "06 Purchases Invoices and Goods Received.pdf p.2 P-404",
+        "08 Assets Repairs Leases Maybe.xlsx Assets!A6:E6"
+      ],
+      "ambiguity": "Useful life not supplied; D074 covers depreciation.",
+      "statementEffect": {
+        "profit": 0,
+        "cash": -20000,
+        "nonCashAssets": 20000,
+        "liabilities": 0,
+        "equity": 0
+      },
+      "reasoning": "Durable booth is PPE, not instant marketing expense."
+    },
+    {
+      "id": "D045",
+      "proposal": "Expense €10k belt, cleaning, calibration.",
+      "evidence": [
+        "02 Bank Export August.csv REPAIR",
+        "06 Purchases Invoices and Goods Received.pdf p.2 R-771",
+        "08 Assets Repairs Leases Maybe.xlsx Assets!A7:E7"
+      ],
+      "ambiguity": "No evidence of capacity/life increase.",
+      "statementEffect": {
+        "profit": -10000,
+        "cash": -10000,
+        "nonCashAssets": 0,
+        "liabilities": 0,
+        "equity": -10000
+      },
+      "reasoning": "Work restored normal output."
+    },
+    {
+      "id": "D046",
+      "proposal": "Default €70k villa payment to owner distribution.",
+      "evidence": [
+        "02 Bank Export August.csv VILLA",
+        "09 Loans Owner Card and Legal Problems.pdf p.1"
+      ],
+      "ambiguity": "Recovery claim possible only if legally enforceable; no evidence yet.",
+      "statementEffect": {
+        "profit": 0,
+        "cash": -70000,
+        "nonCashAssets": 0,
+        "liabilities": 0,
+        "equity": -70000
+      },
+      "reasoning": "Founder owns villa; no customer meeting or business asset."
+    },
+    {
+      "id": "D047",
+      "proposal": "Default separate €40k owner-card spending to distribution.",
+      "evidence": [
+        "02 Bank Export August.csv OWNERCARD",
+        "09 Loans Owner Card and Legal Problems.pdf p.1",
+        "07 Payroll Bonuses Contractors NEW.xlsx Payroll!A8:E8"
+      ],
+      "ambiguity": "Receipts and remuneration approval absent; €110k bonus row duplicates villa plus card.",
+      "statementEffect": {
+        "profit": 0,
+        "cash": -40000,
+        "nonCashAssets": 0,
+        "liabilities": 0,
+        "equity": -40000
+      },
+      "reasoning": "No basis for extra payroll charge."
+    },
+    {
+      "id": "D048",
+      "proposal": "Use explicit €405k physical materials consumed as direct cost pending reconciliation.",
+      "evidence": [
+        "05 Warehouse Count Marta Notes.pdf p.2",
+        "06 Purchases Invoices and Goods Received.pdf p.1"
+      ],
+      "ambiguity": "80+459-405=134 gross stock versus €143k count; €9k unexplained. Event/material split absent.",
+      "statementEffect": {
+        "profit": -405000,
+        "cash": 0,
+        "nonCashAssets": -405000,
+        "liabilities": 0,
+        "equity": -405000
+      },
+      "reasoning": "Purchases/payments are distinct flows, not extra period expenses."
+    },
+    {
+      "id": "D049",
+      "proposal": "Classify €80k event staff payroll as direct service cost.",
+      "evidence": [
+        "07 Payroll Bonuses Contractors NEW.xlsx Payroll!A4:E4,A7:E7",
+        "02 Bank Export August.csv PAYROLL"
+      ],
+      "ambiguity": "Opening €15k unpaid payroll not allocated; €5k row difference is movement only.",
+      "statementEffect": {
+        "profit": -80000,
+        "cash": -75000,
+        "nonCashAssets": 0,
+        "liabilities": 5000,
+        "equity": -80000
+      },
+      "reasoning": "Part of €248k total payroll; moving from admin changes gross profit, not PBT."
+    },
+    {
+      "id": "D056",
+      "proposal": "Recognize €24k depreciation.",
+      "evidence": [
+        "08 Assets Repairs Leases Maybe.xlsx Assets!A4:E8"
+      ],
+      "ambiguity": "Aggregate estimate only; repeats D074.",
+      "statementEffect": {
+        "profit": -24000,
+        "cash": 0,
+        "nonCashAssets": -24000,
+        "liabilities": 0,
+        "equity": -24000
+      },
+      "reasoning": "PPE in use cannot have zero depreciation without support."
+    },
+    {
+      "id": "D057",
+      "proposal": "Allow/write off €18k R-17 receivable.",
+      "evidence": [
+        "04 Contracts Returns and Angry Customers.pdf p.2",
+        "11 Evidence Received After Takeover.pdf p.1",
+        "03 CRM Export Cleaned FINAL.xlsx CRM Export!A9:I9"
+      ],
+      "ambiguity": "Invoice crosswalk incomplete; repeats D071.",
+      "statementEffect": {
+        "profit": -18000,
+        "cash": 0,
+        "nonCashAssets": -18000,
+        "liabilities": 0,
+        "equity": -18000
+      },
+      "reasoning": "Liquidation condition existed at reporting date; no recovery expected."
+    },
+    {
+      "id": "D058",
+      "proposal": "Write down €22k wet stock to zero.",
+      "evidence": [
+        "05 Warehouse Count Marta Notes.pdf pp.1-2",
+        "11 Evidence Received After Takeover.pdf p.1"
+      ],
+      "ambiguity": "€2k removal quote does not prove present disposal obligation; repeats D072.",
+      "statementEffect": {
+        "profit": -22000,
+        "cash": 0,
+        "nonCashAssets": -22000,
+        "liabilities": 0,
+        "equity": -22000
+      },
+      "reasoning": "Physical presence does not support recoverable value."
+    },
+    {
+      "id": "D059",
+      "proposal": "Provide €25k employee claim.",
+      "evidence": [
+        "09 Loans Owner Card and Legal Problems.pdf p.2",
+        "11 Evidence Received After Takeover.pdf p.1"
+      ],
+      "ambiguity": "Outcome €20k-€30k; repeats D073.",
+      "statementEffect": {
+        "profit": -25000,
+        "cash": 0,
+        "nonCashAssets": 0,
+        "liabilities": 25000,
+        "equity": -25000
+      },
+      "reasoning": "External counsel calls claim probable and gives best estimate."
+    },
+    {
+      "id": "D064",
+      "proposal": "Recognize €180k NorthStar accepted sale and receipt.",
+      "evidence": [
+        "04 Contracts Returns and Angry Customers.pdf p.1 INV-26012",
+        "03 CRM Export Cleaned FINAL.xlsx CRM Export!A4:I4",
+        "02 Bank Export August.csv RCPT-NS"
+      ],
+      "ambiguity": "Name variants matched by date/invoice/amount; cost in D048.",
+      "statementEffect": {
+        "profit": 180000,
+        "cash": 180000,
+        "nonCashAssets": 0,
+        "liabilities": 0,
+        "equity": 180000
+      },
+      "reasoning": "Accepted 12 February and fully paid."
+    },
+    {
+      "id": "D065",
+      "proposal": "Recognize €200k Freedom sale, €142k cash and €58k AR.",
+      "evidence": [
+        "04 Contracts Returns and Angry Customers.pdf p.1 INV-26031",
+        "03 CRM Export Cleaned FINAL.xlsx CRM Export!A5:I5",
+        "02 Bank Export August.csv RCPT-FF"
+      ],
+      "ambiguity": "No specific impairment evidence on €58k; cost in D048.",
+      "statementEffect": {
+        "profit": 200000,
+        "cash": 142000,
+        "nonCashAssets": 58000,
+        "liabilities": 0,
+        "equity": 200000
+      },
+      "reasoning": "Accepted 18 March; cash collection does not limit earned revenue."
+    },
+    {
+      "id": "D066",
+      "proposal": "Recognize €100k Phoenix completed event, €70k cash and €30k AR.",
+      "evidence": [
+        "04 Contracts Returns and Angry Customers.pdf p.1 INV-26047",
+        "03 CRM Export Cleaned FINAL.xlsx CRM Export!A6:I6",
+        "02 Bank Export August.csv RCPT-PHX"
+      ],
+      "ambiguity": "Acceptance is email; vendor cost not separable from purchase pool.",
+      "statementEffect": {
+        "profit": 100000,
+        "cash": 70000,
+        "nonCashAssets": 30000,
+        "liabilities": 0,
+        "equity": 100000
+      },
+      "reasoning": "Service completed 29 April."
+    },
+    {
+      "id": "D067",
+      "proposal": "Recognize €120k Liberty order, €95k cash and €25k AR.",
+      "evidence": [
+        "04 Contracts Returns and Angry Customers.pdf p.1 INV-26063",
+        "03 CRM Export Cleaned FINAL.xlsx CRM Export!A7:I7",
+        "02 Bank Export August.csv RCPT-LIB"
+      ],
+      "ambiguity": "No specific impairment on €25k; cost in D048.",
+      "statementEffect": {
+        "profit": 120000,
+        "cash": 95000,
+        "nonCashAssets": 25000,
+        "liabilities": 0,
+        "equity": 120000
+      },
+      "reasoning": "20 June delivery and explicit acceptance."
+    },
+    {
+      "id": "D068",
+      "proposal": "Exclude September events from August revenue.",
+      "evidence": [
+        "04 Contracts Returns and Angry Customers.pdf p.2 NB-SEP/FF-SEP",
+        "03 CRM Export Cleaned FINAL.xlsx CRM Export!A10:I11",
+        "02 Bank Export August.csv DEP-NB/DEP-FF2"
+      ],
+      "ambiguity": "Same €90k deposit entry as D041; no double count.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "nonCashAssets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "reasoning": "No cutoff performance; D041 books cash and liability once."
+    },
+    {
+      "id": "D071",
+      "proposal": "Estimate €18k bad debt, €168k net AR from €186k gross.",
+      "evidence": [
+        "04 Contracts Returns and Angry Customers.pdf p.2 R-17",
+        "11 Evidence Received After Takeover.pdf p.1",
+        "03 CRM Export Cleaned FINAL.xlsx CRM Export!E4:F9"
+      ],
+      "ambiguity": "R-17 crosswalk incomplete; no broader allowance evidence; overlaps D057.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "nonCashAssets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "reasoning": "Open gross: €58k+€30k+€25k+€20k+€53k; deduct €18k once."
+    },
+    {
+      "id": "D072",
+      "proposal": "Estimate €22k damaged-stock write-off.",
+      "evidence": [
+        "05 Warehouse Count Marta Notes.pdf pp.1-2",
+        "11 Evidence Received After Takeover.pdf p.1"
+      ],
+      "ambiguity": "No present obligation proven for €2k removal; overlaps D058.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "nonCashAssets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "reasoning": "Independent assessment says no saleable value."
+    },
+    {
+      "id": "D073",
+      "proposal": "Estimate €25k legal provision.",
+      "evidence": [
+        "09 Loans Owner Card and Legal Problems.pdf p.2",
+        "11 Evidence Received After Takeover.pdf p.1"
+      ],
+      "ambiguity": "Range €20k-€30k; overlaps D059.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "nonCashAssets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "reasoning": "Use counsel's best estimate once."
+    },
+    {
+      "id": "D074",
+      "proposal": "Estimate €24k period depreciation; accumulated €69k, net PPE €191k.",
+      "evidence": [
+        "08 Assets Repairs Leases Maybe.xlsx Assets!A4:E8",
+        "06 Purchases Invoices and Goods Received.pdf p.2"
+      ],
+      "ambiguity": "No asset lives/residuals/allocation; overlaps D056.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "nonCashAssets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "reasoning": "PPE cost €260k; accumulated €45k+€24k."
+    },
+    {
+      "id": "D075",
+      "proposal": "Provisional closing stock €121k net: €143k count less €22k damage.",
+      "evidence": [
+        "05 Warehouse Count Marta Notes.pdf pp.1-2",
+        "06 Purchases Invoices and Goods Received.pdf p.1"
+      ],
+      "ambiguity": "Count exceeds flow-implied gross €134k by €9k; D048/D058 hold expense effects.",
+      "statementEffect": {
+        "profit": null,
+        "cash": null,
+        "nonCashAssets": null,
+        "liabilities": null,
+        "equity": null
+      },
+      "reasoning": "Count supports stock, but €9k bridge must be traced before certification."
+    },
+    {
+      "id": "D091",
+      "proposal": "Correct accounts before valuation; defer final certification pending gaps.",
+      "evidence": [
+        "00 BOARD ORDER READ FIRST.pdf p.1",
+        "01 USE THIS NUMBERS FINAL v9.xlsx Management P&L!A4:C11",
+        "05 Warehouse Count Marta Notes.pdf pp.1-2"
+      ],
+      "ambiguity": "Insurance, inventory bridge, payroll detail and card receipts absent; policy has no journal effect.",
+      "statementEffect": {
+        "profit": 0,
+        "cash": 0,
+        "nonCashAssets": 0,
+        "liabilities": 0,
+        "equity": 0
+      },
+      "reasoning": "Management claims contradict stronger bank, contract and external evidence."
+    },
+    {
+      "id": "D100",
+      "proposal": "Reject €312k management profit for earn-out.",
+      "evidence": [
+        "01 USE THIS NUMBERS FINAL v9.xlsx Management P&L!A4:C11",
+        "02 Bank Export August.csv OWNERCARD",
+        "04 Contracts Returns and Angry Customers.pdf p.2",
+        "09 Loans Owner Card and Legal Problems.pdf pp.1-2"
+      ],
+      "ambiguity": "Earn-out terms absent; PBT €65k/€74k inventory alternatives before unknown insurance; policy no journal effect.",
+      "statementEffect": {
+        "profit": 0,
+        "cash": 0,
+        "nonCashAssets": 0,
+        "liabilities": 0,
+        "equity": 0
+      },
+      "reasoning": "Management treated future deposits and debt as income and missed losses/charges."
+    }
+  ]
+}

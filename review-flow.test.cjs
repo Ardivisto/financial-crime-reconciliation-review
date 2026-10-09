@@ -65,6 +65,13 @@ setImmediate(()=>{
   assert.equal(published.decisions.filter(d=>d.reviewTier==='material_judgment'&&d.studentReasoningStatus==='ai_assisted_reasoning_in_student_certified_submission').length,25,'certified reasoning status is consistent');
   assert.equal(published.boardRecommendation.actions.length,5,'five student actions remain');
   assert.equal(published.boardRecommendation.studentAdoption.status,'personally_confirmed_by_student','board adoption is explicit');
+  assert.equal(published.postCertificationIndependentDialogues.decisions.length,25,'two fresh dialogue analyses cover all material decisions');
+  assert.equal(published.postCertificationIndependentDialogues.studentComparisonStatus,'pending_personal_review','new AI supplement is not falsely student-approved');
+  reloaded.eval('dialogues()');
+  assert(reloaded.node('#app').innerHTML.includes('Independent dialogue A')&&reloaded.node('#app').innerHTML.includes('Independent dialogue B'),'both fresh dialogues render');
+  assert(reloaded.node('#app').innerHTML.includes('Reviewer A selects')&&reloaded.node('#app').innerHTML.includes('€65,000'),'inventory disagreement is explicit');
+  reloaded.eval('assessorReview()');
+  assert(reloaded.node('#app').innerHTML.includes('Two fresh AI dialogues'),'assessor sees supplementary review link');
   reloaded.eval('uncertaintyPage()');
   assert(reloaded.node('#app').innerHTML.includes('Personally adopted by the student'),'board adoption shown publicly');
   reloaded.eval('downloadCertifiedObject('+JSON.stringify(published)+')');
@@ -77,7 +84,8 @@ setImmediate(()=>{
   assert(reloaded.node('#app').innerHTML.includes('Comparison and final choice'),'material page shows comparison');
   assert(reloaded.node('#app').innerHTML.includes('D100'),'all material entries are rendered');
   assert(reloaded.node('#app').innerHTML.includes('Post-certification clarification'),'historical draft wording is contextualized');
-  assert.equal(['D048','D075','D100'].filter(id=>published.decisions.find(d=>d.id===id).postCertificationClarification).length,3,'all three historical draft notes are present');
+  assert(reloaded.node('#app').innerHTML.includes('Fresh A/B comparison'),'new analysis is integrated with material judgments');
+  assert.equal(['D048','D075','D091','D100'].filter(id=>published.decisions.find(d=>d.id===id).postCertificationClarification).length,4,'all four historical draft notes are present');
   const publicBox=reloaded.node('#app').innerHTML.match(/<input class="challenge-box"[^>]*data-id="D041"[^>]*>/)?.[0];
   assert(publicBox?.includes('checked')&&publicBox.includes('disabled'),'published material review is read only');
   reloaded.eval('decisions()');

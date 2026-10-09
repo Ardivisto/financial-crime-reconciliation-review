@@ -1,0 +1,1171 @@
+{
+  "caseId": "DPI-HT-01",
+  "recordedAt": "2026-10-09T10:12:11.590Z",
+  "status": "two_fresh_independent_ai_dialogues_recorded_student_comparison_pending",
+  "scope": "Post-certification AI supplement. The existing student certification predates these two new dialogues and does not attest to personally reviewing them.",
+  "sourceArchive": {
+    "name": "03 CASE FILES - Open and Investigate-20261008T152707Z-1-001.zip",
+    "sha256": "73B896A681D9D6305909C2193F41B1FA921F2DD8E3E5804663845CC361883D31",
+    "fileCount": 12
+  },
+  "blankTemplate": {
+    "name": "01 GIVE TO CODEX - Answer Template.json",
+    "sha256": "9616A32DE8A39A4D8E8B43B0926DD40F9A6630F15304166135E0A675C83A2938"
+  },
+  "method": "Two separate fresh AI agent conversations, each started without prior chat turns and instructed to read only the original case archive and blank template. Neither was given the published answer set or the other response. Their public reports redact local filesystem paths; private tool traces are not included.",
+  "dialogues": [
+    {
+      "id": "A",
+      "reviewedAt": "2026-10-09T10:02:44Z",
+      "report": "/independent_reviews/dialogue_A.md",
+      "structured": "/independent_reviews/dialogue_A.json",
+      "provisionalPbt": 65000
+    },
+    {
+      "id": "B",
+      "reviewedAt": "2026-10-09T10:02:15Z",
+      "report": "/independent_reviews/dialogue_B.md",
+      "structured": "/independent_reviews/dialogue_B.json",
+      "provisionalPbt": 65000
+    }
+  ],
+  "studentComparisonStatus": "pending_personal_review",
+  "comparisonAuthorship": "AI-prepared after both independent dialogues completed",
+  "decisions": [
+    {
+      "id": "D041",
+      "question": "Classify September customer deposits.",
+      "dialogueA": {
+        "id": "D041",
+        "proposal": "Recognize €90,000 of September receipts as contract liabilities at 31 August, not August revenue.",
+        "evidence": [
+          "02 Bank Export August.csv, rows DEP-NB and DEP-FF2",
+          "04 Contracts Returns and Angry Customers.pdf, p. 2, NB-SEP and FF-SEP",
+          "03 CRM Export Cleaned FINAL.xlsx, CRM Export!10:11"
+        ],
+        "ambiguity": "Assumes customer payments are refundable or otherwise obligate future performance; no contrary contract terms supplied. Same €90,000 appears again at D068, with no second booking.",
+        "statementEffect": {
+          "profit": 0,
+          "cash": 90000,
+          "nonCashAssets": 0,
+          "liabilities": 90000,
+          "equity": 0
+        },
+        "reasoning": "Neither event had been delivered by 31 August. Cash receipt establishes cash and a duty to deliver, not earned income; reversal of management sales reduces its claimed profit by €90,000."
+      },
+      "dialogueB": {
+        "id": "D041",
+        "proposal": "€90k September deposits are contract liabilities, not August sales.",
+        "evidence": [
+          "02 Bank Export August.csv DEP-NB/DEP-FF2",
+          "04 Contracts Returns and Angry Customers.pdf p.2"
+        ],
+        "ambiguity": "Future delivery; duplicates D068.",
+        "statementEffect": {
+          "profit": 0,
+          "cash": 90000,
+          "nonCashAssets": 0,
+          "liabilities": 90000,
+          "equity": 0
+        },
+        "reasoning": "No goods or service delivered by cutoff."
+      },
+      "existingCertifiedAnswer": "Exclude EUR 90,000 September deposits from revenue; record contract liabilities.",
+      "existingCertifiedReasoning": "The €60,000 New Beginnings and €30,000 Fresh Freedom receipts relate to September performance. Cash received before 31 August creates a €90,000 contract liability until the events are delivered.",
+      "existingAnswerClarification": null,
+      "comparisonCategory": "same_core_treatment",
+      "aiComparison": "Both fresh reviews agree with the certified €90,000 September contract liability; D068 repeats the same entry.",
+      "studentComparisonStatus": "pending_personal_review"
+    },
+    {
+      "id": "D042",
+      "question": "Classify New bank borrowing.",
+      "dialogueA": {
+        "id": "D042",
+        "proposal": "Treat the €50,000 March bank advance as borrowing principal.",
+        "evidence": [
+          "02 Bank Export August.csv, row LOAN-ADV",
+          "09 Loans Owner Card and Legal Problems.pdf, p. 1, loan table",
+          "11 Evidence Received After Takeover.pdf, p. 1, bank confirmation"
+        ],
+        "ambiguity": "No ambiguity in principal classification. The closing €131,000 loan also reflects opening €100,000 and €19,000 principal repayment; those are separate cash movements.",
+        "statementEffect": {
+          "profit": 0,
+          "cash": 50000,
+          "nonCashAssets": 0,
+          "liabilities": 50000,
+          "equity": 0
+        },
+        "reasoning": "The signed agreement requires repayment. Management’s €50,000 “strategic income” is unsupported and must be removed from profit."
+      },
+      "dialogueB": {
+        "id": "D042",
+        "proposal": "€50k advance is bank loan principal.",
+        "evidence": [
+          "02 Bank Export August.csv LOAN-ADV",
+          "09 Loans Owner Card and Legal Problems.pdf p.1"
+        ],
+        "ambiguity": "Maturity split absent.",
+        "statementEffect": {
+          "profit": 0,
+          "cash": 50000,
+          "nonCashAssets": 0,
+          "liabilities": 50000,
+          "equity": 0
+        },
+        "reasoning": "Signed facility requires repayment; closing principal €131k."
+      },
+      "existingCertifiedAnswer": "Treat EUR 50,000 new bank borrowing as debt, not income.",
+      "existingCertifiedReasoning": "The €50,000 bank transfer creates a repayment obligation. It increases cash and loan principal, and cannot be earned revenue.",
+      "existingAnswerClarification": null,
+      "comparisonCategory": "same_core_treatment",
+      "aiComparison": "Both fresh reviews classify the €50,000 advance as loan principal, matching the certified choice. It is not revenue.",
+      "studentComparisonStatus": "pending_personal_review"
+    },
+    {
+      "id": "D043",
+      "question": "Classify Packaging machine.",
+      "dialogueA": {
+        "id": "D043",
+        "proposal": "Capitalize Pack-O-Matic 9000 at €60,000 as PPE; depreciate from 10 May within the combined €24,000 period estimate.",
+        "evidence": [
+          "06 Purchases Invoices and Goods Received.pdf, p. 2, invoice A-910",
+          "08 Assets Repairs Leases Maybe.xlsx, Assets!4:8",
+          "02 Bank Export August.csv, row CAPEX-PACK"
+        ],
+        "ambiguity": "Useful life and allocation of the €24,000 depreciation among assets are not supplied. D074 covers the aggregate depreciation; do not add it twice.",
+        "statementEffect": {
+          "profit": 0,
+          "cash": -60000,
+          "nonCashAssets": 60000,
+          "liabilities": 0,
+          "equity": 0
+        },
+        "reasoning": "A new installed packaging machine creates future service potential. Management’s “repair” label does not override invoice and installation evidence; reclassifying a recorded expense would raise its profit by €60,000."
+      },
+      "dialogueB": {
+        "id": "D043",
+        "proposal": "Capitalize €60k packaging machine.",
+        "evidence": [
+          "02 Bank Export August.csv CAPEX-PACK",
+          "06 Purchases Invoices and Goods Received.pdf p.2 A-910",
+          "08 Assets Repairs Leases Maybe.xlsx Assets!A5:E5"
+        ],
+        "ambiguity": "Useful life not supplied; D074 covers depreciation.",
+        "statementEffect": {
+          "profit": 0,
+          "cash": -60000,
+          "nonCashAssets": 60000,
+          "liabilities": 0,
+          "equity": 0
+        },
+        "reasoning": "Installed productive equipment is PPE."
+      },
+      "existingCertifiedAnswer": "Capitalize packaging machine EUR 60,000 as PPE.",
+      "existingCertifiedReasoning": "The €60,000 packaging machine is a separately identifiable asset expected to support later production. Add it to PPE; charge depreciation over its supported useful life.",
+      "existingAnswerClarification": null,
+      "comparisonCategory": "same_core_treatment",
+      "aiComparison": "Both fresh reviews capitalize the €60,000 packaging machine. Useful-life support remains incomplete.",
+      "studentComparisonStatus": "pending_personal_review"
+    },
+    {
+      "id": "D044",
+      "question": "Classify Photo booth.",
+      "dialogueA": {
+        "id": "D044",
+        "proposal": "Capitalize Regret Photo Booth at €20,000 as PPE; include it in the aggregate period depreciation estimate.",
+        "evidence": [
+          "06 Purchases Invoices and Goods Received.pdf, p. 2, invoice P-404",
+          "08 Assets Repairs Leases Maybe.xlsx, Assets!6:8",
+          "02 Bank Export August.csv, row CAPEX-PHOTO"
+        ],
+        "ambiguity": "No asset-specific useful life or depreciation split. The €24,000 estimate in D074 is total period depreciation.",
+        "statementEffect": {
+          "profit": 0,
+          "cash": -20000,
+          "nonCashAssets": 20000,
+          "liabilities": 0,
+          "equity": 0
+        },
+        "reasoning": "The booth was available for use on 10 May. Its purchase is an investing cash flow, not marketing expense; reversing management’s expensing would raise its profit by €20,000."
+      },
+      "dialogueB": {
+        "id": "D044",
+        "proposal": "Capitalize €20k photo booth.",
+        "evidence": [
+          "02 Bank Export August.csv CAPEX-PHOTO",
+          "06 Purchases Invoices and Goods Received.pdf p.2 P-404",
+          "08 Assets Repairs Leases Maybe.xlsx Assets!A6:E6"
+        ],
+        "ambiguity": "Useful life not supplied; D074 covers depreciation.",
+        "statementEffect": {
+          "profit": 0,
+          "cash": -20000,
+          "nonCashAssets": 20000,
+          "liabilities": 0,
+          "equity": 0
+        },
+        "reasoning": "Durable booth is PPE, not instant marketing expense."
+      },
+      "existingCertifiedAnswer": "Capitalize photo booth EUR 20,000 as PPE.",
+      "existingCertifiedReasoning": "The €20,000 photo booth is equipment used beyond this period. Capitalisation follows the invoice and asset schedule; its useful life still needs confirmation.",
+      "existingAnswerClarification": null,
+      "comparisonCategory": "same_core_treatment",
+      "aiComparison": "Both fresh reviews capitalize the €20,000 photo booth. Useful-life support remains incomplete.",
+      "studentComparisonStatus": "pending_personal_review"
+    },
+    {
+      "id": "D045",
+      "question": "Classify Machine belt and calibration.",
+      "dialogueA": {
+        "id": "D045",
+        "proposal": "Expense the €10,000 replacement belt, cleaning and calibration as repair and maintenance.",
+        "evidence": [
+          "06 Purchases Invoices and Goods Received.pdf, p. 2, invoice R-771",
+          "08 Assets Repairs Leases Maybe.xlsx, Assets!7",
+          "02 Bank Export August.csv, row REPAIR"
+        ],
+        "ambiguity": "No part of the invoice is evidenced to increase capacity or useful life. This payment is already in the bank export.",
+        "statementEffect": {
+          "profit": -10000,
+          "cash": -10000,
+          "nonCashAssets": 0,
+          "liabilities": 0,
+          "equity": -10000
+        },
+        "reasoning": "The work restored normal output. It does not qualify as an improvement; management capitalized it, overstating PPE and profit by €10,000."
+      },
+      "dialogueB": {
+        "id": "D045",
+        "proposal": "Expense €10k belt, cleaning, calibration.",
+        "evidence": [
+          "02 Bank Export August.csv REPAIR",
+          "06 Purchases Invoices and Goods Received.pdf p.2 R-771",
+          "08 Assets Repairs Leases Maybe.xlsx Assets!A7:E7"
+        ],
+        "ambiguity": "No evidence of capacity/life increase.",
+        "statementEffect": {
+          "profit": -10000,
+          "cash": -10000,
+          "nonCashAssets": 0,
+          "liabilities": 0,
+          "equity": -10000
+        },
+        "reasoning": "Work restored normal output."
+      },
+      "existingCertifiedAnswer": "Expense EUR 10,000 belt/calibration repair; it restores normal output and does not improve the asset.",
+      "existingCertifiedReasoning": "The €10,000 belt and calibration restored normal operation without added capacity or life. It is a current repair expense.",
+      "existingAnswerClarification": null,
+      "comparisonCategory": "same_core_treatment",
+      "aiComparison": "Both fresh reviews expense the €10,000 belt and calibration repair, matching the certified treatment.",
+      "studentComparisonStatus": "pending_personal_review"
+    },
+    {
+      "id": "D046",
+      "question": "Classify Owner villa deposit.",
+      "dialogueA": {
+        "id": "D046",
+        "proposal": "Classify the €70,000 villa reservation as an owner distribution/drawing pending legal review, not company marketing or a company asset.",
+        "evidence": [
+          "02 Bank Export August.csv, row VILLA",
+          "09 Loans Owner Card and Legal Problems.pdf, p. 1, owner villa reservation and personal-name statement",
+          "10 Email and WhatsApp Dump DO NOT FORWARD.pdf, p. 2, villa messages"
+        ],
+        "ambiguity": "Legal recoverability from the founder and formal distribution approval are unknown. A director receivable could replace equity treatment only with credible recovery evidence. This is part of the €110,000 owner spending, not additional to it.",
+        "statementEffect": {
+          "profit": 0,
+          "cash": -70000,
+          "nonCashAssets": 0,
+          "liabilities": 0,
+          "equity": -70000
+        },
+        "reasoning": "The villa is in the founder’s personal name and no customer meeting occurred. The outflow belongs below profit as a withdrawal."
+      },
+      "dialogueB": {
+        "id": "D046",
+        "proposal": "Default €70k villa payment to owner distribution.",
+        "evidence": [
+          "02 Bank Export August.csv VILLA",
+          "09 Loans Owner Card and Legal Problems.pdf p.1"
+        ],
+        "ambiguity": "Recovery claim possible only if legally enforceable; no evidence yet.",
+        "statementEffect": {
+          "profit": 0,
+          "cash": -70000,
+          "nonCashAssets": 0,
+          "liabilities": 0,
+          "equity": -70000
+        },
+        "reasoning": "Founder owns villa; no customer meeting or business asset."
+      },
+      "existingCertifiedAnswer": "Treat EUR 70,000 villa payment as provisional owner withdrawal/distribution or related-party balance, not marketing.",
+      "existingCertifiedReasoning": "The €70,000 villa deposit has no evidenced business purpose. Exclude it from marketing and hold it as a provisional owner distribution or recoverable related-party amount pending legal classification.",
+      "existingAnswerClarification": null,
+      "comparisonCategory": "caveat_or_scope_difference",
+      "aiComparison": "Both fresh reviews exclude the €70,000 villa payment from marketing and default to an owner distribution. The certified choice also leaves a recoverable related-party balance open pending legal evidence.",
+      "studentComparisonStatus": "pending_personal_review"
+    },
+    {
+      "id": "D047",
+      "question": "Classify Owner card spending.",
+      "dialogueA": {
+        "id": "D047",
+        "proposal": "Classify the additional €40,000 owner card payment as owner distribution/drawing pending substantiation; reject an unapproved payroll bonus.",
+        "evidence": [
+          "02 Bank Export August.csv, row OWNERCARD",
+          "07 Payroll Bonuses Contractors NEW.xlsx, Payroll!8",
+          "09 Loans Owner Card and Legal Problems.pdf, p. 1, other owner card spending"
+        ],
+        "ambiguity": "The individual card charges and legal right of recovery are not supplied. Payroll!8 shows a €110,000 founder “bonus”, apparently the same €70,000 plus €40,000 bank outflows; never expense or pay it again without evidence.",
+        "statementEffect": {
+          "profit": 0,
+          "cash": -40000,
+          "nonCashAssets": 0,
+          "liabilities": 0,
+          "equity": -40000
+        },
+        "reasoning": "No employment approval supports compensation, and the bank contains only these two owner cash movements. Combined owner drawings are €110,000."
+      },
+      "dialogueB": {
+        "id": "D047",
+        "proposal": "Default separate €40k owner-card spending to distribution.",
+        "evidence": [
+          "02 Bank Export August.csv OWNERCARD",
+          "09 Loans Owner Card and Legal Problems.pdf p.1",
+          "07 Payroll Bonuses Contractors NEW.xlsx Payroll!A8:E8"
+        ],
+        "ambiguity": "Receipts and remuneration approval absent; €110k bonus row duplicates villa plus card.",
+        "statementEffect": {
+          "profit": 0,
+          "cash": -40000,
+          "nonCashAssets": 0,
+          "liabilities": 0,
+          "equity": -40000
+        },
+        "reasoning": "No basis for extra payroll charge."
+      },
+      "existingCertifiedAnswer": "Treat €110,000 total owner-related payments (€70,000 villa deposit plus €40,000 owner-card spending) as provisional withdrawals/distribution or a related-party balance, not payroll.",
+      "existingCertifiedReasoning": "The villa payment is €70,000 and owner-card spending is €40,000. Together they explain the €110,000 owner-related cash outflow. Neither is normal payroll or an operating expense; the legal form of the balance still needs confirmation.",
+      "existingAnswerClarification": null,
+      "comparisonCategory": "caveat_or_scope_difference",
+      "aiComparison": "Both fresh reviews treat the separate €40,000 owner-card spending as owner-related, not payroll. The certified answer combines it with the €70,000 villa payment and leaves legal form open.",
+      "studentComparisonStatus": "pending_personal_review"
+    },
+    {
+      "id": "D048",
+      "question": "Classify Physical product materials consumed.",
+      "dialogueA": {
+        "id": "D048",
+        "proposal": "Charge €405,000 physical product materials consumed on valid delivered sales to cost of goods sold.",
+        "evidence": [
+          "05 Warehouse Count Marta Notes.pdf, p. 2, purchase and consumption record",
+          "06 Purchases Invoices and Goods Received.pdf, p. 1, €459,000 received"
+        ],
+        "ambiguity": "The €405,000 consumption record conflicts by €9,000 with opening inventory €80,000 + purchases €459,000 less physical gross count €143,000, which implies €396,000. D075 uses the flow figure provisionally; investigate before sign-off. D058/D072 are separate damaged stock expense.",
+        "statementEffect": {
+          "profit": -405000,
+          "cash": 0,
+          "nonCashAssets": -405000,
+          "liabilities": 0,
+          "equity": -405000
+        },
+        "reasoning": "Expense inventory when the associated valid sales are delivered. Supplier cash payments and purchases are separate entries; counting both purchase and consumption as expense would duplicate cost."
+      },
+      "dialogueB": {
+        "id": "D048",
+        "proposal": "Use explicit €405k physical materials consumed as direct cost pending reconciliation.",
+        "evidence": [
+          "05 Warehouse Count Marta Notes.pdf p.2",
+          "06 Purchases Invoices and Goods Received.pdf p.1"
+        ],
+        "ambiguity": "80+459-405=134 gross stock versus €143k count; €9k unexplained. Event/material split absent.",
+        "statementEffect": {
+          "profit": -405000,
+          "cash": 0,
+          "nonCashAssets": -405000,
+          "liabilities": 0,
+          "equity": -405000
+        },
+        "reasoning": "Purchases/payments are distinct flows, not extra period expenses."
+      },
+      "existingCertifiedAnswer": "Use the physical stock count as the closing measurement: EUR 143,000 gross less EUR 22,000 damaged stock = EUR 121,000 saleable inventory. This implies EUR 396,000 materials consumed. Record the EUR 9,000 favorable count-to-movement adjustment against the EUR 405,000 management consumption schedule; disclose that the source movement reconciliation is still needed. Selected PBT is EUR 74,000 before any disposal provision.",
+      "existingCertifiedReasoning": "Recommended judgment for personal review: use the direct physical count, apply the documented EUR 22,000 write-down, and recognize a EUR 9,000 favorable count-to-movement adjustment to inventory/COGS. This produces EUR 121,000 saleable stock and EUR 74,000 PBT. The source schedule difference remains disclosed for follow-up.",
+      "existingAnswerClarification": "The opening phrase is preserved from the AI draft. The student subsequently reviewed and certified the count-basis treatment. The EUR 9,000 movement difference still needs investigation.",
+      "comparisonCategory": "inventory_basis_difference",
+      "aiComparison": "Both fresh reviews use the explicit €405,000 consumption record provisionally. The certified count basis uses €396,000 consumed and a disclosed €9,000 favorable adjustment. The source documents do not explain the difference.",
+      "studentComparisonStatus": "pending_personal_review"
+    },
+    {
+      "id": "D049",
+      "question": "Classify Event staff payroll.",
+      "dialogueA": {
+        "id": "D049",
+        "proposal": "Include €80,000 event delivery staff payroll in direct service cost/COGS, not administration.",
+        "evidence": [
+          "07 Payroll Bonuses Contractors NEW.xlsx, Payroll!4 and Payroll!7",
+          "02 Bank Export August.csv, row PAYROLL"
+        ],
+        "ambiguity": "Only aggregate €231,000 payroll cash and opening unpaid payroll €15,000 are independently shown. The staff row says €75,000 cash paid, but does not establish this department’s closing payable because payments could settle opening arrears. Aggregate closing payroll payable is €32,000.",
+        "statementEffect": {
+          "profit": -80000,
+          "cash": -75000,
+          "nonCashAssets": 0,
+          "liabilities": null,
+          "equity": -80000
+        },
+        "reasoning": "Event staff work directly on paid events. The €80,000 expense is within the €248,000 total payroll; moving it from admin to direct cost has no net effect on PBT if already expensed."
+      },
+      "dialogueB": {
+        "id": "D049",
+        "proposal": "Classify €80k event staff payroll as direct service cost.",
+        "evidence": [
+          "07 Payroll Bonuses Contractors NEW.xlsx Payroll!A4:E4,A7:E7",
+          "02 Bank Export August.csv PAYROLL"
+        ],
+        "ambiguity": "Opening €15k unpaid payroll not allocated; €5k row difference is movement only.",
+        "statementEffect": {
+          "profit": -80000,
+          "cash": -75000,
+          "nonCashAssets": 0,
+          "liabilities": 5000,
+          "equity": -80000
+        },
+        "reasoning": "Part of €248k total payroll; moving from admin changes gross profit, not PBT."
+      },
+      "existingCertifiedAnswer": "Classify event-delivery payroll EUR 80,000 as direct cost.",
+      "existingCertifiedReasoning": "Event staff worked on delivery of the contracts, so the €80,000 payroll is a direct service cost. It is part of the €248,000 payroll total, not an extra charge.",
+      "existingAnswerClarification": null,
+      "comparisonCategory": "same_core_treatment",
+      "aiComparison": "Both fresh reviews classify €80,000 event delivery payroll as direct service cost, matching the certified treatment.",
+      "studentComparisonStatus": "pending_personal_review"
+    },
+    {
+      "id": "D056",
+      "question": "Classify Depreciation.",
+      "dialogueA": {
+        "id": "D056",
+        "proposal": "Record €24,000 period depreciation, reducing carrying value of PPE and profit.",
+        "evidence": [
+          "08 Assets Repairs Leases Maybe.xlsx, Assets!4:8",
+          "06 Purchases Invoices and Goods Received.pdf, p. 2, asset availability dates"
+        ],
+        "ambiguity": "The schedule provides an aggregate independent estimate but no asset-specific lives/rates, so it is not possible to independently recompute the €24,000. This is the same estimate as D074.",
+        "statementEffect": {
+          "profit": -24000,
+          "cash": 0,
+          "nonCashAssets": -24000,
+          "liabilities": 0,
+          "equity": -24000
+        },
+        "reasoning": "Opening PPE cost was €180,000 with €45,000 accumulated depreciation; €80,000 of machines became usable 10 May. Management recorded zero depreciation."
+      },
+      "dialogueB": {
+        "id": "D056",
+        "proposal": "Recognize €24k depreciation.",
+        "evidence": [
+          "08 Assets Repairs Leases Maybe.xlsx Assets!A4:E8"
+        ],
+        "ambiguity": "Aggregate estimate only; repeats D074.",
+        "statementEffect": {
+          "profit": -24000,
+          "cash": 0,
+          "nonCashAssets": -24000,
+          "liabilities": 0,
+          "equity": -24000
+        },
+        "reasoning": "PPE in use cannot have zero depreciation without support."
+      },
+      "existingCertifiedAnswer": "Use depreciation estimate EUR 24,000; request useful-life support.",
+      "existingCertifiedReasoning": "The PPE roll-forward uses €45,000 opening accumulated depreciation plus €24,000 current depreciation to reach €69,000. The amount is provisional until asset lives and acquisition dates are evidenced.",
+      "existingAnswerClarification": null,
+      "comparisonCategory": "same_core_treatment",
+      "aiComparison": "Both fresh reviews accept €24,000 period depreciation as an estimate. Asset lives and in-service support remain incomplete.",
+      "studentComparisonStatus": "pending_personal_review"
+    },
+    {
+      "id": "D057",
+      "question": "Classify Bad receivable.",
+      "dialogueA": {
+        "id": "D057",
+        "proposal": "Write off or fully allow the €18,000 R-17 receivable and expense the loss.",
+        "evidence": [
+          "04 Contracts Returns and Angry Customers.pdf, p. 2, Return R-17",
+          "11 Evidence Received After Takeover.pdf, p. 1, liquidator notice",
+          "03 CRM Export Cleaned FINAL.xlsx, CRM Export!9"
+        ],
+        "ambiguity": "R-17 appears within the €53,000 gross web Never Call Back open balance; no separate extra debtor may be added. Do not count this loss again at D071.",
+        "statementEffect": {
+          "profit": -18000,
+          "cash": 0,
+          "nonCashAssets": -18000,
+          "liabilities": 0,
+          "equity": -18000
+        },
+        "reasoning": "The 3 September notice confirms the customer’s condition at 31 August, and no recovery is expected. It is adjusting evidence for the reporting date."
+      },
+      "dialogueB": {
+        "id": "D057",
+        "proposal": "Allow/write off €18k R-17 receivable.",
+        "evidence": [
+          "04 Contracts Returns and Angry Customers.pdf p.2",
+          "11 Evidence Received After Takeover.pdf p.1",
+          "03 CRM Export Cleaned FINAL.xlsx CRM Export!A9:I9"
+        ],
+        "ambiguity": "Invoice crosswalk incomplete; repeats D071.",
+        "statementEffect": {
+          "profit": -18000,
+          "cash": 0,
+          "nonCashAssets": -18000,
+          "liabilities": 0,
+          "equity": -18000
+        },
+        "reasoning": "Liquidation condition existed at reporting date; no recovery expected."
+      },
+      "existingCertifiedAnswer": "Recognise €18,000 R-17 impairment against the €186,000 gross receivables. WEB-NCB’s €53,000 open balance points to R-17; verify the exact €18,000 subledger match.",
+      "existingCertifiedReasoning": "External liquidation evidence supports the €18,000 loss. CRM explicitly flags R-17 on WEB-NCB’s €53,000 gross open balance, supporting inclusion in the €186,000 total; the individual balance match still requires the subledger.",
+      "existingAnswerClarification": null,
+      "comparisonCategory": "same_core_treatment",
+      "aiComparison": "Both fresh reviews recognize the €18,000 R-17 impairment. The exact customer subledger tie remains open.",
+      "studentComparisonStatus": "pending_personal_review"
+    },
+    {
+      "id": "D058",
+      "question": "Classify Damaged stock.",
+      "dialogueA": {
+        "id": "D058",
+        "proposal": "Write the €22,000 damaged basement stock down to zero recoverable inventory value.",
+        "evidence": [
+          "05 Warehouse Count Marta Notes.pdf, pp. 1–2, basement stock and disposal quote",
+          "11 Evidence Received After Takeover.pdf, p. 1, independent stock assessment"
+        ],
+        "ambiguity": "The €2,000 removal quote is distinct from the €22,000 carrying amount. There is no evidence of a present legal or constructive obligation to pay removal cost by 31 August, so disclose the expected future cost rather than add it to inventory write-off or provision. This repeats D072.",
+        "statementEffect": {
+          "profit": -22000,
+          "cash": 0,
+          "nonCashAssets": -22000,
+          "liabilities": 0,
+          "equity": -22000
+        },
+        "reasoning": "Physical existence does not give unsaleable inventory value. The post-takeover independent assessment confirms the damage existed at period end."
+      },
+      "dialogueB": {
+        "id": "D058",
+        "proposal": "Write down €22k wet stock to zero.",
+        "evidence": [
+          "05 Warehouse Count Marta Notes.pdf pp.1-2",
+          "11 Evidence Received After Takeover.pdf p.1"
+        ],
+        "ambiguity": "€2k removal quote does not prove present disposal obligation; repeats D072.",
+        "statementEffect": {
+          "profit": -22000,
+          "cash": 0,
+          "nonCashAssets": -22000,
+          "liabilities": 0,
+          "equity": -22000
+        },
+        "reasoning": "Physical presence does not support recoverable value."
+      },
+      "existingCertifiedAnswer": "Write down damaged stock EUR 22,000; present saleable inventory EUR 121,000.",
+      "existingCertifiedReasoning": "The count values gross stock at €143,000 and the independent assessment identifies €22,000 as unsaleable. Selected net stock is therefore €121,000. This write-down is separate from the €9,000 consumption reconciliation.",
+      "existingAnswerClarification": null,
+      "comparisonCategory": "same_core_treatment",
+      "aiComparison": "Both fresh reviews write down €22,000 unsaleable stock once. This is separate from the €9,000 movement gap.",
+      "studentComparisonStatus": "pending_personal_review"
+    },
+    {
+      "id": "D059",
+      "question": "Classify Probable legal claim.",
+      "dialogueA": {
+        "id": "D059",
+        "proposal": "Accrue a €25,000 provision and expense for the former employee claim.",
+        "evidence": [
+          "09 Loans Owner Card and Legal Problems.pdf, p. 2, external counsel letter",
+          "11 Evidence Received After Takeover.pdf, p. 1, lawyer confirmation"
+        ],
+        "ambiguity": "The reasonable range is €20,000–€30,000; €25,000 is the counsel best estimate. No settlement amount or payment is known. Same provision as D073.",
+        "statementEffect": {
+          "profit": -25000,
+          "cash": 0,
+          "nonCashAssets": 0,
+          "liabilities": 25000,
+          "equity": -25000
+        },
+        "reasoning": "External counsel assessed a probable obligation on 31 August. Later confirmation concerns that existing condition, so management’s omission is not justified."
+      },
+      "dialogueB": {
+        "id": "D059",
+        "proposal": "Provide €25k employee claim.",
+        "evidence": [
+          "09 Loans Owner Card and Legal Problems.pdf p.2",
+          "11 Evidence Received After Takeover.pdf p.1"
+        ],
+        "ambiguity": "Outcome €20k-€30k; repeats D073.",
+        "statementEffect": {
+          "profit": -25000,
+          "cash": 0,
+          "nonCashAssets": 0,
+          "liabilities": 25000,
+          "equity": -25000
+        },
+        "reasoning": "External counsel calls claim probable and gives best estimate."
+      },
+      "existingCertifiedAnswer": "Recognize probable employee claim provision EUR 25,000; disclose EUR 20,000–30,000 range.",
+      "existingCertifiedReasoning": "External counsel considers the employee claim probable, with an estimated €20,000–€30,000 range. €25,000 is the midpoint estimate; reassess when settlement evidence improves.",
+      "existingAnswerClarification": null,
+      "comparisonCategory": "same_core_treatment",
+      "aiComparison": "Both fresh reviews use a €25,000 provision within counsel’s €20,000–€30,000 probable claim range.",
+      "studentComparisonStatus": "pending_personal_review"
+    },
+    {
+      "id": "D064",
+      "question": "Classify Delivered NorthStar contract.",
+      "dialogueA": {
+        "id": "D064",
+        "proposal": "Recognize €180,000 NorthStar contract revenue on 12 February delivery/acceptance.",
+        "evidence": [
+          "04 Contracts Returns and Angry Customers.pdf, p. 1, INV-26012",
+          "03 CRM Export Cleaned FINAL.xlsx, CRM Export!4",
+          "02 Bank Export August.csv, row RCPT-NS"
+        ],
+        "ambiguity": "The customer name varies (“NorthStar”/“N STAR”) but invoice, amount and acceptance align. Full €180,000 collected. This is one component of total €960,000 revenue.",
+        "statementEffect": {
+          "profit": 180000,
+          "cash": 180000,
+          "nonCashAssets": 0,
+          "liabilities": 0,
+          "equity": 180000
+        },
+        "reasoning": "Signed acceptance and bank receipt support completed performance and collection. Revenue is earned by delivery, not just by cash."
+      },
+      "dialogueB": {
+        "id": "D064",
+        "proposal": "Recognize €180k NorthStar accepted sale and receipt.",
+        "evidence": [
+          "04 Contracts Returns and Angry Customers.pdf p.1 INV-26012",
+          "03 CRM Export Cleaned FINAL.xlsx CRM Export!A4:I4",
+          "02 Bank Export August.csv RCPT-NS"
+        ],
+        "ambiguity": "Name variants matched by date/invoice/amount; cost in D048.",
+        "statementEffect": {
+          "profit": 180000,
+          "cash": 180000,
+          "nonCashAssets": 0,
+          "liabilities": 0,
+          "equity": 180000
+        },
+        "reasoning": "Accepted 12 February and fully paid."
+      },
+      "existingCertifiedAnswer": "Recognize NorthStar delivered revenue EUR 180,000.",
+      "existingCertifiedReasoning": "NorthStar’s €180,000 contract was delivered by 31 August. Recognise the earned amount, while matching the N STAR receipt to the same customer to prevent duplicate revenue.",
+      "existingAnswerClarification": null,
+      "comparisonCategory": "same_core_treatment",
+      "aiComparison": "Both fresh reviews recognize €180,000 delivered NorthStar revenue; the receipt is not a second sale.",
+      "studentComparisonStatus": "pending_personal_review"
+    },
+    {
+      "id": "D065",
+      "question": "Classify Delivered Freedom contract.",
+      "dialogueA": {
+        "id": "D065",
+        "proposal": "Recognize €200,000 Freedom Festivals contract revenue on 18 March acceptance; record €58,000 gross receivable.",
+        "evidence": [
+          "04 Contracts Returns and Angry Customers.pdf, p. 1, INV-26031",
+          "03 CRM Export Cleaned FINAL.xlsx, CRM Export!5",
+          "02 Bank Export August.csv, row RCPT-FF"
+        ],
+        "ambiguity": "Only €142,000 has been collected. No specific impairment evidence for the remaining €58,000 is supplied. It is within total gross receivables and not an extra asset.",
+        "statementEffect": {
+          "profit": 200000,
+          "cash": 142000,
+          "nonCashAssets": 58000,
+          "liabilities": 0,
+          "equity": 200000
+        },
+        "reasoning": "Accepted goods establish the full receivable and revenue; collection timing does not restrict recognized sales."
+      },
+      "dialogueB": {
+        "id": "D065",
+        "proposal": "Recognize €200k Freedom sale, €142k cash and €58k AR.",
+        "evidence": [
+          "04 Contracts Returns and Angry Customers.pdf p.1 INV-26031",
+          "03 CRM Export Cleaned FINAL.xlsx CRM Export!A5:I5",
+          "02 Bank Export August.csv RCPT-FF"
+        ],
+        "ambiguity": "No specific impairment evidence on €58k; cost in D048.",
+        "statementEffect": {
+          "profit": 200000,
+          "cash": 142000,
+          "nonCashAssets": 58000,
+          "liabilities": 0,
+          "equity": 200000
+        },
+        "reasoning": "Accepted 18 March; cash collection does not limit earned revenue."
+      },
+      "existingCertifiedAnswer": "Recognize Freedom delivered revenue EUR 200,000.",
+      "existingCertifiedReasoning": "Freedom’s €200,000 contract was delivered. The €142,000 receipt settles part of that sale, leaving €58,000 due; the receipt does not set the revenue amount.",
+      "existingAnswerClarification": null,
+      "comparisonCategory": "same_core_treatment",
+      "aiComparison": "Both fresh reviews recognize €200,000 delivered Freedom revenue and the €58,000 unpaid balance.",
+      "studentComparisonStatus": "pending_personal_review"
+    },
+    {
+      "id": "D066",
+      "question": "Classify Completed Phoenix event.",
+      "dialogueA": {
+        "id": "D066",
+        "proposal": "Recognize €100,000 Phoenix People completed event revenue at 29 April; record €30,000 gross receivable.",
+        "evidence": [
+          "04 Contracts Returns and Angry Customers.pdf, p. 1, INV-26047",
+          "03 CRM Export Cleaned FINAL.xlsx, CRM Export!6",
+          "02 Bank Export August.csv, row RCPT-PHX"
+        ],
+        "ambiguity": "Final acceptance is a customer email rather than a signed page, but the contract schedule states event completion. CRM calls the customer Phoenix People while contract says Phoenix HR.",
+        "statementEffect": {
+          "profit": 100000,
+          "cash": 70000,
+          "nonCashAssets": 30000,
+          "liabilities": 0,
+          "equity": 100000
+        },
+        "reasoning": "The event was completed before reporting date and €70,000 paid. Completion plus acceptance supports the €100,000 invoice."
+      },
+      "dialogueB": {
+        "id": "D066",
+        "proposal": "Recognize €100k Phoenix completed event, €70k cash and €30k AR.",
+        "evidence": [
+          "04 Contracts Returns and Angry Customers.pdf p.1 INV-26047",
+          "03 CRM Export Cleaned FINAL.xlsx CRM Export!A6:I6",
+          "02 Bank Export August.csv RCPT-PHX"
+        ],
+        "ambiguity": "Acceptance is email; vendor cost not separable from purchase pool.",
+        "statementEffect": {
+          "profit": 100000,
+          "cash": 70000,
+          "nonCashAssets": 30000,
+          "liabilities": 0,
+          "equity": 100000
+        },
+        "reasoning": "Service completed 29 April."
+      },
+      "existingCertifiedAnswer": "Recognize Phoenix completed-event revenue EUR 100,000.",
+      "existingCertifiedReasoning": "Phoenix’s event was completed by the reporting date. Recognise €100,000 revenue; €70,000 cash received leaves €30,000 receivable.",
+      "existingAnswerClarification": null,
+      "comparisonCategory": "same_core_treatment",
+      "aiComparison": "Both fresh reviews recognize €100,000 completed Phoenix revenue and the €30,000 unpaid balance.",
+      "studentComparisonStatus": "pending_personal_review"
+    },
+    {
+      "id": "D067",
+      "question": "Classify Delivered Liberty order.",
+      "dialogueA": {
+        "id": "D067",
+        "proposal": "Recognize €120,000 Liberty Hotels delivered-order revenue on 20 June; record €25,000 gross receivable.",
+        "evidence": [
+          "04 Contracts Returns and Angry Customers.pdf, p. 1, INV-26063 and customer acceptance",
+          "03 CRM Export Cleaned FINAL.xlsx, CRM Export!7",
+          "02 Bank Export August.csv, row RCPT-LIB"
+        ],
+        "ambiguity": "€25,000 is still unpaid, with no specific evidence of impairment. It is part of gross receivables, not a second sale.",
+        "statementEffect": {
+          "profit": 120000,
+          "cash": 95000,
+          "nonCashAssets": 25000,
+          "liabilities": 0,
+          "equity": 120000
+        },
+        "reasoning": "Delivery and the customer’s explicit acceptance support recognition of the full invoice rather than just €95,000 cash."
+      },
+      "dialogueB": {
+        "id": "D067",
+        "proposal": "Recognize €120k Liberty order, €95k cash and €25k AR.",
+        "evidence": [
+          "04 Contracts Returns and Angry Customers.pdf p.1 INV-26063",
+          "03 CRM Export Cleaned FINAL.xlsx CRM Export!A7:I7",
+          "02 Bank Export August.csv RCPT-LIB"
+        ],
+        "ambiguity": "No specific impairment on €25k; cost in D048.",
+        "statementEffect": {
+          "profit": 120000,
+          "cash": 95000,
+          "nonCashAssets": 25000,
+          "liabilities": 0,
+          "equity": 120000
+        },
+        "reasoning": "20 June delivery and explicit acceptance."
+      },
+      "existingCertifiedAnswer": "Recognize Liberty delivered revenue EUR 120,000.",
+      "existingCertifiedReasoning": "Liberty’s €120,000 order was delivered. Recognise the full sale and carry €25,000 receivable after the €95,000 receipt.",
+      "existingAnswerClarification": null,
+      "comparisonCategory": "same_core_treatment",
+      "aiComparison": "Both fresh reviews recognize €120,000 delivered Liberty revenue and the €25,000 unpaid balance.",
+      "studentComparisonStatus": "pending_personal_review"
+    },
+    {
+      "id": "D068",
+      "question": "Classify Undelivered September events.",
+      "dialogueA": {
+        "id": "D068",
+        "proposal": "Exclude €60,000 NB-SEP and €30,000 FF-SEP from August revenue and carry €90,000 contract liability.",
+        "evidence": [
+          "04 Contracts Returns and Angry Customers.pdf, p. 2, September event schedule",
+          "03 CRM Export Cleaned FINAL.xlsx, CRM Export!10:11",
+          "02 Bank Export August.csv, rows DEP-NB and DEP-FF2"
+        ],
+        "ambiguity": "The amounts exactly duplicate D041, so this item is classification confirmation, not another €90,000 liability or cash receipt. The source calls them deposits; refund rights are not supplied.",
+        "statementEffect": {
+          "profit": 0,
+          "cash": 90000,
+          "nonCashAssets": 0,
+          "liabilities": 90000,
+          "equity": 0
+        },
+        "reasoning": "Both delivery dates fall in September. Management’s calendar shortcut cannot move performance into August."
+      },
+      "dialogueB": {
+        "id": "D068",
+        "proposal": "Exclude September events from August revenue.",
+        "evidence": [
+          "04 Contracts Returns and Angry Customers.pdf p.2 NB-SEP/FF-SEP",
+          "03 CRM Export Cleaned FINAL.xlsx CRM Export!A10:I11",
+          "02 Bank Export August.csv DEP-NB/DEP-FF2"
+        ],
+        "ambiguity": "Same €90k deposit entry as D041; no double count.",
+        "statementEffect": {
+          "profit": null,
+          "cash": null,
+          "nonCashAssets": null,
+          "liabilities": null,
+          "equity": null
+        },
+        "reasoning": "No cutoff performance; D041 books cash and liability once."
+      },
+      "existingCertifiedAnswer": "Exclude undelivered September events EUR 90,000 from revenue and record liability.",
+      "existingCertifiedReasoning": "The two September events total €90,000 and remained undelivered at 31 August. Record their advance cash as contract liabilities, consistent with D041.",
+      "existingAnswerClarification": null,
+      "comparisonCategory": "same_core_treatment",
+      "aiComparison": "Both fresh reviews exclude the €90,000 undelivered September events from August revenue. This repeats D041 and is not booked twice.",
+      "studentComparisonStatus": "pending_personal_review"
+    },
+    {
+      "id": "D071",
+      "question": "Estimate Closing bad-debt allowance/write-off and document the basis.",
+      "dialogueA": {
+        "id": "D071",
+        "proposal": "Set closing specific bad-debt allowance or write-off at €18,000 for R-17; closing net receivables are €168,000 if all other balances are collectible.",
+        "evidence": [
+          "04 Contracts Returns and Angry Customers.pdf, p. 2, R-17",
+          "11 Evidence Received After Takeover.pdf, p. 1, liquidator notice",
+          "03 CRM Export Cleaned FINAL.xlsx, CRM Export!4:9"
+        ],
+        "ambiguity": "Gross receivables are €186,000 = €58k+€30k+€25k+€20k+€53k. The liquidation covers €18k within that total. Other balances could require further credit review, but no quantifiable loss is evidenced. Repeats D057.",
+        "statementEffect": {
+          "profit": -18000,
+          "cash": 0,
+          "nonCashAssets": -18000,
+          "liabilities": 0,
+          "equity": -18000
+        },
+        "reasoning": "A notice after takeover confirms preexisting insolvency and no distribution; recognize the loss at 31 August, not when notice was received."
+      },
+      "dialogueB": {
+        "id": "D071",
+        "proposal": "Estimate €18k bad debt, €168k net AR from €186k gross.",
+        "evidence": [
+          "04 Contracts Returns and Angry Customers.pdf p.2 R-17",
+          "11 Evidence Received After Takeover.pdf p.1",
+          "03 CRM Export Cleaned FINAL.xlsx CRM Export!E4:F9"
+        ],
+        "ambiguity": "R-17 crosswalk incomplete; no broader allowance evidence; overlaps D057.",
+        "statementEffect": {
+          "profit": null,
+          "cash": null,
+          "nonCashAssets": null,
+          "liabilities": null,
+          "equity": null
+        },
+        "reasoning": "Open gross: €58k+€30k+€25k+€20k+€53k; deduct €18k once."
+      },
+      "existingCertifiedAnswer": "Recognise €18,000 R-17 impairment against the €186,000 gross receivables. WEB-NCB’s €53,000 open balance points to R-17; verify the exact €18,000 subledger match.",
+      "existingCertifiedReasoning": "External liquidation evidence supports the €18,000 loss. CRM explicitly flags R-17 on WEB-NCB’s €53,000 gross open balance, supporting inclusion in the €186,000 total; the individual balance match still requires the subledger.",
+      "existingAnswerClarification": null,
+      "comparisonCategory": "same_core_treatment",
+      "aiComparison": "Both fresh reviews estimate the R-17 loss at €18,000 and net receivables at €168,000. This repeats D057.",
+      "studentComparisonStatus": "pending_personal_review"
+    },
+    {
+      "id": "D072",
+      "question": "Estimate Damaged inventory write-off and document the basis.",
+      "dialogueA": {
+        "id": "D072",
+        "proposal": "Estimate damaged-inventory write-off at the full €22,000 carrying value.",
+        "evidence": [
+          "05 Warehouse Count Marta Notes.pdf, pp. 1–2, damaged-stock count and €2,000 quote",
+          "11 Evidence Received After Takeover.pdf, p. 1, independent assessment"
+        ],
+        "ambiguity": "Expected removal cost €2,000 may become an expense when incurred, or a provision if an obligation can be demonstrated; no such obligation is documented. Closing stock estimate in D075 already excludes the €22,000. Repeats D058.",
+        "statementEffect": {
+          "profit": -22000,
+          "cash": 0,
+          "nonCashAssets": -22000,
+          "liabilities": 0,
+          "equity": -22000
+        },
+        "reasoning": "Independent assessment gives zero saleable value. Recoverable inventory cannot include stock merely because it is physically present."
+      },
+      "dialogueB": {
+        "id": "D072",
+        "proposal": "Estimate €22k damaged-stock write-off.",
+        "evidence": [
+          "05 Warehouse Count Marta Notes.pdf pp.1-2",
+          "11 Evidence Received After Takeover.pdf p.1"
+        ],
+        "ambiguity": "No present obligation proven for €2k removal; overlaps D058.",
+        "statementEffect": {
+          "profit": null,
+          "cash": null,
+          "nonCashAssets": null,
+          "liabilities": null,
+          "equity": null
+        },
+        "reasoning": "Independent assessment says no saleable value."
+      },
+      "existingCertifiedAnswer": "Use EUR 22,000 damaged-inventory write-down based on independent assessment that stock is unsaleable.",
+      "existingCertifiedReasoning": "The independent stock assessment supports a €22,000 loss on physically present but unsaleable goods. Deduct this once from the €143,000 count; do not also include it in the €396,000 consumed amount.",
+      "existingAnswerClarification": null,
+      "comparisonCategory": "same_core_treatment",
+      "aiComparison": "Both fresh reviews estimate the damaged-stock loss at €22,000. This repeats D058 and is not an additional charge.",
+      "studentComparisonStatus": "pending_personal_review"
+    },
+    {
+      "id": "D073",
+      "question": "Estimate Legal provision and document the basis.",
+      "dialogueA": {
+        "id": "D073",
+        "proposal": "Estimate closing legal provision at €25,000, with matching period expense.",
+        "evidence": [
+          "09 Loans Owner Card and Legal Problems.pdf, p. 2, counsel letter dated 31 August",
+          "11 Evidence Received After Takeover.pdf, p. 1, external lawyer confirmation"
+        ],
+        "ambiguity": "Counsel’s range is €20,000–€30,000. Outcome could differ; the €25,000 midpoint is expressly identified as best estimate. Repeats D059.",
+        "statementEffect": {
+          "profit": -25000,
+          "cash": 0,
+          "nonCashAssets": 0,
+          "liabilities": 25000,
+          "equity": -25000
+        },
+        "reasoning": "The claim was probable at reporting date and unpaid. A later confirmation supplies stronger evidence of the existing obligation."
+      },
+      "dialogueB": {
+        "id": "D073",
+        "proposal": "Estimate €25k legal provision.",
+        "evidence": [
+          "09 Loans Owner Card and Legal Problems.pdf p.2",
+          "11 Evidence Received After Takeover.pdf p.1"
+        ],
+        "ambiguity": "Range €20k-€30k; overlaps D059.",
+        "statementEffect": {
+          "profit": null,
+          "cash": null,
+          "nonCashAssets": null,
+          "liabilities": null,
+          "equity": null
+        },
+        "reasoning": "Use counsel's best estimate once."
+      },
+      "existingCertifiedAnswer": "Use EUR 25,000 legal provision based on external counsel’s probable claim assessment.",
+      "existingCertifiedReasoning": "The former employee claim is probable according to external counsel. The €25,000 midpoint of the €20,000–€30,000 estimate is a reasonable provision subject to updated legal advice.",
+      "existingAnswerClarification": null,
+      "comparisonCategory": "same_core_treatment",
+      "aiComparison": "Both fresh reviews estimate the legal provision at €25,000. This repeats D059.",
+      "studentComparisonStatus": "pending_personal_review"
+    },
+    {
+      "id": "D074",
+      "question": "Estimate Period depreciation and document the basis.",
+      "dialogueA": {
+        "id": "D074",
+        "proposal": "Use the independent schedule’s €24,000 depreciation estimate for January–August.",
+        "evidence": [
+          "08 Assets Repairs Leases Maybe.xlsx, Assets!4:8",
+          "06 Purchases Invoices and Goods Received.pdf, p. 2, 10 May dates"
+        ],
+        "ambiguity": "No useful lives, residual values or allocation by asset are provided, so €24,000 cannot be independently reconstructed. Request the underlying fixed-asset schedule. This repeats D056.",
+        "statementEffect": {
+          "profit": -24000,
+          "cash": 0,
+          "nonCashAssets": -24000,
+          "liabilities": 0,
+          "equity": -24000
+        },
+        "reasoning": "Depreciation was not booked by management, despite €135,000 opening net PPE and €80,000 new assets in use from May."
+      },
+      "dialogueB": {
+        "id": "D074",
+        "proposal": "Estimate €24k period depreciation; accumulated €69k, net PPE €191k.",
+        "evidence": [
+          "08 Assets Repairs Leases Maybe.xlsx Assets!A4:E8",
+          "06 Purchases Invoices and Goods Received.pdf p.2"
+        ],
+        "ambiguity": "No asset lives/residuals/allocation; overlaps D056.",
+        "statementEffect": {
+          "profit": null,
+          "cash": null,
+          "nonCashAssets": null,
+          "liabilities": null,
+          "equity": null
+        },
+        "reasoning": "PPE cost €260k; accumulated €45k+€24k."
+      },
+      "existingCertifiedAnswer": "Use EUR 24,000 period depreciation estimate; useful-life schedule remains missing.",
+      "existingCertifiedReasoning": "Current depreciation of €24,000 makes accumulated depreciation €69,000 and net PPE €191,000 from €260,000 gross cost. This is an estimate because a dated useful-life register is missing.",
+      "existingAnswerClarification": null,
+      "comparisonCategory": "same_core_treatment",
+      "aiComparison": "Both fresh reviews use €24,000 period depreciation and €191,000 net PPE. This repeats D056.",
+      "studentComparisonStatus": "pending_personal_review"
+    },
+    {
+      "id": "D075",
+      "question": "Estimate Closing inventory and document the basis.",
+      "dialogueA": {
+        "id": "D075",
+        "proposal": "Use €112,000 provisional closing inventory on the documented flow basis: €80,000 opening + €459,000 received − €405,000 consumed − €22,000 damaged.",
+        "evidence": [
+          "05 Warehouse Count Marta Notes.pdf, pp. 1–2, count and inventory flow",
+          "06 Purchases Invoices and Goods Received.pdf, p. 1, €459,000 invoices",
+          "01 USE THIS NUMBERS FINAL v9.xlsx, Management P&L!10"
+        ],
+        "ambiguity": "The same warehouse document reports a physical gross count of €143,000 and usable counted stock of €121,000 (79+42). Flow before write-off is €134,000, €9,000 below the gross count; this cannot be reconciled from supplied evidence. €112,000 is provisional, not a certified physical count. Resolve the €9,000 difference before approval. This closing-balance figure is not an additional expense beyond D048 and D058/D072.",
+        "statementEffect": {
+          "profit": null,
+          "cash": 0,
+          "nonCashAssets": 112000,
+          "liabilities": 0,
+          "equity": null
+        },
+        "reasoning": "A rollforward using separately documented acquisition, consumption and impairment yields €112,000. The count conflict precludes claiming an exact final valuation; €121,000 is the alternative if count is accepted and consumption reduced by €9,000."
+      },
+      "dialogueB": {
+        "id": "D075",
+        "proposal": "Provisional closing stock €121k net: €143k count less €22k damage.",
+        "evidence": [
+          "05 Warehouse Count Marta Notes.pdf pp.1-2",
+          "06 Purchases Invoices and Goods Received.pdf p.1"
+        ],
+        "ambiguity": "Count exceeds flow-implied gross €134k by €9k; D048/D058 hold expense effects.",
+        "statementEffect": {
+          "profit": null,
+          "cash": null,
+          "nonCashAssets": null,
+          "liabilities": null,
+          "equity": null
+        },
+        "reasoning": "Count supports stock, but €9k bridge must be traced before certification."
+      },
+      "existingCertifiedAnswer": "Present closing saleable inventory of EUR 121,000 (EUR 143,000 physical count less EUR 22,000 damaged stock). Use this count basis, with a disclosed EUR 9,000 adjustment to the movement schedule; selected PBT is EUR 74,000.",
+      "existingCertifiedReasoning": "Recommended judgment for personal review: prefer the physically observed count for the reporting-date asset, deduct the independently identified damaged stock, and show the EUR 9,000 count-to-movement adjustment transparently. Follow up the missing movement explanation.",
+      "existingAnswerClarification": "The opening phrase is preserved from the AI draft. The student subsequently reviewed and certified the count-basis treatment. The movement explanation remains an evidence follow-up.",
+      "comparisonCategory": "inventory_basis_difference",
+      "aiComparison": "Reviewer A chooses €112,000 provisional net stock from the movement schedule; reviewer B chooses €121,000 from the physical count, matching the certified answer. Both flag the unexplained €9,000 gap.",
+      "studentComparisonStatus": "pending_personal_review"
+    },
+    {
+      "id": "D091",
+      "question": "Approve corrected accounts before valuation",
+      "dialogueA": {
+        "id": "D091",
+        "proposal": "Do not approve the corrected accounts as final for valuation until the €9,000 stock difference, inferred €45,000 opening supplier payable, missing insurance detail and fixed-asset estimate are checked. Authorize a provisional set for board control at €65,000 PBT.",
+        "evidence": [
+          "00 BOARD ORDER READ FIRST.pdf, p. 1, reporting basis and evidence hierarchy",
+          "05 Warehouse Count Marta Notes.pdf, pp. 1–2, count versus rollforward",
+          "06 Purchases Invoices and Goods Received.pdf, p. 1, supplier confirmations",
+          "02 Bank Export August.csv, supplier payment rows and closing balance",
+          "08 Assets Repairs Leases Maybe.xlsx, Assets!8"
+        ],
+        "ambiguity": "Supplier invoices €459,000 and cash paid €378,000 imply €81,000 payable absent opening balances, while independently confirmed closing payable is €126,000. An inferred €45,000 opening payable reconciles them, but no explicit opening AP ledger is supplied. Insurance is named by template prompts but none of the 12 original files quantifies it. Do not invent it.",
+        "statementEffect": {
+          "profit": null,
+          "cash": null,
+          "nonCashAssets": null,
+          "liabilities": null,
+          "equity": null
+        },
+        "reasoning": "The provisional accounts can be reconstructed, but signing them for a transaction valuation requires resolving source contradictions and obtaining missing supporting schedules."
+      },
+      "dialogueB": {
+        "id": "D091",
+        "proposal": "Correct accounts before valuation; defer final certification pending gaps.",
+        "evidence": [
+          "00 BOARD ORDER READ FIRST.pdf p.1",
+          "01 USE THIS NUMBERS FINAL v9.xlsx Management P&L!A4:C11",
+          "05 Warehouse Count Marta Notes.pdf pp.1-2"
+        ],
+        "ambiguity": "Insurance, inventory bridge, payroll detail and card receipts absent; policy has no journal effect.",
+        "statementEffect": {
+          "profit": 0,
+          "cash": 0,
+          "nonCashAssets": 0,
+          "liabilities": 0,
+          "equity": 0
+        },
+        "reasoning": "Management claims contradict stronger bank, contract and external evidence."
+      },
+      "existingCertifiedAnswer": "Use the count-based working accounts with EUR 121,000 net stock and EUR 74,000 PBT after a disclosed EUR 9,000 count-to-movement adjustment. Implement the five user-provided board actions. Investigate the stock variance before valuation or earn-out use; student review remains required.",
+      "existingCertifiedReasoning": "The user provided five management actions: block owner-card access and investigate EUR 110,000 withdrawals; run a rolling 13-week cash forecast and ring-fence delivery costs for EUR 90,000 deposits; recount/reconcile stock, quarantine wet goods and obtain disposal-obligation evidence; confirm suppliers/opening ledger and negotiate terms for EUR 126,000 payables; tighten credit and collections beginning with R-17.",
+      "existingAnswerClarification": "The phrase requiring student review belongs to the earlier AI-assisted draft. The student later approved and certified the existing 100-decision working submission. The two newly added independent dialogues and AI-prepared comparison remain pending personal review; valuation source gaps still remain.",
+      "comparisonCategory": "caveat_or_scope_difference",
+      "aiComparison": "Both fresh reviews advise against valuation approval while the source gaps remain. The existing student certification records the student’s submitted working accounts; it does not resolve valuation evidence or mean the board actions have been executed.",
+      "studentComparisonStatus": "pending_personal_review"
+    },
+    {
+      "id": "D100",
+      "question": "Use claimed management profit for earn-out",
+      "dialogueA": {
+        "id": "D100",
+        "proposal": "Reject the €312,000 management profit as an earn-out basis; use independently reviewed, reconciled pre-tax profit and separately negotiated adjustment terms.",
+        "evidence": [
+          "01 USE THIS NUMBERS FINAL v9.xlsx, Management P&L!4:11",
+          "00 BOARD ORDER READ FIRST.pdf, p. 1, evidence hierarchy",
+          "02 Bank Export August.csv, LOAN-ADV, deposits, owner payments",
+          "04 Contracts Returns and Angry Customers.pdf, p. 2, undelivered deposits",
+          "09 Loans Owner Card and Legal Problems.pdf, pp. 1–2, borrowing and claim"
+        ],
+        "ambiguity": "€65,000 provisional PBT is sensitive to the unresolved €9,000 inventory conflict and any substantiated insurance movement. The source data do not support a final earn-out figure yet.",
+        "statementEffect": {
+          "profit": null,
+          "cash": null,
+          "nonCashAssets": null,
+          "liabilities": null,
+          "equity": null
+        },
+        "reasoning": "Management includes September deposits as sales, bank debt as income, and omits losses and depreciation. Its €312,000 claim is not reliable or reconcilable to original evidence."
+      },
+      "dialogueB": {
+        "id": "D100",
+        "proposal": "Reject €312k management profit for earn-out.",
+        "evidence": [
+          "01 USE THIS NUMBERS FINAL v9.xlsx Management P&L!A4:C11",
+          "02 Bank Export August.csv OWNERCARD",
+          "04 Contracts Returns and Angry Customers.pdf p.2",
+          "09 Loans Owner Card and Legal Problems.pdf pp.1-2"
+        ],
+        "ambiguity": "Earn-out terms absent; PBT €65k/€74k inventory alternatives before unknown insurance; policy no journal effect.",
+        "statementEffect": {
+          "profit": 0,
+          "cash": 0,
+          "nonCashAssets": 0,
+          "liabilities": 0,
+          "equity": 0
+        },
+        "reasoning": "Management treated future deposits and debt as income and missed losses/charges."
+      },
+      "existingCertifiedAnswer": "Reject management’s unsupported EUR 312,000 profit for earn-out. Recommended count-based PBT is EUR 74,000 after a disclosed EUR 9,000 count-to-movement inventory adjustment. Do not use the figure for earn-out until the variance is investigated and the student reviews the answer set. A proven EUR 2,000 disposal obligation would reduce PBT to EUR 72,000.",
+      "existingCertifiedReasoning": "Use the count-supported EUR 74,000 PBT as the working figure, with the EUR 9,000 count-to-movement adjustment fully disclosed. The variance root cause and student sign-off remain pending, so do not treat it as an approved earn-out figure. The EUR 2,000 disposal quote is separate and is not accrued absent an obligation.",
+      "existingAnswerClarification": "The sentence about pending student sign-off describes the earlier AI draft, before the recorded student certification. The EUR 74,000 count-basis PBT is the certified working figure; the EUR 9,000 variance still needs investigation, and the management earn-out figure has not been approved.",
+      "comparisonCategory": "caveat_or_scope_difference",
+      "aiComparison": "Both fresh reviews reject management’s €312,000 earn-out profit. They regard €65,000 flow-basis PBT as provisional and acknowledge €74,000 on the count basis, which the certified answer selects with a disclosed €9,000 adjustment. Earn-out use remains on hold.",
+      "studentComparisonStatus": "pending_personal_review"
+    }
+  ],
+  "overallComparison": "Both fresh independent reviewers reconstruct €65,000 provisional PBT from the explicit €405,000 materials-consumed line, and both identify the physical-count alternative of €74,000 with an unexplained €9,000 inventory difference. Reviewer B selects €121,000 net closing stock from the count for D075; reviewer A selects €112,000 provisionally from movements. The already certified working submission selects €74,000 and €121,000 on the physical-count basis, with a disclosed €9,000 adjustment and no earn-out use pending investigation. The new comparison is AI-prepared and awaits the student’s personal review; no earlier certificate is represented as covering it."
+}
