@@ -6,7 +6,7 @@
     "name": "Ričards Vismanis",
     "nameVerificationStatus": "confirmed_by_user_2026-10-08"
   },
-  "draftStatus": "SOURCE-RECONCILED AI DRAFT — 25 FRESH FIRST PROPOSALS AND 25 INDEPENDENT CHALLENGES COMPLETE; STUDENT APPROVAL PENDING",
+  "draftStatus": "STUDENT-CERTIFIED SUBMISSION — 25 FRESH FIRST PROPOSALS AND 25 INDEPENDENT CHALLENGES RECORDED",
   "mappingNotice": "All D001–D100 answers match the official template. For all 25 material judgments, a fresh primary-AI first proposal and an independent second-agent analysis are recorded and compared. The first proposals are not claimed to be historical Agent 1 transcripts. Final student approval and certification remain the student’s action. The physical-count inventory basis is selected with a disclosed EUR 9,000 adjustment and root-cause follow-up.",
   "evidence": [
     "00 BOARD ORDER READ FIRST.pdf",
@@ -1342,12 +1342,13 @@
       "answerStatus": "resolved",
       "firstProposalStatus": "fresh_primary_ai_proposal_complete",
       "independentChallengeStatus": "complete",
-      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "studentReasoningStatus": "ai_assisted_reasoning_in_student_certified_submission",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
       "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
       "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
       "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
-      "challengeComparison": "Independent review agrees: exclude EUR 90,000 September deposits from revenue and retain contract liabilities."
+      "challengeComparison": "Independent review agrees: exclude EUR 90,000 September deposits from revenue and retain contract liabilities.",
+      "studentReasoningProvenance": "AI-assisted draft retained verbatim; the student approval and certification record the later personal review and adoption of the submitted decision. The text was not represented as student-authored."
     },
     {
       "id": "D042",
@@ -1391,12 +1392,13 @@
       "answerStatus": "resolved",
       "firstProposalStatus": "fresh_primary_ai_proposal_complete",
       "independentChallengeStatus": "complete",
-      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "studentReasoningStatus": "ai_assisted_reasoning_in_student_certified_submission",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
       "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
       "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
       "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
-      "challengeComparison": "Agrees: EUR 50,000 bank advance is debt, not revenue; cash and liability both increase."
+      "challengeComparison": "Agrees: EUR 50,000 bank advance is debt, not revenue; cash and liability both increase.",
+      "studentReasoningProvenance": "AI-assisted draft retained verbatim; the student approval and certification record the later personal review and adoption of the submitted decision. The text was not represented as student-authored."
     },
     {
       "id": "D043",
@@ -1440,12 +1442,13 @@
       "answerStatus": "resolved",
       "firstProposalStatus": "fresh_primary_ai_proposal_complete",
       "independentChallengeStatus": "complete",
-      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "studentReasoningStatus": "ai_assisted_reasoning_in_student_certified_submission",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
       "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
       "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
       "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
-      "challengeComparison": "Agrees: capitalize the EUR 60,000 packaging machine as PPE; support depreciation lives."
+      "challengeComparison": "Agrees: capitalize the EUR 60,000 packaging machine as PPE; support depreciation lives.",
+      "studentReasoningProvenance": "AI-assisted draft retained verbatim; the student approval and certification record the later personal review and adoption of the submitted decision. The text was not represented as student-authored."
     },
     {
       "id": "D044",
@@ -1489,12 +1492,13 @@
       "answerStatus": "resolved",
       "firstProposalStatus": "fresh_primary_ai_proposal_complete",
       "independentChallengeStatus": "complete",
-      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "studentReasoningStatus": "ai_assisted_reasoning_in_student_certified_submission",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
       "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
       "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
       "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
-      "challengeComparison": "Agrees: capitalize the EUR 20,000 booth as PPE; support depreciation lives."
+      "challengeComparison": "Agrees: capitalize the EUR 20,000 booth as PPE; support depreciation lives.",
+      "studentReasoningProvenance": "AI-assisted draft retained verbatim; the student approval and certification record the later personal review and adoption of the submitted decision. The text was not represented as student-authored."
     },
     {
       "id": "D045",
@@ -1538,12 +1542,13 @@
       "answerStatus": "resolved",
       "firstProposalStatus": "fresh_primary_ai_proposal_complete",
       "independentChallengeStatus": "complete",
-      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "studentReasoningStatus": "ai_assisted_reasoning_in_student_certified_submission",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
       "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
       "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
       "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
-      "challengeComparison": "Agrees: expense the EUR 10,000 repair; evidence does not show added capacity or useful life."
+      "challengeComparison": "Agrees: expense the EUR 10,000 repair; evidence does not show added capacity or useful life.",
+      "studentReasoningProvenance": "AI-assisted draft retained verbatim; the student approval and certification record the later personal review and adoption of the submitted decision. The text was not represented as student-authored."
     },
     {
       "id": "D046",
@@ -1587,12 +1592,13 @@
       "answerStatus": "resolved",
       "firstProposalStatus": "fresh_primary_ai_proposal_complete",
       "independentChallengeStatus": "complete",
-      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "studentReasoningStatus": "ai_assisted_reasoning_in_student_certified_submission",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
       "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
       "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
       "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
-      "challengeComparison": "Agrees that the EUR 70,000 villa payment is not marketing expense; legal form remains open."
+      "challengeComparison": "Agrees that the EUR 70,000 villa payment is not marketing expense; legal form remains open.",
+      "studentReasoningProvenance": "AI-assisted draft retained verbatim; the student approval and certification record the later personal review and adoption of the submitted decision. The text was not represented as student-authored."
     },
     {
       "id": "D047",
@@ -1637,12 +1643,13 @@
       "answerStatus": "resolved",
       "firstProposalStatus": "fresh_primary_ai_proposal_complete",
       "independentChallengeStatus": "complete",
-      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "studentReasoningStatus": "ai_assisted_reasoning_in_student_certified_submission",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
       "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
       "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
       "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
-      "challengeComparison": "Broad agreement: treat EUR 40,000 owner-card spending provisionally as owner-related, but receipts may show a business portion."
+      "challengeComparison": "Broad agreement: treat EUR 40,000 owner-card spending provisionally as owner-related, but receipts may show a business portion.",
+      "studentReasoningProvenance": "AI-assisted draft retained verbatim; the student approval and certification record the later personal review and adoption of the submitted decision. The text was not represented as student-authored."
     },
     {
       "id": "D048",
@@ -1687,12 +1694,13 @@
       "answerStatus": "resolved",
       "firstProposalStatus": "fresh_primary_ai_proposal_complete",
       "independentChallengeStatus": "complete",
-      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "studentReasoningStatus": "ai_assisted_reasoning_in_student_certified_submission",
       "changedFromAIStatus": "Changed from the earlier working draft after selecting physical-count evidence; original complete Agent 1 matrix unavailable.",
       "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
       "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
       "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
-      "challengeComparison": "Material difference: first proposal used EUR 405,000 consumption and left the gap open. Independent analysis identified count EUR 121,000 vs movement EUR 112,000. Selected working treatment uses the physical count, records a disclosed EUR 9,000 inventory/COGS adjustment and requires root-cause follow-up."
+      "challengeComparison": "Material difference: first proposal used EUR 405,000 consumption and left the gap open. Independent analysis identified count EUR 121,000 vs movement EUR 112,000. Selected working treatment uses the physical count, records a disclosed EUR 9,000 inventory/COGS adjustment and requires root-cause follow-up.",
+      "studentReasoningProvenance": "AI-assisted draft retained verbatim; the student approval and certification record the later personal review and adoption of the submitted decision. The text was not represented as student-authored."
     },
     {
       "id": "D049",
@@ -1735,12 +1743,13 @@
       "answerStatus": "resolved",
       "firstProposalStatus": "fresh_primary_ai_proposal_complete",
       "independentChallengeStatus": "complete",
-      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "studentReasoningStatus": "ai_assisted_reasoning_in_student_certified_submission",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
       "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
       "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
       "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
-      "challengeComparison": "Agrees that EUR 80,000 event payroll is direct delivery cost; the EUR 5,000 subset payable is less certain because opening allocation is unavailable."
+      "challengeComparison": "Agrees that EUR 80,000 event payroll is direct delivery cost; the EUR 5,000 subset payable is less certain because opening allocation is unavailable.",
+      "studentReasoningProvenance": "AI-assisted draft retained verbatim; the student approval and certification record the later personal review and adoption of the submitted decision. The text was not represented as student-authored."
     },
     {
       "id": "D050",
@@ -1957,12 +1966,13 @@
       "answerStatus": "resolved",
       "firstProposalStatus": "fresh_primary_ai_proposal_complete",
       "independentChallengeStatus": "complete",
-      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "studentReasoningStatus": "ai_assisted_reasoning_in_student_certified_submission",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
       "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
       "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
       "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
-      "challengeComparison": "Agrees with EUR 24,000 depreciation estimate as provisional; useful-life schedule is absent."
+      "challengeComparison": "Agrees with EUR 24,000 depreciation estimate as provisional; useful-life schedule is absent.",
+      "studentReasoningProvenance": "AI-assisted draft retained verbatim; the student approval and certification record the later personal review and adoption of the submitted decision. The text was not represented as student-authored."
     },
     {
       "id": "D057",
@@ -2007,12 +2017,13 @@
       "answerStatus": "resolved",
       "firstProposalStatus": "fresh_primary_ai_proposal_complete",
       "independentChallengeStatus": "complete",
-      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "studentReasoningStatus": "ai_assisted_reasoning_in_student_certified_submission",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
       "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
       "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
       "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
-      "challengeComparison": "Agrees: recognize EUR 18,000 R-17 impairment once; exact customer subledger allocation remains to verify."
+      "challengeComparison": "Agrees: recognize EUR 18,000 R-17 impairment once; exact customer subledger allocation remains to verify.",
+      "studentReasoningProvenance": "AI-assisted draft retained verbatim; the student approval and certification record the later personal review and adoption of the submitted decision. The text was not represented as student-authored."
     },
     {
       "id": "D058",
@@ -2056,12 +2067,13 @@
       "answerStatus": "resolved",
       "firstProposalStatus": "fresh_primary_ai_proposal_complete",
       "independentChallengeStatus": "complete",
-      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "studentReasoningStatus": "ai_assisted_reasoning_in_student_certified_submission",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
       "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
       "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
       "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
-      "challengeComparison": "Agrees: recognize EUR 22,000 damaged-stock write-down once, separately from the count-to-movement adjustment."
+      "challengeComparison": "Agrees: recognize EUR 22,000 damaged-stock write-down once, separately from the count-to-movement adjustment.",
+      "studentReasoningProvenance": "AI-assisted draft retained verbatim; the student approval and certification record the later personal review and adoption of the submitted decision. The text was not represented as student-authored."
     },
     {
       "id": "D059",
@@ -2105,12 +2117,13 @@
       "answerStatus": "resolved",
       "firstProposalStatus": "fresh_primary_ai_proposal_complete",
       "independentChallengeStatus": "complete",
-      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "studentReasoningStatus": "ai_assisted_reasoning_in_student_certified_submission",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
       "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
       "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
       "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
-      "challengeComparison": "Agrees that the probable claim merits a provision; EUR 25,000 remains a midpoint estimate."
+      "challengeComparison": "Agrees that the probable claim merits a provision; EUR 25,000 remains a midpoint estimate.",
+      "studentReasoningProvenance": "AI-assisted draft retained verbatim; the student approval and certification record the later personal review and adoption of the submitted decision. The text was not represented as student-authored."
     },
     {
       "id": "D060",
@@ -2283,12 +2296,13 @@
       "answerStatus": "resolved",
       "firstProposalStatus": "fresh_primary_ai_proposal_complete",
       "independentChallengeStatus": "complete",
-      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "studentReasoningStatus": "ai_assisted_reasoning_in_student_certified_submission",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
       "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
       "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
       "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
-      "challengeComparison": "Agrees: NorthStar EUR 180,000 delivered revenue."
+      "challengeComparison": "Agrees: NorthStar EUR 180,000 delivered revenue.",
+      "studentReasoningProvenance": "AI-assisted draft retained verbatim; the student approval and certification record the later personal review and adoption of the submitted decision. The text was not represented as student-authored."
     },
     {
       "id": "D065",
@@ -2333,12 +2347,13 @@
       "answerStatus": "resolved",
       "firstProposalStatus": "fresh_primary_ai_proposal_complete",
       "independentChallengeStatus": "complete",
-      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "studentReasoningStatus": "ai_assisted_reasoning_in_student_certified_submission",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
       "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
       "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
       "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
-      "challengeComparison": "Agrees: Freedom EUR 200,000 revenue; EUR 142,000 cash and EUR 58,000 receivable."
+      "challengeComparison": "Agrees: Freedom EUR 200,000 revenue; EUR 142,000 cash and EUR 58,000 receivable.",
+      "studentReasoningProvenance": "AI-assisted draft retained verbatim; the student approval and certification record the later personal review and adoption of the submitted decision. The text was not represented as student-authored."
     },
     {
       "id": "D066",
@@ -2383,12 +2398,13 @@
       "answerStatus": "resolved",
       "firstProposalStatus": "fresh_primary_ai_proposal_complete",
       "independentChallengeStatus": "complete",
-      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "studentReasoningStatus": "ai_assisted_reasoning_in_student_certified_submission",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
       "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
       "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
       "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
-      "challengeComparison": "Agrees: Phoenix EUR 100,000 completed-event revenue; EUR 70,000 cash and EUR 30,000 receivable."
+      "challengeComparison": "Agrees: Phoenix EUR 100,000 completed-event revenue; EUR 70,000 cash and EUR 30,000 receivable.",
+      "studentReasoningProvenance": "AI-assisted draft retained verbatim; the student approval and certification record the later personal review and adoption of the submitted decision. The text was not represented as student-authored."
     },
     {
       "id": "D067",
@@ -2433,12 +2449,13 @@
       "answerStatus": "resolved",
       "firstProposalStatus": "fresh_primary_ai_proposal_complete",
       "independentChallengeStatus": "complete",
-      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "studentReasoningStatus": "ai_assisted_reasoning_in_student_certified_submission",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
       "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
       "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
       "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
-      "challengeComparison": "Agrees: Liberty EUR 120,000 delivered revenue; EUR 95,000 cash and EUR 25,000 receivable."
+      "challengeComparison": "Agrees: Liberty EUR 120,000 delivered revenue; EUR 95,000 cash and EUR 25,000 receivable.",
+      "studentReasoningProvenance": "AI-assisted draft retained verbatim; the student approval and certification record the later personal review and adoption of the submitted decision. The text was not represented as student-authored."
     },
     {
       "id": "D068",
@@ -2484,12 +2501,13 @@
       "answerStatus": "resolved",
       "firstProposalStatus": "fresh_primary_ai_proposal_complete",
       "independentChallengeStatus": "complete",
-      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "studentReasoningStatus": "ai_assisted_reasoning_in_student_certified_submission",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
       "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
       "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
       "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
-      "challengeComparison": "Agrees: same EUR 90,000 September contract liability as D041; repeated template question, not additive."
+      "challengeComparison": "Agrees: same EUR 90,000 September contract liability as D041; repeated template question, not additive.",
+      "studentReasoningProvenance": "AI-assisted draft retained verbatim; the student approval and certification record the later personal review and adoption of the submitted decision. The text was not represented as student-authored."
     },
     {
       "id": "D069",
@@ -2595,12 +2613,13 @@
       "answerStatus": "resolved",
       "firstProposalStatus": "fresh_primary_ai_proposal_complete",
       "independentChallengeStatus": "complete",
-      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "studentReasoningStatus": "ai_assisted_reasoning_in_student_certified_submission",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
       "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
       "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
       "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
-      "challengeComparison": "Agrees: same EUR 18,000 R-17 impairment as D057; repeated question, not additive."
+      "challengeComparison": "Agrees: same EUR 18,000 R-17 impairment as D057; repeated question, not additive.",
+      "studentReasoningProvenance": "AI-assisted draft retained verbatim; the student approval and certification record the later personal review and adoption of the submitted decision. The text was not represented as student-authored."
     },
     {
       "id": "D072",
@@ -2645,12 +2664,13 @@
       "answerStatus": "resolved",
       "firstProposalStatus": "fresh_primary_ai_proposal_complete",
       "independentChallengeStatus": "complete",
-      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "studentReasoningStatus": "ai_assisted_reasoning_in_student_certified_submission",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
       "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
       "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
       "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
-      "challengeComparison": "Agrees: same EUR 22,000 damage write-down as D058; repeated question, not additive."
+      "challengeComparison": "Agrees: same EUR 22,000 damage write-down as D058; repeated question, not additive.",
+      "studentReasoningProvenance": "AI-assisted draft retained verbatim; the student approval and certification record the later personal review and adoption of the submitted decision. The text was not represented as student-authored."
     },
     {
       "id": "D073",
@@ -2694,12 +2714,13 @@
       "answerStatus": "resolved",
       "firstProposalStatus": "fresh_primary_ai_proposal_complete",
       "independentChallengeStatus": "complete",
-      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "studentReasoningStatus": "ai_assisted_reasoning_in_student_certified_submission",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
       "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
       "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
       "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
-      "challengeComparison": "Agrees: same EUR 25,000 claim provision as D059; repeated question, not additive."
+      "challengeComparison": "Agrees: same EUR 25,000 claim provision as D059; repeated question, not additive.",
+      "studentReasoningProvenance": "AI-assisted draft retained verbatim; the student approval and certification record the later personal review and adoption of the submitted decision. The text was not represented as student-authored."
     },
     {
       "id": "D074",
@@ -2742,12 +2763,13 @@
       "answerStatus": "resolved",
       "firstProposalStatus": "fresh_primary_ai_proposal_complete",
       "independentChallengeStatus": "complete",
-      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "studentReasoningStatus": "ai_assisted_reasoning_in_student_certified_submission",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
       "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
       "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
       "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
-      "challengeComparison": "Agrees: same provisional EUR 24,000 depreciation as D056; repeated question, not additive."
+      "challengeComparison": "Agrees: same provisional EUR 24,000 depreciation as D056; repeated question, not additive.",
+      "studentReasoningProvenance": "AI-assisted draft retained verbatim; the student approval and certification record the later personal review and adoption of the submitted decision. The text was not represented as student-authored."
     },
     {
       "id": "D075",
@@ -2792,12 +2814,13 @@
       "answerStatus": "resolved",
       "firstProposalStatus": "fresh_primary_ai_proposal_complete",
       "independentChallengeStatus": "complete",
-      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "studentReasoningStatus": "ai_assisted_reasoning_in_student_certified_submission",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
       "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
       "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
       "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
-      "challengeComparison": "Material difference identified: the count implies EUR 121,000 stock, the source movement schedule EUR 112,000. Selected count-based presentation is EUR 121,000 with EUR 9,000 adjustment disclosed; investigate the root cause before valuation."
+      "challengeComparison": "Material difference identified: the count implies EUR 121,000 stock, the source movement schedule EUR 112,000. Selected count-based presentation is EUR 121,000 with EUR 9,000 adjustment disclosed; investigate the root cause before valuation.",
+      "studentReasoningProvenance": "AI-assisted draft retained verbatim; the student approval and certification record the later personal review and adoption of the submitted decision. The text was not represented as student-authored."
     },
     {
       "id": "D076",
@@ -3323,12 +3346,13 @@
       "answerStatus": "resolved",
       "firstProposalStatus": "fresh_primary_ai_proposal_complete",
       "independentChallengeStatus": "complete",
-      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "studentReasoningStatus": "ai_assisted_reasoning_in_student_certified_submission",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
       "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
       "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
       "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
-      "challengeComparison": "Agrees on withholding valuation/earn-out approval pending corrected, reconciled records and student review. The working accounts use the physical count with the EUR 9,000 adjustment disclosed."
+      "challengeComparison": "Agrees on withholding valuation/earn-out approval pending corrected, reconciled records and student review. The working accounts use the physical count with the EUR 9,000 adjustment disclosed.",
+      "studentReasoningProvenance": "AI-assisted draft retained verbatim; the student approval and certification record the later personal review and adoption of the submitted decision. The text was not represented as student-authored."
     },
     {
       "id": "D092",
@@ -3630,12 +3654,13 @@
       "answerStatus": "resolved",
       "firstProposalStatus": "fresh_primary_ai_proposal_complete",
       "independentChallengeStatus": "complete",
-      "studentReasoningStatus": "ai_draft_pending_personal_review",
+      "studentReasoningStatus": "ai_assisted_reasoning_in_student_certified_submission",
       "changedFromAIStatus": "Changed from the earlier working draft to the selected count-based PBT; original complete Agent 1 matrix unavailable.",
       "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
       "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
       "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
-      "challengeComparison": "Agrees: reject management EUR 312,000 earn-out profit. Use EUR 74,000 count-basis PBT as a working figure, disclose the EUR 9,000 adjustment and investigate before earn-out use."
+      "challengeComparison": "Agrees: reject management EUR 312,000 earn-out profit. Use EUR 74,000 count-basis PBT as a working figure, disclose the EUR 9,000 adjustment and investigate before earn-out use.",
+      "studentReasoningProvenance": "AI-assisted draft retained verbatim; the student approval and certification record the later personal review and adoption of the submitted decision. The text was not represented as student-authored."
     }
   ],
   "schedules": {
@@ -3954,7 +3979,7 @@
     },
     {
       "item": "Independent material-judgment challenge",
-      "treatment": "Fresh independent second-agent analysis is recorded for all 25 material judgments. Agent 1 did not complete the 25-item proposal matrix after reaching its usage limit; student comparison and approval remain pending.",
+      "treatment": "Fresh primary-AI first proposals and independent second-agent analyses are recorded for all 25 material judgments. They are not a historical Agent 1 transcript. Student approval and certification are recorded separately.",
       "confidence": "high"
     },
     {
@@ -3969,7 +3994,7 @@
     }
   ],
   "boardRecommendation": {
-    "status": "USER-PROVIDED BOARD ACTIONS RECORDED — DRAFT FOR STUDENT REVIEW",
+    "status": "USER-PROVIDED ACTIONS INCLUDED IN STUDENT-CERTIFIED SUBMISSION — NOT EXECUTED",
     "recommendation": "For the working accounts, use the physical stock count: closing saleable stock EUR 121,000, materials consumed EUR 396,000 and PBT EUR 74,000 before any disposal provision. Record and disclose the EUR 9,000 favorable count-to-movement adjustment, and investigate its root cause. Reject management’s unsupported EUR 312,000 profit. Implement the five user-provided control actions below; the plan is recorded, not marked as executed.",
     "actions": [
       "Block owner-card access and investigate the EUR 110,000 owner-related withdrawals, including their legal and accounting classification.",
@@ -3978,7 +4003,8 @@
       "Confirm supplier statements and the opening payable ledger, then negotiate payment terms for EUR 126,000 closing payables.",
       "Tighten customer credit approval and collections, beginning with R-17 and all overdue balances."
     ],
-    "decisionProvenance": "The five management actions were supplied by the student in this conversation on 9 October 2026. They are recorded as the requested board action plan; this file does not claim the actions have already been executed."
+    "decisionProvenance": "The five management actions were supplied by the student in this conversation on 9 October 2026. They are recorded as the requested board action plan; this file does not claim the actions have already been executed.",
+    "certificationNote": "The five actions were supplied by the student and included in the certified submission. Certification does not establish that the actions were carried out."
   },
   "studentCertification": {
     "status": "certified_locally_by_student",
@@ -3992,7 +4018,13 @@
     "certifiedAt": "2026-10-09T08:57:45.216Z"
   },
   "reviewCertification": {
-    "status": "student_approval_and_certification_pending",
-    "note": "A fresh primary-AI first proposal and independent second-agent analysis are recorded and compared for all 25 material judgments. No student approvals or certification were added by this update."
+    "status": "student_certified",
+    "certifiedAt": "2026-10-09T08:57:45.216Z",
+    "note": "The 25 fresh first proposals and independent challenges are recorded. The student approved all 100 decisions and completed the separate certification declaration; AI-assisted explanatory text retains its original provenance."
+  },
+  "publicationCorrection": {
+    "correctedAt": "2026-10-09T09:43:01.710Z",
+    "scope": "Post-certification metadata reconciliation: draft/pending labels updated to reflect the existing student certification; no decision answer, reasoning, comparison, financial figure, five board actions, or certification timestamp changed.",
+    "originalCertificationUnchanged": true
   }
 }
