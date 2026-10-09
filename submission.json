@@ -47,8 +47,8 @@
       "finalAnswer": "NorthStar receipt: include EUR 180,000 revenue; customer receipt matched to NorthStar/N STAR.",
       "financialStatementImpact": "Revenue €180,000; matching customer cash receipt.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "Recognise delivered or completed work as revenue; distinguish the cash collected from the unpaid receivable.",
       "templateDecisionId": "D001",
@@ -78,8 +78,8 @@
       "finalAnswer": "Freedom receipt 1: include EUR 142,000 collected against EUR 200,000 contract; EUR 58,000 remains receivable.",
       "financialStatementImpact": "Revenue €200,000; €142,000 cash and €58,000 trade receivable.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "Recognise delivered or completed work as revenue; distinguish the cash collected from the unpaid receivable.",
       "templateDecisionId": "D002",
@@ -109,8 +109,8 @@
       "finalAnswer": "Phoenix receipt: include EUR 70,000 collected against EUR 100,000 completed event; EUR 30,000 remains receivable.",
       "financialStatementImpact": "Revenue €100,000; €70,000 cash and €30,000 trade receivable.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "Recognise delivered or completed work as revenue; distinguish the cash collected from the unpaid receivable.",
       "templateDecisionId": "D003",
@@ -140,8 +140,8 @@
       "finalAnswer": "Liberty receipt: include EUR 95,000 collected against EUR 120,000 delivered order; EUR 25,000 remains receivable.",
       "financialStatementImpact": "Revenue €120,000; €95,000 cash and €25,000 trade receivable.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "Recognise delivered or completed work as revenue; distinguish the cash collected from the unpaid receivable.",
       "templateDecisionId": "D004",
@@ -169,8 +169,8 @@
       "finalAnswer": "Opening receivable receipt: include EUR 35,000 old-customer receipt as settlement of opening receivable.",
       "financialStatementImpact": "Cash +€35,000 and opening receivables -€35,000; no current-period revenue.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "A receipt on an opening receivable settles an existing asset rather than creating new revenue.",
       "templateDecisionId": "D005",
@@ -200,8 +200,8 @@
       "finalAnswer": "Finally Single web receipts: include EUR 250,000 matched receipts; revenue line is EUR 270,000.",
       "financialStatementImpact": "Revenue €270,000; €250,000 cash and €20,000 receivable.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "Recognise delivered or completed work as revenue; distinguish the cash collected from the unpaid receivable.",
       "templateDecisionId": "D006",
@@ -231,8 +231,8 @@
       "finalAnswer": "WEB-NCB: recognise €90,000 delivered revenue, €37,000 matched cash and €53,000 gross receivable. CRM points to R-17; verify the €18,000 subledger component before treating the impairment as included.",
       "financialStatementImpact": "Revenue €90,000; €37,000 cash and €53,000 receivable before R-17 impairment.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The CRM comment on the €53,000 WEB-NCB open balance refers to R-17. That is positive linkage evidence, while the individual €18,000 account must still be matched to the gross balance.",
       "templateDecisionId": "D007",
@@ -262,8 +262,8 @@
       "finalAnswer": "New Beginnings deposit: exclude EUR 60,000 from revenue and record contract liability.",
       "financialStatementImpact": "Cash and contract liabilities +€60,000; no August revenue.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "Delivery falls after the reporting date, so the receipt remains a contract liability at 31 August.",
       "templateDecisionId": "D008",
@@ -293,8 +293,8 @@
       "finalAnswer": "Fresh Freedom deposit: exclude EUR 30,000 from revenue and record contract liability.",
       "financialStatementImpact": "Cash and contract liabilities +€30,000; no August revenue.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "Delivery falls after the reporting date, so the receipt remains a contract liability at 31 August.",
       "templateDecisionId": "D009",
@@ -324,8 +324,8 @@
       "finalAnswer": "Box: €130,000 goods received, €105,000 bank payment and €25,000 closing payable. Implied opening payable €0 if the movement set is complete; verify opening ledger.",
       "financialStatementImpact": "Purchases €130,000; supplier cash outflow €105,000; closing payable €25,000; inferred opening payable €0.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "Bank supplier payment and goods-received invoice are separate evidence. Opening payable = closing €25,000 - purchases €130,000 + cash paid €105,000 = €0; the opening ledger is still needed.",
       "templateDecisionId": "D010",
@@ -355,8 +355,8 @@
       "finalAnswer": "Glass: €120,000 goods received, €92,000 bank payment and €28,000 closing payable. Implied opening payable €0 if the movement set is complete; verify opening ledger.",
       "financialStatementImpact": "Purchases €120,000; supplier cash outflow €92,000; closing payable €28,000; inferred opening payable €0.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "Bank supplier payment and goods-received invoice are separate evidence. Opening payable = closing €28,000 - purchases €120,000 + cash paid €92,000 = €0; the opening ledger is still needed.",
       "templateDecisionId": "D011",
@@ -386,8 +386,8 @@
       "finalAnswer": "Print: €95,000 goods received, €81,000 bank payment and €14,000 closing payable. Implied opening payable €0 if the movement set is complete; verify opening ledger.",
       "financialStatementImpact": "Purchases €95,000; supplier cash outflow €81,000; closing payable €14,000; inferred opening payable €0.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "Bank supplier payment and goods-received invoice are separate evidence. Opening payable = closing €14,000 - purchases €95,000 + cash paid €81,000 = €0; the opening ledger is still needed.",
       "templateDecisionId": "D012",
@@ -417,8 +417,8 @@
       "finalAnswer": "Event: €114,000 goods received, €100,000 bank payment and €59,000 closing payable. Implied opening payable €45,000 if the movement set is complete; verify opening ledger.",
       "financialStatementImpact": "Purchases €114,000; supplier cash outflow €100,000; closing payable €59,000; inferred opening payable €45,000.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "Bank supplier payment and goods-received invoice are separate evidence. Opening payable = closing €59,000 - purchases €114,000 + cash paid €100,000 = €45,000; the opening ledger is still needed.",
       "templateDecisionId": "D013",
@@ -445,8 +445,8 @@
       "finalAnswer": "January payroll: the project JSON supports €248,000 normal payroll for the period, but no January amount. Retain the aggregate and leave the monthly allocation unverified.",
       "financialStatementImpact": "Included once in the €248,000 period payroll expense; no supported separate monthly P&L amount.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense.",
       "templateDecisionId": "D014",
@@ -482,8 +482,8 @@
       "finalAnswer": "February payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",
       "financialStatementImpact": "Included once in the €248,000 period payroll expense; no supported separate monthly P&L amount.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense.",
       "templateDecisionId": "D015",
@@ -519,8 +519,8 @@
       "finalAnswer": "March payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",
       "financialStatementImpact": "Included once in the €248,000 period payroll expense; no supported separate monthly P&L amount.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense.",
       "templateDecisionId": "D016",
@@ -556,8 +556,8 @@
       "finalAnswer": "April payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",
       "financialStatementImpact": "Included once in the €248,000 period payroll expense; no supported separate monthly P&L amount.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense.",
       "templateDecisionId": "D017",
@@ -593,8 +593,8 @@
       "finalAnswer": "May payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",
       "financialStatementImpact": "Included once in the €248,000 period payroll expense; no supported separate monthly P&L amount.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense.",
       "templateDecisionId": "D018",
@@ -630,8 +630,8 @@
       "finalAnswer": "June payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",
       "financialStatementImpact": "Included once in the €248,000 period payroll expense; no supported separate monthly P&L amount.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense.",
       "templateDecisionId": "D019",
@@ -667,8 +667,8 @@
       "finalAnswer": "July payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",
       "financialStatementImpact": "Included once in the €248,000 period payroll expense; no supported separate monthly P&L amount.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense.",
       "templateDecisionId": "D020",
@@ -704,8 +704,8 @@
       "finalAnswer": "August payroll: monthly split is not stated; use aggregate normal payroll EUR 248,000 only.",
       "financialStatementImpact": "Included once in the €248,000 period payroll expense; no supported separate monthly P&L amount.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense.",
       "templateDecisionId": "D021",
@@ -742,8 +742,8 @@
       "finalAnswer": "Rent payments: operating expense EUR 48,000.",
       "financialStatementImpact": "Rent operating expense €48,000.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset.",
       "templateDecisionId": "D022",
@@ -771,8 +771,8 @@
       "finalAnswer": "Meta/influencer payments: operating expense EUR 55,000 marketing.",
       "financialStatementImpact": "Marketing operating expense €55,000.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset.",
       "templateDecisionId": "D023",
@@ -800,8 +800,8 @@
       "finalAnswer": "Software payments: operating expense EUR 16,000.",
       "financialStatementImpact": "Software operating expense €16,000.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset.",
       "templateDecisionId": "D024",
@@ -829,8 +829,8 @@
       "finalAnswer": "Utilities payments: operating expense EUR 12,000.",
       "financialStatementImpact": "Utilities operating expense €12,000.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset.",
       "templateDecisionId": "D025",
@@ -859,8 +859,8 @@
       "finalAnswer": "Repair transfer: expense EUR 10,000; do not capitalize.",
       "financialStatementImpact": "Repair operating expense €10,000; no PPE addition.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset.",
       "templateDecisionId": "D026",
@@ -889,8 +889,8 @@
       "finalAnswer": "Packaging machine payment: capitalize EUR 60,000 PPE.",
       "financialStatementImpact": "PPE gross cost +€60,000; investing cash outflow.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The purchase creates equipment used beyond the current period, so it increases PPE and is an investing cash flow.",
       "templateDecisionId": "D027",
@@ -919,8 +919,8 @@
       "finalAnswer": "Photo booth payment: capitalize EUR 20,000 PPE.",
       "financialStatementImpact": "PPE gross cost +€20,000; investing cash outflow.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The purchase creates equipment used beyond the current period, so it increases PPE and is an investing cash flow.",
       "templateDecisionId": "D028",
@@ -949,8 +949,8 @@
       "finalAnswer": "Loan receipt: EUR 50,000 borrowing, not income.",
       "financialStatementImpact": "Loan principal and financing cash inflow +€50,000; no revenue.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "Borrowed principal changes debt and financing cash, not earned revenue or operating expense.",
       "templateDecisionId": "D029",
@@ -979,8 +979,8 @@
       "finalAnswer": "Loan repayments: reduce principal by EUR 19,000.",
       "financialStatementImpact": "Loan principal and financing cash outflow -€19,000; no expense.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "Borrowed principal changes debt and financing cash, not earned revenue or operating expense.",
       "templateDecisionId": "D030",
@@ -1011,8 +1011,8 @@
       "finalAnswer": "Interest payments: EUR 10,000 paid; EUR 12,000 expense and EUR 2,000 accrued.",
       "financialStatementImpact": "Interest expense €12,000, interest cash €10,000 and closing accrual €2,000.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "Borrowed principal changes debt and financing cash, not earned revenue or operating expense.",
       "templateDecisionId": "D031",
@@ -1041,8 +1041,8 @@
       "finalAnswer": "Villa deposit: EUR 70,000 owner-related payment, not operating expense.",
       "financialStatementImpact": "Owner-related cash outflow €70,000; excluded from operating expense.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The payment benefits the owner rather than ordinary operations; it is excluded from operating profit pending legal classification.",
       "templateDecisionId": "D032",
@@ -1071,8 +1071,8 @@
       "finalAnswer": "Owner card spending: EUR 40,000 owner-related payment, not operating expense.",
       "financialStatementImpact": "Owner-related cash outflow €40,000; excluded from operating expense.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The payment benefits the owner rather than ordinary operations; it is excluded from operating profit pending legal classification.",
       "templateDecisionId": "D033",
@@ -1100,8 +1100,8 @@
       "finalAnswer": "Insurance movement: no separate supported insurance amount is identified; do not invent or add one to the P&L.",
       "financialStatementImpact": "No incremental insurance line is recognised without an evidenced amount and coverage period.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "No policy amount, payment or coverage period is present in the project files; an extra insurance expense cannot be measured reliably.",
       "templateDecisionId": "D034",
@@ -1140,8 +1140,8 @@
       "finalAnswer": "Water-damaged stock: EUR 22,000 write-down; physically present but unsaleable.",
       "financialStatementImpact": "Damaged inventory write-down and expense €22,000.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The stock is physically present but cannot be sold; its €22,000 carrying value must be written down separately from the material-consumption basis difference.",
       "templateDecisionId": "D035",
@@ -1171,8 +1171,8 @@
       "finalAnswer": "Recognise €18,000 R-17 impairment. CRM links R-17 to WEB-NCB’s €53,000 gross open balance; confirm the exact €18,000 subledger component.",
       "financialStatementImpact": "R-17 impairment expense €18,000; net receivables lower by €18,000, subject to CRM tie-out.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The liquidation notice confirms the loss at 31 August and the CRM WEB-NCB comment points to R-17. The customer-level tie-out within the €53,000 gross open balance remains open.",
       "templateDecisionId": "D036",
@@ -1201,8 +1201,8 @@
       "finalAnswer": "Former employee claim: recognize EUR 25,000 provision.",
       "financialStatementImpact": "Employee claim expense and provision €25,000.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "External counsel assessed the former employee claim as probable, supporting a €25,000 provision within the stated range.",
       "templateDecisionId": "D037",
@@ -1232,8 +1232,8 @@
       "finalAnswer": "Recognise €459,000 goods received, €378,000 bank-confirmed supplier payments and €126,000 closing supplier payables; the movement implies €45,000 opening payables if complete.",
       "financialStatementImpact": "Purchases €459,000; supplier cash outflow €378,000; closing payable €126,000; inferred opening payable €45,000.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The four supplier bank debits total €378,000. Closing payables €126,000 minus purchases €459,000 plus payments €378,000 implies €45,000 opening payables; confirm against the opening ledger.",
       "templateDecisionId": "D038",
@@ -1262,8 +1262,8 @@
       "finalAnswer": "Cash collections total: customer receipts EUR 899,000 excluding loan advance.",
       "financialStatementImpact": "Customer cash receipts €899,000, including €90,000 deferred September deposits.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "Recognise delivered or completed work as revenue; distinguish the cash collected from the unpaid receivable.",
       "templateDecisionId": "D039",
@@ -1292,8 +1292,8 @@
       "finalAnswer": "Closing bank balance: EUR 60,000.",
       "financialStatementImpact": "Closing cash €60,000.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "Recognise delivered or completed work as revenue; distinguish the cash collected from the unpaid receivable.",
       "templateDecisionId": "D040",
@@ -1334,8 +1334,8 @@
       "finalAnswer": "Exclude EUR 90,000 September deposits from revenue; record contract liabilities.",
       "financialStatementImpact": "September customer advances €90,000 are contract liabilities, not August revenue.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The €60,000 New Beginnings and €30,000 Fresh Freedom receipts relate to September performance. Cash received before 31 August creates a €90,000 contract liability until the events are delivered.",
       "templateDecisionId": "D041",
@@ -1383,8 +1383,8 @@
       "finalAnswer": "Treat EUR 50,000 new bank borrowing as debt, not income.",
       "financialStatementImpact": "Bank loan and financing cash +€50,000; no revenue.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The €50,000 bank transfer creates a repayment obligation. It increases cash and loan principal, and cannot be earned revenue.",
       "templateDecisionId": "D042",
@@ -1432,8 +1432,8 @@
       "finalAnswer": "Capitalize packaging machine EUR 60,000 as PPE.",
       "financialStatementImpact": "Packaging machine adds €60,000 to PPE gross cost and investing cash outflow.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The €60,000 packaging machine is a separately identifiable asset expected to support later production. Add it to PPE; charge depreciation over its supported useful life.",
       "templateDecisionId": "D043",
@@ -1481,8 +1481,8 @@
       "finalAnswer": "Capitalize photo booth EUR 20,000 as PPE.",
       "financialStatementImpact": "Photo booth adds €20,000 to PPE gross cost and investing cash outflow.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The €20,000 photo booth is equipment used beyond this period. Capitalisation follows the invoice and asset schedule; its useful life still needs confirmation.",
       "templateDecisionId": "D044",
@@ -1530,8 +1530,8 @@
       "finalAnswer": "Expense EUR 10,000 belt/calibration repair; it restores normal output and does not improve the asset.",
       "financialStatementImpact": "Repair expense €10,000; no PPE capitalization.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The €10,000 belt and calibration restored normal operation without added capacity or life. It is a current repair expense.",
       "templateDecisionId": "D045",
@@ -1579,8 +1579,8 @@
       "finalAnswer": "Treat EUR 70,000 villa payment as provisional owner withdrawal/distribution or related-party balance, not marketing.",
       "financialStatementImpact": "Villa payment €70,000 is owner-related cash outflow, excluded from operating expense.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The €70,000 villa deposit has no evidenced business purpose. Exclude it from marketing and hold it as a provisional owner distribution or recoverable related-party amount pending legal classification.",
       "templateDecisionId": "D046",
@@ -1629,8 +1629,8 @@
       "finalAnswer": "Treat €110,000 total owner-related payments (€70,000 villa deposit plus €40,000 owner-card spending) as provisional withdrawals/distribution or a related-party balance, not payroll.",
       "financialStatementImpact": "€70,000 villa payment plus €40,000 owner-card payment equals €110,000 owner-related cash outflow; excluded from payroll and operating profit.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The villa payment is €70,000 and owner-card spending is €40,000. Together they explain the €110,000 owner-related cash outflow. Neither is normal payroll or an operating expense; the legal form of the balance still needs confirmation.",
       "templateDecisionId": "D047",
@@ -1679,8 +1679,8 @@
       "finalAnswer": "Use the physical stock count as the closing measurement: EUR 143,000 gross less EUR 22,000 damaged stock = EUR 121,000 saleable inventory. This implies EUR 396,000 materials consumed. Record the EUR 9,000 favorable count-to-movement adjustment against the EUR 405,000 management consumption schedule; disclose that the source movement reconciliation is still needed. Selected PBT is EUR 74,000 before any disposal provision.",
       "financialStatementImpact": "Recognize materials consumed of EUR 396,000 and closing stock of EUR 121,000. Relative to the EUR 405,000 management schedule, the count-supported adjustment increases inventory and PBT by EUR 9,000. Root cause remains disclosed for follow-up.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The warehouse count is the direct evidence of stock physically present at 31 August. EUR 80,000 opening + EUR 459,000 received − EUR 143,000 gross count = EUR 396,000 consumption; the EUR 22,000 damage write-down then leaves EUR 121,000 saleable stock. The separate EUR 405,000 schedule differs by EUR 9,000; record the count-based adjustment and investigate the movement schedule.",
       "templateDecisionId": "D048",
@@ -1727,8 +1727,8 @@
       "finalAnswer": "Classify event-delivery payroll EUR 80,000 as direct cost.",
       "financialStatementImpact": "Event-delivery payroll €80,000 is direct cost and reduces gross profit.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "Event staff worked on delivery of the contracts, so the €80,000 payroll is a direct service cost. It is part of the €248,000 payroll total, not an extra charge.",
       "templateDecisionId": "D049",
@@ -1764,8 +1764,8 @@
       "finalAnswer": "Classify sales/partnerships payroll EUR 72,000 as operating expense.",
       "financialStatementImpact": "Sales and partnerships payroll operating expense €72,000.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense.",
       "templateDecisionId": "D050",
@@ -1793,8 +1793,8 @@
       "finalAnswer": "Classify office/finance payroll EUR 96,000 as operating expense.",
       "financialStatementImpact": "Office and finance payroll operating expense €96,000.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense.",
       "templateDecisionId": "D051",
@@ -1822,8 +1822,8 @@
       "finalAnswer": "Classify rent EUR 48,000 as operating expense.",
       "financialStatementImpact": "Rent operating expense €48,000.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset.",
       "templateDecisionId": "D052",
@@ -1851,8 +1851,8 @@
       "finalAnswer": "Classify marketing EUR 55,000 as operating expense.",
       "financialStatementImpact": "Marketing operating expense €55,000.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset.",
       "templateDecisionId": "D053",
@@ -1880,8 +1880,8 @@
       "finalAnswer": "Classify software EUR 16,000 as operating expense.",
       "financialStatementImpact": "Software operating expense €16,000.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset.",
       "templateDecisionId": "D054",
@@ -1909,8 +1909,8 @@
       "finalAnswer": "Classify utilities EUR 12,000 as operating expense.",
       "financialStatementImpact": "Utilities operating expense €12,000.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset.",
       "templateDecisionId": "D055",
@@ -1949,8 +1949,8 @@
       "finalAnswer": "Use depreciation estimate EUR 24,000; request useful-life support.",
       "financialStatementImpact": "Depreciation expense €24,000 increases accumulated depreciation.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The PPE roll-forward uses €45,000 opening accumulated depreciation plus €24,000 current depreciation to reach €69,000. The amount is provisional until asset lives and acquisition dates are evidenced.",
       "templateDecisionId": "D056",
@@ -1999,8 +1999,8 @@
       "finalAnswer": "Recognise €18,000 R-17 impairment against the €186,000 gross receivables. WEB-NCB’s €53,000 open balance points to R-17; verify the exact €18,000 subledger match.",
       "financialStatementImpact": "R-17 impairment expense €18,000 reduces net receivables to €168,000 if included in CRM.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "External liquidation evidence supports the €18,000 loss. CRM explicitly flags R-17 on WEB-NCB’s €53,000 gross open balance, supporting inclusion in the €186,000 total; the individual balance match still requires the subledger.",
       "templateDecisionId": "D057",
@@ -2048,8 +2048,8 @@
       "finalAnswer": "Write down damaged stock EUR 22,000; present saleable inventory EUR 121,000.",
       "financialStatementImpact": "Selected inventory €121,000 = €143,000 count less €22,000 write-down; alternative consumption basis inventory €112,000.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The count values gross stock at €143,000 and the independent assessment identifies €22,000 as unsaleable. Selected net stock is therefore €121,000. This write-down is separate from the €9,000 consumption reconciliation.",
       "templateDecisionId": "D058",
@@ -2097,8 +2097,8 @@
       "finalAnswer": "Recognize probable employee claim provision EUR 25,000; disclose EUR 20,000–30,000 range.",
       "financialStatementImpact": "Employee claim expense and provision €25,000; disclosed estimate range €20,000–€30,000.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "External counsel considers the employee claim probable, with an estimated €20,000–€30,000 range. €25,000 is the midpoint estimate; reassess when settlement evidence improves.",
       "templateDecisionId": "D059",
@@ -2134,8 +2134,8 @@
       "finalAnswer": "No separately supported insurance expense amount is available; do not invent one.",
       "financialStatementImpact": "No incremental insurance line is recognised without an evidenced amount and coverage period.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "No policy amount, payment or coverage period is present in the project files; an extra insurance expense cannot be measured reliably.",
       "templateDecisionId": "D060",
@@ -2174,8 +2174,8 @@
       "finalAnswer": "Accrue unpaid interest EUR 2,000 from EUR 12,000 expense less EUR 10,000 paid.",
       "financialStatementImpact": "Closing interest payable €2,000.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "Borrowed principal changes debt and financing cash, not earned revenue or operating expense.",
       "templateDecisionId": "D061",
@@ -2204,8 +2204,8 @@
       "finalAnswer": "Use calculated closing payroll payable EUR 32,000 = 15,000 opening + 248,000 expense - 231,000 cash paid.",
       "financialStatementImpact": "Closing payroll payable €32,000.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense.",
       "templateDecisionId": "D062",
@@ -2233,8 +2233,8 @@
       "finalAnswer": "Use supplier payables EUR 126,000.",
       "financialStatementImpact": "Closing supplier payables €126,000.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "Recognise goods received in purchases and carry the unpaid invoice balance as a supplier payable.",
       "templateDecisionId": "D063",
@@ -2275,8 +2275,8 @@
       "finalAnswer": "Recognize NorthStar delivered revenue EUR 180,000.",
       "financialStatementImpact": "NorthStar delivered revenue €180,000.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "NorthStar’s €180,000 contract was delivered by 31 August. Recognise the earned amount, while matching the N STAR receipt to the same customer to prevent duplicate revenue.",
       "templateDecisionId": "D064",
@@ -2325,8 +2325,8 @@
       "finalAnswer": "Recognize Freedom delivered revenue EUR 200,000.",
       "financialStatementImpact": "Freedom delivered revenue €200,000.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "Freedom’s €200,000 contract was delivered. The €142,000 receipt settles part of that sale, leaving €58,000 due; the receipt does not set the revenue amount.",
       "templateDecisionId": "D065",
@@ -2375,8 +2375,8 @@
       "finalAnswer": "Recognize Phoenix completed-event revenue EUR 100,000.",
       "financialStatementImpact": "Phoenix completed-event revenue €100,000.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "Phoenix’s event was completed by the reporting date. Recognise €100,000 revenue; €70,000 cash received leaves €30,000 receivable.",
       "templateDecisionId": "D066",
@@ -2425,8 +2425,8 @@
       "finalAnswer": "Recognize Liberty delivered revenue EUR 120,000.",
       "financialStatementImpact": "Liberty delivered revenue €120,000.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "Liberty’s €120,000 order was delivered. Recognise the full sale and carry €25,000 receivable after the €95,000 receipt.",
       "templateDecisionId": "D067",
@@ -2476,8 +2476,8 @@
       "finalAnswer": "Exclude undelivered September events EUR 90,000 from revenue and record liability.",
       "financialStatementImpact": "Undelivered September deposits €90,000 remain contract liabilities.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The two September events total €90,000 and remained undelivered at 31 August. Record their advance cash as contract liabilities, consistent with D041.",
       "templateDecisionId": "D068",
@@ -2514,8 +2514,8 @@
       "finalAnswer": "Classify EUR 19,000 principal payment as financing, reducing loan principal.",
       "financialStatementImpact": "Financing cash outflow €19,000 and loan principal reduction €19,000.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "Borrowed principal changes debt and financing cash, not earned revenue or operating expense.",
       "templateDecisionId": "D069",
@@ -2544,8 +2544,8 @@
       "finalAnswer": "Classify EUR 80,000 equipment purchase as investing cash outflow and PPE additions.",
       "financialStatementImpact": "Investing cash outflow and PPE gross additions €80,000.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The purchase creates equipment used beyond the current period, so it increases PPE and is an investing cash flow.",
       "templateDecisionId": "D070",
@@ -2587,8 +2587,8 @@
       "finalAnswer": "Recognise €18,000 R-17 impairment against the €186,000 gross receivables. WEB-NCB’s €53,000 open balance points to R-17; verify the exact €18,000 subledger match.",
       "financialStatementImpact": "R-17 impairment expense €18,000 and corresponding receivable reduction, subject to CRM tie-out.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "External liquidation evidence supports the €18,000 loss. CRM explicitly flags R-17 on WEB-NCB’s €53,000 gross open balance, supporting inclusion in the €186,000 total; the individual balance match still requires the subledger.",
       "templateDecisionId": "D071",
@@ -2637,8 +2637,8 @@
       "finalAnswer": "Use EUR 22,000 damaged-inventory write-down based on independent assessment that stock is unsaleable.",
       "financialStatementImpact": "Damaged-stock expense and inventory write-down €22,000.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The independent stock assessment supports a €22,000 loss on physically present but unsaleable goods. Deduct this once from the €143,000 count; do not also include it in the €396,000 consumed amount.",
       "templateDecisionId": "D072",
@@ -2686,8 +2686,8 @@
       "finalAnswer": "Use EUR 25,000 legal provision based on external counsel’s probable claim assessment.",
       "financialStatementImpact": "Employee claim expense and provision €25,000.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The former employee claim is probable according to external counsel. The €25,000 midpoint of the €20,000–€30,000 estimate is a reasonable provision subject to updated legal advice.",
       "templateDecisionId": "D073",
@@ -2734,8 +2734,8 @@
       "finalAnswer": "Use EUR 24,000 period depreciation estimate; useful-life schedule remains missing.",
       "financialStatementImpact": "Period depreciation expense €24,000 and accumulated depreciation increase €24,000.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "Current depreciation of €24,000 makes accumulated depreciation €69,000 and net PPE €191,000 from €260,000 gross cost. This is an estimate because a dated useful-life register is missing.",
       "templateDecisionId": "D074",
@@ -2784,8 +2784,8 @@
       "finalAnswer": "Present closing saleable inventory of EUR 121,000 (EUR 143,000 physical count less EUR 22,000 damaged stock). Use this count basis, with a disclosed EUR 9,000 adjustment to the movement schedule; selected PBT is EUR 74,000.",
       "financialStatementImpact": "Closing saleable inventory EUR 121,000. The count-based COGS is EUR 396,000; this is EUR 9,000 lower than the management movement schedule and increases PBT by EUR 9,000.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "Recommended judgment for personal review: prefer the physically observed count for the reporting-date asset, deduct the independently identified damaged stock, and show the EUR 9,000 count-to-movement adjustment transparently. Follow up the missing movement explanation.",
       "templateDecisionId": "D075",
@@ -2825,8 +2825,8 @@
       "finalAnswer": "Present €186,000 gross and €168,000 net receivables after €18,000 R-17 impairment. CRM links R-17 to WEB-NCB’s €53,000 open balance; confirm the subledger match.",
       "financialStatementImpact": "Gross receivables €186,000 less R-17 impairment €18,000 = €168,000 net.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "Delivered revenue €960,000 less €774,000 receipts on current sales leaves €186,000 gross. CRM points to R-17 within WEB-NCB open receivables; deduct €18,000 once, subject to customer-level tie-out.",
       "templateDecisionId": "D076",
@@ -2856,8 +2856,8 @@
       "finalAnswer": "Use EUR 10,000 repair expense, not improvement/capitalization.",
       "financialStatementImpact": "Repair expense €10,000; no PPE addition.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The cost supports current operations and is expensed in the period; it does not establish a new long-lived asset.",
       "templateDecisionId": "D077",
@@ -2885,8 +2885,8 @@
       "finalAnswer": "No separately supported insurance estimate is supplied in the project data. Do not add an invented expense; obtain the policy, payment and period-of-cover evidence.",
       "financialStatementImpact": "No incremental insurance line is recognised without an evidenced amount and coverage period.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "No policy amount, payment or coverage period is present in the project files; an extra insurance expense cannot be measured reliably.",
       "templateDecisionId": "D078",
@@ -2926,8 +2926,8 @@
       "finalAnswer": "Use accrued interest EUR 2,000.",
       "financialStatementImpact": "Interest expense €12,000 less paid €10,000 = €2,000 payable.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "Borrowed principal changes debt and financing cash, not earned revenue or operating expense.",
       "templateDecisionId": "D079",
@@ -2957,8 +2957,8 @@
       "finalAnswer": "Use calculated accrued payroll EUR 32,000; closing ledger not independently stated.",
       "financialStatementImpact": "Opening payroll payable €15,000 + €248,000 expense - €231,000 paid = €32,000 closing payable.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense.",
       "templateDecisionId": "D080",
@@ -2989,8 +2989,8 @@
       "finalAnswer": "Use customer deposit liability EUR 90,000.",
       "financialStatementImpact": "Contract liabilities €90,000; no August revenue.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "Delivery falls after the reporting date, so the receipt remains a contract liability at 31 August.",
       "templateDecisionId": "D081",
@@ -3019,8 +3019,8 @@
       "finalAnswer": "Use closing PPE gross EUR 260,000 and net PPE EUR 191,000.",
       "financialStatementImpact": "Gross PPE €260,000 less accumulated depreciation €69,000 = €191,000 net PPE.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The purchase creates equipment used beyond the current period, so it increases PPE and is an investing cash flow.",
       "templateDecisionId": "D082",
@@ -3049,8 +3049,8 @@
       "finalAnswer": "Use accumulated depreciation EUR 69,000 = opening EUR 45,000 + current EUR 24,000.",
       "financialStatementImpact": "Accumulated depreciation €69,000 = €45,000 opening + €24,000 period charge.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The purchase creates equipment used beyond the current period, so it increases PPE and is an investing cash flow.",
       "templateDecisionId": "D083",
@@ -3079,8 +3079,8 @@
       "finalAnswer": "Use supplier payable EUR 126,000.",
       "financialStatementImpact": "Supplier payables €126,000 across Box, Glass, Print and Event.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "Recognise goods received in purchases and carry the unpaid invoice balance as a supplier payable.",
       "templateDecisionId": "D084",
@@ -3110,8 +3110,8 @@
       "finalAnswer": "Use closing loan principal EUR 131,000 = 100,000 + 50,000 - 19,000.",
       "financialStatementImpact": "Closing loan principal €131,000 = €100,000 opening + €50,000 advance - €19,000 repayment.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "Borrowed principal changes debt and financing cash, not earned revenue or operating expense.",
       "templateDecisionId": "D085",
@@ -3142,8 +3142,8 @@
       "finalAnswer": "Use the physical stock count as the closing measurement: EUR 143,000 gross less EUR 22,000 damaged stock = EUR 121,000 saleable inventory. This implies EUR 396,000 materials consumed. Record the EUR 9,000 favorable count-to-movement adjustment against the EUR 405,000 management consumption schedule; disclose that the source movement reconciliation is still needed. Selected PBT is EUR 74,000 before any disposal provision.",
       "financialStatementImpact": "Recognize materials consumed of EUR 396,000 and closing stock of EUR 121,000. Relative to the EUR 405,000 management schedule, the count-supported adjustment increases inventory and PBT by EUR 9,000. Root cause remains disclosed for follow-up.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "changedFromAI": true,
       "reviewExplanation": "The warehouse count is the direct evidence of stock physically present at 31 August. EUR 80,000 opening + EUR 459,000 received − EUR 143,000 gross count = EUR 396,000 consumption; the EUR 22,000 damage write-down then leaves EUR 121,000 saleable stock. The separate EUR 405,000 schedule differs by EUR 9,000; record the count-based adjustment and investigate the movement schedule.",
@@ -3173,8 +3173,8 @@
       "finalAnswer": "Use direct event-delivery payroll EUR 80,000.",
       "financialStatementImpact": "Direct event-delivery payroll €80,000 reduces gross profit.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The project supports €248,000 normal period payroll but contains no reliable month-level allocation; an invented monthly amount would double count or misstate the expense.",
       "templateDecisionId": "D087",
@@ -3204,8 +3204,8 @@
       "finalAnswer": "Use owner-related payments EUR 110,000 as provisional distribution/personal withdrawal or related-party balance.",
       "financialStatementImpact": "Owner-related financing cash outflow €110,000; provisional equity or related-party classification.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The payment benefits the owner rather than ordinary operations; it is excluded from operating profit pending legal classification.",
       "templateDecisionId": "D088",
@@ -3242,8 +3242,8 @@
       "finalAnswer": "Selected count-basis PBT €74,000 excludes the unsupported €2,000 disposal provision. If a present obligation is evidenced, PBT is €72,000. Consumption-basis PBT is €65,000 without that provision (€63,000 with it).",
       "financialStatementImpact": "Inventory basis changes PBT and net inventory by €9,000; disposal recognition changes PBT and liabilities by €2,000.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "changedFromAI": true,
       "reviewExplanation": "The selected P&L totals €74,000 before tax; using €405,000 consumption lowers it to €65,000, and a proven disposal obligation would reduce either case by €2,000.",
@@ -3274,8 +3274,8 @@
       "finalAnswer": "Use closing cash EUR 60,000.",
       "financialStatementImpact": "Closing cash €60,000 = €80,000 opening - €20,000 net movement.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "Recognise delivered or completed work as revenue; distinguish the cash collected from the unpaid receivable.",
       "templateDecisionId": "D090",
@@ -3315,8 +3315,8 @@
       "finalAnswer": "Use the count-based working accounts with EUR 121,000 net stock and EUR 74,000 PBT after a disclosed EUR 9,000 count-to-movement adjustment. Implement the five user-provided board actions. Investigate the stock variance before valuation or earn-out use; student review remains required.",
       "financialStatementImpact": "Recommended count-based statements plus five management-control actions; no additional journal entries.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The user provided five management actions: block owner-card access and investigate EUR 110,000 withdrawals; run a rolling 13-week cash forecast and ring-fence delivery costs for EUR 90,000 deposits; recount/reconcile stock, quarantine wet goods and obtain disposal-obligation evidence; confirm suppliers/opening ledger and negotiate terms for EUR 126,000 payables; tighten credit and collections beginning with R-17.",
       "templateDecisionId": "D091",
@@ -3354,8 +3354,8 @@
       "finalAnswer": "Freeze owner-card access as a control recommendation; no direct workbook decision ID.",
       "financialStatementImpact": "Access-control recommendation; no current-period accounting entry.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "This is a governance action; it changes the recommended control response, not the current accounting balances.",
       "templateDecisionId": "D092",
@@ -3386,8 +3386,8 @@
       "finalAnswer": "Move EUR 90,000 September deposits to contract liabilities.",
       "financialStatementImpact": "Contract liabilities +€90,000 and current-period revenue excludes these deposits.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "Delivery falls after the reporting date, so the receipt remains a contract liability at 31 August.",
       "templateDecisionId": "D093",
@@ -3416,8 +3416,8 @@
       "finalAnswer": "Begin weekly 13-week cash forecast as a board recommendation; no direct workbook decision ID.",
       "financialStatementImpact": "Forecast-control recommendation; no current-period accounting entry.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "This is a governance action; it changes the recommended control response, not the current accounting balances.",
       "templateDecisionId": "D094",
@@ -3446,8 +3446,8 @@
       "finalAnswer": "Stop credit sales to insolvent/high-risk customers as a control recommendation; R-17 supports risk response.",
       "financialStatementImpact": "Credit-control recommendation; no new impairment beyond supported R-17 amount.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "This is a governance action; it changes the recommended control response, not the current accounting balances.",
       "templateDecisionId": "D095",
@@ -3477,8 +3477,8 @@
       "finalAnswer": "Arrange disposal of damaged stock. Do not recognise the quoted €2,000 cost at 31 August unless an existing legal or constructive obligation is evidenced; recognise the cost when incurred otherwise.",
       "financialStatementImpact": "Selected provision €0; if a present obligation is proven, liability and expense rise €2,000 and PBT/equity fall €2,000.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "The quote gives a reliable cost estimate, but the supplied record does not show a disposal law, order or commitment creating a present obligation at 31 August. The selected accounts therefore omit a provision and disclose a €2,000 sensitivity.",
       "changedFromAI": true,
@@ -3511,8 +3511,8 @@
       "finalAnswer": "Investigate management override/duplicate sources; reject unsupported management profit and cash figures.",
       "financialStatementImpact": "Investigation recommendation; reject unsupported €312,000 management profit.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "This is a governance action; it changes the recommended control response, not the current accounting balances.",
       "templateDecisionId": "D097",
@@ -3541,8 +3541,8 @@
       "finalAnswer": "Renegotiate supplier terms as a board recommendation in light of EUR 126,000 unpaid balances.",
       "financialStatementImpact": "Supplier-management recommendation concerning €126,000 closing payables; no new adjustment.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "This is a governance action; it changes the recommended control response, not the current accounting balances.",
       "templateDecisionId": "D098",
@@ -3573,8 +3573,8 @@
       "finalAnswer": "Continue core Finally Single and event operations based on delivered sales evidence; subject to student/board approval.",
       "financialStatementImpact": "Operating recommendation grounded in delivered sales; no new accounting entry.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "This is a governance action; it changes the recommended control response, not the current accounting balances.",
       "templateDecisionId": "D099",
@@ -3622,8 +3622,8 @@
       "finalAnswer": "Reject management’s unsupported EUR 312,000 profit for earn-out. Recommended count-based PBT is EUR 74,000 after a disclosed EUR 9,000 count-to-movement inventory adjustment. Do not use the figure for earn-out until the variance is investigated and the student reviews the answer set. A proven EUR 2,000 disposal obligation would reduce PBT to EUR 72,000.",
       "financialStatementImpact": "Reject EUR 312,000. Recommended count-based PBT EUR 74,000; EUR 72,000 if a present disposal obligation is evidenced.",
       "studentApproval": {
-        "status": "unapproved",
-        "approved": false
+        "status": "approved",
+        "approved": true
       },
       "reviewExplanation": "Use the count-supported EUR 74,000 PBT as the working figure, with the EUR 9,000 count-to-movement adjustment fully disclosed. The variance root cause and student sign-off remain pending, so do not treat it as an approved earn-out figure. The EUR 2,000 disposal quote is separate and is not accrued absent an obligation.",
       "templateDecisionId": "D100",
@@ -3981,9 +3981,15 @@
     "decisionProvenance": "The five management actions were supplied by the student in this conversation on 9 October 2026. They are recorded as the requested board action plan; this file does not claim the actions have already been executed."
   },
   "studentCertification": {
-    "status": "awaiting_personal_student_attestation",
-    "approved": false,
-    "declarationForPersonalReview": "I, Ričards Vismanis, confirm that I personally reviewed all 100 decisions, the supporting schedules and reconciliations, and the stated evidence gaps. I understand that this answer set was prepared with AI assistance, that 11 decisions lack separate source detail, and that the €9,000 inventory difference and other uncertainties remain disclosed. I accept responsibility for the final submission."
+    "status": "certified_locally_by_student",
+    "approved": true,
+    "student": {
+      "id": "rv25056",
+      "name": "Ričards Vismanis",
+      "nameVerificationStatus": "confirmed_by_user_2026-10-08"
+    },
+    "declaration": "I, Ričards Vismanis, confirm that I personally reviewed all 100 decisions, the supporting schedules and reconciliations, and the stated evidence gaps. I understand that this answer set was prepared with AI assistance, that 11 decisions lack separate source detail, and that the €9,000 inventory difference and other uncertainties remain disclosed. I accept responsibility for the final submission.",
+    "certifiedAt": "2026-10-09T08:57:45.216Z"
   },
   "reviewCertification": {
     "status": "student_approval_and_certification_pending",
