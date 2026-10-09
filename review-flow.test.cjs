@@ -66,10 +66,13 @@ setImmediate(()=>{
   assert.equal(published.boardRecommendation.actions.length,5,'five student actions remain');
   assert.equal(published.boardRecommendation.studentAdoption.status,'personally_confirmed_by_student','board adoption is explicit');
   assert.equal(published.postCertificationIndependentDialogues.decisions.length,25,'two fresh dialogue analyses cover all material decisions');
-  assert.equal(published.postCertificationIndependentDialogues.studentComparisonStatus,'pending_personal_review','new AI supplement is not falsely student-approved');
+  assert.equal(published.postCertificationIndependentDialogues.studentComparisonStatus,'personally_reviewed_existing_choices_retained','later personal review is recorded separately');
+  assert.equal(published.postCertificationIndependentDialogues.decisions.filter(d=>d.studentComparisonStatus==='personally_reviewed_existing_choices_retained').length,25,'all 25 new comparisons have the later review status');
+  assert(new Date(published.postCertificationIndependentDialogues.studentReview.confirmedAt)>new Date(published.studentCertification.certifiedAt),'new review does not backdate the original certificate');
   reloaded.eval('dialogues()');
   assert(reloaded.node('#app').innerHTML.includes('Independent dialogue A')&&reloaded.node('#app').innerHTML.includes('Independent dialogue B'),'both fresh dialogues render');
   assert(reloaded.node('#app').innerHTML.includes('Reviewer A selects')&&reloaded.node('#app').innerHTML.includes('€65,000'),'inventory disagreement is explicit');
+  assert(reloaded.node('#app').innerHTML.includes('Student comparison personally reviewed'),'separate student confirmation is visible');
   reloaded.eval('assessorReview()');
   assert(reloaded.node('#app').innerHTML.includes('Two fresh AI dialogues'),'assessor sees supplementary review link');
   reloaded.eval('uncertaintyPage()');

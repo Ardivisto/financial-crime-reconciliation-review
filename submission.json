@@ -4053,7 +4053,7 @@
   "postCertificationIndependentDialogues": {
     "caseId": "DPI-HT-01",
     "recordedAt": "2026-10-09T10:12:11.590Z",
-    "status": "two_fresh_independent_ai_dialogues_recorded_student_comparison_pending",
+    "status": "two_fresh_independent_ai_dialogues_student_review_recorded",
     "scope": "Post-certification AI supplement. The existing student certification predates these two new dialogues and does not attest to personally reviewing them.",
     "sourceArchive": {
       "name": "03 CASE FILES - Open and Investigate-20261008T152707Z-1-001.zip",
@@ -4081,7 +4081,7 @@
         "provisionalPbt": 65000
       }
     ],
-    "studentComparisonStatus": "pending_personal_review",
+    "studentComparisonStatus": "personally_reviewed_existing_choices_retained",
     "comparisonAuthorship": "AI-prepared after both independent dialogues completed",
     "decisions": [
       {
@@ -4127,7 +4127,8 @@
         "existingAnswerClarification": null,
         "comparisonCategory": "same_core_treatment",
         "aiComparison": "Both fresh reviews agree with the certified €90,000 September contract liability; D068 repeats the same entry.",
-        "studentComparisonStatus": "pending_personal_review"
+        "studentComparisonStatus": "personally_reviewed_existing_choices_retained",
+        "studentDisposition": "Existing certified decision retained after personal review of the two fresh AI dialogues and AI-prepared comparison."
       },
       {
         "id": "D042",
@@ -4172,7 +4173,8 @@
         "existingAnswerClarification": null,
         "comparisonCategory": "same_core_treatment",
         "aiComparison": "Both fresh reviews classify the €50,000 advance as loan principal, matching the certified choice. It is not revenue.",
-        "studentComparisonStatus": "pending_personal_review"
+        "studentComparisonStatus": "personally_reviewed_existing_choices_retained",
+        "studentDisposition": "Existing certified decision retained after personal review of the two fresh AI dialogues and AI-prepared comparison."
       },
       {
         "id": "D043",
@@ -4218,7 +4220,8 @@
         "existingAnswerClarification": null,
         "comparisonCategory": "same_core_treatment",
         "aiComparison": "Both fresh reviews capitalize the €60,000 packaging machine. Useful-life support remains incomplete.",
-        "studentComparisonStatus": "pending_personal_review"
+        "studentComparisonStatus": "personally_reviewed_existing_choices_retained",
+        "studentDisposition": "Existing certified decision retained after personal review of the two fresh AI dialogues and AI-prepared comparison."
       },
       {
         "id": "D044",
@@ -4264,7 +4267,8 @@
         "existingAnswerClarification": null,
         "comparisonCategory": "same_core_treatment",
         "aiComparison": "Both fresh reviews capitalize the €20,000 photo booth. Useful-life support remains incomplete.",
-        "studentComparisonStatus": "pending_personal_review"
+        "studentComparisonStatus": "personally_reviewed_existing_choices_retained",
+        "studentDisposition": "Existing certified decision retained after personal review of the two fresh AI dialogues and AI-prepared comparison."
       },
       {
         "id": "D045",
@@ -4310,7 +4314,8 @@
         "existingAnswerClarification": null,
         "comparisonCategory": "same_core_treatment",
         "aiComparison": "Both fresh reviews expense the €10,000 belt and calibration repair, matching the certified treatment.",
-        "studentComparisonStatus": "pending_personal_review"
+        "studentComparisonStatus": "personally_reviewed_existing_choices_retained",
+        "studentDisposition": "Existing certified decision retained after personal review of the two fresh AI dialogues and AI-prepared comparison."
       },
       {
         "id": "D046",
@@ -4355,7 +4360,8 @@
         "existingAnswerClarification": null,
         "comparisonCategory": "caveat_or_scope_difference",
         "aiComparison": "Both fresh reviews exclude the €70,000 villa payment from marketing and default to an owner distribution. The certified choice also leaves a recoverable related-party balance open pending legal evidence.",
-        "studentComparisonStatus": "pending_personal_review"
+        "studentComparisonStatus": "personally_reviewed_existing_choices_retained",
+        "studentDisposition": "Existing certified decision retained after personal review of the two fresh AI dialogues and AI-prepared comparison."
       },
       {
         "id": "D047",
@@ -4401,7 +4407,8 @@
         "existingAnswerClarification": null,
         "comparisonCategory": "caveat_or_scope_difference",
         "aiComparison": "Both fresh reviews treat the separate €40,000 owner-card spending as owner-related, not payroll. The certified answer combines it with the €70,000 villa payment and leaves legal form open.",
-        "studentComparisonStatus": "pending_personal_review"
+        "studentComparisonStatus": "personally_reviewed_existing_choices_retained",
+        "studentDisposition": "Existing certified decision retained after personal review of the two fresh AI dialogues and AI-prepared comparison."
       },
       {
         "id": "D048",
@@ -4445,7 +4452,8 @@
         "existingAnswerClarification": "The opening phrase is preserved from the AI draft. The student subsequently reviewed and certified the count-basis treatment. The EUR 9,000 movement difference still needs investigation.",
         "comparisonCategory": "inventory_basis_difference",
         "aiComparison": "Both fresh reviews use the explicit €405,000 consumption record provisionally. The certified count basis uses €396,000 consumed and a disclosed €9,000 favorable adjustment. The source documents do not explain the difference.",
-        "studentComparisonStatus": "pending_personal_review"
+        "studentComparisonStatus": "personally_reviewed_existing_choices_retained",
+        "studentDisposition": "Existing certified decision retained after personal review of the two fresh AI dialogues and AI-prepared comparison."
       },
       {
         "id": "D049",
@@ -4489,7 +4497,8 @@
         "existingAnswerClarification": null,
         "comparisonCategory": "same_core_treatment",
         "aiComparison": "Both fresh reviews classify €80,000 event delivery payroll as direct service cost, matching the certified treatment.",
-        "studentComparisonStatus": "pending_personal_review"
+        "studentComparisonStatus": "personally_reviewed_existing_choices_retained",
+        "studentDisposition": "Existing certified decision retained after personal review of the two fresh AI dialogues and AI-prepared comparison."
       },
       {
         "id": "D056",
@@ -4532,7 +4541,8 @@
         "existingAnswerClarification": null,
         "comparisonCategory": "same_core_treatment",
         "aiComparison": "Both fresh reviews accept €24,000 period depreciation as an estimate. Asset lives and in-service support remain incomplete.",
-        "studentComparisonStatus": "pending_personal_review"
+        "studentComparisonStatus": "personally_reviewed_existing_choices_retained",
+        "studentDisposition": "Existing certified decision retained after personal review of the two fresh AI dialogues and AI-prepared comparison."
       },
       {
         "id": "D057",
@@ -4578,7 +4588,8 @@
         "existingAnswerClarification": null,
         "comparisonCategory": "same_core_treatment",
         "aiComparison": "Both fresh reviews recognize the €18,000 R-17 impairment. The exact customer subledger tie remains open.",
-        "studentComparisonStatus": "pending_personal_review"
+        "studentComparisonStatus": "personally_reviewed_existing_choices_retained",
+        "studentDisposition": "Existing certified decision retained after personal review of the two fresh AI dialogues and AI-prepared comparison."
       },
       {
         "id": "D058",
@@ -4622,7 +4633,8 @@
         "existingAnswerClarification": null,
         "comparisonCategory": "same_core_treatment",
         "aiComparison": "Both fresh reviews write down €22,000 unsaleable stock once. This is separate from the €9,000 movement gap.",
-        "studentComparisonStatus": "pending_personal_review"
+        "studentComparisonStatus": "personally_reviewed_existing_choices_retained",
+        "studentDisposition": "Existing certified decision retained after personal review of the two fresh AI dialogues and AI-prepared comparison."
       },
       {
         "id": "D059",
@@ -4666,7 +4678,8 @@
         "existingAnswerClarification": null,
         "comparisonCategory": "same_core_treatment",
         "aiComparison": "Both fresh reviews use a €25,000 provision within counsel’s €20,000–€30,000 probable claim range.",
-        "studentComparisonStatus": "pending_personal_review"
+        "studentComparisonStatus": "personally_reviewed_existing_choices_retained",
+        "studentDisposition": "Existing certified decision retained after personal review of the two fresh AI dialogues and AI-prepared comparison."
       },
       {
         "id": "D064",
@@ -4712,7 +4725,8 @@
         "existingAnswerClarification": null,
         "comparisonCategory": "same_core_treatment",
         "aiComparison": "Both fresh reviews recognize €180,000 delivered NorthStar revenue; the receipt is not a second sale.",
-        "studentComparisonStatus": "pending_personal_review"
+        "studentComparisonStatus": "personally_reviewed_existing_choices_retained",
+        "studentDisposition": "Existing certified decision retained after personal review of the two fresh AI dialogues and AI-prepared comparison."
       },
       {
         "id": "D065",
@@ -4758,7 +4772,8 @@
         "existingAnswerClarification": null,
         "comparisonCategory": "same_core_treatment",
         "aiComparison": "Both fresh reviews recognize €200,000 delivered Freedom revenue and the €58,000 unpaid balance.",
-        "studentComparisonStatus": "pending_personal_review"
+        "studentComparisonStatus": "personally_reviewed_existing_choices_retained",
+        "studentDisposition": "Existing certified decision retained after personal review of the two fresh AI dialogues and AI-prepared comparison."
       },
       {
         "id": "D066",
@@ -4804,7 +4819,8 @@
         "existingAnswerClarification": null,
         "comparisonCategory": "same_core_treatment",
         "aiComparison": "Both fresh reviews recognize €100,000 completed Phoenix revenue and the €30,000 unpaid balance.",
-        "studentComparisonStatus": "pending_personal_review"
+        "studentComparisonStatus": "personally_reviewed_existing_choices_retained",
+        "studentDisposition": "Existing certified decision retained after personal review of the two fresh AI dialogues and AI-prepared comparison."
       },
       {
         "id": "D067",
@@ -4850,7 +4866,8 @@
         "existingAnswerClarification": null,
         "comparisonCategory": "same_core_treatment",
         "aiComparison": "Both fresh reviews recognize €120,000 delivered Liberty revenue and the €25,000 unpaid balance.",
-        "studentComparisonStatus": "pending_personal_review"
+        "studentComparisonStatus": "personally_reviewed_existing_choices_retained",
+        "studentDisposition": "Existing certified decision retained after personal review of the two fresh AI dialogues and AI-prepared comparison."
       },
       {
         "id": "D068",
@@ -4896,7 +4913,8 @@
         "existingAnswerClarification": null,
         "comparisonCategory": "same_core_treatment",
         "aiComparison": "Both fresh reviews exclude the €90,000 undelivered September events from August revenue. This repeats D041 and is not booked twice.",
-        "studentComparisonStatus": "pending_personal_review"
+        "studentComparisonStatus": "personally_reviewed_existing_choices_retained",
+        "studentDisposition": "Existing certified decision retained after personal review of the two fresh AI dialogues and AI-prepared comparison."
       },
       {
         "id": "D071",
@@ -4942,7 +4960,8 @@
         "existingAnswerClarification": null,
         "comparisonCategory": "same_core_treatment",
         "aiComparison": "Both fresh reviews estimate the R-17 loss at €18,000 and net receivables at €168,000. This repeats D057.",
-        "studentComparisonStatus": "pending_personal_review"
+        "studentComparisonStatus": "personally_reviewed_existing_choices_retained",
+        "studentDisposition": "Existing certified decision retained after personal review of the two fresh AI dialogues and AI-prepared comparison."
       },
       {
         "id": "D072",
@@ -4986,7 +5005,8 @@
         "existingAnswerClarification": null,
         "comparisonCategory": "same_core_treatment",
         "aiComparison": "Both fresh reviews estimate the damaged-stock loss at €22,000. This repeats D058 and is not an additional charge.",
-        "studentComparisonStatus": "pending_personal_review"
+        "studentComparisonStatus": "personally_reviewed_existing_choices_retained",
+        "studentDisposition": "Existing certified decision retained after personal review of the two fresh AI dialogues and AI-prepared comparison."
       },
       {
         "id": "D073",
@@ -5030,7 +5050,8 @@
         "existingAnswerClarification": null,
         "comparisonCategory": "same_core_treatment",
         "aiComparison": "Both fresh reviews estimate the legal provision at €25,000. This repeats D059.",
-        "studentComparisonStatus": "pending_personal_review"
+        "studentComparisonStatus": "personally_reviewed_existing_choices_retained",
+        "studentDisposition": "Existing certified decision retained after personal review of the two fresh AI dialogues and AI-prepared comparison."
       },
       {
         "id": "D074",
@@ -5074,7 +5095,8 @@
         "existingAnswerClarification": null,
         "comparisonCategory": "same_core_treatment",
         "aiComparison": "Both fresh reviews use €24,000 period depreciation and €191,000 net PPE. This repeats D056.",
-        "studentComparisonStatus": "pending_personal_review"
+        "studentComparisonStatus": "personally_reviewed_existing_choices_retained",
+        "studentDisposition": "Existing certified decision retained after personal review of the two fresh AI dialogues and AI-prepared comparison."
       },
       {
         "id": "D075",
@@ -5119,7 +5141,8 @@
         "existingAnswerClarification": "The opening phrase is preserved from the AI draft. The student subsequently reviewed and certified the count-basis treatment. The movement explanation remains an evidence follow-up.",
         "comparisonCategory": "inventory_basis_difference",
         "aiComparison": "Reviewer A chooses €112,000 provisional net stock from the movement schedule; reviewer B chooses €121,000 from the physical count, matching the certified answer. Both flag the unexplained €9,000 gap.",
-        "studentComparisonStatus": "pending_personal_review"
+        "studentComparisonStatus": "personally_reviewed_existing_choices_retained",
+        "studentDisposition": "Existing certified decision retained after personal review of the two fresh AI dialogues and AI-prepared comparison."
       },
       {
         "id": "D091",
@@ -5167,7 +5190,8 @@
         "existingAnswerClarification": "The phrase requiring student review belongs to the earlier AI-assisted draft. The student later approved and certified the existing 100-decision working submission. The two newly added independent dialogues and AI-prepared comparison remain pending personal review; valuation source gaps still remain.",
         "comparisonCategory": "caveat_or_scope_difference",
         "aiComparison": "Both fresh reviews advise against valuation approval while the source gaps remain. The existing student certification records the student’s submitted working accounts; it does not resolve valuation evidence or mean the board actions have been executed.",
-        "studentComparisonStatus": "pending_personal_review"
+        "studentComparisonStatus": "personally_reviewed_existing_choices_retained",
+        "studentDisposition": "Existing certified decision retained after personal review of the two fresh AI dialogues and AI-prepared comparison."
       },
       {
         "id": "D100",
@@ -5216,9 +5240,25 @@
         "existingAnswerClarification": "The sentence about pending student sign-off describes the earlier AI draft, before the recorded student certification. The EUR 74,000 count-basis PBT is the certified working figure; the EUR 9,000 variance still needs investigation, and the management earn-out figure has not been approved.",
         "comparisonCategory": "caveat_or_scope_difference",
         "aiComparison": "Both fresh reviews reject management’s €312,000 earn-out profit. They regard €65,000 flow-basis PBT as provisional and acknowledge €74,000 on the count basis, which the certified answer selects with a disclosed €9,000 adjustment. Earn-out use remains on hold.",
-        "studentComparisonStatus": "pending_personal_review"
+        "studentComparisonStatus": "personally_reviewed_existing_choices_retained",
+        "studentDisposition": "Existing certified decision retained after personal review of the two fresh AI dialogues and AI-prepared comparison."
       }
     ],
-    "overallComparison": "Both fresh independent reviewers reconstruct €65,000 provisional PBT from the explicit €405,000 materials-consumed line, and both identify the physical-count alternative of €74,000 with an unexplained €9,000 inventory difference. Reviewer B selects €121,000 net closing stock from the count for D075; reviewer A selects €112,000 provisionally from movements. The already certified working submission selects €74,000 and €121,000 on the physical-count basis, with a disclosed €9,000 adjustment and no earn-out use pending investigation. The new comparison is AI-prepared and awaits the student’s personal review; no earlier certificate is represented as covering it."
+    "overallComparison": "Both fresh independent reviewers reconstruct €65,000 provisional PBT from the explicit €405,000 materials-consumed line, and both identify the physical-count alternative of €74,000 with an unexplained €9,000 inventory difference. Reviewer B selects €121,000 net closing stock from the count for D075; reviewer A selects €112,000 provisionally from movements. The already certified working submission selects €74,000 and €121,000 on the physical-count basis, with a disclosed €9,000 adjustment and no earn-out use pending investigation. The new comparison was AI-prepared; the student subsequently confirmed personal review and retained the certified count-based choice. The earlier certificate predates this supplement, and the separate later confirmation is recorded without changing its timestamp.",
+    "studentReview": {
+      "status": "personally_reviewed_existing_choices_retained",
+      "confirmedAt": "2026-10-09T10:18:07.143Z",
+      "student": {
+        "id": "rv25056",
+        "name": "Ričards Vismanis"
+      },
+      "question": "After personally reviewing the two new dialogues and 25 comparisons at /review#dialogues, do you confirm them as reviewed and retain €74,000 PBT on the physical-count basis with the disclosed €9,000 difference?",
+      "exactReply": "Да, рассмотрел(а), сохраняю €74 000",
+      "recordedFrom": "Direct user response in this conversation",
+      "selectedPbt": 74000,
+      "selectedInventoryBasis": "physical_count",
+      "unresolvedInventoryDifference": 9000,
+      "earnOutApproval": false
+    }
   }
 }
