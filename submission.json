@@ -3994,7 +3994,7 @@
     }
   ],
   "boardRecommendation": {
-    "status": "USER-PROVIDED ACTIONS INCLUDED IN STUDENT-CERTIFIED SUBMISSION — NOT EXECUTED",
+    "status": "STUDENT-REVIEWED FINAL RECOMMENDATION — ACTIONS NOT EXECUTED",
     "recommendation": "For the working accounts, use the physical stock count: closing saleable stock EUR 121,000, materials consumed EUR 396,000 and PBT EUR 74,000 before any disposal provision. Record and disclose the EUR 9,000 favorable count-to-movement adjustment, and investigate its root cause. Reject management’s unsupported EUR 312,000 profit. Implement the five user-provided control actions below; the plan is recorded, not marked as executed.",
     "actions": [
       "Block owner-card access and investigate the EUR 110,000 owner-related withdrawals, including their legal and accounting classification.",
@@ -4004,7 +4004,12 @@
       "Tighten customer credit approval and collections, beginning with R-17 and all overdue balances."
     ],
     "decisionProvenance": "The five management actions were supplied by the student in this conversation on 9 October 2026. They are recorded as the requested board action plan; this file does not claim the actions have already been executed.",
-    "certificationNote": "The five actions were supplied by the student and included in the certified submission. Certification does not establish that the actions were carried out."
+    "certificationNote": "The five actions were supplied by the student and included in the certified submission. Certification does not establish that the actions were carried out.",
+    "studentAdoption": {
+      "status": "personally_confirmed_by_student",
+      "confirmedAt": "2026-10-09T09:45:56.368Z",
+      "scope": "The student confirmed in this conversation that the five published board actions are accepted as the final recommendation with the disclosed caveats."
+    }
   },
   "studentCertification": {
     "status": "certified_locally_by_student",
@@ -4025,6 +4030,7 @@
   "publicationCorrection": {
     "correctedAt": "2026-10-09T09:43:01.710Z",
     "scope": "Post-certification metadata reconciliation: draft/pending labels updated to reflect the existing student certification; no decision answer, reasoning, comparison, financial figure, five board actions, or certification timestamp changed.",
-    "originalCertificationUnchanged": true
+    "originalCertificationUnchanged": true,
+    "boardRecommendationConfirmedAt": "2026-10-09T09:45:56.368Z"
   }
 }

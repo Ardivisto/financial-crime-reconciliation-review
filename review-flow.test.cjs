@@ -6,7 +6,7 @@ function boot(fetchPreview=false){
  const node=key=>{if(!nodes.has(key))nodes.set(key,{innerHTML:'',textContent:'',checked:false,disabled:false,listeners:{},classList:{toggle(){},add(){},remove(){}},addEventListener(type,fn){this.listeners[type]=fn},click(){this.listeners.click?.()}});return nodes.get(key)};
  const storage={getItem:k=>db.get(k)||null,setItem:(k,v)=>db.set(k,v),removeItem:k=>db.delete(k)};
  class FileReader{readAsText(file){this.result=file.content;this.onload()}}
- const context=vm.createContext({document:{querySelector:node,querySelectorAll:()=>[]},window:{REVIEW_MODE:false,scrollTo(){},confirm:()=>true},localStorage:storage,FileReader,fetch:()=>fetchPreview?Promise.resolve({ok:true,json:()=>Promise.resolve(draft)}):new Promise(()=>{}),setTimeout:()=>{},URL:{createObjectURL:()=>'',revokeObjectURL(){}},Blob:class{}});
+ const context=vm.createContext({document:{querySelector:node,querySelectorAll:()=>[],createElement:()=>({click(){}})},window:{REVIEW_MODE:false,scrollTo(){},confirm:()=>true},localStorage:storage,FileReader,fetch:()=>fetchPreview?Promise.resolve({ok:true,json:()=>Promise.resolve(draft)}):new Promise(()=>{}),setTimeout:()=>{},URL:{createObjectURL:()=>'',revokeObjectURL(){}},Blob:class{}});
  vm.runInContext(source,context);return {context,node,eval:code=>vm.runInContext(code,context)};
 }
 let app=boot();
@@ -64,6 +64,10 @@ setImmediate(()=>{
   assert.equal(reloaded.eval('verifiedChallengeCount()'),25,'published analyses are counted from canonical JSON');
   assert.equal(published.decisions.filter(d=>d.reviewTier==='material_judgment'&&d.studentReasoningStatus==='ai_assisted_reasoning_in_student_certified_submission').length,25,'certified reasoning status is consistent');
   assert.equal(published.boardRecommendation.actions.length,5,'five student actions remain');
+  assert.equal(published.boardRecommendation.studentAdoption.status,'personally_confirmed_by_student','board adoption is explicit');
+  reloaded.eval('uncertaintyPage()');
+  assert(reloaded.node('#app').innerHTML.includes('Personally adopted by the student'),'board adoption shown publicly');
+  reloaded.eval('downloadCertifiedObject('+JSON.stringify(published)+')');
   reloaded.eval('overview()');
   assert(reloaded.node('#app').innerHTML.includes('Student-certified final'),'overview shows public status');
   reloaded.eval('certification()');
