@@ -1,12 +1,12 @@
 const fs=require('fs'),vm=require('vm'),assert=require('assert');
 const source=fs.readFileSync('app.js','utf8'), draft=JSON.parse(fs.readFileSync('DPI-HT-01_review_draft_for_import.json','utf8'));
 const db=new Map();
-function boot(){
+function boot(fetchPreview=false){
  const nodes=new Map();
  const node=key=>{if(!nodes.has(key))nodes.set(key,{innerHTML:'',textContent:'',checked:false,disabled:false,listeners:{},classList:{toggle(){},add(){},remove(){}},addEventListener(type,fn){this.listeners[type]=fn},click(){this.listeners.click?.()}});return nodes.get(key)};
  const storage={getItem:k=>db.get(k)||null,setItem:(k,v)=>db.set(k,v),removeItem:k=>db.delete(k)};
  class FileReader{readAsText(file){this.result=file.content;this.onload()}}
- const context=vm.createContext({document:{querySelector:node,querySelectorAll:()=>[]},window:{REVIEW_MODE:false,scrollTo(){},confirm:()=>true},localStorage:storage,FileReader,fetch:()=>new Promise(()=>{}),setTimeout:()=>{},URL:{createObjectURL:()=>'',revokeObjectURL(){}},Blob:class{}});
+ const context=vm.createContext({document:{querySelector:node,querySelectorAll:()=>[]},window:{REVIEW_MODE:false,scrollTo(){},confirm:()=>true},localStorage:storage,FileReader,fetch:()=>fetchPreview?Promise.resolve({ok:true,json:()=>Promise.resolve(draft)}):new Promise(()=>{}),setTimeout:()=>{},URL:{createObjectURL:()=>'',revokeObjectURL(){}},Blob:class{}});
  vm.runInContext(source,context);return {context,node,eval:code=>vm.runInContext(code,context)};
 }
 let app=boot();
@@ -41,4 +41,21 @@ app.eval('saveImportedData('+JSON.stringify(incomplete)+',"incomplete.json",vali
 assert.equal(app.eval('verifiedChallengeCount()'),24,'missing completed status does not count');
 assert.equal(app.eval('checkedChallenges.size'),24,'stale check is removed');
 assert.equal(app.eval('certificationReady()'),false,'missing review blocks certification');
-console.log('PASS: valid 100, blank/duplicate/missing/fields rejected, 25 analyses, bulk check, reload, reimport, no auto certification');
+db.delete('reconciliation-review:DPI-HT-01:imported-json');
+const preview=boot(true);
+setImmediate(()=>{
+ assert.equal(preview.eval('canReview()'),true,'validated bundled set can be reviewed');
+ preview.eval('judgments()');
+ const checkbox=preview.node('#app').innerHTML.match(/<input class="challenge-box"[^>]*data-id="D041"[^>]*>/)?.[0];
+ assert(checkbox&&!checkbox.includes('disabled'),'material checkbox enabled in preview');
+ preview.eval("checkedChallenges.add('D041');persistReviews()");
+ assert.equal(preview.eval('certificationReady()'),false,'preview review cannot certify');
+ const reloaded=boot(true);
+ setImmediate(()=>{
+  assert.equal(reloaded.eval("checkedChallenges.has('D041')"),true,'preview check survives reload');
+  reloaded.eval('decisions()');
+  const decisionBox=reloaded.node('#app').innerHTML.match(/<input class="approve-box"[^>]*data-id="D001"[^>]*>/)?.[0];
+  assert(decisionBox&&!decisionBox.includes('disabled'),'decision checkbox enabled in preview');
+  console.log('PASS: valid import, empty rejection, 25 analyses, manual checks in bundled preview, reload, no auto certification');
+ });
+});
