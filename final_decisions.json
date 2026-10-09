@@ -1288,8 +1288,8 @@
         "02 Bank Export August.csv"
       ],
       "confidence": "high",
-      "aiProposal": "AI working proposal; original first-agent output not supplied: Exclude EUR 90,000 September deposits from revenue; record contract liabilities.",
-      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
+      "aiProposal": "Fresh primary AI first proposal: Exclude EUR 90,000 September deposits from revenue; record contract liabilities.",
+      "independentChallenge": "Fresh independent analysis (second agent; original evidence only): September advances €90,000 are contract liabilities, not August revenue (Contracts p.2 NB-SEP/FF-SEP; bank DEP-NB/DEP-FF2; CRM rows 10–11). Agrees with the working treatment. High confidence.",
       "studentReasoning": "The €60,000 New Beginnings and €30,000 Fresh Freedom receipts relate to September performance. Cash received before 31 August creates a €90,000 contract liability until the events are delivered.",
       "statementEffect": {
         "profit": -90000,
@@ -1305,8 +1305,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Classify September customer deposits.",
-      "agent1Position": "Original agent position not supplied in the case files.",
-      "agent2Position": "Original agent position not supplied in the case files.",
+      "agent1Position": "Fresh primary AI first proposal (not a historical Agent 1 transcript): Exclude EUR 90,000 September deposits from revenue; record contract liabilities.",
+      "agent2Position": "Fresh independent second-agent analysis based only on original evidence; see independentChallenge.",
       "evidenceReliability": "high",
       "finalAnswer": "Exclude EUR 90,000 September deposits from revenue; record contract liabilities.",
       "financialStatementImpact": "September customer advances €90,000 are contract liabilities, not August revenue.",
@@ -1317,11 +1317,14 @@
       "reviewExplanation": "The €60,000 New Beginnings and €30,000 Fresh Freedom receipts relate to September performance. Cash received before 31 August creates a €90,000 contract liability until the events are delivered.",
       "templateDecisionId": "D041",
       "answerStatus": "resolved",
-      "firstProposalStatus": "original_not_available",
-      "independentChallengeStatus": "missing",
+      "firstProposalStatus": "fresh_primary_ai_proposal_complete",
+      "independentChallengeStatus": "complete",
       "studentReasoningStatus": "ai_draft_pending_personal_review",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
-      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
+      "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
+      "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
+      "challengeComparison": "Independent review agrees: exclude EUR 90,000 September deposits from revenue and retain contract liabilities."
     },
     {
       "id": "D042",
@@ -1334,8 +1337,8 @@
         "02 Bank Export August.csv"
       ],
       "confidence": "high",
-      "aiProposal": "AI working proposal; original first-agent output not supplied: Treat EUR 50,000 new bank borrowing as debt, not income.",
-      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
+      "aiProposal": "Fresh primary AI first proposal: Treat EUR 50,000 new bank borrowing as debt, not income.",
+      "independentChallenge": "Fresh independent analysis: €50,000 loan advance increases cash and loan liability; it is not revenue (Loans p.1; bank LOAN-ADV). Agrees; corrected effect cash €50k, non-cash assets €0, liabilities €50k. High.",
       "studentReasoning": "The €50,000 bank transfer creates a repayment obligation. It increases cash and loan principal, and cannot be earned revenue.",
       "statementEffect": {
         "profit": 0,
@@ -1351,8 +1354,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Classify New bank borrowing.",
-      "agent1Position": "Original agent position not supplied in the case files.",
-      "agent2Position": "Original agent position not supplied in the case files.",
+      "agent1Position": "Fresh primary AI first proposal (not a historical Agent 1 transcript): Treat EUR 50,000 new bank borrowing as debt, not income.",
+      "agent2Position": "Fresh independent second-agent analysis based only on original evidence; see independentChallenge.",
       "evidenceReliability": "high",
       "finalAnswer": "Treat EUR 50,000 new bank borrowing as debt, not income.",
       "financialStatementImpact": "Bank loan and financing cash +€50,000; no revenue.",
@@ -1363,11 +1366,14 @@
       "reviewExplanation": "The €50,000 bank transfer creates a repayment obligation. It increases cash and loan principal, and cannot be earned revenue.",
       "templateDecisionId": "D042",
       "answerStatus": "resolved",
-      "firstProposalStatus": "original_not_available",
-      "independentChallengeStatus": "missing",
+      "firstProposalStatus": "fresh_primary_ai_proposal_complete",
+      "independentChallengeStatus": "complete",
       "studentReasoningStatus": "ai_draft_pending_personal_review",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
-      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
+      "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
+      "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
+      "challengeComparison": "Agrees: EUR 50,000 bank advance is debt, not revenue; cash and liability both increase."
     },
     {
       "id": "D043",
@@ -1380,8 +1386,8 @@
         "06 Purchases Invoices and Goods Received.pdf"
       ],
       "confidence": "high",
-      "aiProposal": "AI working proposal; original first-agent output not supplied: Capitalize packaging machine EUR 60,000 as PPE.",
-      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
+      "aiProposal": "Fresh primary AI first proposal: Capitalize packaging machine EUR 60,000 as PPE.",
+      "independentChallenge": "Fresh independent analysis: capitalize €60,000 packaging machine as PPE (Purchases p.2 A-910; Assets row 5; bank CAPEX-PACK). Agrees; useful-life/depreciation schedule still needs support. High classification.",
       "studentReasoning": "The €60,000 packaging machine is a separately identifiable asset expected to support later production. Add it to PPE; charge depreciation over its supported useful life.",
       "statementEffect": {
         "profit": null,
@@ -1397,8 +1403,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Classify Packaging machine.",
-      "agent1Position": "Original agent position not supplied in the case files.",
-      "agent2Position": "Original agent position not supplied in the case files.",
+      "agent1Position": "Fresh primary AI first proposal (not a historical Agent 1 transcript): Capitalize packaging machine EUR 60,000 as PPE.",
+      "agent2Position": "Fresh independent second-agent analysis based only on original evidence; see independentChallenge.",
       "evidenceReliability": "high",
       "finalAnswer": "Capitalize packaging machine EUR 60,000 as PPE.",
       "financialStatementImpact": "Packaging machine adds €60,000 to PPE gross cost and investing cash outflow.",
@@ -1409,11 +1415,14 @@
       "reviewExplanation": "The €60,000 packaging machine is a separately identifiable asset expected to support later production. Add it to PPE; charge depreciation over its supported useful life.",
       "templateDecisionId": "D043",
       "answerStatus": "resolved",
-      "firstProposalStatus": "original_not_available",
-      "independentChallengeStatus": "missing",
+      "firstProposalStatus": "fresh_primary_ai_proposal_complete",
+      "independentChallengeStatus": "complete",
       "studentReasoningStatus": "ai_draft_pending_personal_review",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
-      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
+      "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
+      "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
+      "challengeComparison": "Agrees: capitalize the EUR 60,000 packaging machine as PPE; support depreciation lives."
     },
     {
       "id": "D044",
@@ -1426,8 +1435,8 @@
         "06 Purchases Invoices and Goods Received.pdf"
       ],
       "confidence": "medium",
-      "aiProposal": "AI working proposal; original first-agent output not supplied: Capitalize photo booth EUR 20,000 as PPE.",
-      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
+      "aiProposal": "Fresh primary AI first proposal: Capitalize photo booth EUR 20,000 as PPE.",
+      "independentChallenge": "Fresh independent analysis: capitalize €20,000 photo booth as PPE (Purchases p.2 P-404; Assets row 6; bank CAPEX-PHOTO). Agrees; useful-life/depreciation schedule still needs support. High classification.",
       "studentReasoning": "The €20,000 photo booth is equipment used beyond this period. Capitalisation follows the invoice and asset schedule; its useful life still needs confirmation.",
       "statementEffect": {
         "profit": null,
@@ -1443,8 +1452,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Classify Photo booth.",
-      "agent1Position": "Original agent position not supplied in the case files.",
-      "agent2Position": "Original agent position not supplied in the case files.",
+      "agent1Position": "Fresh primary AI first proposal (not a historical Agent 1 transcript): Capitalize photo booth EUR 20,000 as PPE.",
+      "agent2Position": "Fresh independent second-agent analysis based only on original evidence; see independentChallenge.",
       "evidenceReliability": "medium",
       "finalAnswer": "Capitalize photo booth EUR 20,000 as PPE.",
       "financialStatementImpact": "Photo booth adds €20,000 to PPE gross cost and investing cash outflow.",
@@ -1455,11 +1464,14 @@
       "reviewExplanation": "The €20,000 photo booth is equipment used beyond this period. Capitalisation follows the invoice and asset schedule; its useful life still needs confirmation.",
       "templateDecisionId": "D044",
       "answerStatus": "resolved",
-      "firstProposalStatus": "original_not_available",
-      "independentChallengeStatus": "missing",
+      "firstProposalStatus": "fresh_primary_ai_proposal_complete",
+      "independentChallengeStatus": "complete",
       "studentReasoningStatus": "ai_draft_pending_personal_review",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
-      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
+      "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
+      "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
+      "challengeComparison": "Agrees: capitalize the EUR 20,000 booth as PPE; support depreciation lives."
     },
     {
       "id": "D045",
@@ -1472,8 +1484,8 @@
         "06 Purchases Invoices and Goods Received.pdf"
       ],
       "confidence": "high",
-      "aiProposal": "AI working proposal; original first-agent output not supplied: Expense EUR 10,000 belt/calibration repair; it restores normal output and does not improve the asset.",
-      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
+      "aiProposal": "Fresh primary AI first proposal: Expense EUR 10,000 belt/calibration repair; it restores normal output and does not improve the asset.",
+      "independentChallenge": "Fresh independent analysis: expense €10,000 belt/calibration as repair (Purchases p.2 R-771; Assets row 7; bank REPAIR). Agrees; routine repair does not establish added capacity. High.",
       "studentReasoning": "The €10,000 belt and calibration restored normal operation without added capacity or life. It is a current repair expense.",
       "statementEffect": {
         "profit": -10000,
@@ -1489,8 +1501,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Classify Machine belt and calibration.",
-      "agent1Position": "Original agent position not supplied in the case files.",
-      "agent2Position": "Original agent position not supplied in the case files.",
+      "agent1Position": "Fresh primary AI first proposal (not a historical Agent 1 transcript): Expense EUR 10,000 belt/calibration repair; it restores normal output and does not improve the asset.",
+      "agent2Position": "Fresh independent second-agent analysis based only on original evidence; see independentChallenge.",
       "evidenceReliability": "high",
       "finalAnswer": "Expense EUR 10,000 belt/calibration repair; it restores normal output and does not improve the asset.",
       "financialStatementImpact": "Repair expense €10,000; no PPE capitalization.",
@@ -1501,11 +1513,14 @@
       "reviewExplanation": "The €10,000 belt and calibration restored normal operation without added capacity or life. It is a current repair expense.",
       "templateDecisionId": "D045",
       "answerStatus": "resolved",
-      "firstProposalStatus": "original_not_available",
-      "independentChallengeStatus": "missing",
+      "firstProposalStatus": "fresh_primary_ai_proposal_complete",
+      "independentChallengeStatus": "complete",
       "studentReasoningStatus": "ai_draft_pending_personal_review",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
-      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
+      "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
+      "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
+      "challengeComparison": "Agrees: expense the EUR 10,000 repair; evidence does not show added capacity or useful life."
     },
     {
       "id": "D046",
@@ -1518,8 +1533,8 @@
         "02 Bank Export August.csv"
       ],
       "confidence": "high",
-      "aiProposal": "AI working proposal; original first-agent output not supplied: Treat EUR 70,000 villa payment as provisional owner withdrawal/distribution or related-party balance, not marketing.",
-      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
+      "aiProposal": "Fresh primary AI first proposal: Treat EUR 70,000 villa payment as provisional owner withdrawal/distribution or related-party balance, not marketing.",
+      "independentChallenge": "Fresh independent analysis: €70,000 villa payment is owner-related, not marketing expense (Loans p.1; bank VILLA). Agrees on exclusion from operating expense; legal form as distribution versus recoverable balance needs documentation. High classification, legal form open.",
       "studentReasoning": "The €70,000 villa deposit has no evidenced business purpose. Exclude it from marketing and hold it as a provisional owner distribution or recoverable related-party amount pending legal classification.",
       "statementEffect": {
         "profit": 0,
@@ -1535,8 +1550,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Classify Owner villa deposit.",
-      "agent1Position": "Original agent position not supplied in the case files.",
-      "agent2Position": "Original agent position not supplied in the case files.",
+      "agent1Position": "Fresh primary AI first proposal (not a historical Agent 1 transcript): Treat EUR 70,000 villa payment as provisional owner withdrawal/distribution or related-party balance, not marketing.",
+      "agent2Position": "Fresh independent second-agent analysis based only on original evidence; see independentChallenge.",
       "evidenceReliability": "high",
       "finalAnswer": "Treat EUR 70,000 villa payment as provisional owner withdrawal/distribution or related-party balance, not marketing.",
       "financialStatementImpact": "Villa payment €70,000 is owner-related cash outflow, excluded from operating expense.",
@@ -1547,11 +1562,14 @@
       "reviewExplanation": "The €70,000 villa deposit has no evidenced business purpose. Exclude it from marketing and hold it as a provisional owner distribution or recoverable related-party amount pending legal classification.",
       "templateDecisionId": "D046",
       "answerStatus": "resolved",
-      "firstProposalStatus": "original_not_available",
-      "independentChallengeStatus": "missing",
+      "firstProposalStatus": "fresh_primary_ai_proposal_complete",
+      "independentChallengeStatus": "complete",
       "studentReasoningStatus": "ai_draft_pending_personal_review",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
-      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
+      "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
+      "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
+      "challengeComparison": "Agrees that the EUR 70,000 villa payment is not marketing expense; legal form remains open."
     },
     {
       "id": "D047",
@@ -1564,8 +1582,8 @@
         "07 Payroll Bonuses Contractors NEW.xlsx"
       ],
       "confidence": "medium",
-      "aiProposal": "AI working proposal; original first-agent output not supplied: Treat EUR 110,000 owner-card payments as provisional owner withdrawal/distribution or related-party balance, not payroll.",
-      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
+      "aiProposal": "Fresh primary AI first proposal: Treat EUR 110,000 owner-card payments as provisional owner withdrawal/distribution or related-party balance, not payroll.",
+      "independentChallenge": "Fresh independent analysis: provisionally classify other €40,000 owner-card spending as owner distribution, not operating expense (Loans p.1; bank OWNERCARD; Payroll row 8). Agrees provisionally; receipts may establish a business portion. Medium.",
       "studentReasoning": "The villa payment is €70,000 and owner-card spending is €40,000. Together they explain the €110,000 owner-related cash outflow. Neither is normal payroll or an operating expense; the legal form of the balance still needs confirmation.",
       "statementEffect": {
         "profit": 0,
@@ -1582,8 +1600,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Classify Owner card spending.",
-      "agent1Position": "Original agent position not supplied in the case files.",
-      "agent2Position": "Original agent position not supplied in the case files.",
+      "agent1Position": "Fresh primary AI first proposal (not a historical Agent 1 transcript): Treat EUR 110,000 owner-card payments as provisional owner withdrawal/distribution or related-party balance, not payroll.",
+      "agent2Position": "Fresh independent second-agent analysis based only on original evidence; see independentChallenge.",
       "evidenceReliability": "medium",
       "finalAnswer": "Treat €110,000 total owner-related payments (€70,000 villa deposit plus €40,000 owner-card spending) as provisional withdrawals/distribution or a related-party balance, not payroll.",
       "financialStatementImpact": "€70,000 villa payment plus €40,000 owner-card payment equals €110,000 owner-related cash outflow; excluded from payroll and operating profit.",
@@ -1594,26 +1612,29 @@
       "reviewExplanation": "The villa payment is €70,000 and owner-card spending is €40,000. Together they explain the €110,000 owner-related cash outflow. Neither is normal payroll or an operating expense; the legal form of the balance still needs confirmation.",
       "templateDecisionId": "D047",
       "answerStatus": "resolved",
-      "firstProposalStatus": "original_not_available",
-      "independentChallengeStatus": "missing",
+      "firstProposalStatus": "fresh_primary_ai_proposal_complete",
+      "independentChallengeStatus": "complete",
       "studentReasoningStatus": "ai_draft_pending_personal_review",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
-      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
+      "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
+      "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
+      "challengeComparison": "Broad agreement: treat EUR 40,000 owner-card spending provisionally as owner-related, but receipts may show a business portion."
     },
     {
       "id": "D048",
       "category": "classification",
       "reviewTier": "material_judgment",
       "question": "Classify Physical product materials consumed.",
-      "answer": "Selected count basis: materials consumed €396,000 (= €80,000 + €459,000 − €143,000). Workbook €405,000 is an alternative with €9,000 lower stock and profit.",
+      "answer": "Use the physical stock count as the closing measurement: EUR 143,000 gross less EUR 22,000 damaged stock = EUR 121,000 saleable inventory. This implies EUR 396,000 materials consumed. Record the EUR 9,000 favorable count-to-movement adjustment against the EUR 405,000 management consumption schedule; disclose that the source movement reconciliation is still needed. Selected PBT is EUR 74,000 before any disposal provision.",
       "evidence": [
         "05 Warehouse Count Marta Notes.pdf",
         "06 Purchases Invoices and Goods Received.pdf"
       ],
       "confidence": "medium",
-      "aiProposal": "AI working proposal; original first-agent output not supplied: Use physical materials consumed EUR 405,000; disclose unresolved EUR 9,000 roll-forward gap and do not plug it.",
-      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
-      "studentReasoning": "Opening stock €80,000 plus received purchases €459,000 gives €539,000 available. The counted gross closing stock is €143,000, so the selected count-basis consumption is €396,000. The workbook’s €405,000 figure implies gross stock €134,000; the €9,000 difference is shown separately.",
+      "aiProposal": "Fresh primary AI first proposal: Use physical materials consumed EUR 405,000; disclose unresolved EUR 9,000 roll-forward gap and do not plug it.",
+      "independentChallenge": "Fresh independent analysis identifies €9,000 unresolved inventory conflict: physical count €143k gross less €22k damage = €121k net; opening €80k + purchases €459k − stated consumption €405k − damage €22k = €112k. Do not present €121k and €65k PBT as reconciled. Resolve scope/prior-period adjustment or support €9k stock/COGS adjustment. Warehouse pp.1–2; Purchases p.1. Medium.",
+      "studentReasoning": "Recommended judgment for personal review: use the direct physical count, apply the documented EUR 22,000 write-down, and recognize a EUR 9,000 favorable count-to-movement adjustment to inventory/COGS. This produces EUR 121,000 saleable stock and EUR 74,000 PBT. The source schedule difference remains disclosed for follow-up.",
       "statementEffect": {
         "profit": -396000,
         "cash": null,
@@ -1629,23 +1650,26 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Classify Physical product materials consumed.",
-      "agent1Position": "Original agent position not supplied in the case files.",
-      "agent2Position": "Original agent position not supplied in the case files.",
+      "agent1Position": "Fresh primary AI first proposal (not a historical Agent 1 transcript): Use physical materials consumed EUR 405,000; disclose unresolved EUR 9,000 roll-forward gap and do not plug it.",
+      "agent2Position": "Fresh independent second-agent analysis based only on original evidence; see independentChallenge.",
       "evidenceReliability": "medium",
-      "finalAnswer": "Selected count basis: materials consumed €396,000 (= €80,000 + €459,000 − €143,000). Workbook €405,000 is an alternative with €9,000 lower stock and profit.",
-      "financialStatementImpact": "Selected material cost €396,000; consumption basis alternative €405,000 changes PBT and inventory by €9,000.",
+      "finalAnswer": "Use the physical stock count as the closing measurement: EUR 143,000 gross less EUR 22,000 damaged stock = EUR 121,000 saleable inventory. This implies EUR 396,000 materials consumed. Record the EUR 9,000 favorable count-to-movement adjustment against the EUR 405,000 management consumption schedule; disclose that the source movement reconciliation is still needed. Selected PBT is EUR 74,000 before any disposal provision.",
+      "financialStatementImpact": "Recognize materials consumed of EUR 396,000 and closing stock of EUR 121,000. Relative to the EUR 405,000 management schedule, the count-supported adjustment increases inventory and PBT by EUR 9,000. Root cause remains disclosed for follow-up.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
       },
-      "reviewExplanation": "Opening stock €80,000 plus received purchases €459,000 gives €539,000 available. The counted gross closing stock is €143,000, so the selected count-basis consumption is €396,000. The workbook’s €405,000 figure implies gross stock €134,000; the €9,000 difference is shown separately.",
+      "reviewExplanation": "The warehouse count is the direct evidence of stock physically present at 31 August. EUR 80,000 opening + EUR 459,000 received − EUR 143,000 gross count = EUR 396,000 consumption; the EUR 22,000 damage write-down then leaves EUR 121,000 saleable stock. The separate EUR 405,000 schedule differs by EUR 9,000; record the count-based adjustment and investigate the movement schedule.",
       "templateDecisionId": "D048",
       "answerStatus": "resolved",
-      "firstProposalStatus": "original_not_available",
-      "independentChallengeStatus": "missing",
+      "firstProposalStatus": "fresh_primary_ai_proposal_complete",
+      "independentChallengeStatus": "complete",
       "studentReasoningStatus": "ai_draft_pending_personal_review",
-      "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
-      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
+      "changedFromAIStatus": "Changed from the earlier working draft after selecting physical-count evidence; original complete Agent 1 matrix unavailable.",
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
+      "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
+      "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
+      "challengeComparison": "Material difference: first proposal used EUR 405,000 consumption and left the gap open. Independent analysis identified count EUR 121,000 vs movement EUR 112,000. Selected working treatment uses the physical count, records a disclosed EUR 9,000 inventory/COGS adjustment and requires root-cause follow-up."
     },
     {
       "id": "D049",
@@ -1657,8 +1681,8 @@
         "07 Payroll Bonuses Contractors NEW.xlsx"
       ],
       "confidence": "high",
-      "aiProposal": "AI working proposal; original first-agent output not supplied: Classify event-delivery payroll EUR 80,000 as direct cost.",
-      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
+      "aiProposal": "Fresh primary AI first proposal: Classify event-delivery payroll EUR 80,000 as direct cost.",
+      "independentChallenge": "Fresh independent analysis: €80,000 event staff payroll is direct contract delivery cost; €75,000 cash paid and €5,000 closing payable on this subset (Payroll row 4). Overall payroll totals €248k expense, €231k paid, €15k opening unpaid, €32k closing payable. Classification high; subset payable medium because opening liability allocation is absent.",
       "studentReasoning": "Event staff worked on delivery of the contracts, so the €80,000 payroll is a direct service cost. It is part of the €248,000 payroll total, not an extra charge.",
       "statementEffect": {
         "profit": 0,
@@ -1674,8 +1698,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Classify Event staff payroll.",
-      "agent1Position": "Original agent position not supplied in the case files.",
-      "agent2Position": "Original agent position not supplied in the case files.",
+      "agent1Position": "Fresh primary AI first proposal (not a historical Agent 1 transcript): Classify event-delivery payroll EUR 80,000 as direct cost.",
+      "agent2Position": "Fresh independent second-agent analysis based only on original evidence; see independentChallenge.",
       "evidenceReliability": "high",
       "finalAnswer": "Classify event-delivery payroll EUR 80,000 as direct cost.",
       "financialStatementImpact": "Event-delivery payroll €80,000 is direct cost and reduces gross profit.",
@@ -1686,11 +1710,14 @@
       "reviewExplanation": "Event staff worked on delivery of the contracts, so the €80,000 payroll is a direct service cost. It is part of the €248,000 payroll total, not an extra charge.",
       "templateDecisionId": "D049",
       "answerStatus": "resolved",
-      "firstProposalStatus": "original_not_available",
-      "independentChallengeStatus": "missing",
+      "firstProposalStatus": "fresh_primary_ai_proposal_complete",
+      "independentChallengeStatus": "complete",
       "studentReasoningStatus": "ai_draft_pending_personal_review",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
-      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
+      "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
+      "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
+      "challengeComparison": "Agrees that EUR 80,000 event payroll is direct delivery cost; the EUR 5,000 subset payable is less certain because opening allocation is unavailable."
     },
     {
       "id": "D050",
@@ -1876,8 +1903,8 @@
         "08 Assets Repairs Leases Maybe.xlsx"
       ],
       "confidence": "medium",
-      "aiProposal": "AI working proposal; original first-agent output not supplied: Use depreciation estimate EUR 24,000; request useful-life support.",
-      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
+      "aiProposal": "Fresh primary AI first proposal: Use depreciation estimate EUR 24,000; request useful-life support.",
+      "independentChallenge": "Fresh independent analysis: €24,000 current depreciation estimate; assets rows 4–8. Agrees provisionally; useful-life and in-service date support absent. Medium.",
       "studentReasoning": "The PPE roll-forward uses €45,000 opening accumulated depreciation plus €24,000 current depreciation to reach €69,000. The amount is provisional until asset lives and acquisition dates are evidenced.",
       "statementEffect": {
         "profit": -24000,
@@ -1893,8 +1920,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Classify Depreciation.",
-      "agent1Position": "Original agent position not supplied in the case files.",
-      "agent2Position": "Original agent position not supplied in the case files.",
+      "agent1Position": "Fresh primary AI first proposal (not a historical Agent 1 transcript): Use depreciation estimate EUR 24,000; request useful-life support.",
+      "agent2Position": "Fresh independent second-agent analysis based only on original evidence; see independentChallenge.",
       "evidenceReliability": "medium",
       "finalAnswer": "Use depreciation estimate EUR 24,000; request useful-life support.",
       "financialStatementImpact": "Depreciation expense €24,000 increases accumulated depreciation.",
@@ -1905,11 +1932,14 @@
       "reviewExplanation": "The PPE roll-forward uses €45,000 opening accumulated depreciation plus €24,000 current depreciation to reach €69,000. The amount is provisional until asset lives and acquisition dates are evidenced.",
       "templateDecisionId": "D056",
       "answerStatus": "resolved",
-      "firstProposalStatus": "original_not_available",
-      "independentChallengeStatus": "missing",
+      "firstProposalStatus": "fresh_primary_ai_proposal_complete",
+      "independentChallengeStatus": "complete",
       "studentReasoningStatus": "ai_draft_pending_personal_review",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
-      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
+      "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
+      "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
+      "challengeComparison": "Agrees with EUR 24,000 depreciation estimate as provisional; useful-life schedule is absent."
     },
     {
       "id": "D057",
@@ -1923,8 +1953,8 @@
         "11 Evidence Received After Takeover.pdf"
       ],
       "confidence": "medium",
-      "aiProposal": "AI working proposal; original first-agent output not supplied: Recognize EUR 18,000 R-17 impairment, pending tie-out that R-17 is included in CRM balance.",
-      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
+      "aiProposal": "Fresh primary AI first proposal: Recognize EUR 18,000 R-17 impairment, pending tie-out that R-17 is included in CRM balance.",
+      "independentChallenge": "Fresh independent analysis: recognize €18,000 R-17 loss (Contracts p.2; Later Evidence p.1; CRM row 9). Agrees; CRM links R-17 to €53,000 open WEB-NCB balance, but exact €18k customer subledger allocation remains unverified. High recognition.",
       "studentReasoning": "External liquidation evidence supports the €18,000 loss. CRM explicitly flags R-17 on WEB-NCB’s €53,000 gross open balance, supporting inclusion in the €186,000 total; the individual balance match still requires the subledger.",
       "statementEffect": {
         "profit": -18000,
@@ -1940,8 +1970,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Classify Bad receivable.",
-      "agent1Position": "Original agent position not supplied in the case files.",
-      "agent2Position": "Original agent position not supplied in the case files.",
+      "agent1Position": "Fresh primary AI first proposal (not a historical Agent 1 transcript): Recognize EUR 18,000 R-17 impairment, pending tie-out that R-17 is included in CRM balance.",
+      "agent2Position": "Fresh independent second-agent analysis based only on original evidence; see independentChallenge.",
       "evidenceReliability": "medium",
       "finalAnswer": "Recognise €18,000 R-17 impairment against the €186,000 gross receivables. WEB-NCB’s €53,000 open balance points to R-17; verify the exact €18,000 subledger match.",
       "financialStatementImpact": "R-17 impairment expense €18,000 reduces net receivables to €168,000 if included in CRM.",
@@ -1952,11 +1982,14 @@
       "reviewExplanation": "External liquidation evidence supports the €18,000 loss. CRM explicitly flags R-17 on WEB-NCB’s €53,000 gross open balance, supporting inclusion in the €186,000 total; the individual balance match still requires the subledger.",
       "templateDecisionId": "D057",
       "answerStatus": "resolved",
-      "firstProposalStatus": "original_not_available",
-      "independentChallengeStatus": "missing",
+      "firstProposalStatus": "fresh_primary_ai_proposal_complete",
+      "independentChallengeStatus": "complete",
       "studentReasoningStatus": "ai_draft_pending_personal_review",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
-      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
+      "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
+      "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
+      "challengeComparison": "Agrees: recognize EUR 18,000 R-17 impairment once; exact customer subledger allocation remains to verify."
     },
     {
       "id": "D058",
@@ -1969,8 +2002,8 @@
         "11 Evidence Received After Takeover.pdf"
       ],
       "confidence": "high",
-      "aiProposal": "AI working proposal; original first-agent output not supplied: Write down damaged stock EUR 22,000; present saleable inventory EUR 121,000.",
-      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
+      "aiProposal": "Fresh primary AI first proposal: Write down damaged stock EUR 22,000; present saleable inventory EUR 121,000.",
+      "independentChallenge": "Fresh independent analysis: recognize €22,000 damage/write-down loss against stock (Warehouse pp.1–2; Later Evidence p.1). Agrees; keep separate from the €9k consumption conflict and avoid double counting. High.",
       "studentReasoning": "The count values gross stock at €143,000 and the independent assessment identifies €22,000 as unsaleable. Selected net stock is therefore €121,000. This write-down is separate from the €9,000 consumption reconciliation.",
       "statementEffect": {
         "profit": -22000,
@@ -1986,8 +2019,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Classify Damaged stock.",
-      "agent1Position": "Original agent position not supplied in the case files.",
-      "agent2Position": "Original agent position not supplied in the case files.",
+      "agent1Position": "Fresh primary AI first proposal (not a historical Agent 1 transcript): Write down damaged stock EUR 22,000; present saleable inventory EUR 121,000.",
+      "agent2Position": "Fresh independent second-agent analysis based only on original evidence; see independentChallenge.",
       "evidenceReliability": "high",
       "finalAnswer": "Write down damaged stock EUR 22,000; present saleable inventory EUR 121,000.",
       "financialStatementImpact": "Selected inventory €121,000 = €143,000 count less €22,000 write-down; alternative consumption basis inventory €112,000.",
@@ -1998,11 +2031,14 @@
       "reviewExplanation": "The count values gross stock at €143,000 and the independent assessment identifies €22,000 as unsaleable. Selected net stock is therefore €121,000. This write-down is separate from the €9,000 consumption reconciliation.",
       "templateDecisionId": "D058",
       "answerStatus": "resolved",
-      "firstProposalStatus": "original_not_available",
-      "independentChallengeStatus": "missing",
+      "firstProposalStatus": "fresh_primary_ai_proposal_complete",
+      "independentChallengeStatus": "complete",
       "studentReasoningStatus": "ai_draft_pending_personal_review",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
-      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
+      "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
+      "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
+      "challengeComparison": "Agrees: recognize EUR 22,000 damaged-stock write-down once, separately from the count-to-movement adjustment."
     },
     {
       "id": "D059",
@@ -2015,8 +2051,8 @@
         "11 Evidence Received After Takeover.pdf"
       ],
       "confidence": "high",
-      "aiProposal": "AI working proposal; original first-agent output not supplied: Recognize probable employee claim provision EUR 25,000; disclose EUR 20,000–30,000 range.",
-      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
+      "aiProposal": "Fresh primary AI first proposal: Recognize probable employee claim provision EUR 25,000; disclose EUR 20,000–30,000 range.",
+      "independentChallenge": "Fresh independent analysis: recognize €25,000 probable employee-claim provision, within €20k–€30k range (Loans p.2; Later Evidence p.1). Agrees on recognition; amount remains estimate. Medium amount.",
       "studentReasoning": "External counsel considers the employee claim probable, with an estimated €20,000–€30,000 range. €25,000 is the midpoint estimate; reassess when settlement evidence improves.",
       "statementEffect": {
         "profit": -25000,
@@ -2032,8 +2068,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Classify Probable legal claim.",
-      "agent1Position": "Original agent position not supplied in the case files.",
-      "agent2Position": "Original agent position not supplied in the case files.",
+      "agent1Position": "Fresh primary AI first proposal (not a historical Agent 1 transcript): Recognize probable employee claim provision EUR 25,000; disclose EUR 20,000–30,000 range.",
+      "agent2Position": "Fresh independent second-agent analysis based only on original evidence; see independentChallenge.",
       "evidenceReliability": "high",
       "finalAnswer": "Recognize probable employee claim provision EUR 25,000; disclose EUR 20,000–30,000 range.",
       "financialStatementImpact": "Employee claim expense and provision €25,000; disclosed estimate range €20,000–€30,000.",
@@ -2044,11 +2080,14 @@
       "reviewExplanation": "External counsel considers the employee claim probable, with an estimated €20,000–€30,000 range. €25,000 is the midpoint estimate; reassess when settlement evidence improves.",
       "templateDecisionId": "D059",
       "answerStatus": "resolved",
-      "firstProposalStatus": "original_not_available",
-      "independentChallengeStatus": "missing",
+      "firstProposalStatus": "fresh_primary_ai_proposal_complete",
+      "independentChallengeStatus": "complete",
       "studentReasoningStatus": "ai_draft_pending_personal_review",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
-      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
+      "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
+      "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
+      "challengeComparison": "Agrees that the probable claim merits a provision; EUR 25,000 remains a midpoint estimate."
     },
     {
       "id": "D060",
@@ -2189,8 +2228,8 @@
         "03 CRM Export Cleaned FINAL.xlsx"
       ],
       "confidence": "high",
-      "aiProposal": "AI working proposal; original first-agent output not supplied: Recognize NorthStar delivered revenue EUR 180,000.",
-      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
+      "aiProposal": "Fresh primary AI first proposal: Recognize NorthStar delivered revenue EUR 180,000.",
+      "independentChallenge": "Fresh independent analysis: NorthStar €180,000 delivered revenue (Contracts p.1 INV-26012; CRM row 4; bank RCPT-NS). Agrees. High.",
       "studentReasoning": "NorthStar’s €180,000 contract was delivered by 31 August. Recognise the earned amount, while matching the N STAR receipt to the same customer to prevent duplicate revenue.",
       "statementEffect": {
         "profit": 180000,
@@ -2207,8 +2246,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Classify Delivered NorthStar contract.",
-      "agent1Position": "Include INV-26012",
-      "agent2Position": "Include",
+      "agent1Position": "Fresh primary AI first proposal (not a historical Agent 1 transcript): Recognize NorthStar delivered revenue EUR 180,000.",
+      "agent2Position": "Fresh independent second-agent analysis based only on original evidence; see independentChallenge.",
       "evidenceReliability": "high",
       "finalAnswer": "Recognize NorthStar delivered revenue EUR 180,000.",
       "financialStatementImpact": "NorthStar delivered revenue €180,000.",
@@ -2219,11 +2258,14 @@
       "reviewExplanation": "NorthStar’s €180,000 contract was delivered by 31 August. Recognise the earned amount, while matching the N STAR receipt to the same customer to prevent duplicate revenue.",
       "templateDecisionId": "D064",
       "answerStatus": "resolved",
-      "firstProposalStatus": "original_not_available",
-      "independentChallengeStatus": "missing",
+      "firstProposalStatus": "fresh_primary_ai_proposal_complete",
+      "independentChallengeStatus": "complete",
       "studentReasoningStatus": "ai_draft_pending_personal_review",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
-      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
+      "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
+      "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
+      "challengeComparison": "Agrees: NorthStar EUR 180,000 delivered revenue."
     },
     {
       "id": "D065",
@@ -2236,8 +2278,8 @@
         "03 CRM Export Cleaned FINAL.xlsx"
       ],
       "confidence": "high",
-      "aiProposal": "AI working proposal; original first-agent output not supplied: Recognize Freedom delivered revenue EUR 200,000.",
-      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
+      "aiProposal": "Fresh primary AI first proposal: Recognize Freedom delivered revenue EUR 200,000.",
+      "independentChallenge": "Fresh independent analysis: Freedom €200,000 delivered revenue; €142,000 cash and €58,000 receivable (Contracts p.1 INV-26031; CRM row 5; bank RCPT-FF). Agrees. High.",
       "studentReasoning": "Freedom’s €200,000 contract was delivered. The €142,000 receipt settles part of that sale, leaving €58,000 due; the receipt does not set the revenue amount.",
       "statementEffect": {
         "profit": 200000,
@@ -2254,8 +2296,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Classify Delivered Freedom contract.",
-      "agent1Position": "Include INV-26031",
-      "agent2Position": "Include",
+      "agent1Position": "Fresh primary AI first proposal (not a historical Agent 1 transcript): Recognize Freedom delivered revenue EUR 200,000.",
+      "agent2Position": "Fresh independent second-agent analysis based only on original evidence; see independentChallenge.",
       "evidenceReliability": "high",
       "finalAnswer": "Recognize Freedom delivered revenue EUR 200,000.",
       "financialStatementImpact": "Freedom delivered revenue €200,000.",
@@ -2266,11 +2308,14 @@
       "reviewExplanation": "Freedom’s €200,000 contract was delivered. The €142,000 receipt settles part of that sale, leaving €58,000 due; the receipt does not set the revenue amount.",
       "templateDecisionId": "D065",
       "answerStatus": "resolved",
-      "firstProposalStatus": "original_not_available",
-      "independentChallengeStatus": "missing",
+      "firstProposalStatus": "fresh_primary_ai_proposal_complete",
+      "independentChallengeStatus": "complete",
       "studentReasoningStatus": "ai_draft_pending_personal_review",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
-      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
+      "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
+      "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
+      "challengeComparison": "Agrees: Freedom EUR 200,000 revenue; EUR 142,000 cash and EUR 58,000 receivable."
     },
     {
       "id": "D066",
@@ -2283,8 +2328,8 @@
         "03 CRM Export Cleaned FINAL.xlsx"
       ],
       "confidence": "high",
-      "aiProposal": "AI working proposal; original first-agent output not supplied: Recognize Phoenix completed-event revenue EUR 100,000.",
-      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
+      "aiProposal": "Fresh primary AI first proposal: Recognize Phoenix completed-event revenue EUR 100,000.",
+      "independentChallenge": "Fresh independent analysis: Phoenix €100,000 completed-event revenue; €70,000 cash and €30,000 receivable (Contracts p.1 INV-26047; CRM row 6; bank RCPT-PHX). Agrees; email acceptance supports completion. High.",
       "studentReasoning": "Phoenix’s event was completed by the reporting date. Recognise €100,000 revenue; €70,000 cash received leaves €30,000 receivable.",
       "statementEffect": {
         "profit": 100000,
@@ -2301,8 +2346,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Classify Completed Phoenix event.",
-      "agent1Position": "Include INV-26047",
-      "agent2Position": "Include",
+      "agent1Position": "Fresh primary AI first proposal (not a historical Agent 1 transcript): Recognize Phoenix completed-event revenue EUR 100,000.",
+      "agent2Position": "Fresh independent second-agent analysis based only on original evidence; see independentChallenge.",
       "evidenceReliability": "high",
       "finalAnswer": "Recognize Phoenix completed-event revenue EUR 100,000.",
       "financialStatementImpact": "Phoenix completed-event revenue €100,000.",
@@ -2313,11 +2358,14 @@
       "reviewExplanation": "Phoenix’s event was completed by the reporting date. Recognise €100,000 revenue; €70,000 cash received leaves €30,000 receivable.",
       "templateDecisionId": "D066",
       "answerStatus": "resolved",
-      "firstProposalStatus": "original_not_available",
-      "independentChallengeStatus": "missing",
+      "firstProposalStatus": "fresh_primary_ai_proposal_complete",
+      "independentChallengeStatus": "complete",
       "studentReasoningStatus": "ai_draft_pending_personal_review",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
-      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
+      "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
+      "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
+      "challengeComparison": "Agrees: Phoenix EUR 100,000 completed-event revenue; EUR 70,000 cash and EUR 30,000 receivable."
     },
     {
       "id": "D067",
@@ -2330,8 +2378,8 @@
         "03 CRM Export Cleaned FINAL.xlsx"
       ],
       "confidence": "high",
-      "aiProposal": "AI working proposal; original first-agent output not supplied: Recognize Liberty delivered revenue EUR 120,000.",
-      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
+      "aiProposal": "Fresh primary AI first proposal: Recognize Liberty delivered revenue EUR 120,000.",
+      "independentChallenge": "Fresh independent analysis: Liberty €120,000 delivered revenue; €95,000 cash and €25,000 receivable (Contracts p.1 INV-26063; CRM row 7; bank RCPT-LIB). Agrees. High.",
       "studentReasoning": "Liberty’s €120,000 order was delivered. Recognise the full sale and carry €25,000 receivable after the €95,000 receipt.",
       "statementEffect": {
         "profit": 120000,
@@ -2348,8 +2396,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Classify Delivered Liberty order.",
-      "agent1Position": "Include INV-26063",
-      "agent2Position": "Include",
+      "agent1Position": "Fresh primary AI first proposal (not a historical Agent 1 transcript): Recognize Liberty delivered revenue EUR 120,000.",
+      "agent2Position": "Fresh independent second-agent analysis based only on original evidence; see independentChallenge.",
       "evidenceReliability": "high",
       "finalAnswer": "Recognize Liberty delivered revenue EUR 120,000.",
       "financialStatementImpact": "Liberty delivered revenue €120,000.",
@@ -2360,11 +2408,14 @@
       "reviewExplanation": "Liberty’s €120,000 order was delivered. Recognise the full sale and carry €25,000 receivable after the €95,000 receipt.",
       "templateDecisionId": "D067",
       "answerStatus": "resolved",
-      "firstProposalStatus": "original_not_available",
-      "independentChallengeStatus": "missing",
+      "firstProposalStatus": "fresh_primary_ai_proposal_complete",
+      "independentChallengeStatus": "complete",
       "studentReasoningStatus": "ai_draft_pending_personal_review",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
-      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
+      "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
+      "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
+      "challengeComparison": "Agrees: Liberty EUR 120,000 delivered revenue; EUR 95,000 cash and EUR 25,000 receivable."
     },
     {
       "id": "D068",
@@ -2377,8 +2428,8 @@
         "03 CRM Export Cleaned FINAL.xlsx"
       ],
       "confidence": "high",
-      "aiProposal": "AI working proposal; original first-agent output not supplied: Exclude undelivered September events EUR 90,000 from revenue and record liability.",
-      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
+      "aiProposal": "Fresh primary AI first proposal: Exclude undelivered September events EUR 90,000 from revenue and record liability.",
+      "independentChallenge": "Fresh independent analysis: same €90,000 September contract-liability treatment as D041; do not double count (Contracts p.2; CRM rows 10–11; bank DEP references). High.",
       "studentReasoning": "The two September events total €90,000 and remained undelivered at 31 August. Record their advance cash as contract liabilities, consistent with D041.",
       "statementEffect": {
         "profit": -90000,
@@ -2396,8 +2447,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Classify Undelivered September events.",
-      "agent1Position": "Exclude NB-SEP",
-      "agent2Position": "Exclude",
+      "agent1Position": "Fresh primary AI first proposal (not a historical Agent 1 transcript): Exclude undelivered September events EUR 90,000 from revenue and record liability.",
+      "agent2Position": "Fresh independent second-agent analysis based only on original evidence; see independentChallenge.",
       "evidenceReliability": "high",
       "finalAnswer": "Exclude undelivered September events EUR 90,000 from revenue and record liability.",
       "financialStatementImpact": "Undelivered September deposits €90,000 remain contract liabilities.",
@@ -2408,11 +2459,14 @@
       "reviewExplanation": "The two September events total €90,000 and remained undelivered at 31 August. Record their advance cash as contract liabilities, consistent with D041.",
       "templateDecisionId": "D068",
       "answerStatus": "resolved",
-      "firstProposalStatus": "original_not_available",
-      "independentChallengeStatus": "missing",
+      "firstProposalStatus": "fresh_primary_ai_proposal_complete",
+      "independentChallengeStatus": "complete",
       "studentReasoningStatus": "ai_draft_pending_personal_review",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
-      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
+      "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
+      "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
+      "challengeComparison": "Agrees: same EUR 90,000 September contract liability as D041; repeated template question, not additive."
     },
     {
       "id": "D069",
@@ -2486,8 +2540,8 @@
         "11 Evidence Received After Takeover.pdf"
       ],
       "confidence": "medium",
-      "aiProposal": "AI working proposal; original first-agent output not supplied: Use EUR 18,000 bad-debt impairment/write-off, subject to R-17 inclusion tie-out.",
-      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
+      "aiProposal": "Fresh primary AI first proposal: Use EUR 18,000 bad-debt impairment/write-off, subject to R-17 inclusion tie-out.",
+      "independentChallenge": "Fresh independent analysis: same €18,000 R-17 loss as D057; duplicate template question, not an additional charge (Contracts p.2; Later Evidence p.1; CRM row 9). High recognition, customer subledger match open.",
       "studentReasoning": "External liquidation evidence supports the €18,000 loss. CRM explicitly flags R-17 on WEB-NCB’s €53,000 gross open balance, supporting inclusion in the €186,000 total; the individual balance match still requires the subledger.",
       "statementEffect": {
         "profit": -18000,
@@ -2504,8 +2558,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Estimate Closing bad-debt allowance/write-off and document the basis.",
-      "agent1Position": "Original agent position not supplied in the case files.",
-      "agent2Position": "Original agent position not supplied in the case files.",
+      "agent1Position": "Fresh primary AI first proposal (not a historical Agent 1 transcript): Use EUR 18,000 bad-debt impairment/write-off, subject to R-17 inclusion tie-out.",
+      "agent2Position": "Fresh independent second-agent analysis based only on original evidence; see independentChallenge.",
       "evidenceReliability": "medium",
       "finalAnswer": "Recognise €18,000 R-17 impairment against the €186,000 gross receivables. WEB-NCB’s €53,000 open balance points to R-17; verify the exact €18,000 subledger match.",
       "financialStatementImpact": "R-17 impairment expense €18,000 and corresponding receivable reduction, subject to CRM tie-out.",
@@ -2516,11 +2570,14 @@
       "reviewExplanation": "External liquidation evidence supports the €18,000 loss. CRM explicitly flags R-17 on WEB-NCB’s €53,000 gross open balance, supporting inclusion in the €186,000 total; the individual balance match still requires the subledger.",
       "templateDecisionId": "D071",
       "answerStatus": "resolved",
-      "firstProposalStatus": "original_not_available",
-      "independentChallengeStatus": "missing",
+      "firstProposalStatus": "fresh_primary_ai_proposal_complete",
+      "independentChallengeStatus": "complete",
       "studentReasoningStatus": "ai_draft_pending_personal_review",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
-      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
+      "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
+      "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
+      "challengeComparison": "Agrees: same EUR 18,000 R-17 impairment as D057; repeated question, not additive."
     },
     {
       "id": "D072",
@@ -2533,8 +2590,8 @@
         "11 Evidence Received After Takeover.pdf"
       ],
       "confidence": "high",
-      "aiProposal": "AI working proposal; original first-agent output not supplied: Use EUR 22,000 damaged-inventory write-down based on independent assessment that stock is unsaleable.",
-      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
+      "aiProposal": "Fresh primary AI first proposal: Use EUR 22,000 damaged-inventory write-down based on independent assessment that stock is unsaleable.",
+      "independentChallenge": "Fresh independent analysis: same €22,000 damage loss as D058; duplicate template question, not an additional charge (Warehouse pp.1–2; Later Evidence p.1). High.",
       "studentReasoning": "The independent stock assessment supports a €22,000 loss on physically present but unsaleable goods. Deduct this once from the €143,000 count; do not also include it in the €396,000 consumed amount.",
       "statementEffect": {
         "profit": -22000,
@@ -2551,8 +2608,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Estimate Damaged inventory write-off and document the basis.",
-      "agent1Position": "Original agent position not supplied in the case files.",
-      "agent2Position": "Original agent position not supplied in the case files.",
+      "agent1Position": "Fresh primary AI first proposal (not a historical Agent 1 transcript): Use EUR 22,000 damaged-inventory write-down based on independent assessment that stock is unsaleable.",
+      "agent2Position": "Fresh independent second-agent analysis based only on original evidence; see independentChallenge.",
       "evidenceReliability": "high",
       "finalAnswer": "Use EUR 22,000 damaged-inventory write-down based on independent assessment that stock is unsaleable.",
       "financialStatementImpact": "Damaged-stock expense and inventory write-down €22,000.",
@@ -2563,11 +2620,14 @@
       "reviewExplanation": "The independent stock assessment supports a €22,000 loss on physically present but unsaleable goods. Deduct this once from the €143,000 count; do not also include it in the €396,000 consumed amount.",
       "templateDecisionId": "D072",
       "answerStatus": "resolved",
-      "firstProposalStatus": "original_not_available",
-      "independentChallengeStatus": "missing",
+      "firstProposalStatus": "fresh_primary_ai_proposal_complete",
+      "independentChallengeStatus": "complete",
       "studentReasoningStatus": "ai_draft_pending_personal_review",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
-      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
+      "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
+      "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
+      "challengeComparison": "Agrees: same EUR 22,000 damage write-down as D058; repeated question, not additive."
     },
     {
       "id": "D073",
@@ -2580,8 +2640,8 @@
         "11 Evidence Received After Takeover.pdf"
       ],
       "confidence": "high",
-      "aiProposal": "AI working proposal; original first-agent output not supplied: Use EUR 25,000 legal provision based on external counsel’s probable claim assessment.",
-      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
+      "aiProposal": "Fresh primary AI first proposal: Use EUR 25,000 legal provision based on external counsel’s probable claim assessment.",
+      "independentChallenge": "Fresh independent analysis: same €25,000 claim provision as D059; duplicate template question, not an additional charge (Loans p.2; Later Evidence p.1). Medium amount.",
       "studentReasoning": "The former employee claim is probable according to external counsel. The €25,000 midpoint of the €20,000–€30,000 estimate is a reasonable provision subject to updated legal advice.",
       "statementEffect": {
         "profit": -25000,
@@ -2597,8 +2657,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Estimate Legal provision and document the basis.",
-      "agent1Position": "Original agent position not supplied in the case files.",
-      "agent2Position": "Original agent position not supplied in the case files.",
+      "agent1Position": "Fresh primary AI first proposal (not a historical Agent 1 transcript): Use EUR 25,000 legal provision based on external counsel’s probable claim assessment.",
+      "agent2Position": "Fresh independent second-agent analysis based only on original evidence; see independentChallenge.",
       "evidenceReliability": "high",
       "finalAnswer": "Use EUR 25,000 legal provision based on external counsel’s probable claim assessment.",
       "financialStatementImpact": "Employee claim expense and provision €25,000.",
@@ -2609,11 +2669,14 @@
       "reviewExplanation": "The former employee claim is probable according to external counsel. The €25,000 midpoint of the €20,000–€30,000 estimate is a reasonable provision subject to updated legal advice.",
       "templateDecisionId": "D073",
       "answerStatus": "resolved",
-      "firstProposalStatus": "original_not_available",
-      "independentChallengeStatus": "missing",
+      "firstProposalStatus": "fresh_primary_ai_proposal_complete",
+      "independentChallengeStatus": "complete",
       "studentReasoningStatus": "ai_draft_pending_personal_review",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
-      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
+      "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
+      "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
+      "challengeComparison": "Agrees: same EUR 25,000 claim provision as D059; repeated question, not additive."
     },
     {
       "id": "D074",
@@ -2625,8 +2688,8 @@
         "08 Assets Repairs Leases Maybe.xlsx"
       ],
       "confidence": "medium",
-      "aiProposal": "AI working proposal; original first-agent output not supplied: Use EUR 24,000 period depreciation estimate; useful-life schedule remains missing.",
-      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
+      "aiProposal": "Fresh primary AI first proposal: Use EUR 24,000 period depreciation estimate; useful-life schedule remains missing.",
+      "independentChallenge": "Fresh independent analysis: same €24,000 depreciation estimate as D056; duplicate template question, not an additional charge (Assets row 8). Medium; life schedule absent.",
       "studentReasoning": "Current depreciation of €24,000 makes accumulated depreciation €69,000 and net PPE €191,000 from €260,000 gross cost. This is an estimate because a dated useful-life register is missing.",
       "statementEffect": {
         "profit": -24000,
@@ -2642,8 +2705,8 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Estimate Period depreciation and document the basis.",
-      "agent1Position": "Original agent position not supplied in the case files.",
-      "agent2Position": "Original agent position not supplied in the case files.",
+      "agent1Position": "Fresh primary AI first proposal (not a historical Agent 1 transcript): Use EUR 24,000 period depreciation estimate; useful-life schedule remains missing.",
+      "agent2Position": "Fresh independent second-agent analysis based only on original evidence; see independentChallenge.",
       "evidenceReliability": "medium",
       "finalAnswer": "Use EUR 24,000 period depreciation estimate; useful-life schedule remains missing.",
       "financialStatementImpact": "Period depreciation expense €24,000 and accumulated depreciation increase €24,000.",
@@ -2654,26 +2717,29 @@
       "reviewExplanation": "Current depreciation of €24,000 makes accumulated depreciation €69,000 and net PPE €191,000 from €260,000 gross cost. This is an estimate because a dated useful-life register is missing.",
       "templateDecisionId": "D074",
       "answerStatus": "resolved",
-      "firstProposalStatus": "original_not_available",
-      "independentChallengeStatus": "missing",
+      "firstProposalStatus": "fresh_primary_ai_proposal_complete",
+      "independentChallengeStatus": "complete",
       "studentReasoningStatus": "ai_draft_pending_personal_review",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
-      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
+      "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
+      "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
+      "challengeComparison": "Agrees: same provisional EUR 24,000 depreciation as D056; repeated question, not additive."
     },
     {
       "id": "D075",
       "category": "estimation",
       "reviewTier": "material_judgment",
       "question": "Estimate Closing inventory and document the basis.",
-      "answer": "Present closing saleable inventory EUR 121,000 = count EUR 143,000 less EUR 22,000 write-down; disclose EUR 9,000 gap.",
+      "answer": "Present closing saleable inventory of EUR 121,000 (EUR 143,000 physical count less EUR 22,000 damaged stock). Use this count basis, with a disclosed EUR 9,000 adjustment to the movement schedule; selected PBT is EUR 74,000.",
       "evidence": [
         "05 Warehouse Count Marta Notes.pdf",
         "06 Purchases Invoices and Goods Received.pdf"
       ],
       "confidence": "medium",
-      "aiProposal": "AI working proposal; original first-agent output not supplied: Present closing saleable inventory EUR 121,000 = count EUR 143,000 less EUR 22,000 write-down; disclose EUR 9,000 gap.",
-      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
-      "studentReasoning": "Use the observed count: €143,000 gross less €22,000 damaged-stock write-down equals €121,000 net. The selected €396,000 material consumption closes the same roll-forward without changing opening equity.",
+      "aiProposal": "Fresh primary AI first proposal: Present closing saleable inventory EUR 121,000 = count EUR 143,000 less EUR 22,000 write-down; disclose EUR 9,000 gap.",
+      "independentChallenge": "Fresh independent analysis: count supports €121,000 net stock (Warehouse p.1), while movement schedule supports €112,000 (Warehouse p.2). €9,000 must be reconciled before unqualified accounts/valuation approval. Count basis implies PBT €74k; consumption basis €65k. Medium.",
+      "studentReasoning": "Recommended judgment for personal review: prefer the physically observed count for the reporting-date asset, deduct the independently identified damaged stock, and show the EUR 9,000 count-to-movement adjustment transparently. Follow up the missing movement explanation.",
       "statementEffect": {
         "profit": -22000,
         "cash": 0,
@@ -2689,23 +2755,26 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Estimate Closing inventory and document the basis.",
-      "agent1Position": "Original agent position not supplied in the case files.",
-      "agent2Position": "Original agent position not supplied in the case files.",
+      "agent1Position": "Fresh primary AI first proposal (not a historical Agent 1 transcript): Present closing saleable inventory EUR 121,000 = count EUR 143,000 less EUR 22,000 write-down; disclose EUR 9,000 gap.",
+      "agent2Position": "Fresh independent second-agent analysis based only on original evidence; see independentChallenge.",
       "evidenceReliability": "medium",
-      "finalAnswer": "Present closing saleable inventory EUR 121,000 = count EUR 143,000 less EUR 22,000 write-down; disclose EUR 9,000 gap.",
-      "financialStatementImpact": "Selected inventory €121,000 = €143,000 count less €22,000 write-down; alternative consumption basis inventory €112,000.",
+      "finalAnswer": "Present closing saleable inventory of EUR 121,000 (EUR 143,000 physical count less EUR 22,000 damaged stock). Use this count basis, with a disclosed EUR 9,000 adjustment to the movement schedule; selected PBT is EUR 74,000.",
+      "financialStatementImpact": "Closing saleable inventory EUR 121,000. The count-based COGS is EUR 396,000; this is EUR 9,000 lower than the management movement schedule and increases PBT by EUR 9,000.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
       },
-      "reviewExplanation": "Use the observed count: €143,000 gross less €22,000 damaged-stock write-down equals €121,000 net. The selected €396,000 material consumption closes the same roll-forward without changing opening equity.",
+      "reviewExplanation": "Recommended judgment for personal review: prefer the physically observed count for the reporting-date asset, deduct the independently identified damaged stock, and show the EUR 9,000 count-to-movement adjustment transparently. Follow up the missing movement explanation.",
       "templateDecisionId": "D075",
       "answerStatus": "resolved",
-      "firstProposalStatus": "original_not_available",
-      "independentChallengeStatus": "missing",
+      "firstProposalStatus": "fresh_primary_ai_proposal_complete",
+      "independentChallengeStatus": "complete",
       "studentReasoningStatus": "ai_draft_pending_personal_review",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
-      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
+      "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
+      "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
+      "challengeComparison": "Material difference identified: the count implies EUR 121,000 stock, the source movement schedule EUR 112,000. Selected count-based presentation is EUR 121,000 with EUR 9,000 adjustment disclosed; investigate the root cause before valuation."
     },
     {
       "id": "D076",
@@ -3030,7 +3099,7 @@
       "category": "estimation",
       "reviewTier": "operational",
       "question": "Estimate Physical COGS and document the basis.",
-      "answer": "Selected count basis: materials consumed €396,000 (= €80,000 + €459,000 − €143,000). Workbook €405,000 is an alternative with €9,000 lower stock and profit.",
+      "answer": "Use the physical stock count as the closing measurement: EUR 143,000 gross less EUR 22,000 damaged stock = EUR 121,000 saleable inventory. This implies EUR 396,000 materials consumed. Record the EUR 9,000 favorable count-to-movement adjustment against the EUR 405,000 management consumption schedule; disclose that the source movement reconciliation is still needed. Selected PBT is EUR 74,000 before any disposal provision.",
       "evidence": [
         "05 Warehouse Count Marta Notes.pdf",
         "06 Purchases Invoices and Goods Received.pdf"
@@ -3047,14 +3116,14 @@
       "agent1Position": "Materials consumed EUR 405,000",
       "agent2Position": "EUR 405,000",
       "evidenceReliability": "medium",
-      "finalAnswer": "Selected count basis: materials consumed €396,000 (= €80,000 + €459,000 − €143,000). Workbook €405,000 is an alternative with €9,000 lower stock and profit.",
-      "financialStatementImpact": "Selected material cost €396,000; consumption basis alternative €405,000 changes PBT and inventory by €9,000.",
+      "finalAnswer": "Use the physical stock count as the closing measurement: EUR 143,000 gross less EUR 22,000 damaged stock = EUR 121,000 saleable inventory. This implies EUR 396,000 materials consumed. Record the EUR 9,000 favorable count-to-movement adjustment against the EUR 405,000 management consumption schedule; disclose that the source movement reconciliation is still needed. Selected PBT is EUR 74,000 before any disposal provision.",
+      "financialStatementImpact": "Recognize materials consumed of EUR 396,000 and closing stock of EUR 121,000. Relative to the EUR 405,000 management schedule, the count-supported adjustment increases inventory and PBT by EUR 9,000. Root cause remains disclosed for follow-up.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
       },
       "changedFromAI": true,
-      "reviewExplanation": "The gross count of €143,000 closes opening €80,000 plus purchases €459,000 at €396,000 consumption; €405,000 consumption is a distinct €9,000 sensitivity.",
+      "reviewExplanation": "The warehouse count is the direct evidence of stock physically present at 31 August. EUR 80,000 opening + EUR 459,000 received − EUR 143,000 gross count = EUR 396,000 consumption; the EUR 22,000 damage write-down then leaves EUR 121,000 saleable stock. The separate EUR 405,000 schedule differs by EUR 9,000; record the count-based adjustment and investigate the movement schedule.",
       "templateDecisionId": "D086",
       "answerStatus": "resolved"
     },
@@ -3194,15 +3263,15 @@
       "category": "board_decision",
       "reviewTier": "material_judgment",
       "question": "Approve corrected accounts before valuation",
-      "answer": "Student must approve/certify corrected accounts before valuation; draft recommendation is to approve only with stated caveats.",
+      "answer": "Use the count-based statements as the recommended working accounts: EUR 121,000 net stock and EUR 74,000 PBT after a disclosed EUR 9,000 count-to-movement adjustment. Student review remains required; investigate the stock movement variance before valuation or earn-out approval.",
       "evidence": [
         "00 BOARD ORDER READ FIRST.pdf",
         "11 Evidence Received After Takeover.pdf"
       ],
       "confidence": "medium",
-      "aiProposal": "AI working proposal; original first-agent output not supplied: Student must approve/certify corrected accounts before valuation; draft recommendation is to approve only with stated caveats.",
-      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
-      "studentReasoning": "The statements reconcile on the selected count basis, but inventory movements, payroll, R-17 and owner classification retain evidence caveats. Approval should disclose these explicitly before valuation.",
+      "aiProposal": "Fresh primary AI first proposal: Student must approve/certify corrected accounts before valuation; draft recommendation is to approve only with stated caveats.",
+      "independentChallenge": "Fresh independent analysis: require corrected and reconciled accounts before valuation/approval; do not certify while €9,000 stock difference remains (Board Order p.1; Management P&L rows 4–11; Warehouse pp.1–2). High.",
+      "studentReasoning": "The physical count is the strongest direct evidence of closing stock. Present the count-based statements, disclose the EUR 9,000 count-to-movement adjustment and retain the root-cause investigation as an open control. Do not certify or rely on the figure for valuation before personal review.",
       "statementEffect": {
         "profit": null,
         "cash": null,
@@ -3217,23 +3286,26 @@
       "mappingStatus": "direct",
       "mappingNote": "Mapped to the reconciled workbook decision register.",
       "title": "Approve corrected accounts before valuation",
-      "agent1Position": "Original agent position not supplied in the case files.",
-      "agent2Position": "Original agent position not supplied in the case files.",
+      "agent1Position": "Fresh primary AI first proposal (not a historical Agent 1 transcript): Student must approve/certify corrected accounts before valuation; draft recommendation is to approve only with stated caveats.",
+      "agent2Position": "Fresh independent second-agent analysis based only on original evidence; see independentChallenge.",
       "evidenceReliability": "medium",
-      "finalAnswer": "Student must approve/certify corrected accounts before valuation; draft recommendation is to approve only with stated caveats.",
-      "financialStatementImpact": "Governance recommendation; no new accounting entry until student sign-off.",
+      "finalAnswer": "Use the count-based statements as the recommended working accounts: EUR 121,000 net stock and EUR 74,000 PBT after a disclosed EUR 9,000 count-to-movement adjustment. Student review remains required; investigate the stock movement variance before valuation or earn-out approval.",
+      "financialStatementImpact": "Recommended count-based presentation; no new journal entry beyond the inventory/COGS measurement adjustment.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
       },
-      "reviewExplanation": "The statements reconcile on the selected count basis, but inventory movements, payroll, R-17 and owner classification retain evidence caveats. Approval should disclose these explicitly before valuation.",
+      "reviewExplanation": "The physical count is the strongest direct evidence of closing stock. Present the count-based statements, disclose the EUR 9,000 count-to-movement adjustment and retain the root-cause investigation as an open control. Do not certify or rely on the figure for valuation before personal review.",
       "templateDecisionId": "D091",
       "answerStatus": "resolved",
-      "firstProposalStatus": "original_not_available",
-      "independentChallengeStatus": "missing",
+      "firstProposalStatus": "fresh_primary_ai_proposal_complete",
+      "independentChallengeStatus": "complete",
       "studentReasoningStatus": "ai_draft_pending_personal_review",
       "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
-      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
+      "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
+      "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
+      "challengeComparison": "Agrees on withholding valuation/earn-out approval pending corrected, reconciled records and student review. The working accounts use the physical count with the EUR 9,000 adjustment disclosed."
     },
     {
       "id": "D092",
@@ -3490,7 +3562,7 @@
       "category": "board_decision",
       "reviewTier": "material_judgment",
       "question": "Use claimed management profit for earn-out",
-      "answer": "Reject management’s unsupported €312,000 profit as an earn-out basis. Selected count-basis PBT is €74,000; the €405,000 consumption alternative gives €65,000. If a present €2,000 disposal obligation is proven, those figures become €72,000 and €63,000.",
+      "answer": "Reject management’s unsupported EUR 312,000 profit for earn-out. Recommended count-based PBT is EUR 74,000 after a disclosed EUR 9,000 count-to-movement inventory adjustment. Do not use the figure for earn-out until the variance is investigated and the student reviews the answer set. A proven EUR 2,000 disposal obligation would reduce PBT to EUR 72,000.",
       "evidence": [
         "01 USE THIS NUMBERS FINAL v9.xlsx",
         "02 Bank Export August.csv",
@@ -3504,9 +3576,9 @@
         "11 Evidence Received After Takeover.pdf"
       ],
       "confidence": "high",
-      "aiProposal": "AI working proposal; original first-agent output not supplied: Do not use claimed management profit EUR 312,000 for earn-out; use reconciled PBT EUR 63,000, subject to student approval.",
-      "independentChallenge": "Independent second-agent analysis of the original evidence has not been supplied. This required challenge remains pending and must not be represented as completed.",
-      "studentReasoning": "Management’s €312,000 profit is unsupported by the reconstructed schedules. The selected count basis produces €74,000 PBT; the source consumption basis lowers it by €9,000. The €2,000 disposal quote is a separate conditional adjustment because no present obligation is evidenced.",
+      "aiProposal": "Fresh primary AI first proposal: Do not use claimed management profit EUR 312,000 for earn-out; use reconciled PBT EUR 63,000, subject to student approval.",
+      "independentChallenge": "Fresh independent analysis: reject unsupported €312,000 management profit for earn-out; corrected provisional PBT is €65,000 on movement basis or €74,000 on count basis with explicit €9,000 adjustment. Resolve inventory first (Management P&L row 8; Contracts p.2; Loans pp.1–2; Warehouse pp.1–2). High rejection; final amount unresolved.",
+      "studentReasoning": "Use the count-supported EUR 74,000 PBT as the working figure, with the EUR 9,000 count-to-movement adjustment fully disclosed. The variance root cause and student sign-off remain pending, so do not treat it as an approved earn-out figure. The EUR 2,000 disposal quote is separate and is not accrued absent an obligation.",
       "statementEffect": {
         "profit": null,
         "cash": null,
@@ -3521,23 +3593,44 @@
       "mappingStatus": "derived",
       "mappingNote": "The official template classifies D100 as material judgment. The supporting workbook rejection appears as operational O-072; retain that crosswalk and the template tier.",
       "title": "Use claimed management profit for earn-out",
-      "agent1Position": "Management profit EUR 312,000 rejected",
-      "agent2Position": "Same",
+      "agent1Position": "Fresh primary AI first proposal (not a historical Agent 1 transcript): Do not use claimed management profit EUR 312,000 for earn-out; use reconciled PBT EUR 63,000, subject to student approval.",
+      "agent2Position": "Fresh independent second-agent analysis based only on original evidence; see independentChallenge.",
       "evidenceReliability": "low",
-      "finalAnswer": "Reject management’s unsupported €312,000 profit as an earn-out basis. Selected count-basis PBT is €74,000; the €405,000 consumption alternative gives €65,000. If a present €2,000 disposal obligation is proven, those figures become €72,000 and €63,000.",
-      "financialStatementImpact": "Reject €312,000 management profit for earn-out; count and consumption bases differ by €9,000, with a separate €2,000 disposal sensitivity.",
+      "finalAnswer": "Reject management’s unsupported EUR 312,000 profit for earn-out. Recommended count-based PBT is EUR 74,000 after a disclosed EUR 9,000 count-to-movement inventory adjustment. Do not use the figure for earn-out until the variance is investigated and the student reviews the answer set. A proven EUR 2,000 disposal obligation would reduce PBT to EUR 72,000.",
+      "financialStatementImpact": "Reject EUR 312,000. Recommended count-based PBT EUR 74,000; EUR 72,000 if a present disposal obligation is evidenced.",
       "studentApproval": {
         "status": "unapproved",
         "approved": false
       },
-      "reviewExplanation": "Management’s €312,000 profit is unsupported by the reconstructed schedules. The selected count basis produces €74,000 PBT; the source consumption basis lowers it by €9,000. The €2,000 disposal quote is a separate conditional adjustment because no present obligation is evidenced.",
+      "reviewExplanation": "Use the count-supported EUR 74,000 PBT as the working figure, with the EUR 9,000 count-to-movement adjustment fully disclosed. The variance root cause and student sign-off remain pending, so do not treat it as an approved earn-out figure. The EUR 2,000 disposal quote is separate and is not accrued absent an obligation.",
       "templateDecisionId": "D100",
       "answerStatus": "resolved",
-      "firstProposalStatus": "original_not_available",
-      "independentChallengeStatus": "missing",
+      "firstProposalStatus": "fresh_primary_ai_proposal_complete",
+      "independentChallengeStatus": "complete",
       "studentReasoningStatus": "ai_draft_pending_personal_review",
-      "changedFromAIStatus": "provisional; original first-agent output unavailable for comparison",
-      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions."
+      "changedFromAIStatus": "Changed from the earlier working draft to the selected count-based PBT; original complete Agent 1 matrix unavailable.",
+      "statementEffectConvention": "Cash and assets are separate columns: assets means non-cash assets. Decision-level journal effects may overlap and must not be summed across repeated questions.",
+      "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
+      "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
+      "challengeComparison": "Agrees: reject management EUR 312,000 earn-out profit. Use EUR 74,000 count-basis PBT as a working figure, disclose the EUR 9,000 adjustment and investigate before earn-out use."
     }
-  ]
+  ],
+  "reviewCertification": {
+    "status": "student_approval_and_certification_pending",
+    "note": "A fresh primary-AI first proposal and independent second-agent analysis are recorded and compared for all 25 material judgments. No student approvals or certification were added by this update."
+  },
+  "draftStatus": "SOURCE-RECONCILED AI DRAFT — 25 FRESH FIRST PROPOSALS AND 25 INDEPENDENT CHALLENGES COMPLETE; STUDENT APPROVAL PENDING",
+  "mappingNotice": "All D001–D100 answers match the official template. For all 25 material judgments, a fresh primary-AI first proposal and an independent second-agent analysis are recorded and compared. The first proposals are not claimed to be historical Agent 1 transcripts. Final student approval and certification remain the student’s action. The physical-count inventory basis is selected with a disclosed EUR 9,000 adjustment and root-cause follow-up.",
+  "boardRecommendation": {
+    "status": "USER-PROVIDED BOARD ACTIONS RECORDED — DRAFT FOR STUDENT REVIEW",
+    "recommendation": "For the working accounts, use the physical stock count: closing saleable stock EUR 121,000, materials consumed EUR 396,000 and PBT EUR 74,000 before any disposal provision. Record and disclose the EUR 9,000 favorable count-to-movement adjustment, and investigate its root cause. Reject management’s unsupported EUR 312,000 profit. Implement the five user-provided control actions below; the plan is recorded, not marked as executed.",
+    "actions": [
+      "Block owner-card access and investigate the EUR 110,000 owner-related withdrawals, including their legal and accounting classification.",
+      "Run a weekly rolling 13-week cash forecast and ring-fence the cash needed to deliver the EUR 90,000 customer deposits.",
+      "Recount stock, reconcile the EUR 9,000 count-to-movement adjustment, quarantine wet goods, and obtain evidence of any disposal obligation.",
+      "Confirm supplier statements and the opening payable ledger, then negotiate payment terms for EUR 126,000 closing payables.",
+      "Tighten customer credit approval and collections, beginning with R-17 and all overdue balances."
+    ],
+    "decisionProvenance": "The five management actions were supplied by the student in this conversation on 9 October 2026. They are recorded as the requested board action plan; this file does not claim the actions have already been executed."
+  }
 }

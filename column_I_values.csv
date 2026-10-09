@@ -45,7 +45,7 @@ Insurance movement: no separate supported insurance amount is identified; do not
 "Expense EUR 10,000 belt/calibration repair; it restores normal output and does not improve the asset."
 "Treat EUR 70,000 villa payment as provisional owner withdrawal/distribution or related-party balance, not marketing."
 "Treat €110,000 total owner-related payments (€70,000 villa deposit plus €40,000 owner-card spending) as provisional withdrawals/distribution or a related-party balance, not payroll."
-"Selected count basis: materials consumed €396,000 (= €80,000 + €459,000 − €143,000). Workbook €405,000 is an alternative with €9,000 lower stock and profit."
+"Use the physical stock count as the closing measurement: EUR 143,000 gross less EUR 22,000 damaged stock = EUR 121,000 saleable inventory. This implies EUR 396,000 materials consumed. Record the EUR 9,000 favorable count-to-movement adjustment against the EUR 405,000 management consumption schedule; disclose that the source movement reconciliation is still needed. Selected PBT is EUR 74,000 before any disposal provision."
 "Classify event-delivery payroll EUR 80,000 as direct cost."
 "Classify sales/partnerships payroll EUR 72,000 as operating expense."
 "Classify office/finance payroll EUR 96,000 as operating expense."
@@ -72,7 +72,7 @@ No separately supported insurance expense amount is available; do not invent one
 "Use EUR 22,000 damaged-inventory write-down based on independent assessment that stock is unsaleable."
 "Use EUR 25,000 legal provision based on external counsel’s probable claim assessment."
 "Use EUR 24,000 period depreciation estimate; useful-life schedule remains missing."
-"Present closing saleable inventory EUR 121,000 = count EUR 143,000 less EUR 22,000 write-down; disclose EUR 9,000 gap."
+"Present closing saleable inventory of EUR 121,000 (EUR 143,000 physical count less EUR 22,000 damaged stock). Use this count basis, with a disclosed EUR 9,000 adjustment to the movement schedule; selected PBT is EUR 74,000."
 "Present €186,000 gross and €168,000 net receivables after €18,000 R-17 impairment. CRM links R-17 to WEB-NCB’s €53,000 open balance; confirm the subledger match."
 "Use EUR 10,000 repair expense, not improvement/capitalization."
 "No separately supported insurance estimate is supplied in the project data. Do not add an invented expense; obtain the policy, payment and period-of-cover evidence."
@@ -83,12 +83,12 @@ No separately supported insurance expense amount is available; do not invent one
 "Use accumulated depreciation EUR 69,000 = opening EUR 45,000 + current EUR 24,000."
 "Use supplier payable EUR 126,000."
 "Use closing loan principal EUR 131,000 = 100,000 + 50,000 - 19,000."
-"Selected count basis: materials consumed €396,000 (= €80,000 + €459,000 − €143,000). Workbook €405,000 is an alternative with €9,000 lower stock and profit."
+"Use the physical stock count as the closing measurement: EUR 143,000 gross less EUR 22,000 damaged stock = EUR 121,000 saleable inventory. This implies EUR 396,000 materials consumed. Record the EUR 9,000 favorable count-to-movement adjustment against the EUR 405,000 management consumption schedule; disclose that the source movement reconciliation is still needed. Selected PBT is EUR 74,000 before any disposal provision."
 "Use direct event-delivery payroll EUR 80,000."
 "Use owner-related payments EUR 110,000 as provisional distribution/personal withdrawal or related-party balance."
 "Selected count-basis PBT €74,000 excludes the unsupported €2,000 disposal provision. If a present obligation is evidenced, PBT is €72,000. Consumption-basis PBT is €65,000 without that provision (€63,000 with it)."
 "Use closing cash EUR 60,000."
-Student must approve/certify corrected accounts before valuation; draft recommendation is to approve only with stated caveats.
+"Use the count-based working accounts with EUR 121,000 net stock and EUR 74,000 PBT after a disclosed EUR 9,000 count-to-movement adjustment. Implement the five user-provided board actions. Investigate the stock variance before valuation or earn-out use; student review remains required."
 Freeze owner-card access as a control recommendation; no direct workbook decision ID.
 "Move EUR 90,000 September deposits to contract liabilities."
 Begin weekly 13-week cash forecast as a board recommendation; no direct workbook decision ID.
@@ -97,4 +97,4 @@ Stop credit sales to insolvent/high-risk customers as a control recommendation; 
 Investigate management override/duplicate sources; reject unsupported management profit and cash figures.
 "Renegotiate supplier terms as a board recommendation in light of EUR 126,000 unpaid balances."
 Continue core Finally Single and event operations based on delivered sales evidence; subject to student/board approval.
-"Reject management’s unsupported €312,000 profit as an earn-out basis. Selected count-basis PBT is €74,000; the €405,000 consumption alternative gives €65,000. If a present €2,000 disposal obligation is proven, those figures become €72,000 and €63,000."
+"Reject management’s unsupported EUR 312,000 profit for earn-out. Recommended count-based PBT is EUR 74,000 after a disclosed EUR 9,000 count-to-movement inventory adjustment. Do not use the figure for earn-out until the variance is investigated and the student reviews the answer set. A proven EUR 2,000 disposal obligation would reduce PBT to EUR 72,000."

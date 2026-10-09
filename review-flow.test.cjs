@@ -1,0 +1,44 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert');
+const source=fs.readFileSync('app.js','utf8'), draft=JSON.parse(fs.readFileSync('DPI-HT-01_review_draft_for_import.json','utf8'));
+const db=new Map();
+function boot(){
+ const nodes=new Map();
+ const node=key=>{if(!nodes.has(key))nodes.set(key,{innerHTML:'',textContent:'',checked:false,disabled:false,listeners:{},classList:{toggle(){},add(){},remove(){}},addEventListener(type,fn){this.listeners[type]=fn},click(){this.listeners.click?.()}});return nodes.get(key)};
+ const storage={getItem:k=>db.get(k)||null,setItem:(k,v)=>db.set(k,v),removeItem:k=>db.delete(k)};
+ class FileReader{readAsText(file){this.result=file.content;this.onload()}}
+ const context=vm.createContext({document:{querySelector:node,querySelectorAll:()=>[]},window:{REVIEW_MODE:false,scrollTo(){},confirm:()=>true},localStorage:storage,FileReader,fetch:()=>new Promise(()=>{}),setTimeout:()=>{},URL:{createObjectURL:()=>'',revokeObjectURL(){}},Blob:class{}});
+ vm.runInContext(source,context);return {context,node,eval:code=>vm.runInContext(code,context)};
+}
+let app=boot();
+assert.equal(app.eval('validate('+JSON.stringify(draft)+').valid'),true,'prepared draft validates');
+app.eval('saveImportedData('+JSON.stringify(draft)+',"review.json",validate('+JSON.stringify(draft)+'))');
+assert.equal(app.eval('verifiedChallengeCount()'),25);
+assert.equal(app.eval('verifiedFirstProposalCount()'),25);
+assert.equal(app.eval('checkedChallenges.size'),0);
+const before=db.get('reconciliation-review:DPI-HT-01:imported-json');
+const blank=structuredClone(draft);blank.decisions.forEach(d=>{d.answer='';d.finalAnswer=''});
+assert.equal(app.eval('validate('+JSON.stringify(blank)+').valid'),false,'blank rejected');
+app.node('#json-file').listeners.change({target:{files:[{name:'01 GIVE TO CODEX - Answer Template.json',content:JSON.stringify(blank)}],value:'x'}});
+assert.equal(db.get('reconciliation-review:DPI-HT-01:imported-json'),before,'bad import retains saved data');
+assert(app.node('#app').innerHTML.includes('01 GIVE TO CODEX - Answer Template.json'));
+const duplicate=structuredClone(draft);duplicate.decisions[1].id='D001';assert.equal(app.eval('validate('+JSON.stringify(duplicate)+').valid'),false);
+const missing=structuredClone(draft);missing.decisions.pop();assert.equal(app.eval('validate('+JSON.stringify(missing)+').valid'),false);
+const noField=structuredClone(draft);delete noField.decisions[0].question;assert.equal(app.eval('validate('+JSON.stringify(noField)+').valid'),false);
+app.eval('certification()');assert.equal(typeof app.node('#mark-all').listeners.click,'function');
+app.node('#mark-all').listeners.click();
+assert.equal(app.eval('approvedCount()'),100);assert.equal(app.eval('checkedChallenges.size'),25);
+assert.equal(app.eval('importMeta.data.studentCertification.approved'),false,'bulk does not certify');
+assert.equal(app.node('#cert-confirm').checked,false,'final declaration remains unchecked');
+app=boot();assert.equal(app.eval('approvedCount()'),100,'decision marks survive reload');assert.equal(app.eval('checkedChallenges.size'),25,'challenge marks survive reload');
+app.eval('saveImportedData('+JSON.stringify(draft)+',"review.json",validate('+JSON.stringify(draft)+'))');
+assert.equal(app.eval('approvedCount()'),100,'same import retains marks');
+const changed=structuredClone(draft);changed.decisions[0].answer+=' revised';changed.decisions[0].finalAnswer+=' revised';
+app.eval('saveImportedData('+JSON.stringify(changed)+',"changed.json",validate('+JSON.stringify(changed)+'))');
+assert.equal(app.eval("approvedIds.has('D001')"),false,'changed record mark not carried');
+assert.equal(app.eval('approvedCount()'),99,'matching marks retained');
+const incomplete=structuredClone(draft);incomplete.decisions.find(d=>d.id==='D041').independentChallengeStatus='pending';
+app.eval('saveImportedData('+JSON.stringify(incomplete)+',"incomplete.json",validate('+JSON.stringify(incomplete)+'))');
+assert.equal(app.eval('verifiedChallengeCount()'),24,'missing completed status does not count');
+assert.equal(app.eval('checkedChallenges.size'),24,'stale check is removed');
+assert.equal(app.eval('certificationReady()'),false,'missing review blocks certification');
+console.log('PASS: valid 100, blank/duplicate/missing/fields rejected, 25 analyses, bulk check, reload, reimport, no auto certification');
