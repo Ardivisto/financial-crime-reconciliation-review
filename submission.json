@@ -7,7 +7,7 @@
     "nameVerificationStatus": "confirmed_by_user_2026-10-08"
   },
   "draftStatus": "STUDENT-CERTIFIED SUBMISSION — 25 FRESH FIRST PROPOSALS AND 25 INDEPENDENT CHALLENGES RECORDED",
-  "mappingNotice": "All D001–D100 answers match the official template. For all 25 material judgments, a fresh primary-AI first proposal and an independent second-agent analysis are recorded and compared. The first proposals are not claimed to be historical Agent 1 transcripts. Final student approval and certification remain the student’s action. The physical-count inventory basis is selected with a disclosed EUR 9,000 adjustment and root-cause follow-up.",
+  "mappingNotice": "All D001–D100 answers match the official template. For all 25 material judgments, fresh primary-AI first proposals and independent second-agent analyses are recorded and compared; they are not historical Agent 1 transcripts. Student approval and certification were subsequently recorded. The physical-count inventory basis is selected with a disclosed EUR 9,000 adjustment and root-cause follow-up.",
   "evidence": [
     "00 BOARD ORDER READ FIRST.pdf",
     "01 USE THIS NUMBERS FINAL v9.xlsx",
@@ -1700,7 +1700,11 @@
       "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
       "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
       "challengeComparison": "Material difference: first proposal used EUR 405,000 consumption and left the gap open. Independent analysis identified count EUR 121,000 vs movement EUR 112,000. Selected working treatment uses the physical count, records a disclosed EUR 9,000 inventory/COGS adjustment and requires root-cause follow-up.",
-      "studentReasoningProvenance": "AI-assisted draft retained verbatim; the student approval and certification record the later personal review and adoption of the submitted decision. The text was not represented as student-authored."
+      "studentReasoningProvenance": "AI-assisted draft retained verbatim; the student approval and certification record the later personal review and adoption of the submitted decision. The text was not represented as student-authored.",
+      "postCertificationClarification": {
+        "recordedAt": "2026-10-09T09:50:18.472Z",
+        "text": "The opening phrase is preserved from the AI draft. The student subsequently reviewed and certified the count-basis treatment. The EUR 9,000 movement difference still needs investigation."
+      }
     },
     {
       "id": "D049",
@@ -2820,7 +2824,11 @@
       "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
       "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
       "challengeComparison": "Material difference identified: the count implies EUR 121,000 stock, the source movement schedule EUR 112,000. Selected count-based presentation is EUR 121,000 with EUR 9,000 adjustment disclosed; investigate the root cause before valuation.",
-      "studentReasoningProvenance": "AI-assisted draft retained verbatim; the student approval and certification record the later personal review and adoption of the submitted decision. The text was not represented as student-authored."
+      "studentReasoningProvenance": "AI-assisted draft retained verbatim; the student approval and certification record the later personal review and adoption of the submitted decision. The text was not represented as student-authored.",
+      "postCertificationClarification": {
+        "recordedAt": "2026-10-09T09:50:18.472Z",
+        "text": "The opening phrase is preserved from the AI draft. The student subsequently reviewed and certified the count-basis treatment. The movement explanation remains an evidence follow-up."
+      }
     },
     {
       "id": "D076",
@@ -3660,7 +3668,11 @@
       "firstProposalNote": "Agent 1 supplied a source-based provisional financial reconciliation and key findings but hit its usage limit before completing the required 25-item proposal matrix. This is not an original historical transcript.",
       "firstProposalProvenance": "Fresh first proposal prepared by the primary assistant from original case evidence for this answer set on 9 October 2026. It is not a recovered historical Agent 1 transcript.",
       "challengeComparison": "Agrees: reject management EUR 312,000 earn-out profit. Use EUR 74,000 count-basis PBT as a working figure, disclose the EUR 9,000 adjustment and investigate before earn-out use.",
-      "studentReasoningProvenance": "AI-assisted draft retained verbatim; the student approval and certification record the later personal review and adoption of the submitted decision. The text was not represented as student-authored."
+      "studentReasoningProvenance": "AI-assisted draft retained verbatim; the student approval and certification record the later personal review and adoption of the submitted decision. The text was not represented as student-authored.",
+      "postCertificationClarification": {
+        "recordedAt": "2026-10-09T09:50:18.472Z",
+        "text": "The sentence about pending student sign-off describes the earlier AI draft, before the recorded student certification. The EUR 74,000 count-basis PBT is the certified working figure; the EUR 9,000 variance still needs investigation, and the management earn-out figure has not been approved."
+      }
     }
   ],
   "schedules": {
@@ -4031,6 +4043,7 @@
     "correctedAt": "2026-10-09T09:43:01.710Z",
     "scope": "Post-certification metadata reconciliation: draft/pending labels updated to reflect the existing student certification; no decision answer, reasoning, comparison, financial figure, five board actions, or certification timestamp changed.",
     "originalCertificationUnchanged": true,
-    "boardRecommendationConfirmedAt": "2026-10-09T09:45:56.368Z"
+    "boardRecommendationConfirmedAt": "2026-10-09T09:45:56.368Z",
+    "historicalDraftClarificationsAt": "2026-10-09T09:50:18.472Z"
   }
 }

@@ -76,6 +76,8 @@ setImmediate(()=>{
   reloaded.eval('judgments()');
   assert(reloaded.node('#app').innerHTML.includes('Comparison and final choice'),'material page shows comparison');
   assert(reloaded.node('#app').innerHTML.includes('D100'),'all material entries are rendered');
+  assert(reloaded.node('#app').innerHTML.includes('Post-certification clarification'),'historical draft wording is contextualized');
+  assert.equal(['D048','D075','D100'].filter(id=>published.decisions.find(d=>d.id===id).postCertificationClarification).length,3,'all three historical draft notes are present');
   const publicBox=reloaded.node('#app').innerHTML.match(/<input class="challenge-box"[^>]*data-id="D041"[^>]*>/)?.[0];
   assert(publicBox?.includes('checked')&&publicBox.includes('disabled'),'published material review is read only');
   reloaded.eval('decisions()');
